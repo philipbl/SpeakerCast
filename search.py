@@ -59,6 +59,9 @@ class TalkFeed():
                    "{year}/{month:02}?lang=eng"
 
     def __get_talks(self):
+        if not self.quiet:
+            print "Finding talks for {speaker}\n".format(speaker=self.speaker)
+
         talks = []
         for year in range(self.start_year, self.end_year+1):
             for month in [APRIL, OCTOBER]:
@@ -143,6 +146,9 @@ class TalkParser():
 
         speaker_data = []
         for s in speakers:
+            # removing nbsp
+            s = s.replace(u'\xa0', ' ')
+
             if s.find(self.speaker) != -1:
                 speaker_data.append(s)
 
@@ -230,10 +236,14 @@ class RSSer():
         rss.write_xml(file)
 
 if __name__ == '__main__':
-    parser = optparse.OptionParser(usage="%prog -s \"<speaker name>\" -o feed.rss [options]", version="%prog 1.0")
+    parser = optparse.OptionParser(usage='%prog -s "<speaker name>" [options]', version="%prog 1.0")
 
     parser.add_option('-s', '--speaker', type='string', dest='speaker',
-                      help='Speaker you want to make the feed for')
+                      help='Speaker you want to make the feed for. '
+                      'Typically, the more specific you can be the better so '
+                      'that no false positives arise. '
+                      'For example, rather than putting "Holland", it would '
+                      'be better to put "Jeffrey R. Holland".')
 
     parser.add_option('-o', '--out', type='string', dest='file_name', default="feed.rss",
                       help='Output file name')
