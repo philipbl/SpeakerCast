@@ -8,12 +8,18 @@ APRIL = 4
 OCTOBER = 10
 
 
+def enum(**enums):
+    return type('Enum', (), enums)
+
+media_types = enum(AUDIO="audio", VIDEO_LOW="low", VIDEO_HIGH="high")
+
+
 class Talk():
-    def __init__(self, title, description, url, audio_url, date):
+    def __init__(self, title, description, url, media_url, date):
         self.title = title
         self.description = description
         self.url = url
-        self.audio_url = audio_url
+        self.media_url = media_url
         self.date = date
 
     def get_title(self):
@@ -34,11 +40,11 @@ class Talk():
     def set_url(self, url):
         self.url = url
 
-    def get_audio_url(self):
-        return self.audio_url
+    def get_media_url(self):
+        return self.media_url
 
-    def set_audio_url(self, audio_url):
-        self.audio_url = audio_url
+    def set_media_url(self, media_url):
+        self.media_url = media_url
 
     def get_date(self):
         return self.date
@@ -48,8 +54,11 @@ class Talk():
 
 
 class TalkFeed():
-    def __init__(self, speaker, start_year=1971, end_year=datetime.date.today().year, file_name="feed.rss", quiet=False):
+    def __init__(self, speaker, media=media_types.AUDIO, start_year=1971,
+                 end_year=datetime.date.today().year, file_name="feed.rss",
+                 quiet=False):
         self.speaker = speaker
+        self.media = media
         self.start_year = start_year
         self.end_year = end_year
         self.file_name = file_name
@@ -75,7 +84,7 @@ class TalkFeed():
                                                                           year=year)
 
                 page = Downloader().download_page(url)
-                parser = TalkParser(page, self.speaker)
+                parser = TalkParser(page, self.speaker, self.media)
 
                 talks += self.__create_talks(parser, year, month)
 
@@ -89,8 +98,7 @@ class TalkFeed():
 
         for talk in talks:
             if not self.quiet:
-                print u"\tFound talk by {speaker} titled: {title}".format(speaker=self.speaker,
-                                                                          title=talk.get_title())
+                print u"\tFound talk titled: {title}".format(title=talk.get_title())
             talk.set_date(datetime.datetime(year, month, 1, 15))
 
         return talks
@@ -101,13 +109,16 @@ class TalkFeed():
         rss = RSSer(
             speaker=self.speaker,
             title="General Conference Talks Given by {0}".format(self.speaker),
-            description="Talks given by {0}".format(self.speaker),
+            description="Talks given by {speaker} ({media})".format(speaker=self.speaker,
+                                                                    media="audio" if self.media == media_types.AUDIO else "video"),
             url="http://www.lds.org/general-conference",
-            talks=talks
+            talks=talks,
+            media=self.media
         )
 
         if not self.quiet:
-            print "Saving {0}".format(self.file_name)
+            print "Saving {0} feed as {1}".format("audio" if self.media == media_types.AUDIO else "video",
+                                                  self.file_name)
 
         rss.create(open(self.file_name, 'w+'))
 
@@ -120,9 +131,10 @@ class Downloader():
 
 
 class TalkParser():
-    def __init__(self, data, speaker):
+    def __init__(self, data, speaker, media):
         self.data = data
         self.speaker = speaker
+        self.media = media
 
         self.speaker_data = self.__get_speaker_data()
 
@@ -134,7 +146,7 @@ class TalkParser():
                     title=self.__get_title(talk),
                     description=self.__get_description(talk),
                     url=self.__get_url(talk),
-                    audio_url=self.__get_audio_url(talk),
+                    media_url=self.__get_media_url(talk),
                     date=self.__get_date(talk)
                 )
             )
@@ -166,10 +178,31 @@ class TalkParser():
 
         return m.group(3)
 
-    def __get_audio_url(self, talk):
-        m = re.search("\"(https?://\\S*?\\.mp3\\S*?)\"", talk, re.S)
+    def __get_media_url(self, talk):
+        audio_url = re.search("\"(https?://\\S*?\\.mp3\\S*?)\"", talk, re.S)
+        video_1080_url = re.search("\"(https?://\\S*?-1080p-\\S*?\\.mp4\\S*?)\"", talk, re.S)
+        video_720_url = re.search("\"(https?://\\S*?-720p-\\S*?\\.mp4\\S*?)\"", talk, re.S)
+        video_480_url = re.search("\"(https?://\\S*?-480p-\\S*?\\.mp4\\S*?)\"", talk, re.S)
+        video_360_url = re.search("\"(https?://\\S*?-360p-\\S*?\\.mp4\\S*?)\"", talk, re.S)
 
-        return m.group(1)
+        audio_url = audio_url.group(1) if audio_url is not None else None
+        video_1080_url = video_1080_url.group(1) if video_1080_url is not None else None
+        video_720_url = video_720_url.group(1) if video_720_url is not None else None
+        video_480_url = video_480_url.group(1) if video_480_url is not None else None
+        video_360_url = video_360_url.group(1) if video_360_url is not None else None
+
+        if self.media == media_types.AUDIO:
+            return audio_url
+
+        elif self.media == media_types.VIDEO_LOW:
+            return video_360_url or video_480_url or video_720_url or video_1080_url
+
+        elif self.media == media_types.VIDEO_HIGH:
+            return video_1080_url or video_720_url or video_480_url or video_360_url
+
+        else:
+            print "We have a problem! Media type is not recognized. Exiting..."
+            exit()
 
     def __get_url(self, talk):
         title_html = re.search("<span class=\"talk\"><a href=\".*?\">.*?</a></span>",
@@ -203,12 +236,13 @@ class TalkParser():
 
 
 class RSSer():
-    def __init__(self, speaker, title, description, url, talks):
+    def __init__(self, speaker, title, description, url, talks, media):
         self.speaker = speaker
         self.title = title
         self.description = description
         self.url = url
         self.talks = talks
+        self.media = media
 
     def create(self, file):
         import PyRSS2Gen
@@ -222,7 +256,9 @@ class RSSer():
                 description=talk.get_description(),
                 guid=PyRSS2Gen.Guid(talk.get_url(), False),
                 pubDate=talk.get_date(),
-                enclosure=PyRSS2Gen.Enclosure(talk.get_audio_url(), 0, "audio/mpeg")
+                enclosure=PyRSS2Gen.Enclosure(talk.get_media_url(),
+                                              0,
+                                              "audio/mpeg" if self.media == media_types.AUDIO else "video/mp4")
             ))
 
         rss = PyRSS2Gen.RSS2(
@@ -236,9 +272,11 @@ class RSSer():
         rss.write_xml(file)
 
 if __name__ == '__main__':
-    parser = optparse.OptionParser(usage='%prog -s "<speaker name>" [options]', version="%prog 1.0")
+    parser = optparse.OptionParser(usage='%prog -s "speaker name" [-o out_file] '
+                                         '[--start=start_year] [--end=end_year] '
+                                         '[-v low|high] [-qa]', version="%prog 1.0")
 
-    parser.add_option('-s', '--speaker', type='string', dest='speaker',
+    parser.add_option('-s', '--speaker', type='string',
                       help='Speaker you want to make the feed for. '
                       'Typically, the more specific you can be the better so '
                       'that no false positives arise. '
@@ -254,8 +292,17 @@ if __name__ == '__main__':
     parser.add_option('--end', type='int', dest='end_year', default=datetime.date.today().year,
                       help='End year')
 
-    parser.add_option('-q', '--quiet', action="store_true", dest='quiet', default=False,
+    parser.add_option('-q', '--quiet', action="store_true", default=False,
                       help='Silence all print outs')
+
+    parser.add_option('-a', '--audio', action="store_true", default=True,
+                      help='Get the audio for all talks (default)')
+
+    parser.add_option('-v', '--video', choices=['low', 'high'],
+                      help='Get the video for all talks. '
+                           'There are two choices for quality of video: "low" or "high". '
+                           'Low is a good choice for handheld devices. '
+                           'This will override the audio flag if both are provided.')
 
     (options, args) = parser.parse_args()
 
@@ -264,13 +311,23 @@ if __name__ == '__main__':
     start_year = options.start_year
     end_year = options.end_year
     quiet = options.quiet
+    audio = options.audio
+    video = options.video
+
+    media = media_types.AUDIO
 
     if not speaker:
         parser.print_help()
         exit()
 
+    if video == 'low':
+        media = media_types.VIDEO_LOW
+    elif video == 'high':
+        media = media_types.VIDEO_HIGH
+
     TalkFeed(
         speaker=speaker,
+        media=media,
         start_year=start_year,
         end_year=end_year,
         file_name=file_name,
