@@ -288,7 +288,7 @@ class RSSer():
 if __name__ == '__main__':
     parser = optparse.OptionParser(usage='%prog -s "speaker name" [-o out_file] '
                                          '[--start=start_year] [--end=end_year] '
-                                         '[-v low|medium|high] [-qa]', version="%prog 1.0")
+                                         '[-v low|medium|high] [-qa]', version="%prog v1.0")
 
     parser.add_option('-s', '--speaker', type='string',
                       help='Speaker you want to make the feed for. '
