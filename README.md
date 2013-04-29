@@ -11,7 +11,9 @@ To run `talk_feed`, the only necessary argument is the speaker
 talk_feed -s "Jeffrey R. Holland"
 ```
 
-There are many more arguments that can be used to customize the feed, such as:
+This will create a file (by default, `feed.rss`) that is a RSS feed to the audio files all the talks given by Jeffery R. Holland. This feed can be used like a podcast and added to any podcast managing app.
+
+There are many more arguments that can be used to customize the output of the feed, such as:
 - start year
 - end year
 - create audio feed (default)
