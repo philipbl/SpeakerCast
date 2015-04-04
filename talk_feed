@@ -3,54 +3,23 @@
 import re
 import datetime
 import optparse
+from collections import namedtuple
+from urllib.request import urlopen
+
 
 APRIL = 4
 OCTOBER = 10
 
+
+def download_page(url):
+    return urlopen(url).read().decode('utf-8')
 
 def enum(**enums):
     return type('Enum', (), enums)
 
 media_types = enum(AUDIO="audio", VIDEO_LOW="low", VIDEO_MEDIUM="medium", VIDEO_HIGH="high")
 
-
-class Talk():
-    def __init__(self, title, description, url, media_url, date):
-        self.title = title
-        self.description = description
-        self.url = url
-        self.media_url = media_url
-        self.date = date
-
-    def get_title(self):
-        return self.title
-
-    def set_title(self, title):
-        self.title = title
-
-    def get_description(self):
-        return self.description
-
-    def set_description(self, description):
-        self.description = description
-
-    def get_url(self):
-        return self.url
-
-    def set_url(self, url):
-        self.url = url
-
-    def get_media_url(self):
-        return self.media_url
-
-    def set_media_url(self, media_url):
-        self.media_url = media_url
-
-    def get_date(self):
-        return self.date
-
-    def set_date(self, date):
-        self.date = date
+Talk = namedtuple('Talk', ['title', 'description', 'url', 'media_url', 'date'])
 
 
 class TalkFeed():
@@ -64,10 +33,11 @@ class TalkFeed():
         self.file_name = file_name
         self.quiet = quiet
 
+        self.parser = TalkParser(self.speaker, self.media)
         self.url = "https://www.lds.org/general-conference/sessions/" + \
                    "{year}/{month:02}?lang=eng"
 
-    def __get_talks(self):
+    def _get_talks(self):
         if not self.quiet:
             print("Finding talks for {speaker}\n".format(speaker=self.speaker))
 
@@ -83,29 +53,17 @@ class TalkFeed():
                     print(u"Downloading {month} {year} Conference".format(month="April" if month == APRIL else "October",
                                                                           year=year))
 
-                page = Downloader().download_page(url)
-                parser = TalkParser(page, self.speaker, self.media)
-
-                talks += self.__create_talks(parser, year, month)
+                page = download_page(url)
+                talks += self.parser.parse(page)
 
                 if not self.quiet:
                     print()
 
         return talks
 
-    def __create_talks(self, parser, year, month):
-        talks = parser.get_talks()
-
-        for talk in talks:
-            if not self.quiet:
-                print(u"\tFound talk titled: {title}".format(title=talk.get_title()))
-
-            talk.set_date(datetime.datetime(year, month, 1, 15))
-
-        return talks
 
     def create_feed(self):
-        talks = self.__get_talks()
+        talks = self._get_talks()
 
         rss = RSSer(
             speaker=self.speaker,
@@ -124,30 +82,22 @@ class TalkFeed():
         rss.create(open(self.file_name, 'w+'))
 
 
-class Downloader():
-    def download_page(self, url):
-        from urllib import urlopen
-
-        return urlopen(url).read().decode('utf-8')
-
 
 class TalkParser():
-    def __init__(self, data, speaker, media):
-        self.data = data
+    def __init__(self, speaker, media):
         self.speaker = speaker
         self.media = media
 
-        self.speaker_data = self.__get_speaker_data()
-
-    def get_talks(self):
+    def parse(self, data):
         talks = []
-        for talk in self.speaker_data:
 
-            title = self.__get_title(talk)
-            description = self.__get_description(talk)
-            url = self.__get_url(talk)
-            media_url = self.__get_media_url(talk)
-            date = self.__get_date(talk)
+        for talk in self._get_speaker_data(data):
+
+            title = self._get_title(talk)
+            description = self._get_description(talk)
+            url = self._get_url(talk)
+            media_url = self._get_media_url(talk)
+            date = self._get_date(talk)
 
             if media_url is None:
                 continue
@@ -164,8 +114,8 @@ class TalkParser():
 
         return talks
 
-    def __get_speaker_data(self):
-        speakers = re.findall("<tr>.*?</tr>", self.data, re.S)
+    def _get_speaker_data(self, data):
+        speakers = re.findall("<tr>.*?</tr>", data, re.S)
 
         speaker_data = []
         for s in speakers:
@@ -177,7 +127,7 @@ class TalkParser():
 
         return speaker_data
 
-    def __get_title(self, talk):
+    def _get_title(self, talk):
         title_html = re.search("<span class=\"talk\"><a href=\".*?\">.*?</a></span>",
                                talk,
                                re.S).group()
@@ -189,7 +139,7 @@ class TalkParser():
 
         return m.group(3)
 
-    def __get_media_url(self, talk):
+    def _get_media_url(self, talk):
         audio_url = re.search("\"(https?://\\S*?\\.mp3\\S*?)\"", talk, re.S)
         video_1080_url = re.search("\"(https?://\\S*?-1080p-\\S*?\\.mp4\\S*?)\"", talk, re.S)
         video_720_url = re.search("\"(https?://\\S*?-720p-\\S*?\\.mp4\\S*?)\"", talk, re.S)
@@ -218,7 +168,7 @@ class TalkParser():
             print("We have a problem! Media type is not recognized. Exiting...")
             exit()
 
-    def __get_url(self, talk):
+    def _get_url(self, talk):
         title_html = re.search("<span class=\"talk\"><a href=\".*?\">.*?</a></span>",
                                talk,
                                re.S).group()
@@ -230,9 +180,9 @@ class TalkParser():
 
         return m.group(2)
 
-    def __get_description(self, talk):
-        link = self.__get_url(talk)
-        page = Downloader().download_page(link)
+    def _get_description(self, talk):
+        link = self._get_url(talk)
+        page = download_page(link)
         m = re.search("<div class=\"kicker\" id=\"\">(.*?)</div>", page, re.S)
 
         if m is None:
@@ -245,7 +195,7 @@ class TalkParser():
 
         return m.group(1)
 
-    def __get_date(self, talk):
+    def _get_date(self, talk):
         pass
 
 
@@ -265,12 +215,12 @@ class RSSer():
 
         for talk in self.talks:
             items.append(PyRSS2Gen.RSSItem(
-                title=talk.get_title(),
-                link=talk.get_url(),
-                description=talk.get_description(),
-                guid=PyRSS2Gen.Guid(talk.get_url(), False),
-                pubDate=talk.get_date(),
-                enclosure=PyRSS2Gen.Enclosure(talk.get_media_url(),
+                title=talk.title,
+                link=talk.url,
+                description=talk.description,
+                guid=PyRSS2Gen.Guid(talk.url, False),
+                pubDate=talk.date,
+                enclosure=PyRSS2Gen.Enclosure(talk.media_url,
                                               0,
                                               "audio/mpeg" if self.media == media_types.AUDIO else "video/mp4")
             ))
