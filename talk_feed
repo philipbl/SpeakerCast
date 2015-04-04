@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 import re
 import datetime
@@ -69,7 +69,7 @@ class TalkFeed():
 
     def __get_talks(self):
         if not self.quiet:
-            print "Finding talks for {speaker}\n".format(speaker=self.speaker)
+            print("Finding talks for {speaker}\n".format(speaker=self.speaker))
 
         talks = []
         for year in range(self.start_year, self.end_year+1):
@@ -80,8 +80,8 @@ class TalkFeed():
                 url = self.url.format(year=year, month=month)
 
                 if not self.quiet:
-                    print u"Downloading {month} {year} Conference".format(month="April" if month == APRIL else "October",
-                                                                          year=year)
+                    print(u"Downloading {month} {year} Conference".format(month="April" if month == APRIL else "October",
+                                                                          year=year))
 
                 page = Downloader().download_page(url)
                 parser = TalkParser(page, self.speaker, self.media)
@@ -89,7 +89,7 @@ class TalkFeed():
                 talks += self.__create_talks(parser, year, month)
 
                 if not self.quiet:
-                    print
+                    print()
 
         return talks
 
@@ -98,7 +98,7 @@ class TalkFeed():
 
         for talk in talks:
             if not self.quiet:
-                print u"\tFound talk titled: {title}".format(title=talk.get_title())
+                print(u"\tFound talk titled: {title}".format(title=talk.get_title()))
 
             talk.set_date(datetime.datetime(year, month, 1, 15))
 
@@ -118,8 +118,8 @@ class TalkFeed():
         )
 
         if not self.quiet:
-            print "Saving {0} feed as {1}".format("audio" if self.media == media_types.AUDIO else "video",
-                                                  self.file_name)
+            print("Saving {0} feed as {1}".format("audio" if self.media == media_types.AUDIO else "video",
+                                                  self.file_name))
 
         rss.create(open(self.file_name, 'w+'))
 
@@ -215,7 +215,7 @@ class TalkParser():
             return video_1080_url or video_720_url or video_480_url or video_360_url
 
         else:
-            print "We have a problem! Media type is not recognized. Exiting..."
+            print("We have a problem! Media type is not recognized. Exiting...")
             exit()
 
     def __get_url(self, talk):
