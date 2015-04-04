@@ -5,6 +5,7 @@ import datetime
 import optparse
 from collections import namedtuple
 from urllib.request import urlopen
+from rsser import RSSer
 
 
 APRIL = 4
@@ -72,7 +73,7 @@ class TalkFeed():
                                                                     media="audio" if self.media == media_types.AUDIO else "video"),
             url="http://www.lds.org/general-conference",
             talks=talks,
-            media=self.media
+            media_type=self.media
         )
 
         if not self.quiet:
@@ -198,42 +199,6 @@ class TalkParser():
     def _get_date(self, talk):
         pass
 
-
-class RSSer():
-    def __init__(self, speaker, title, description, url, talks, media):
-        self.speaker = speaker
-        self.title = title
-        self.description = description
-        self.url = url
-        self.talks = talks
-        self.media = media
-
-    def create(self, file):
-        import PyRSS2Gen
-
-        items = []
-
-        for talk in self.talks:
-            items.append(PyRSS2Gen.RSSItem(
-                title=talk.title,
-                link=talk.url,
-                description=talk.description,
-                guid=PyRSS2Gen.Guid(talk.url, False),
-                pubDate=talk.date,
-                enclosure=PyRSS2Gen.Enclosure(talk.media_url,
-                                              0,
-                                              "audio/mpeg" if self.media == media_types.AUDIO else "video/mp4")
-            ))
-
-        rss = PyRSS2Gen.RSS2(
-            title=self.title,
-            link=self.url,
-            description=self.description,
-            lastBuildDate=datetime.datetime.now(),
-            items=items
-        )
-
-        rss.write_xml(file)
 
 if __name__ == '__main__':
     parser = optparse.OptionParser(usage='%prog -s "speaker name" [-o out_file] '
