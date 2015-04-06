@@ -74,12 +74,12 @@ class TalkFeed():
         talks = self._get_talks()
 
         rss = RSSer(
-            speaker=self.speaker,
+            author=self.speaker,
             title="General Conference Talks Given by {0}".format(self.speaker),
             description="Talks given by {speaker} ({media})".format(speaker=self.speaker,
                                                                     media="audio" if self.media == media_types.AUDIO else "video"),
             url="http://www.lds.org/general-conference",
-            talks=talks,
+            items=talks,
             media_type=self.media
         )
 

@@ -4,25 +4,29 @@ import datetime
 import PyRSS2Gen
 
 class RSSer():
-    def __init__(self, speaker, title, description, url, talks, media_type='audio'):
-        self.speaker = speaker
+    """
+    Creates an RSS feed for a list of items. Items must have a title, url,
+    media url, description, and date.
+    """
+    def __init__(self, author, title, description, url, items, media_type='audio'):
+        self.author = author
         self.title = title
         self.description = description
         self.url = url
-        self.talks = talks
+        self.items = items
         self.media_type = media_type
 
     def create(self, file):
-        items = []
+        rss_items = []
 
-        for talk in self.talks:
-            items.append(PyRSS2Gen.RSSItem(
-                title=talk.title,
-                link=talk.url,
-                description=talk.description,
-                guid=PyRSS2Gen.Guid(talk.url, False),
-                pubDate=talk.date,
-                enclosure=PyRSS2Gen.Enclosure(talk.media_url,
+        for item in self.items:
+            rss_items.append(PyRSS2Gen.RSSItem(
+                title=item.title,
+                link=item.url,
+                description=item.description,
+                guid=PyRSS2Gen.Guid(item.url, False),
+                pubDate=item.date,
+                enclosure=PyRSS2Gen.Enclosure(item.media_url,
                                               0,
                                               "audio/mpeg" if self.media_type == 'audio' else "video/mp4")
             ))
@@ -32,7 +36,7 @@ class RSSer():
             link=self.url,
             description=self.description,
             lastBuildDate=datetime.datetime.now(),
-            items=items
+            items=rss_items
         )
 
         rss.write_xml(file)
