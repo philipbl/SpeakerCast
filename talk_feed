@@ -55,7 +55,14 @@ class TalkFeed():
                                                                           year=year))
 
                 page = download_page(url)
-                talks += self.parser.parse(page)
+                new_talks = self.parser.parse(page)
+
+                if not self.quiet:
+                    for t in new_talks:
+                        print('\tFound talk titled "{}"'.format(t.title))
+
+
+                talks += new_talks
 
                 if not self.quiet:
                     print()
@@ -131,7 +138,12 @@ class TalkParser():
     def _get_title(self, talk):
         title_html = re.search("<span class=\"talk\"><a href=\".*?\">.*?</a></span>",
                                talk,
-                               re.S).group()
+                               re.S)
+
+        if title_html is None:
+            return "No title"
+
+        title_html = title_html.group()
 
         m = re.search("(<span class=\"talk\">)" +
                       "(<a href=\".*?\">)" +
@@ -172,7 +184,12 @@ class TalkParser():
     def _get_url(self, talk):
         title_html = re.search("<span class=\"talk\"><a href=\".*?\">.*?</a></span>",
                                talk,
-                               re.S).group()
+                               re.S)
+
+        if title_html is None:
+            return None
+
+        title_html = title_html.group()
 
         m = re.search("(<span class=\"talk\">)" +
                       "<a href=\"(.*?)\">" +
@@ -183,6 +200,10 @@ class TalkParser():
 
     def _get_description(self, talk):
         link = self._get_url(talk)
+
+        if link is None:
+            return "No description"
+
         page = download_page(link)
         m = re.search("<div class=\"kicker\" id=\"\">(.*?)</div>", page, re.S)
 
