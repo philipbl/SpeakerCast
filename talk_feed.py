@@ -7,6 +7,7 @@ import concurrent.futures
 from collections import namedtuple
 from urllib.request import urlopen
 from rsser import RSSer
+import urllib.parse
 
 
 APRIL = 4
@@ -172,7 +173,10 @@ class TalkParser():
                       "(.*?)" +
                       "(</a></span>)", title_html, re.S)
 
-        return m.group(3)
+        title = m.group(3)
+        title = urllib.parse.quote(title)
+
+        return title
 
     def _get_media_url(self, talk):
         audio_url = re.search("\"(https?://\\S*?\\.mp3\\S*?)\"", talk, re.S)
@@ -227,7 +231,7 @@ class TalkParser():
             return "No description"
 
         page = download_page(link)
-        m = re.search("<div class=\"kicker\" id=\"\">(.*?)</div>", page, re.S)
+        m = re.search('<div class="kicker">(.*?)</div>', page, re.S)
 
         if m is None:
             m = re.search("/(\\d{4})/(\\d{2})/", link, re.S)
@@ -237,7 +241,8 @@ class TalkParser():
             return "Talk given {month} {year} Conference".format(month="April" if month == "04" else "October",
                                                                  year=year)
 
-        return m.group(1)
+        description = m.group(1)
+        return description
 
     def _get_date(self, talk):
         pass
