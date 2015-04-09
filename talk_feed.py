@@ -87,7 +87,10 @@ class TalkFeed():
             print("Saving {0} feed as {1}".format("audio" if self.media == media_types.AUDIO else "video",
                                                   self.file_name))
 
-        rss.create(open(self.file_name, 'w+'))
+        if self.file_name is None:
+            return rss.create()
+        else:
+            open(self.file_name, 'w+').write(rss.create())
 
 
 

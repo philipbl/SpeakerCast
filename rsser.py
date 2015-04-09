@@ -16,7 +16,7 @@ class RSSer():
         self.items = items
         self.media_type = media_type
 
-    def create(self, file):
+    def create(self):
         rss_items = []
 
         for item in self.items:
@@ -39,4 +39,4 @@ class RSSer():
             items=rss_items
         )
 
-        rss.write_xml(file)
+        return rss.to_xml()
