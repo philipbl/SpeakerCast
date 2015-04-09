@@ -3,6 +3,7 @@
 import re
 import datetime
 import optparse
+import concurrent.futures
 from collections import namedtuple
 from urllib.request import urlopen
 from rsser import RSSer
@@ -13,7 +14,7 @@ OCTOBER = 10
 
 
 def download_page(url):
-    return urlopen(url).read().decode('utf-8')
+    return urlopen(url).readall().decode('utf-8')
 
 def enum(**enums):
     return type('Enum', (), enums)
@@ -39,34 +40,52 @@ class TalkFeed():
                    "{year}/{month:02}?lang=eng"
 
     def _get_talks(self):
+        def download_and_parse(url, year, month):
+            page = download_page(url)
+
+            if not self.quiet:
+                print(u"Downloaded {month} {year} Conference".format(month="April" if month == APRIL else "October",
+                                                                     year=year))
+            new_talks = [(year, month, talk) for talk in self.parser.parse(page)]
+
+            if not self.quiet:
+                for _, _, t in new_talks:
+                    print('~~~~> Found talk titled "{}"'.format(t.title))
+
+            return new_talks
+
+
         if not self.quiet:
             print("Finding talks for {speaker}\n".format(speaker=self.speaker))
 
-        talks = []
+        urls = []
         for year in range(self.start_year, self.end_year+1):
             for month in [APRIL, OCTOBER]:
                 if year == datetime.date.today().year and month > datetime.date.today().month:
                     break
 
                 url = self.url.format(year=year, month=month)
+                urls.append((url, year, month))
 
-                if not self.quiet:
-                    print(u"Downloading {month} {year} Conference".format(month="April" if month == APRIL else "October",
-                                                                          year=year))
+        if not self.quiet:
+            print("Downloading conferences...")
 
-                page = download_page(url)
-                new_talks = self.parser.parse(page)
+        talks = []
+        with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+            futures = [executor.submit(download_and_parse, url, year, month) for url, year, month in urls]
 
-                if not self.quiet:
-                    for t in new_talks:
-                        print('\tFound talk titled "{}"'.format(t.title))
+            for future in concurrent.futures.as_completed(futures):
+                try:
+                    new_talks = future.result()
+                    talks += new_talks
+                except Exception as exc:
+                    print('Exception while downloading {}'.format(url))
+                    print(exc)
 
+        if not self.quiet:
+            print()
 
-                talks += new_talks
-
-                if not self.quiet:
-                    print()
-
+        talks = [talk for year, month, talk in sorted(talks, reverse=True)]
         return talks
 
 
