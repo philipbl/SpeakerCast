@@ -9,7 +9,6 @@ from urllib.request import urlopen
 from rsser import RSSer
 import urllib.parse
 
-
 APRIL = 4
 OCTOBER = 10
 
@@ -174,7 +173,7 @@ class TalkParser():
                       "(</a></span>)", title_html, re.S)
 
         title = m.group(3)
-        title = urllib.parse.quote(title)
+        title = title.encode('ascii', 'xmlcharrefreplace').decode('utf-8')
 
         return title
 
@@ -242,6 +241,7 @@ class TalkParser():
                                                                  year=year)
 
         description = m.group(1)
+        description = description.encode('ascii', 'xmlcharrefreplace').decode('utf-8')
         return description
 
     def _get_date(self, talk):
