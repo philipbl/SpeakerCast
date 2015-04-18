@@ -8,6 +8,7 @@ from collections import namedtuple
 from urllib.request import urlopen
 from rsser import RSSer
 import urllib.parse
+from lxml import html
 
 APRIL = 4
 OCTOBER = 10
@@ -46,13 +47,13 @@ class TalkFeed():
             if not self.quiet:
                 print(u"Downloaded {month} {year} Conference".format(month="April" if month == APRIL else "October",
                                                                      year=year))
-            new_talks = [(year, month, talk) for talk in self.parser.parse(page)]
+            talks = list(self.parser.parse(page))
 
             if not self.quiet:
-                for _, _, t in new_talks:
-                    print('~~~~> Found talk titled "{}"'.format(t.title))
+                for talk in talks:
+                    print('~~~~> Found talk titled "{}"'.format(talk.title))
 
-            return new_talks
+            return talks
 
 
         if not self.quiet:
@@ -85,7 +86,7 @@ class TalkFeed():
         if not self.quiet:
             print()
 
-        talks = [talk for year, month, talk in sorted(talks, reverse=True)]
+        talks = sorted(talks, key=lambda talk: talk.date)
         return talks
 
 
@@ -120,132 +121,120 @@ class TalkParser():
 
     def parse(self, data):
         talks = []
+        data = html.fromstring(data)
 
-        for talk in self._get_speaker_data(data):
+        month, year = self._get_month_year(data)
 
+        # Get all talks
+        talks = ((talk, session) for talk, session in self._get_talks(data))
+
+        # Filter talks by speaker
+        talks = ((talk, session) for talk, session in talks if speaker in self._get_speaker(talk))
+
+        # Get all other information
+        for talk, session in talks:
             title = self._get_title(talk)
-            description = self._get_description(talk)
             url = self._get_url(talk)
+            description = self._get_description(url)
+            date = self._get_date(session, year, month)
             media_url = self._get_media_url(talk)
-            date = self._get_date(talk)
 
-            if media_url is None:
-                continue
+            yield Talk(title=title,
+                       description=description,
+                       url=url,
+                       media_url=media_url,
+                       date=date)
 
-            talks.append(
-                Talk(
-                    title=title,
-                    description=description,
-                    url=url,
-                    media_url=media_url,
-                    date=date
-                )
-            )
 
-        return talks
+    def _get_month_year(self, data):
+        year_month = data.xpath('//*[@id="conference-selector"]/h1/a/text()')[0]
+        month = year_month.split()[0]
+        year = year_month.split()[1]
 
-    def _get_speaker_data(self, data):
-        speakers = re.findall("<tr>.*?</tr>", data, re.S)
+        month = 4 if month == 'April' else 10
+        year = int(year)
 
-        speaker_data = []
-        for s in speakers:
-            # removing nbsp
-            s = s.replace(u'\xa0', ' ')
+        return month, year
 
-            if s.find(self.speaker) != -1:
-                speaker_data.append(s)
 
-        return speaker_data
+    def _get_talks(self, data):
+        sessions = data.xpath('//*/table[@class="sessions"][@id]')
+
+        for session in sessions:
+            talks = session.xpath('./tr/td/span[@class="talk"]/../..')
+
+            for talk in talks:
+                yield talk, session.get('id')
+
+
+    def _get_speaker(self, data):
+        speaker =  data.xpath('./td/span[@class="speaker"]/text()')[0]
+        speaker = speaker.replace(u'\xa0', ' ') #remove nbsp
+        return speaker
+
 
     def _get_title(self, talk):
-        title_html = re.search("<span class=\"talk\"><a href=\".*?\">.*?</a></span>",
-                               talk,
-                               re.S)
-
-        if title_html is None:
-            return "No title"
-
-        title_html = title_html.group()
-
-        m = re.search("(<span class=\"talk\">)" +
-                      "(<a href=\".*?\">)" +
-                      "(.*?)" +
-                      "(</a></span>)", title_html, re.S)
-
-        title = m.group(3)
+        title = talk.xpath('./td/span[@class="talk"]/a/text()')[0]
         title = title.encode('ascii', 'xmlcharrefreplace').decode('utf-8')
 
         return title
 
-    def _get_media_url(self, talk):
-        audio_url = re.search("\"(https?://\\S*?\\.mp3\\S*?)\"", talk, re.S)
-        video_1080_url = re.search("\"(https?://\\S*?-1080p-\\S*?\\.mp4\\S*?)\"", talk, re.S)
-        video_720_url = re.search("\"(https?://\\S*?-720p-\\S*?\\.mp4\\S*?)\"", talk, re.S)
-        video_480_url = re.search("\"(https?://\\S*?-480p-\\S*?\\.mp4\\S*?)\"", talk, re.S)
-        video_360_url = re.search("\"(https?://\\S*?-360p-\\S*?\\.mp4\\S*?)\"", talk, re.S)
 
-        audio_url = audio_url.group(1) if audio_url is not None else None
-        video_1080_url = video_1080_url.group(1) if video_1080_url is not None else None
-        video_720_url = video_720_url.group(1) if video_720_url is not None else None
-        video_480_url = video_480_url.group(1) if video_480_url is not None else None
-        video_360_url = video_360_url.group(1) if video_360_url is not None else None
+    def _get_media_url(self, talk):
+        download = talk.xpath('./td[@class="download"]')[0]
+        audio_url = download.xpath('.//*[@class="audio-mp3"]')[0].get('href')
+        video_1080_url = download.xpath('.//*[@class="video-1080p"]')[0].get('href')
+        video_720_url = download.xpath('.//*[@class="video-720p"]')[0].get('href')
+        video_360_url = download.xpath('.//*[@class="video-360p"]')[0].get('href')
 
         if self.media == media_types.AUDIO:
             return audio_url
 
         elif self.media == media_types.VIDEO_LOW:
-            return video_360_url or video_480_url or video_720_url or video_1080_url
+            return video_360_url or video_720_url or video_1080_url
 
         elif self.media == media_types.VIDEO_MEDIUM:
-            return video_720_url or video_480_url or video_360_url or video_1080_url
+            return video_720_url or video_360_url or video_1080_url
 
         elif self.media == media_types.VIDEO_HIGH:
-            return video_1080_url or video_720_url or video_480_url or video_360_url
+            return video_1080_url or video_720_url or video_360_url
 
         else:
             print("We have a problem! Media type is not recognized. Exiting...")
             exit()
 
-    def _get_url(self, talk):
-        title_html = re.search("<span class=\"talk\"><a href=\".*?\">.*?</a></span>",
-                               talk,
-                               re.S)
 
-        if title_html is None:
+    def _get_url(self, talk):
+        try:
+            url = talk.xpath('./td/span[@class="talk"]/a')[0].get('href')
+            return url
+        except:
             return None
 
-        title_html = title_html.group()
 
-        m = re.search("(<span class=\"talk\">)" +
-                      "<a href=\"(.*?)\">" +
-                      "(.*?)" +
-                      "(</a></span>)", title_html, re.S)
-
-        return m.group(2)
-
-    def _get_description(self, talk):
-        link = self._get_url(talk)
-
-        if link is None:
+    def _get_description(self, url):
+        if url is None:
             return "No description"
 
-        page = download_page(link)
-        m = re.search('<div class="kicker">(.*?)</div>', page, re.S)
+        page = download_page(url)
+        page = html.fromstring(page)
 
-        if m is None:
-            m = re.search("/(\\d{4})/(\\d{2})/", link, re.S)
-            year = m.group(1)
-            month = m.group(2)
-
-            return "Talk given {month} {year} Conference".format(month="April" if month == "04" else "October",
-                                                                 year=year)
-
-        description = m.group(1)
+        description = page.xpath('//*[@class="kicker"]/text()')[0]
         description = description.encode('ascii', 'xmlcharrefreplace').decode('utf-8')
+
         return description
 
-    def _get_date(self, talk):
-        pass
+
+    def _get_date(self, session, year, month):
+        first_of_month = datetime.datetime(year, month, 1)
+        days_ahead = 6 - first_of_month.weekday()
+        sunday = first_of_month + datetime.timedelta(days_ahead)
+
+        if session in ['womens', 'saturday-morning', 'saturday-afternoon',
+                       'priesthood']:
+            return sunday - datetime.timedelta(1)
+        else:
+            return sunday
 
 
 if __name__ == '__main__':
