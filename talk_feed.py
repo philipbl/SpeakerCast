@@ -72,16 +72,16 @@ class TalkFeed():
             print("Downloading conferences...")
 
         talks = []
-        with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
             futures = [executor.submit(download_and_parse, url, year, month) for url, year, month in urls]
 
             for future in concurrent.futures.as_completed(futures):
-                # try:
-                new_talks = future.result()
-                talks += new_talks
-                # except Exception as exc:
-                #     print('Exception while downloading {}'.format(url))
-                #     print(exc)
+                try:
+                    new_talks = future.result()
+                    talks += new_talks
+                except Exception as exc:
+                    print('Exception while downloading {}'.format(url))
+                    print(exc)
 
         if not self.quiet:
             print()
