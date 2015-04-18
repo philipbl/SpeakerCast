@@ -76,12 +76,12 @@ class TalkFeed():
             futures = [executor.submit(download_and_parse, url, year, month) for url, year, month in urls]
 
             for future in concurrent.futures.as_completed(futures):
-                try:
-                    new_talks = future.result()
-                    talks += new_talks
-                except Exception as exc:
-                    print('Exception while downloading {}'.format(url))
-                    print(exc)
+                # try:
+                new_talks = future.result()
+                talks += new_talks
+                # except Exception as exc:
+                #     print('Exception while downloading {}'.format(url))
+                #     print(exc)
 
         if not self.quiet:
             print()
@@ -129,7 +129,7 @@ class TalkParser():
         talks = ((talk, session) for talk, session in self._get_talks(data))
 
         # Filter talks by speaker
-        talks = ((talk, session) for talk, session in talks if speaker in self._get_speaker(talk))
+        talks = ((talk, session) for talk, session in talks if self.speaker in self._get_speaker(talk))
 
         # Get all other information
         for talk, session in talks:
