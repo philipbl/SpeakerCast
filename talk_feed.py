@@ -76,12 +76,8 @@ class TalkFeed():
             futures = [executor.submit(download_and_parse, url, year, month) for url, year, month in urls]
 
             for future in concurrent.futures.as_completed(futures):
-                try:
-                    new_talks = future.result()
-                    talks += new_talks
-                except Exception as exc:
-                    print('Exception while downloading {}'.format(url))
-                    print(exc)
+                new_talks = future.result()
+                talks += new_talks
 
         if not self.quiet:
             print()
@@ -183,8 +179,17 @@ class TalkParser():
     def _get_media_url(self, talk):
         download = talk.xpath('./td[@class="download"]')[0]
         audio_url = download.xpath('.//*[@class="audio-mp3"]')[0].get('href')
-        video_1080_url = download.xpath('.//*[@class="video-1080p"]')[0].get('href')
-        video_720_url = download.xpath('.//*[@class="video-720p"]')[0].get('href')
+
+        try:
+            video_1080_url = download.xpath('.//*[@class="video-1080p"]')[0].get('href')
+        except IndexError:
+            video_1080_url = False
+
+        try:
+            video_720_url = download.xpath('.//*[@class="video-720p"]')[0].get('href')
+        except IndexError:
+            video_720_url = False
+
         video_360_url = download.xpath('.//*[@class="video-360p"]')[0].get('href')
 
         if self.media == media_types.AUDIO:
@@ -208,7 +213,7 @@ class TalkParser():
         try:
             url = talk.xpath('./td/span[@class="talk"]/a')[0].get('href')
             return url
-        except:
+        except IndexError:
             return None
 
 
@@ -219,10 +224,13 @@ class TalkParser():
         page = download_page(url)
         page = html.fromstring(page)
 
-        description = page.xpath('//*[@class="kicker"]/text()')[0]
-        description = description.encode('ascii', 'xmlcharrefreplace').decode('utf-8')
+        try:
+            description = page.xpath('//*[@class="kicker"]/text()')[0]
+            description = description.encode('ascii', 'xmlcharrefreplace').decode('utf-8')
+            return description
+        except IndexError:
+            return "No description"
 
-        return description
 
 
     def _get_date(self, session, year, month):
