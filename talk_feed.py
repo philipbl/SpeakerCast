@@ -85,9 +85,23 @@ class TalkFeed():
         talks = sorted(talks, key=lambda talk: talk.date)
         return talks
 
+    def _get_image(self, url):
+        if url is None:
+            return None
+
+
+        page = html.fromstring(download_page(url))
+
+        author_url = page.xpath('//a[@rel="author"]')[0].get('href')
+        author_page = html.fromstring(download_page(author_url))
+
+        img_url = author_page.xpath('//img[contains(@class, "ga-bio__image")]')[0].get('src')
+        return "http://lds.org" + img_url
+
 
     def create_feed(self):
         talks = self._get_talks()
+        image = self._get_image(talks[-1].url)
 
         rss = RSSer(
             author=self.speaker,
@@ -96,7 +110,8 @@ class TalkFeed():
                                                                     media="audio" if self.media == media_types.AUDIO else "video"),
             url="http://www.lds.org/general-conference",
             items=talks,
-            media_type=self.media
+            media_type=self.media,
+            image=image
         )
 
         if not self.quiet:
@@ -230,7 +245,6 @@ class TalkParser():
             return description
         except IndexError:
             return "No description"
-
 
 
     def _get_date(self, session, year, month):
