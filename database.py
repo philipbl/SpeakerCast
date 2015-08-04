@@ -23,6 +23,31 @@ def get_month_year():
             yield 4,year
             yield 10, year
 
+def get_talk_info(talk, package, year, month):
+
+    title = talk.primary_title_component
+    speaker = talk.secondary_title_component
+    conference = (year, month)
+    talk_url = talk.web_url
+    talk_html = package.html(uri=talk.uri)
+
+    try:
+        audio = package.related_audio_items(talk.id)[0]
+    except:
+        print(speaker)
+        print(talk_url)
+
+    audio_url = audio.media_url
+    audio_size = audio.file_size
+
+    return {'title': title,
+            'speaker': speaker,
+            'conference': conference,
+            'talk_url': talk_url,
+            'talk_html': talk_html,
+            'audio_url': audio_url,
+            'audio_size': audio_size}
+
 
 def create_database():
     print("Creating database...")
@@ -34,23 +59,11 @@ def create_database():
 
         item = catalog.item(uri=item_uri, lang='eng')
         with item.package() as package:
-            for subitem in package.subitems():
-                audio = package.related_audio_items(subitem.id)[0]
+            conference_talks = [get_talk_info(subitem, package, year, month)
+                                for subitem in package.subitems()]
 
-                title = subitem.primary_title_component
-                speaker = subitem.secondary_title_component
-                conference = (year, month)
-                talk_url = subitem.web_url
-                talk_html = package.html(uri=subitem.uri)
-                audio_url = audio.media_url
-                audio_size = audio.file_size
 
-                print(subitem)
-                # print(package.html(uri=subitem.uri))
-                # print(package.related_audio_items(subitem.id))
-                # print(package.related_content_items(subitem.id))
 
-                # TODO: Add to database
         exit()
 
 
