@@ -4,6 +4,8 @@ from gospellibrary import Catalog
 from datetime import date, datetime, timedelta
 from itertools import cycle
 from pymongo import MongoClient
+from pprint import pprint
+import requests
 
 
 def get_month_year():
@@ -22,7 +24,7 @@ def get_month_year():
             if month >= 10:
                 yield 10, year
         else:
-            yield 4,year
+            yield 4, year
             yield 10, year
 
 
@@ -31,6 +33,8 @@ def clean_up_speaker(speaker):
     speaker = speaker.replace('By ', '')
     speaker = speaker.replace('President ', '')
     speaker = speaker.replace('Elder ', '')
+    speaker = speaker.replace('Presented by ', '')
+    speaker = speaker.strip()
 
     return speaker
 
@@ -87,7 +91,6 @@ def get_time(year, month, session):
         return None
 
 
-
 def get_talk_info(talk, package, year, month):
 
     # Get talk information
@@ -121,71 +124,127 @@ def get_talk_info(talk, package, year, month):
             'audio_size': audio_size}
 
 
+def valid_talk(talk):
+    title = talk['title']
+
+    if title in ['Welcome to Conference', 'The Sustaining of Church Officers']:
+        return False
+
+    if 'Church Auditing Department Report' in title or \
+       'Statistical Report' in title:
+        return False
+
+    return True
+
+
+def get_speaker_image(speaker):
+    speaker = speaker.lower()
+    speaker = speaker.replace(' ', '-')
+    speaker = speaker.replace('.', '')
+
+    url = 'https://www.lds.org/bc/content/shared/content/images/leaders/{}-large.jpg'.format(speaker)
+    # r = requests.get(url)
+    # if r.status_code == 200:
+    #     return url
+    # else:
+    #     return None
+    return url
+
+
 def create_database():
     print("Creating database...")
     catalog = Catalog()
 
     client = MongoClient()
     db = client.media
-    collection = db.conference_talks
+    talks_db = db.conference_talks
+    speakers_db = db.conference_speakers
 
+    # Create main database
     for month, year in get_month_year():
         item_uri = "/general-conference/{}/{:02}".format(year, month)
         print("~~~> Getting {}".format(item_uri))
 
         item = catalog.item(uri=item_uri, lang='eng')
         with item.package() as package:
-            conference_talks = (get_talk_info(subitem, package, year, month)
-                                for subitem in package.subitems())
-            conference_talks = (talk for talk in conference_talks
-                                if talk['audio_url'] is not None)
-            conference_talks = (talk for talk in conference_talks
-                                if talk['time'] is not None)
+            talks = (get_talk_info(subitem, package, year, month) for subitem in package.subitems())
+            talks = (talk for talk in talks if talk['audio_url'] is not None)
+            talks = (talk for talk in talks if talk['time'] is not None)
+            talks = (talk for talk in talks if valid_talk(talk))
 
-            collection.insert_many(list(conference_talks))
+            talks_db.insert_many(list(talks))
 
-
-def get_speaker(speaker, start, end=date.today().year):
-    client = MongoClient()
-    db = client.media
-    talks = db.conference_talks
-
-    for talk in talks.find({"speaker": {"$regex": speaker}}):
-        print(talk['speaker'])
-        print(talk['session'])
-
-
-def get_all_speakers():
-    client = MongoClient()
-    db = client.media
-    talks = db.conference_talks
-
-    speakers = talks.aggregate([
+    # Create database, grouped by speaker
+    speakers = talks_db.aggregate([
         {
             "$group":
             {
                 "_id": "$speaker",
+                "talks":
+                    {
+                        "$push":
+                            {
+                                "speaker": "$speaker",
+                                "title": "$title",
+                                "session": "$session",
+                                "time": "$time",
+                                "talk_url": "$talk_url",
+                                "talk_html": "$talk_html",
+                                "audio_url": "$audio_url",
+                                "audio_size": "$audio_size"
+                            }
+                    },
                 "total": {"$sum": 1}
             }
         }
     ])
 
-    speakers = ((speaker['total'], speaker['_id']) for speaker in speakers)
-    speakers = sorted(list(speakers))
+    speaker = (dict(speaker, image=get_speaker_image(speaker['_id'])) for speaker in speakers)
+    speakers_db.insert(speaker)
+
+
+def get_speaker(speaker):
+    client = MongoClient()
+    db = client.media
+    speakers = db.conference_speakers
+
+    speakers = speakers.find({"_id": speaker}, {"talks": 1})
+    speakers = (speaker['talks'] for speaker in speakers)
+    speaker = (talk for speaker in speakers for talk in speaker)
+
+    return list(speaker)
+
+
+def get_speakers(speakers):
+    speakers = [get_speaker(speaker) for speaker in speakers]
+    talks = [talk for talks in speakers for talk in talks]
+
+    return talks
+
+
+def get_all_speaker_and_counts():
+    client = MongoClient()
+    db = client.media
+    speakers = db.conference_speakers
+
+    speakers = speakers.find({}, {"_id": 1, "total": 1})
+    speakers = [(speaker['total'], speaker['_id']) for speaker in speakers]
+    speakers = sorted(speakers, reverse=True)
 
     return speakers
 
 
+def clear_database():
+    client = MongoClient()
+    db = client.media
+    talks = db.conference_talks
+    talks.remove({})
+
+    speakers = db.conference_speakers
+    speakers.remove({})
+
+
 def update_database():
-    # Check to see if it has been updated
+    # TODO: Check to see if it has been updated
     pass
-
-# create_database()
-get_speaker("Jeffrey R. Holland", 2012)
-# get_all_speakers()
-
-# Test different commands:
-#   - Get all speakers
-#   - Get all talks for specific speaker
-
 
