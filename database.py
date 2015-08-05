@@ -92,17 +92,20 @@ def get_time(year, month, session):
 
 
 def get_talk_info(talk, package, year, month):
+    nav_item = package.nav_items(talk.id)[0]
+    nav_section = package.nav_section(nav_item.nav_section_id)[0]
 
     # Get talk information
     title = talk.primary_title_component
     speaker = clean_up_speaker(talk.secondary_title_component)
     talk_url = talk.web_url
     talk_html = package.html(uri=talk.uri)
+    preview = nav_item.preview
+
 
     # Get time information
     date = (year, month)
-    session = package.nav_section(package.nav_items(talk.id)[0].nav_section_id)[0].title
-    session = clean_up_session(session)
+    session = clean_up_session(nav_section.title)
     time = get_time(date[0], date[1], session)
 
     # Get audio information if available
@@ -118,8 +121,9 @@ def get_talk_info(talk, package, year, month):
             'speaker': speaker,
             'session': session,
             'time': time,
-            'talk_url': talk_url,
-            'talk_html': talk_html,
+            'url': talk_url,
+            'html': talk_html,
+            'preview': preview,
             'audio_url': audio_url,
             'audio_size': audio_size}
 
@@ -171,6 +175,7 @@ def create_database():
             talks = (talk for talk in talks if talk['audio_url'] is not None)
             talks = (talk for talk in talks if talk['time'] is not None)
             talks = (talk for talk in talks if valid_talk(talk))
+            talks = (dict(talk, image=get_speaker_image(talk['speaker'])) for talk in talks)
 
             talks_db.insert_many(list(talks))
 
@@ -188,8 +193,9 @@ def create_database():
                                 "title": "$title",
                                 "session": "$session",
                                 "time": "$time",
-                                "talk_url": "$talk_url",
-                                "talk_html": "$talk_html",
+                                "url": "$url",
+                                "html": "$html",
+                                "preview": "$preview",
                                 "audio_url": "$audio_url",
                                 "audio_size": "$audio_size"
                             }
@@ -199,8 +205,7 @@ def create_database():
         }
     ])
 
-    speaker = (dict(speaker, image=get_speaker_image(speaker['_id'])) for speaker in speakers)
-    speakers_db.insert(speaker)
+    speakers_db.insert(speakers)
 
 
 def get_speaker(speaker):
