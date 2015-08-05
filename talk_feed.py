@@ -21,18 +21,42 @@ Options:
 
 import docopt
 import database
+from jinja2 import Environment, FileSystemLoader, Template
+from datetime import datetime
 
 
 def create_feed(speakers):
-    pass
+    all_speakers = set([s for c, s in database.get_all_speaker_and_counts()])
+    speakers = set(speakers)
+
+    # Check to make sure all given speakers are valid
+    left = speakers - all_speakers
+    if len(left) != 0:
+        print("Unable to find {}".format(', '.join(left)))
+        return
+
+    talks = database.get_talks(speakers)
+
+    env = Environment(loader=FileSystemLoader('template'))
+    template = env.get_template('template.rss')
+    rss_feed = template.render(talks=talks, speakers=list(speakers), now=datetime.utcnow())
+
+    print(rss_feed)
 
 
 def list_speakers():
-    pass
+    print("{:<30}{:<10}".format("Speaker", "# of talks"))
+    print("="*40)
+    for count, speaker in database.get_all_speaker_and_counts():
+        print("{:<30}{:<10}".format(speaker, count))
 
 
 def update_database(force):
-    pass
+    if force:
+        database.clear_database()
+        database.create_database()
+    else:
+        database.update_database()
 
 
 if __name__ == '__main__':
