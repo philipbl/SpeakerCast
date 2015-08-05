@@ -8,10 +8,11 @@ from pprint import pprint
 import requests
 
 
-def get_month_year():
+def _get_month_year():
     today = date.today()
 
-    start_year = 1971
+    # start_year = 1971
+    start_year = 2014
     end_year = today.year
     month = today.month
 
@@ -28,7 +29,7 @@ def get_month_year():
             yield 10, year
 
 
-def clean_up_speaker(speaker):
+def _clean_speaker(speaker):
     speaker = speaker.replace(u'\xa0', u' ')
     speaker = speaker.replace('By ', '')
     speaker = speaker.replace('President ', '')
@@ -39,7 +40,7 @@ def clean_up_speaker(speaker):
     return speaker
 
 
-def clean_up_session(session):
+def _clean_session(session):
     session = session.lower()
     if session in ['priesthood', 'general priesthood session',
                    'general priesthood meeting']:
@@ -63,7 +64,7 @@ def clean_up_session(session):
     return session
 
 
-def get_time(year, month, session):
+def _get_time(year, month, session):
     first_of_month = datetime(year, month, 1)
     days_ahead = 6 - first_of_month.weekday()
     sunday = first_of_month + timedelta(days_ahead)
@@ -91,13 +92,13 @@ def get_time(year, month, session):
         return None
 
 
-def get_talk_info(talk, package, year, month):
+def _get_talk_info(talk, package, year, month):
     nav_item = package.nav_items(talk.id)[0]
     nav_section = package.nav_section(nav_item.nav_section_id)[0]
 
     # Get talk information
     title = talk.primary_title_component
-    speaker = clean_up_speaker(talk.secondary_title_component)
+    speaker = clean_speaker(talk.secondary_title_component)
     talk_url = talk.web_url
     talk_html = package.html(uri=talk.uri)
     preview = nav_item.preview
@@ -105,7 +106,7 @@ def get_talk_info(talk, package, year, month):
 
     # Get time information
     date = (year, month)
-    session = clean_up_session(nav_section.title)
+    session = clean_session(nav_section.title)
     time = get_time(date[0], date[1], session)
 
     # Get audio information if available
@@ -128,7 +129,7 @@ def get_talk_info(talk, package, year, month):
             'audio_size': audio_size}
 
 
-def valid_talk(talk):
+def _valid_talk(talk):
     title = talk['title']
 
     if title in ['Welcome to Conference', 'The Sustaining of Church Officers']:
@@ -141,7 +142,7 @@ def valid_talk(talk):
     return True
 
 
-def get_speaker_image(speaker):
+def _get_speaker_image(speaker):
     speaker = speaker.lower()
     speaker = speaker.replace(' ', '-')
     speaker = speaker.replace('.', '')
@@ -252,4 +253,7 @@ def clear_database():
 def update_database():
     # TODO: Check to see if it has been updated
     pass
+
+# clear_database()
+# create_database()
 
