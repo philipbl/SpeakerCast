@@ -208,7 +208,7 @@ def create_database():
     speakers_db.insert(speakers)
 
 
-def get_speaker(speaker):
+def get_talk(speaker):
     client = MongoClient()
     db = client.media
     speakers = db.conference_speakers
@@ -220,9 +220,9 @@ def get_speaker(speaker):
     return list(speaker)
 
 
-def get_speakers(speakers):
-    speakers = [get_speaker(speaker) for speaker in speakers]
-    talks = [talk for talks in speakers for talk in talks]
+def get_talks(speakers):
+    all_talks = [get_talk(speaker) for speaker in speakers]
+    talks = [talk for talks in all_talks for talk in talks]
 
     return talks
 
