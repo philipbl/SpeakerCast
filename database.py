@@ -31,7 +31,7 @@ def _get_month_year():
 
 
 def _clean_speaker(speaker):
-    speaker = speaker.replace(u'\xa0', u' ')
+    speaker = speaker.replace('\xa0', ' ')
     speaker = speaker.replace('By ', '')
     speaker = speaker.replace('President ', '')
     speaker = speaker.replace('Elder ', '')
