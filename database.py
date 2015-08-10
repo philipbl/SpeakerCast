@@ -8,21 +8,26 @@ from pprint import pprint
 import requests
 
 
-def _get_month_year():
-    today = date.today()
+def _get_month_year(start, end):
 
     # start_year = 1971
-    start_year = 2014
-    end_year = today.year
-    month = today.month
+    start_year, start_month = start
+    end_year, end_month = end
 
     # TODO: Make this simpler
     for year in range(start_year, end_year + 1):
-        if year == end_year:
-            if month >= 4:
+        if year == start_year:
+            if start_month <= 4:
                 yield 4, year
 
-            if month >= 10:
+            if start_month <= 10:
+                yield 10, year
+
+        if year == end_year:
+            if end_month >= 4:
+                yield 4, year
+
+            if end_month >= 10:
                 yield 10, year
         else:
             yield 4, year
@@ -156,7 +161,7 @@ def _get_speaker_image(speaker):
     return url
 
 
-def create_database():
+def create_database(start=(1971, 4), end=(date.today().year, date.today().month)):
     print("Creating database...")
     catalog = Catalog()
 
