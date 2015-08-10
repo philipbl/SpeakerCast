@@ -161,6 +161,29 @@ def _get_speaker_image(speaker):
     return url
 
 
+def _new_database_version():
+    client = MongoClient()
+    db = client.media
+    metadata = db.metadata
+
+    new_version = Catalog().current_version()
+    try:
+        old_version = metadata.find({})[0]
+    except IndexError:
+        # This will happen the first time the value is put into
+        # into the database
+        metadata.insert({'db_version': new_version})
+        return False
+
+    if new_version != old_version['db_version']:
+        old_version['db_version'] = new_version
+        metadata.update_one({'_id': old_version['_id']},
+                            {'$set': {'db_version': new_version}})
+        return True
+    else:
+        return False
+
+
 def create_database(start=(1971, 4), end=(date.today().year, date.today().month)):
     print("Creating database...")
     catalog = Catalog()
@@ -256,9 +279,10 @@ def clear_database():
 
 
 def update_database():
-    # TODO: Check to see if it has been updated
-    pass
-
-# clear_database()
-# create_database()
+    if _new_database_version():
+        print("Updating database to new version")
+        clear_database()
+        create_database()
+    else:
+        print("Database is already up to date")
 
