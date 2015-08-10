@@ -98,7 +98,7 @@ def _get_talk_info(talk, package, year, month):
 
     # Get talk information
     title = talk.primary_title_component
-    speaker = clean_speaker(talk.secondary_title_component)
+    speaker = _clean_speaker(talk.secondary_title_component)
     talk_url = talk.web_url
     talk_html = package.html(uri=talk.uri)
     preview = nav_item.preview
@@ -106,8 +106,8 @@ def _get_talk_info(talk, package, year, month):
 
     # Get time information
     date = (year, month)
-    session = clean_session(nav_section.title)
-    time = get_time(date[0], date[1], session)
+    session = _clean_session(nav_section.title)
+    time = _get_time(date[0], date[1], session)
 
     # Get audio information if available
     try:
@@ -166,17 +166,17 @@ def create_database():
     speakers_db = db.conference_speakers
 
     # Create main database
-    for month, year in get_month_year():
+    for month, year in _get_month_year(start, end):
         item_uri = "/general-conference/{}/{:02}".format(year, month)
         print("~~~> Getting {}".format(item_uri))
 
         item = catalog.item(uri=item_uri, lang='eng')
         with item.package() as package:
-            talks = (get_talk_info(subitem, package, year, month) for subitem in package.subitems())
+            talks = (_get_talk_info(subitem, package, year, month) for subitem in package.subitems())
             talks = (talk for talk in talks if talk['audio_url'] is not None)
             talks = (talk for talk in talks if talk['time'] is not None)
-            talks = (talk for talk in talks if valid_talk(talk))
-            talks = (dict(talk, image=get_speaker_image(talk['speaker'])) for talk in talks)
+            talks = (talk for talk in talks if _valid_talk(talk))
+            talks = (dict(talk, image=_get_speaker_image(talk['speaker'])) for talk in talks)
 
             talks_db.insert_many(list(talks))
 
