@@ -3,27 +3,36 @@
 
 import os
 import urllib.parse
-import datetime
-from flask import Flask, request
-from talk_feed import TalkFeed
+from datetime import datetime
+from flask import Flask, request, json
+from jinja2 import Environment, FileSystemLoader, Template
+import database
+import rsser
 
 app = Flask(__name__)
 
+# Access database to get list of speakers
+
 @app.route('/')
-def hello():
-    return 'Hello World!'
+def index():
+    return open('templates/index.html').read()
+    # index_template = env.get_template('index.html') # TODO: Move this
+    # return index_template.render(speakers=[("Elder Holland", 12), ("President Eyring", 15)])
 
 
-@app.route('/rss/<speaker>')
-def get_rss(speaker):
-    speaker = urllib.parse.unquote_plus(speaker)
-    start_year = int(request.args.get('start_year', 1971))
-    end_year = int(request.args.get('end_year', datetime.date.today().year))
+@app.route('/speakers')
+def speakers():
+    speakers = [{'name': name, 'talks': count}
+                for count, name in database.get_all_speaker_and_counts()]
+    return json.dumps(speakers)
 
-    return TalkFeed(speaker,
-                    start_year=start_year,
-                    end_year=end_year,
-                    file_name=None).create_feed()
+
+@app.route('/feed/<speakers>')
+def generate(speakers):
+    speakers = speakers[:-1].split(',')
+    talks = database.get_talks(speakers)
+
+    return rsser.create_rss_feed(talks=talks, speakers=list(speakers))
 
 
 if __name__ == "__main__":
