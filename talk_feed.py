@@ -23,6 +23,7 @@ import docopt
 import database
 from jinja2 import Environment, FileSystemLoader, Template
 from datetime import datetime
+import rsser
 
 
 def create_feed(speakers):
@@ -37,10 +38,7 @@ def create_feed(speakers):
 
     talks = database.get_talks(speakers)
 
-    env = Environment(loader=FileSystemLoader('template'))
-    template = env.get_template('template.rss')
-    rss_feed = template.render(talks=talks, speakers=list(speakers), now=datetime.utcnow())
-
+    rss_feed = rsser.create_rss_feed(talks, speakers)
     print(rss_feed)
 
 
