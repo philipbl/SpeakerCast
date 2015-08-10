@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 from gospellibrary import Catalog
 from datetime import date, datetime, timedelta
@@ -35,7 +36,7 @@ def _get_month_year(start, end):
 
 
 def _clean_speaker(speaker):
-    speaker = speaker.replace(u'\xa0', u' ')
+    speaker = speaker.replace('\xa0', ' ')
     speaker = speaker.replace('By ', '')
     speaker = speaker.replace('President ', '')
     speaker = speaker.replace('Elder ', '')
