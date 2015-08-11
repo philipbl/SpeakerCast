@@ -11,14 +11,6 @@ import rsser
 
 app = Flask(__name__)
 
-# Access database to get list of speakers
-
-@app.route('/')
-def index():
-    return open('templates/index.html').read()
-    # index_template = env.get_template('index.html') # TODO: Move this
-    # return index_template.render(speakers=[("Elder Holland", 12), ("President Eyring", 15)])
-
 
 @app.route('/speakers')
 def speakers():
@@ -27,9 +19,18 @@ def speakers():
     return json.dumps(speakers)
 
 
-@app.route('/feed/<speakers>')
-def generate(speakers):
-    speakers = speakers[:-1].split(',')
+@app.route('/generate/', methods=['POST'])
+def generate():
+    data = json.loads(request.data)
+    speakers = data['speakers']
+
+    id_ = database.generate_id(speakers)
+    return id_
+
+
+@app.route('/feed/<id>')
+def feed(id):
+    speakers = database.get_speakers(id)
     talks = database.get_talks(speakers)
 
     return rsser.create_rss_feed(talks=talks, speakers=list(speakers))
