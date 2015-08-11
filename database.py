@@ -269,6 +269,14 @@ def get_all_speaker_and_counts():
     return speakers
 
 
+def generate_id(speakers):
+    return "ABCD"
+
+
+def get_speakers(id):
+    return ["Jeffrey R. Holland"]
+
+
 def clear_database():
     client = MongoClient()
     db = client.media
