@@ -156,8 +156,10 @@
     var first_presidency_names = ["Thomas S. Monson", "Henry B. Eyring", "Dieter F. Uchtdorf"]
     var twelve_apostles_names = ["Russell M. Nelson", "Dallin H. Oaks", "M. Russell Ballard", "Richard G. Scott", "Robert D. Hales", "Jeffrey R. Holland", "David A. Bednar", "Quentin L. Cook", "D. Todd Christofferson", "Neil L. Andersen"]
 
+    var server_url = "http://127.0.0.1:5000"
+
     talkfeedApp.controller('TalkFeedController', function($scope, $http) {
-        $http.get('speakers').then(function(response) {
+        $http.get(server_url + '/speakers').then(function(response) {
           $scope.speakers = response.data;
 
           $scope.first_presidency = [];
@@ -193,13 +195,24 @@
 
           // TODO: Make sure at least one person is selected
 
-          var url = "http://127.0.0.1:5000/feed/";
+          $http({
+            method: 'POST',
+            url: server_url + "/generate",
+            data: {'speakers': selected}
+          }).then(function (response) {
+            var id = response.data;
 
-          angular.forEach(selected, function(speaker) {
-            url += encodeURIComponent(speaker.name + ",");
+            console.log(server_url + "/feed/" + id)
           });
 
-          console.log(url);
+
+
+
+          // angular.forEach(selected, function(speaker) {
+          //   url += encodeURIComponent(speaker.name + ",");
+          // });
+
+          // console.log(url);
 
           // $http.get('generate').then(function(data) {
           //   console.log("generated...");
