@@ -7,6 +7,7 @@ from itertools import cycle
 from pymongo import MongoClient
 from pprint import pprint
 import requests
+import random
 
 
 def _get_month_year(start, end):
@@ -270,11 +271,38 @@ def get_all_speaker_and_counts():
 
 
 def generate_id(speakers):
-    return "ABCD"
+    client = MongoClient()
+    db = client.media
+    ids = db.ids
+
+    speakers = sorted(speakers)
+    id_ = ids.find_one({"speakers": speakers}, {"_id": 1})
+
+    if id_ is not None:
+        return id_["_id"]
+    else:
+        id_ = format(random.randint(0, 16777215), 'x')
+
+        # Make sure I'm not duplicating a key
+        while ids.find_one({"_id": id_}) is not None:
+            id_ = format(random.randint(0, 16777215), 'x')
+
+        ids.insert_one({'_id': id_, "speakers": speakers})
+
+        return id_
 
 
-def get_speakers(id):
-    return ["Jeffrey R. Holland"]
+def get_speakers(id_):
+    client = MongoClient()
+    db = client.media
+    ids = db.ids
+
+    result = ids.find_one({'_id': id_})
+
+    if result is not None:
+        return result['speakers']
+    else:
+        return None
 
 
 def clear_database():

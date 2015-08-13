@@ -202,7 +202,8 @@
           }).then(function (response) {
             var id = response.data;
 
-            console.log(server_url + "/feed/" + id)
+            // console.log(server_url + "/feed/" + id)
+            $scope.link = server_url + "/feed/" + id;
           });
 
 
@@ -222,6 +223,17 @@
           // });
         }
       });
+
+    talkfeedApp.directive('scrollOnClick', function() {
+      return {
+        restrict: 'A',
+        link: function(scope, $elm) {
+          $elm.on('click', function() {
+            $("body").animate({scrollTop: $elm.offset().top + 70}, "slow");
+          });
+        }
+      }
+    });
   </script>
 </body>
 </html>

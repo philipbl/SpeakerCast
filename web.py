@@ -34,8 +34,12 @@ def generate():
 @app.route('/feed/<id>')
 def feed(id):
     speakers = database.get_speakers(id)
-    talks = database.get_talks(speakers)
 
+    if speakers is None:
+        # TODO: Send some error
+        return "ERROR"
+
+    talks = database.get_talks(speakers)
     return rsser.create_rss_feed(talks=talks, speakers=list(speakers))
 
 
