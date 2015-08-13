@@ -315,8 +315,8 @@ def clear_database():
     speakers.remove({})
 
 
-def update_database():
-    if _new_database_version():
+def update_database(force=False):
+    if _new_database_version() or force:
         print("Updating database to new version")
         clear_database()
         create_database()

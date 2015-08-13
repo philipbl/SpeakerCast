@@ -70,11 +70,7 @@ def list_speakers():
 
 
 def update_database(force):
-    if force:
-        database.clear_database()
-        database.create_database()
-    else:
-        database.update_database()
+    database.update_database(force)
 
 
 if __name__ == '__main__':
