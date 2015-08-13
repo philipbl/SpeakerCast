@@ -175,7 +175,7 @@ def _new_database_version():
         # This will happen the first time the value is put into
         # into the database
         metadata.insert({'db_version': new_version})
-        return False
+        return True
 
     if new_version != old_version['db_version']:
         old_version['db_version'] = new_version
@@ -314,12 +314,16 @@ def clear_database():
     speakers = db.conference_speakers
     speakers.remove({})
 
+    metadata = db.metadata
+    metadata.remove({})
+
 
 def update_database(force=False):
     if _new_database_version() or force:
         print("Updating database to new version")
         clear_database()
         create_database()
+        _new_database_version()
     else:
         print("Database is already up to date")
 
