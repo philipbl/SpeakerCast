@@ -319,11 +319,11 @@ def clear_database():
     metadata.remove({})
 
 
-def update_database(force=False):
+def update_database(start=(1971, 4), end=(date.today().year, date.today().month), force=False):
     if _new_database_version() or force:
         print("Updating database to new version")
         clear_database()
-        create_database()
+        create_database(start, end)
         _new_database_version()
     else:
         print("Database is already up to date")
