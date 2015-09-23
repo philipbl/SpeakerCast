@@ -1,17 +1,17 @@
 language: python
 
 python:
-  - "2.6"
-  - "2.7"
+  # - "2.6"
+  # - "2.7"
   - "3.3"
   - "3.4"
-  - "3.5.0b3"
-  - "3.5-dev"
+  # - "3.5.0b3"
+  # - "3.5-dev"
 
 matrix:
-  allow_failures:
-    - python: "3.5.0b3"
-    - python: "3.5-dev"
+  # allow_failures:
+  #   - python: "3.5.0b3"
+  #   - python: "3.5-dev"
 
   fast_finish: true
 
@@ -21,4 +21,4 @@ services:
 install:
   - "pip install -r requirements.txt"
 
-script: py.test -s
+script: py.test -s -v
