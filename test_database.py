@@ -6,6 +6,7 @@ import database as db
 import pytest
 from datetime import datetime
 import os
+import sys
 
 
 def test_get_talk():
@@ -27,10 +28,16 @@ def test_get_talk():
     talk = db.get_talk("Gordon B. Hinckley")[0]
 
     # Make sure the fields that I am expecting are here
-    expected = {'session': str, 'preview': str, 'audio_url': str,
-                'html': str, 'speaker': str, 'audio_size': int,
-                'title': str, 'time': datetime}
+    if sys.version_info[0] < 3:
+        expected = {'session': unicode, 'preview': unicode, 'audio_url': unicode,
+                    'html': unicode, 'speaker': unicode, 'audio_size': int,
+                    'title': unicode, 'time': datetime}
+    else:
+        expected = {'session': str, 'preview': str, 'audio_url': str,
+                    'html': str, 'speaker': str, 'audio_size': int,
+                    'title': str, 'time': datetime}
 
+    # Make sure all fields are there
     assert len(set(expected.keys()) - set(talk.keys())) == 0
 
     # Make sure the fields are the right type
