@@ -1,9 +1,10 @@
 beautifulsoup4==4.4.0
 docopt==0.6.2
 Flask==0.10.1
+Flask-Cors==2.1.0
 gunicorn==19.3.0
 itsdangerous==0.24
-Jinja2==2.7.3
+Jinja2==2.8
 MarkupSafe==0.23
 py==1.4.30
 pymongo==3.0.3
@@ -11,4 +12,5 @@ pytest==2.7.2
 -e git+https://github.com/philipbl/python-gospel-library.git@02808e047c8cee31030e647d3e020e21092d79eb#egg=python_gospel_library-origin_attributes
 reprutils==1.0
 requests==2.4.3
+six==1.9.0
 Werkzeug==0.10.4

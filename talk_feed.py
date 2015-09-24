@@ -6,17 +6,23 @@ A tool for creating podcasts of speakers from General Conference.
 Usage:
     talk_feed.py list
     talk_feed.py update [--force]
-    talk_feed.py create <speaker> ...
+    talk_feed.py generate <speaker> ...
+    talk_feed.py get <url>
 
 Options:
     -h , --help     Show this message
     list            Lists all valid speakers
+
     update          Checks to see if there is an update to the church's database. If there is,
                     the database is updated. It takes a few minutes to update the database.
         --force     Forces an update even if there is no update to the church's database.
-    create          Creates a podcast feed based on the speakers provided. The name has
+
+    generate        Creates a podcast feed based on the speakers provided. The name has
                     to be the full name (and correctly spelled) of the speaker. For
-                    example, "Jeffrey R. Holland".
+                    example, "Jeffrey R. Holland". This will provide you with a URL to
+                    the feed.
+
+    get             Downloads the feed for the specified URL.
 """
 
 
@@ -27,7 +33,7 @@ from datetime import datetime
 import rsser
 
 
-def create_feed(speakers):
+def generate(speakers):
     all_speakers = set([s for c, s in database.get_all_speaker_and_counts()])
     speakers = set(speakers)
 
@@ -37,8 +43,21 @@ def create_feed(speakers):
         print("Unable to find {}".format(', '.join(left)))
         return
 
-    talks = database.get_talks(speakers)
+    id_ = database.generate_id(speakers)
 
+    print("http://something/feed/{}".format(id_))
+
+
+def get(url):
+    id_ = url.split('/')[-1]
+
+    speakers = database.get_speakers(id_)
+
+    if speakers is None:
+        print("Unrecognized URL: {}".format(url))
+        return
+
+    talks = database.get_talks(speakers)
     rss_feed = rsser.create_rss_feed(talks, speakers)
     print(rss_feed)
 
@@ -61,8 +80,10 @@ def update_database(force):
 if __name__ == '__main__':
     args = docopt.docopt(__doc__)
 
-    if args['create']:
-        create_feed(args['<speaker>'])
+    if args['generate']:
+        generate(args['<speaker>'])
+    elif args['get']:
+        get(args['<url>'])
     elif args['list']:
         list_speakers()
     elif args['update']:
