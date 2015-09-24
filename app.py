@@ -1,13 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import os
-import urllib.parse
-from datetime import datetime, timedelta
-from flask import Flask, request, json, make_response, request, current_app
+from flask import Flask, request, json
 from flask.ext.cors import CORS
-from jinja2 import Environment, FileSystemLoader, Template
-from functools import update_wrapper
 import database
 import rsser
 
