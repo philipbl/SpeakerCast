@@ -151,10 +151,11 @@ def _valid_talk(talk):
 
 def _get_speaker_image(speaker):
     speaker = speaker.lower()
+    speaker = speaker.replace('\xc2', '')
     speaker = speaker.replace(' ', '-')
     speaker = speaker.replace('.', '')
 
-    url = 'https://www.lds.org/bc/content/shared/content/images/leaders/{}-large.jpg'.format(speaker)
+    url = 'https://www.lds.org/bc/content/shared/content/images/leaders/{0}-large.jpg'.format(speaker)
     # r = requests.get(url)
     # if r.status_code == 200:
     #     return url
@@ -175,7 +176,7 @@ def _new_database_version():
         # This will happen the first time the value is put into
         # into the database
         metadata.insert({'db_version': new_version})
-        return False
+        return True
 
     if new_version != old_version['db_version']:
         old_version['db_version'] = new_version
@@ -197,8 +198,8 @@ def create_database(start=(1971, 4), end=(date.today().year, date.today().month)
 
     # Create main database
     for month, year in _get_month_year(start, end):
-        item_uri = "/general-conference/{}/{:02}".format(year, month)
-        print("~~~> Getting {}".format(item_uri))
+        item_uri = "/general-conference/{0}/{1:02}".format(year, month)
+        print("~~~> Getting {0}".format(item_uri))
 
         item = catalog.item(uri=item_uri, lang='eng')
         with item.package() as package:
@@ -314,12 +315,16 @@ def clear_database():
     speakers = db.conference_speakers
     speakers.remove({})
 
+    metadata = db.metadata
+    metadata.remove({})
 
-def update_database():
-    if _new_database_version():
+
+def update_database(start=(1971, 4), end=(date.today().year, date.today().month), force=False):
+    if _new_database_version() or force:
         print("Updating database to new version")
         clear_database()
-        create_database()
+        create_database(start, end)
+        _new_database_version()
     else:
         print("Database is already up to date")
 
