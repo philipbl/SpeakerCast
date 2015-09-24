@@ -11,7 +11,6 @@ import requests
 
 def _get_month_year(start, end):
 
-    # start_year = 1971
     start_year, start_month = start
     end_year, end_month = end
 
@@ -24,12 +23,13 @@ def _get_month_year(start, end):
             if start_month <= 10:
                 yield 10, year
 
-        if year == end_year:
+        elif year == end_year:
             if end_month >= 4:
                 yield 4, year
 
             if end_month >= 10:
                 yield 10, year
+
         else:
             yield 4, year
             yield 10, year
