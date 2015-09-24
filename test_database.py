@@ -8,18 +8,16 @@ from datetime import datetime
 
 
 def test_get_talk():
-    # Make sure we have the most recent version
-    db.update_database(start=(2014,4))
+    # Populate database
+    db.clear_database()
+    db.update_database(start=(2000,4), end=(2005,4))
 
     # Pick a few speakers to make sure their counts are correct
-    # I only want to pick people that aren't going to be giving
-    # any more talks so their count won't change
-    expected = {"Sterling W. Sill": 13,
-                "Gordon B. Hinckley": 210,
-                "Boyd K. Packer": 91,
-                "L. Tom Perry": 87,
-                "Joseph B. Wirthlin": 53,
-                "Bruce R. McConkie": 29}
+    expected = {"Gordon B. Hinckley": 48,
+                "Thomas S. Monson": 26,
+                "Boyd K. Packer": 11,
+                "L. Tom Perry": 11,
+                "Joseph B. Wirthlin": 11}
 
     for name, count in expected.items():
         talks = db.get_talk(name)
@@ -39,44 +37,84 @@ def test_get_talk():
         assert expected[key] == type(talk[key])
 
 
-# def test_get_all_speaker_and_count():
-#     # Make sure we have the most recent version
-#     db.update_database()
+def test_get_all_speaker_and_count():
+    """
+    Do the same test as above, except use get_all_sepaker_and_count
+    instead of getting individual speakers. This makes sure the database
+    is correct and that the different access methods are consistent with
+    each other
+    """
 
-#     # Make sure there are the same or more talks than when I
-#     # wrote this test
-#     assert len(db.get_all_speaker_and_counts()) >= 451
+    # Populate database
+    db.clear_database()
+    db.update_database(start=(2000,4), end=(2005,4))
 
-#     expected = {"Sterling W. Sill": 13,
-#                 "Gordon B. Hinckley": 210,
-#                 "Boyd K. Packer": 91,
-#                 "L. Tom Perry": 87,
-#                 "Joseph B. Wirthlin": 53,
-#                 "Bruce R. McConkie": 29}
+    assert len(db.get_all_speaker_and_counts()) >= 122
 
-#     # Make sure the counts are the same
-#     # This tests the same thing as the previous tests
-#     # This makes sure the database is correct and that the methods
-#     # are consistent with each other
-#     for count, speaker in db.get_all_speaker_and_counts():
-#         if speaker in expected:
-#             assert expected[speaker] == count
+    expected = {"Gordon B. Hinckley": 48,
+                "Thomas S. Monson": 26,
+                "Boyd K. Packer": 11,
+                "L. Tom Perry": 11,
+                "Joseph B. Wirthlin": 11}
+
+    for count, speaker in db.get_all_speaker_and_counts():
+        if speaker in expected:
+            assert expected[speaker] == count
 
 
-# def test_speakers_id():
-#     # Make sure we have the most recent version
-#     db.update_database()
+def test_all_talks():
+    """
+    Test all talks in database up to a certain point. This will make sure
+    that the database isn't changing without me knowing it.
+    """
 
-#     speakers = ['Jeffrey R. Holland']
-#     id_ = db.generate_id(speakers)
+    # Populate database
+    db.clear_database()
+    db.update_database(end=(2015, 4))
 
-#     # Make sure I got something
-#     assert id_ is not None
+    assert len(db.get_all_speaker_and_counts()) == 451
 
-#     # Make sure using the ID returns the same speakers
-#     assert db.get_speakers(id_) == speakers
+    expected = {"Sterling W. Sill": 11,
+                "Gordon B. Hinckley": 208,
+                "Boyd K. Packer": 89,
+                "L. Tom Perry": 87,
+                "Joseph B. Wirthlin": 53,
+                "Bruce R. McConkie": 27}
 
-#     # Make sure the id is returned again if the same speakers are used
-#     assert id_ == db.generate_id(speakers)
+    for name, count in expected.items():
+        talks = db.get_talk(name)
+        assert len(talks) == count
+
+    for count, speaker in db.get_all_speaker_and_counts():
+        if speaker in expected:
+            assert expected[speaker] == count
+
+
+def test_speakers_id():
+    # Populate database
+    db.clear_database()
+    db.update_database(start=(2014, 4), end=(2015, 4))
+
+    speakers_1 = ['Jeffrey R. Holland']
+    speakers_2 = ['Jeffrey R. Holland', 'Henry B. Eyring']
+
+    id_1 = db.generate_id(speakers_1)
+    id_2 = db.generate_id(speakers_2)
+
+    # Make sure I got something
+    assert id_1 is not None
+    assert id_2 is not None
+
+    # Make sure ids are not the same
+    assert id_1 != id_2
+
+    # Make sure using the ID returns the same speakers
+    assert len(set(db.get_speakers(id_1)) - set(speakers_1)) == 0
+    assert len(set(db.get_speakers(id_2)) - set(speakers_2)) == 0
+
+    # Make sure the id is returned again if the same speakers are used
+    assert id_1 == db.generate_id(speakers_1)
+    assert id_2 == db.generate_id(speakers_2)
+
 
 
