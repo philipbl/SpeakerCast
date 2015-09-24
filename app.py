@@ -6,18 +6,21 @@ from flask.ext.cors import CORS
 import database
 import rsser
 
+# Update data before application is allowed to start
+database.update_database()
+
 app = Flask(__name__)
 CORS(app)
 
 
-@app.route('/speakers')
+@app.route('/talkfeed/speakers')
 def speakers():
     speakers = [{'name': name, 'talks': count}
                 for count, name in database.get_all_speaker_and_counts()]
     return json.dumps(speakers)
 
 
-@app.route('/generate', methods=['POST', 'OPTIONS'])
+@app.route('/talkfeed/speakercast/generate', methods=['POST', 'OPTIONS'])
 def generate():
     data = json.loads(request.data)
     speakers = data['speakers']
@@ -26,7 +29,7 @@ def generate():
     return id_
 
 
-@app.route('/feed/<id>')
+@app.route('/talkfeed/feed/<id>')
 def feed(id):
     speakers = database.get_speakers(id)
 
