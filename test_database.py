@@ -5,6 +5,7 @@ import talk_feed as tf
 import database as db
 import pytest
 from datetime import datetime
+import os
 
 
 def test_get_talk():
@@ -62,6 +63,8 @@ def test_get_all_speaker_and_count():
             assert expected[speaker] == count
 
 
+@pytest.mark.skipif(os.environ.get('TRAVIS') == 'true',
+                    reason="Test fails on Travis because of mongodb")
 def test_all_talks():
     """
     Test all talks in database up to a certain point. This will make sure
