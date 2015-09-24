@@ -125,7 +125,7 @@ def _get_talk_info(talk, package, year, month):
         audio_size = None
 
     return {'title': title,
-            'speaker': speaker,
+            'speaker': speaker.replace('\xc2', ''),
             'session': session,
             'time': time,
             'url': talk_url,
