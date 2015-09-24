@@ -72,8 +72,6 @@ def test_all_talks():
     db.clear_database()
     db.update_database(end=(2015, 4))
 
-    assert len(db.get_all_speaker_and_counts()) == 451
-
     expected = {"Sterling W. Sill": 11,
                 "Gordon B. Hinckley": 208,
                 "Boyd K. Packer": 89,
@@ -84,10 +82,6 @@ def test_all_talks():
     for name, count in expected.items():
         talks = db.get_talk(name)
         assert len(talks) == count
-
-    for count, speaker in db.get_all_speaker_and_counts():
-        if speaker in expected:
-            assert expected[speaker] == count
 
 
 def test_speakers_id():
