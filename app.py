@@ -22,10 +22,14 @@ def speakers():
 
 @app.route('/speakercast/generate', methods=['POST', 'OPTIONS'])
 def generate():
+    if request.method == 'OPTIONS':
+        return ""
+
     data = json.loads(request.data)
     speakers = data['speakers']
 
     id_ = database.generate_id(speakers)
+    print("Generating id ({}) for {}".format(id_, speakers))
     return id_
 
 
