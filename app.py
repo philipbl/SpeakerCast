@@ -20,7 +20,7 @@ def speakers():
     return json.dumps(speakers)
 
 
-@app.route('/speakercast/speakercast/generate', methods=['POST', 'OPTIONS'])
+@app.route('/speakercast/generate', methods=['POST', 'OPTIONS'])
 def generate():
     data = json.loads(request.data)
     speakers = data['speakers']
