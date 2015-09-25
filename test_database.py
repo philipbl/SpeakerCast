@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import talk_feed as tf
 import database as db
 import pytest
 from datetime import datetime

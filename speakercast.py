@@ -4,10 +4,10 @@
 A tool for creating podcasts of speakers from General Conference.
 
 Usage:
-    talk_feed.py list
-    talk_feed.py update [--force]
-    talk_feed.py generate <speaker> ...
-    talk_feed.py get <url>
+    speakercast.py list
+    speakercast.py update [--force]
+    speakercast.py generate <speaker> ...
+    speakercast.py get <url>
 
 Options:
     -h , --help     Show this message
