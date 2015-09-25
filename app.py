@@ -13,14 +13,14 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route('/talkfeed/speakers')
+@app.route('/speakercast/speakers')
 def speakers():
     speakers = [{'name': name, 'talks': count}
                 for count, name in database.get_all_speaker_and_counts()]
     return json.dumps(speakers)
 
 
-@app.route('/talkfeed/speakercast/generate', methods=['POST', 'OPTIONS'])
+@app.route('/speakercast/speakercast/generate', methods=['POST', 'OPTIONS'])
 def generate():
     data = json.loads(request.data)
     speakers = data['speakers']
@@ -29,7 +29,7 @@ def generate():
     return id_
 
 
-@app.route('/talkfeed/feed/<id>')
+@app.route('/speakercast/feed/<id>')
 def feed(id):
     speakers = database.get_speakers(id)
 
