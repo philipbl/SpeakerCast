@@ -14,7 +14,7 @@
 
   <!-- <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'> -->
 
-  <title>Talk Feed</title>
+  <title>Speakercast</title>
 </head>
 <body ng-controller="SpeakerController">
   <div>
@@ -37,16 +37,12 @@
     <section class="feed">
       <div class="container">
         <div class="col-md-8">
-          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel-group" id="accordion" role="tablist">
             <div class="panel panel-primary">
-              <div class="panel-heading" role="tab" id="headingOne">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Current Apostles
-                  </a>
-                </h4>
+              <div class="panel-heading" role="tab">
+                <h4 class="panel-title">Current Apostles</h4>
               </div>
-              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div class="" role="tabpanel">
                 <div class="panel-body ng-cloak">
                   <div class="row">
                     <div class="col-sm-4" ng-repeat="speaker in first_presidency | orderBy:'index'">
@@ -64,17 +60,13 @@
               </div>
             </div>
             <div class="panel panel-primary">
-              <div class="panel-heading" role="tab" id="headingTwo">
-                <h4 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    All General Conference Speakers
-                  </a>
-                </h4>
+              <div class="panel-heading" role="tab">
+                <h4 class="panel-title">All General Conference Speakers</h4>
               </div>
-              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body ng-cloak">
                   <div class="row">
-                    <label>Search: <input ng-model="searchText"></label>
+                    <label>Search: <input ng-model="searchText" onkeydown="onkeypressed(event, this);"></label>
                   </div>
                   <div class="row">
                     <div class="col-sm-4" ng-repeat="speaker in speakers | filter:searchText">
@@ -88,21 +80,44 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div>
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-primary">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Selected
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body ng-cloak">
+                  <ul class="ng-cloak">
+                    <li ng-repeat="selected in selected()">
+                      {{ selected.name }}
+                    </li>
+                  </ul>
+
+                  <button class="btn btn-intro" ng-click="generate()">Generate</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div>
             Selected:
             <ul class="ng-cloak">
               <li ng-repeat="selected in selected()">
                 {{ selected.name }}
               </li>
             </ul>
-          </div>
-          <button class="btn btn-intro" ng-click="generate()">Generate</button>
+          </div> -->
         </div>
       </div>
     </section>
 
   </div>
 
+  <script src="assets/js/script.js"></script>
   <script src="assets/js/jquery-2.1.4.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
 </body>
