@@ -62,6 +62,11 @@
   border-radius: 5px;
 }
 
+.selected-panel.affix {
+  top: 10px;
+  width: 283px;
+}
+
 .selected-speakers {
   margin: 0 0 10px 0;
 }

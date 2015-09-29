@@ -51,7 +51,7 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-sm-4" ng-repeat="speaker in twelve_apostles | orderBy:'index'">
+                    <div class="col-sm-4" ng-repeat="speaker in twelve_apostles | orderBy:'index'" my-repeat-directive>
                       <input type="checkbox" ng-model="speaker.selected">
                       <span class="selected-{{speaker.selected}}">{{speaker.name}}</span>
                     </div>
@@ -80,7 +80,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div id="selected-panel" class="panel-group selected-panel" id="accordion" role="tablist" aria-multiselectable="true">
             <div class="panel panel-primary">
               <div class="panel-heading">
                 <h4 class="panel-title">Selected</h4>
@@ -98,22 +98,13 @@
               </div>
             </div>
           </div>
-          <!-- <div>
-            Selected:
-            <ul class="ng-cloak">
-              <li ng-repeat="selected in selected()">
-                {{ selected.name }}
-              </li>
-            </ul>
-          </div> -->
         </div>
       </div>
     </section>
-
   </div>
 
-  <script src="assets/js/script.js"></script>
   <script src="assets/js/jquery-2.1.4.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>

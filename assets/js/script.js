@@ -4,3 +4,16 @@ function onkeypressed(evt, input) {
         input.value = '';
     }
 }
+
+function set_affix() {
+    $('#selected-panel').affix({
+        offset: {
+        top: 635,
+        // bottom: function () {
+        //     // console.log($(document).height());
+        //   // return (this.bottom = $(document).height());
+        //   return 0;
+        // }
+      }
+    });
+}

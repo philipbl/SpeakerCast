@@ -44,14 +44,11 @@ speakercastApp.controller('SpeakerController', function($scope, $http) {
     $scope.generate = function() {
       var selected = $scope.selected();
 
-      // TODO: Make sure at least one person is selected
-
-      // Only keep the name
+      // Only keep the name of the speaker
       var selected_names = []
       angular.forEach(selected, function(speaker) {
         selected_names.push(speaker.name);
       });
-
 
       $http({
         method: 'POST',
@@ -80,6 +77,16 @@ speakercastApp.controller('SpeakerController', function($scope, $http) {
   //     // });
     }
   // });
+});
+
+speakercastApp.directive('myRepeatDirective', function() {
+  return function(scope, element, attrs) {
+    if (scope.$last) {
+      console.log("before: " + $(document).height());
+      setTimeout(set_affix, 1000);
+    }
+  };
+});
 
 // talkfeedApp.directive('scrollOnClick', function() {
 //   return {
@@ -90,4 +97,3 @@ speakercastApp.controller('SpeakerController', function($scope, $http) {
 //       });
 //     }
 //   }
-});
