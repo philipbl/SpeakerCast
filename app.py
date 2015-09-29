@@ -28,8 +28,11 @@ def generate():
     data = json.loads(request.data)
     speakers = data['speakers']
 
+    if len(speakers) == 0:
+        return ""
+
     id_ = database.generate_id(speakers)
-    print("Generating id ({}) for {}".format(id_, speakers))
+    print("Generated id ({}) for {}".format(id_, speakers))
     return id_
 
 
