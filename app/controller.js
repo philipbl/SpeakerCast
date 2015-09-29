@@ -26,6 +26,8 @@ speakercastApp.controller('SpeakerController', function($scope, $http) {
       });
     });
 
+    $scope.anySelected = false;
+
     $scope.selected = function() {
       var names = [];
       angular.forEach($scope.speakers, function(speaker) {
@@ -33,6 +35,9 @@ speakercastApp.controller('SpeakerController', function($scope, $http) {
           names.push(speaker);
         }
       });
+
+      $scope.anySelected = names.length > 0;
+
       return names;
     };
 

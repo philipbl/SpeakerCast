@@ -71,7 +71,7 @@
                   <div class="row">
                     <div class="col-sm-4" ng-repeat="speaker in speakers | filter:searchText">
                       <input type="checkbox" ng-model="speaker.selected">
-                      <span class="selected-{{speaker.selected}}">{{speaker.name}} ({{speaker.talks}})</span>
+                      <span class="selected-{{speaker.selected}}">{{speaker.name}}</span>
                     </div>
                   </div>
                 </div>
@@ -82,23 +82,18 @@
         <div class="col-md-4">
           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
             <div class="panel panel-primary">
-              <div class="panel-heading" role="tab" id="headingOne">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Selected
-                  </a>
-                </h4>
+              <div class="panel-heading">
+                <h4 class="panel-title">Selected</h4>
               </div>
-              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div>
                 <div class="panel-body ng-cloak">
-                  <ul class="ng-cloak">
-                    <li ng-repeat="selected in selected()">
+                  <div ng-hide="anySelected">None selected</div>
+                  <div class="selected-speakers">
+                    <div class="" ng-repeat="selected in selected()">
                       {{ selected.name }}
-                    </li>
-                  </ul>
-
-                  <button class="btn btn-intro" ng-click="generate()">Generate</button>
-
+                    </div>
+                  </div>
+                  <button class="btn btn-default" ng-disabled="!anySelected" ng-click="generate()">Generate</button>
                 </div>
               </div>
             </div>
