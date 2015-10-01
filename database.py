@@ -8,7 +8,12 @@ from pymongo import MongoClient
 from pprint import pprint
 import requests
 import random
+import os
 
+try:
+    MONGO_URL = os.environ['MONGO_URL']
+except KeyError:
+    raise Exception("MONGO_URL environment variable must be defined.")
 
 def _get_month_year(start, end):
 
@@ -165,7 +170,7 @@ def _get_speaker_image(speaker):
 
 
 def _new_database_version():
-    client = MongoClient()
+    client = MongoClient(MONGO_URL)
     db = client.media
     metadata = db.metadata
 
@@ -191,7 +196,7 @@ def create_database(start=(1971, 4), end=(date.today().year, date.today().month)
     print("Creating database...")
     catalog = Catalog()
 
-    client = MongoClient()
+    client = MongoClient(MONGO_URL)
     db = client.media
     talks_db = db.conference_talks
     speakers_db = db.conference_speakers
@@ -241,7 +246,7 @@ def create_database(start=(1971, 4), end=(date.today().year, date.today().month)
 
 
 def get_talk(speaker):
-    client = MongoClient()
+    client = MongoClient(MONGO_URL)
     db = client.media
     speakers = db.conference_speakers
 
@@ -260,7 +265,7 @@ def get_talks(speakers):
 
 
 def get_all_speaker_and_counts():
-    client = MongoClient()
+    client = MongoClient(MONGO_URL)
     db = client.media
     speakers = db.conference_speakers
 
@@ -272,7 +277,7 @@ def get_all_speaker_and_counts():
 
 
 def generate_id(speakers):
-    client = MongoClient()
+    client = MongoClient(MONGO_URL)
     db = client.media
     ids = db.ids
 
@@ -294,7 +299,7 @@ def generate_id(speakers):
 
 
 def get_speakers(id_):
-    client = MongoClient()
+    client = MongoClient(MONGO_URL)
     db = client.media
     ids = db.ids
 
@@ -307,7 +312,7 @@ def get_speakers(id_):
 
 
 def clear_database():
-    client = MongoClient()
+    client = MongoClient(MONGO_URL)
     db = client.media
     talks = db.conference_talks
     talks.remove({})
