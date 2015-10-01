@@ -45,15 +45,18 @@
               <div class="" role="tabpanel">
                 <div class="panel-body ng-cloak">
                   <div class="row">
-                    <div class="col-sm-4" ng-repeat="speaker in first_presidency | orderBy:'index'">
-                      <input type="checkbox" ng-model="speaker.selected">
-                      <span class="selected-{{speaker.selected}}">{{speaker.name}}</span>
+                    <div class="col-sm-4 checkbox" ng-repeat="speaker in first_presidency | orderBy:'index'">
+                      <label class="selected-{{speaker.selected}}">
+                        <input type="checkbox" ng-model="speaker.selected">{{speaker.name}}
+                      </label>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-sm-4" ng-repeat="speaker in twelve_apostles | orderBy:'index'" my-repeat-directive>
-                      <input type="checkbox" ng-model="speaker.selected">
-                      <span class="selected-{{speaker.selected}}">{{speaker.name}}</span>
+                    <div class="col-sm-4 checkbox" ng-repeat="speaker in twelve_apostles | orderBy:'index'" my-repeat-directive>
+
+                      <label class="selected-{{speaker.selected}}">
+                        <input type="checkbox" ng-model="speaker.selected">{{speaker.name}}
+                      </label>
                     </div>
                   </div>
                 </div>
@@ -69,9 +72,10 @@
                     <label>Search: <input ng-model="searchText" onkeydown="onkeypressed(event, this);"></label>
                   </div>
                   <div class="row">
-                    <div class="col-sm-4" ng-repeat="speaker in speakers | filter:searchText">
-                      <input type="checkbox" ng-model="speaker.selected">
-                      <span class="selected-{{speaker.selected}}">{{speaker.name}}</span>
+                    <div class="col-sm-4 checkbox" ng-repeat="speaker in speakers | filter:searchText">
+                      <label class="selected-{{speaker.selected}}">
+                        <input type="checkbox" ng-model="speaker.selected">{{speaker.name}}
+                      </label>
                     </div>
                   </div>
                 </div>
