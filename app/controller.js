@@ -56,11 +56,8 @@ speakercastApp.controller('SpeakerController', function($scope, $http) {
         data: {'speakers': selected_names}
       }).then(function (response) {
         var id = response.data;
-        console.log(server_url + "/feed/" + id)
-        // $scope.link = server_url + "/feed/" + id;
+        $scope.feedUrl = server_url + "/feed/" + id;
       });
-
-
 
 
   //     // angular.forEach(selected, function(speaker) {
@@ -87,13 +84,3 @@ speakercastApp.directive('myRepeatDirective', function() {
     }
   };
 });
-
-// talkfeedApp.directive('scrollOnClick', function() {
-//   return {
-//     restrict: 'A',
-//     link: function(scope, $elm) {
-//       $elm.on('click', function() {
-//         $("body").animate({scrollTop: $elm.offset().top + 70}, "slow");
-//       });
-//     }
-//   }

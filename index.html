@@ -97,7 +97,17 @@
                 </div>
               </div>
             </div>
+            <div class="panel panel-primary" ng-hide="!feedUrl">
+              <div>
+                <div class="panel-body ng-cloak">
+                  <p>Here is a link to the feed:</p>
+                  <p><a href="{{ feedUrl }}">{{ feedUrl }}</a></p>
+                  <p>Copy this link into your podcast app.</p>
+                </div>
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
     </section>
