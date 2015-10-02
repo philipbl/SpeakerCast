@@ -39,6 +39,7 @@ def generate():
     speakers = data['speakers']
 
     if len(speakers) == 0:
+        logger.warning("Speaker list was empty. Ignoring request.")
         return ""
 
     id_ = database.generate_id(speakers)
@@ -52,10 +53,11 @@ def feed(id):
 
     if speakers is None:
         # TODO: Send some error
+        logger.error("No speakers match {}!".format(id))
         return "ERROR"
 
     talks = database.get_talks(speakers)
-    logger.info("Creating RSS feed for {}".format(id))
+    logger.info("Creating RSS feed for {}: {}".format(id, speakers))
     return rsser.create_rss_feed(talks=talks, speakers=list(speakers))
 
 

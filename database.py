@@ -246,6 +246,7 @@ def create_database(start=(1971, 4), end=(date.today().year, date.today().month)
     ])
 
     speakers_db.insert(speakers)
+    logger.info("Done creating database...")
 
 
 def get_talk(speaker):
