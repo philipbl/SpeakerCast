@@ -6,15 +6,16 @@ from flask.ext.cors import CORS
 import database
 import rsser
 import logging
+import threading
 
 logging.basicConfig(level=logging.INFO)
 logging.getLogger("gospellibrary").setLevel(logging.WARNING)
 logging.getLogger("requests").setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
-# Update data before application is allowed to start
-logger.info("Updating database...")
-database.update_database()
+# Update data base in background
+logger.info("Updating database in background...")
+threading.Thread(target=database.update_database).start()
 
 logger.info("Starting server...")
 app = Flask(__name__)
