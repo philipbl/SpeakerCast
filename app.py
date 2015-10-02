@@ -5,16 +5,25 @@ from flask import Flask, request, json
 from flask.ext.cors import CORS
 import database
 import rsser
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logging.getLogger("gospellibrary").setLevel(logging.WARNING)
+logging.getLogger("requests").setLevel(logging.WARNING)
+logger = logging.getLogger(__name__)
 
 # Update data before application is allowed to start
+logger.info("Updating database...")
 database.update_database()
 
+logger.info("Starting server...")
 app = Flask(__name__)
 CORS(app)
 
 
 @app.route('/speakercast/speakers')
 def speakers():
+    logger.info("Getting speakers")
     speakers = [{'name': name, 'talks': count}
                 for count, name in database.get_all_speaker_and_counts()]
     return json.dumps(speakers)
@@ -32,7 +41,7 @@ def generate():
         return ""
 
     id_ = database.generate_id(speakers)
-    print("Generated id ({}) for {}".format(id_, speakers))
+    logger.info("Generated id ({}) for {}".format(id_, speakers))
     return id_
 
 
@@ -45,6 +54,7 @@ def feed(id):
         return "ERROR"
 
     talks = database.get_talks(speakers)
+    logger.info("Creating RSS feed for {}".format(id))
     return rsser.create_rss_feed(talks=talks, speakers=list(speakers))
 
 

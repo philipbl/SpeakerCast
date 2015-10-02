@@ -5,18 +5,20 @@ from gospellibrary import Catalog
 from datetime import date, datetime, timedelta
 from itertools import cycle
 from pymongo import MongoClient
-from pprint import pprint
 import requests
 import random
 import os
+import logging
+
+logger = logging.getLogger(__name__)
 
 try:
     MONGO_URL = os.environ['MONGO_URL']
 except KeyError:
+    logger.error("MONGO_URL environment variable must be defined.")
     raise Exception("MONGO_URL environment variable must be defined.")
 
 def _get_month_year(start, end):
-
     start_year, start_month = start
     end_year, end_month = end
 
@@ -193,7 +195,7 @@ def _new_database_version():
 
 
 def create_database(start=(1971, 4), end=(date.today().year, date.today().month)):
-    print("Creating database...")
+    logger.info("Creating database...")
     catalog = Catalog()
 
     client = MongoClient(MONGO_URL)
@@ -204,7 +206,7 @@ def create_database(start=(1971, 4), end=(date.today().year, date.today().month)
     # Create main database
     for month, year in _get_month_year(start, end):
         item_uri = "/general-conference/{0}/{1:02}".format(year, month)
-        print("~~~> Getting {0}".format(item_uri))
+        logger.info("~~~> Getting {0}".format(item_uri))
 
         item = catalog.item(uri=item_uri, lang='eng')
         with item.package() as package:
@@ -326,10 +328,10 @@ def clear_database():
 
 def update_database(start=(1971, 4), end=(date.today().year, date.today().month), force=False):
     if _new_database_version() or force:
-        print("Updating database to new version")
+        logger.info("Updating database to new version")
         clear_database()
         create_database(start, end)
         _new_database_version()
     else:
-        print("Database is already up to date")
+        logger.info("Database is already up to date")
 
