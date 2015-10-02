@@ -36,7 +36,11 @@ def generate():
         return ""
 
     data = json.loads(request.data)
-    speakers = data['speakers']
+    speakers = data.get('speakers')
+
+    if speakers is None:
+        logger.error("No \"speakers\" field in request data!")
+        return "ERROR"
 
     if len(speakers) == 0:
         logger.warning("Speaker list was empty. Ignoring request.")
