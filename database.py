@@ -280,7 +280,10 @@ def get_all_speaker_and_counts():
     return speakers
 
 
-def generate_id(speakers):
+def generate_id(speakers, id_generator=None):
+    if id_generator is None:
+        id_generator = lambda: random.randint(0, 16777215)
+
     client = MongoClient(MONGO_URL)
     db = client.speakercastDB
     ids = db.ids
@@ -291,11 +294,11 @@ def generate_id(speakers):
     if id_ is not None:
         return id_["_id"]
     else:
-        id_ = format(random.randint(0, 16777215), 'x')
+        id_ = format(id_generator(), 'x')
 
         # Make sure I'm not duplicating a key
         while ids.find_one({"_id": id_}) is not None:
-            id_ = format(random.randint(0, 16777215), 'x')
+            id_ = format(id_generator(), 'x')
 
         ids.insert_one({'_id': id_, "speakers": speakers})
 
