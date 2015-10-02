@@ -40,11 +40,11 @@ def generate():
 
     if speakers is None:
         logger.error("No \"speakers\" field in request data!")
-        return "ERROR"
+        return json.dumps({"error": "No \"speakers\" field in request data!"})
 
     if len(speakers) == 0:
         logger.warning("Speaker list was empty. Ignoring request.")
-        return ""
+        return json.dumps({"error": "Speaker list was empty. Ignoring request."})
 
     id_ = database.generate_id(speakers)
     logger.info("Generated id ({}) for {}".format(id_, speakers))
@@ -58,7 +58,7 @@ def feed(id):
     if speakers is None:
         # TODO: Send some error
         logger.error("No speakers match {}!".format(id))
-        return "ERROR"
+        return json.dumps({"error": "No speakers match {}!".format(id)})
 
     talks = database.get_talks(speakers)
     logger.info("Creating RSS feed for {}: {}".format(id, speakers))
