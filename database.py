@@ -14,6 +14,7 @@ logger = logging.getLogger(__name__)
 
 try:
     MONGO_URL = os.environ['MONGO_URL']
+    logger.info("mongo URL: {}".format(MONGO_URL))
 except KeyError:
     logger.error("MONGO_URL environment variable must be defined.")
     raise Exception("MONGO_URL environment variable must be defined.")
@@ -173,7 +174,7 @@ def _get_speaker_image(speaker):
 
 def _new_database_version():
     client = MongoClient(MONGO_URL)
-    db = client.media
+    db = client.speakercastDB
     metadata = db.metadata
 
     new_version = Catalog().current_version()
@@ -199,7 +200,7 @@ def create_database(start=(1971, 4), end=(date.today().year, date.today().month)
     catalog = Catalog()
 
     client = MongoClient(MONGO_URL)
-    db = client.media
+    db = client.speakercastDB
     talks_db = db.conference_talks
     speakers_db = db.conference_speakers
 
@@ -249,7 +250,7 @@ def create_database(start=(1971, 4), end=(date.today().year, date.today().month)
 
 def get_talk(speaker):
     client = MongoClient(MONGO_URL)
-    db = client.media
+    db = client.speakercastDB
     speakers = db.conference_speakers
 
     speakers = speakers.find({"_id": speaker}, {"talks": 1})
@@ -268,7 +269,7 @@ def get_talks(speakers):
 
 def get_all_speaker_and_counts():
     client = MongoClient(MONGO_URL)
-    db = client.media
+    db = client.speakercastDB
     speakers = db.conference_speakers
 
     speakers = speakers.find({}, {"_id": 1, "total": 1})
@@ -280,7 +281,7 @@ def get_all_speaker_and_counts():
 
 def generate_id(speakers):
     client = MongoClient(MONGO_URL)
-    db = client.media
+    db = client.speakercastDB
     ids = db.ids
 
     speakers = sorted(speakers)
@@ -302,7 +303,7 @@ def generate_id(speakers):
 
 def get_speakers(id_):
     client = MongoClient(MONGO_URL)
-    db = client.media
+    db = client.speakercastDB
     ids = db.ids
 
     result = ids.find_one({'_id': id_})
@@ -315,7 +316,7 @@ def get_speakers(id_):
 
 def clear_database():
     client = MongoClient(MONGO_URL)
-    db = client.media
+    db = client.speakercastDB
     talks = db.conference_talks
     talks.remove({})
 
