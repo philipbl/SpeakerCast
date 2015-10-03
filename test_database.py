@@ -127,27 +127,31 @@ def test_speakers_id_2():
     db.clear_database()
     db.clear_id_database()
 
-    count = 0
-    def generator():
-        # We want something that returns X, X, Y.
-        # This will help test the logic of not using the same ID.
-        nonlocal count
+    class IdGenerator:
+        def __init__(self):
+            self.count = 0
 
-        count += 1
+        def generator(self):
+            # We want something that returns X, X, Y.
+            # This will help test the logic of not using the same ID.
 
-        if count == 1:
-            return 1
-        elif count == 2:
-            return 1
-        else:
-            return 2
+            self.count += 1
+
+            if self.count == 1:
+                return 1
+            elif self.count == 2:
+                return 1
+            else:
+                return 2
 
     speakers_1 = ['Jeffrey R. Holland']
     speakers_2 = ['Jeffrey R. Holland', 'Henry B. Eyring']
 
-    id_1 = db.generate_id(speakers_1, generator)
+    id_gen = IdGenerator()
+
+    id_1 = db.generate_id(speakers_1, id_gen.generator)
     assert id_1 == '1'
-    id_2 = db.generate_id(speakers_2, generator)
+    id_2 = db.generate_id(speakers_2, id_gen.generator)
     assert id_2 == '2'
 
 
