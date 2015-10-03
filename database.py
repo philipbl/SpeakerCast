@@ -9,6 +9,7 @@ import requests
 import random
 import os
 import logging
+import threading
 
 logger = logging.getLogger(__name__)
 
@@ -348,7 +349,8 @@ def clear_id_database():
     ids.remove({})
 
 
-def update_database(start=(1971, 4), end=(date.today().year, date.today().month), force=False):
+def update_database(start=(1971, 4), end=(date.today().year, date.today().month),
+                    force=False, check_time=None):
     if _new_database_version() or force:
         logger.info("Updating database to new version")
         clear_database()
@@ -356,4 +358,8 @@ def update_database(start=(1971, 4), end=(date.today().year, date.today().month)
         _new_database_version()
     else:
         logger.info("Database is already up to date")
+
+    if check_time is not None:
+        threading.Timer(check_time, lambda: update_database(check_time=check_time)).start()
+
 

@@ -8,14 +8,18 @@ import rsser
 import logging
 import threading
 
+# Configuration
 logging.basicConfig(level=logging.INFO)
 logging.getLogger("gospellibrary").setLevel(logging.WARNING)
 logging.getLogger("requests").setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
+check_time = 60 * 60
+
 # Update data base in background
 logger.info("Updating database in background...")
-threading.Thread(target=database.update_database).start()
+logger.info("Checking for updates every {} seconds".format(check_time))
+threading.Thread(target=lambda: database.update_database(check_time=check_time)).start()
 
 logger.info("Starting server...")
 app = Flask(__name__)
