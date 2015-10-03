@@ -335,6 +335,14 @@ def clear_database():
     metadata = db.metadata
     metadata.remove({})
 
+def clear_id_database():
+    logger.warning("Clearing ID database")
+    client = MongoClient(MONGO_URL)
+    db = client.speakercastDB
+
+    ids = db.ids
+    ids.remove({})
+
 
 def update_database(start=(1971, 4), end=(date.today().year, date.today().month), force=False):
     if _new_database_version() or force:
