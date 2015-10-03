@@ -94,9 +94,11 @@ def test_all_talks():
 
 
 def test_speakers_id():
+    # Test using the normal ID generator
+
     # Populate database
     db.clear_database()
-    db.update_database(start=(2014, 4), end=(2015, 4))
+    db.clear_id_database()
 
     speakers_1 = ['Jeffrey R. Holland']
     speakers_2 = ['Jeffrey R. Holland', 'Henry B. Eyring']
@@ -119,5 +121,37 @@ def test_speakers_id():
     assert id_1 == db.generate_id(speakers_1)
     assert id_2 == db.generate_id(speakers_2)
 
+def test_speakers_id_2():
+    # Test using a custom ID generator
+
+    db.clear_database()
+    db.clear_id_database()
+
+    class IdGenerator:
+        def __init__(self):
+            self.count = 0
+
+        def generator(self):
+            # We want something that returns X, X, Y.
+            # This will help test the logic of not using the same ID.
+
+            self.count += 1
+
+            if self.count == 1:
+                return 1
+            elif self.count == 2:
+                return 1
+            else:
+                return 2
+
+    speakers_1 = ['Jeffrey R. Holland']
+    speakers_2 = ['Jeffrey R. Holland', 'Henry B. Eyring']
+
+    id_gen = IdGenerator()
+
+    id_1 = db.generate_id(speakers_1, id_gen.generator)
+    assert id_1 == '1'
+    id_2 = db.generate_id(speakers_2, id_gen.generator)
+    assert id_2 == '2'
 
 

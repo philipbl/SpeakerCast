@@ -280,7 +280,11 @@ def get_all_speaker_and_counts():
     return speakers
 
 
-def generate_id(speakers):
+def generate_id(speakers, id_generator=None):
+    if id_generator is None:
+        logger.debug("Using default ID generator")
+        id_generator = lambda: random.randint(0, 16777215)
+
     client = MongoClient(MONGO_URL)
     db = client.speakercastDB
     ids = db.ids
@@ -289,16 +293,19 @@ def generate_id(speakers):
     id_ = ids.find_one({"speakers": speakers}, {"_id": 1})
 
     if id_ is not None:
+        logger.debug("There is already an ID for these speakers: {}".format(id_))
         return id_["_id"]
     else:
-        id_ = format(random.randint(0, 16777215), 'x')
+        logger.debug("Creating a new ID for speakers")
+        id_ = format(id_generator(), 'x')
 
         # Make sure I'm not duplicating a key
         while ids.find_one({"_id": id_}) is not None:
-            id_ = format(random.randint(0, 16777215), 'x')
+            logger.debug("ID {} is already in use, creating another one".format(id_))
+            id_ = format(id_generator(), 'x')
 
+        logger.debug("Done -- returning new ID {}".format(id_))
         ids.insert_one({'_id': id_, "speakers": speakers})
-
         return id_
 
 
@@ -316,6 +323,7 @@ def get_speakers(id_):
 
 
 def clear_database():
+    logger.info("Clearing database")
     client = MongoClient(MONGO_URL)
     db = client.speakercastDB
     talks = db.conference_talks
@@ -326,6 +334,14 @@ def clear_database():
 
     metadata = db.metadata
     metadata.remove({})
+
+def clear_id_database():
+    logger.warning("Clearing ID database")
+    client = MongoClient(MONGO_URL)
+    db = client.speakercastDB
+
+    ids = db.ids
+    ids.remove({})
 
 
 def update_database(start=(1971, 4), end=(date.today().year, date.today().month), force=False):
