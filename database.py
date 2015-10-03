@@ -178,15 +178,19 @@ def _new_database_version():
     metadata = db.metadata
 
     new_version = Catalog().current_version()
+    logger.info("New version: {}".format(new_version))
     try:
         old_version = metadata.find({})[0]
+        logger.info("Current version: {}".format(old_version))
     except IndexError:
         # This will happen the first time the value is put into
         # into the database
+        logger.info("No current version. Updating database...")
         metadata.insert({'db_version': new_version})
         return True
 
     if new_version != old_version['db_version']:
+        logger.info("Database is out of date. Updating database...")
         old_version['db_version'] = new_version
         metadata.update_one({'_id': old_version['_id']},
                             {'$set': {'db_version': new_version}})
