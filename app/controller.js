@@ -3,8 +3,8 @@ var speakercastApp = angular.module('speakercastApp', []);
 var first_presidency_names = ["Thomas S. Monson", "Henry B. Eyring", "Dieter F. Uchtdorf"];
 var twelve_apostles_names = ["Russell M. Nelson", "Dallin H. Oaks", "M. Russell Ballard", "Richard G. Scott", "Robert D. Hales", "Jeffrey R. Holland", "David A. Bednar", "Quentin L. Cook", "D. Todd Christofferson", "Neil L. Andersen"];
 
-// var server_url = "http://127.0.0.1:5000/speakercast";
-var server_url = "http://speakercast.app.lundrigan.org/speakercast";
+// var server_url = "http://127.0.0.1:5000";
+var server_url = "http://speakercast.app.lundrigan.org";
 
 speakercastApp.controller('SpeakerController', function($scope, $http) {
     $http.get(server_url + '/speakers').then(function(response) {
