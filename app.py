@@ -26,7 +26,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route('/speakercast/speakers')
+@app.route('/speakers')
 def speakers():
     logger.info("Getting speakers")
     speakers = [{'name': name, 'talks': count}
@@ -34,7 +34,7 @@ def speakers():
     return json.dumps(speakers)
 
 
-@app.route('/speakercast/generate', methods=['POST', 'OPTIONS'])
+@app.route('/generate', methods=['POST', 'OPTIONS'])
 def generate():
     if request.method == 'OPTIONS':
         return ""
@@ -55,7 +55,7 @@ def generate():
     return id_
 
 
-@app.route('/speakercast/feed/<id>')
+@app.route('/feed/<id>')
 def feed(id):
     speakers = database.get_speakers(id)
 
