@@ -103,9 +103,10 @@
             </div>
             <div class="panel panel-primary" ng-hide="!feedUrl">
               <div>
-                <div class="panel-body ng-cloak">
+                <button type="button" class="close feed-link-close" data-dismiss="alert" aria-label="Close" ng-click="feedUrl = false"><span aria-hidden="true">&times;</span></button>
+                <div class="panel-body">
                   <p>Here is a link to the feed:</p>
-                  <p><a href="{{ feedUrl }}">{{ feedUrl }}</a></p>
+                  <p><a class="wrap" href="{{ feedUrl }}">{{ feedUrl }}</a></p>
                   <p>Copy this link into your podcast app.</p>
                 </div>
               </div>
