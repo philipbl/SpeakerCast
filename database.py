@@ -314,6 +314,16 @@ def generate_id(speakers, id_generator=None):
         return id_
 
 
+def get_ids():
+    client = MongoClient(MONGO_URL)
+    db = client.speakercastDB
+    ids = db.ids
+
+    all_ids = ids.find({})
+
+    return {x['_id']: x['speakers'] for x in all_ids}
+
+
 def get_speakers(id_):
     client = MongoClient(MONGO_URL)
     db = client.speakercastDB
@@ -339,6 +349,7 @@ def clear_database():
 
     metadata = db.metadata
     metadata.remove({})
+
 
 def clear_id_database():
     logger.warning("Clearing ID database")

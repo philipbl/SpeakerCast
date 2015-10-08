@@ -35,7 +35,7 @@ def speakers():
 
 
 @app.route('/generate', methods=['POST', 'OPTIONS'])
-def generate():
+def generate_id():
     if request.method == 'OPTIONS':
         return ""
 
@@ -55,8 +55,14 @@ def generate():
     return id_
 
 
-@app.route('/feed/<id>')
-def feed(id):
+@app.route('/feeds')
+def get_feeds():
+    feeds = database.get_ids()
+    return json.dumps(feeds)
+
+
+@app.route('/feeds/<id>')
+def generate_feed(id):
     speakers = database.get_speakers(id)
 
     if speakers is None:
