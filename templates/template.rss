@@ -1,23 +1,19 @@
-{% macro print_list(list) -%}
-    {% for i in list -%}
-        {% if not loop.last -%}{{ i }}, {% else %}and {{ i }}{%- endif %}
-    {%- endfor %}
-{%- endmacro %}<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://www.rssboard.org/media-rss" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>General Conference Talks Given by {{ print_list(speakers) }}</title>
+        <title>General Conference Talks Given by {{ speakers | format_title }}</title>
         <link>http://www.lds.org/general-conference</link>
         <atom:link href="{{ feed_url }}" rel="self" type="application/rss+xml" />
-        <lastBuildDate>{{ now | formatdate }}</lastBuildDate>
+        <lastBuildDate>{{ now | format_date }}</lastBuildDate>
         <language>en-US</language>
         <generator>Philip Lundrigan</generator>
-        <description>General Conference Talks Given by {{ print_list(speakers) }}</description>
+        <description>General Conference Talks Given by {{ speakers | format_title }}</description>
         <itunes:image href="???"/>
         {% for talk in talks -%}
         <item>
             <title>{{ talk.title }}</title>
             <dc:creator>{{ talk.speaker }}</dc:creator>
-            <pubDate>{{ talk.time | formatdate }}</pubDate>
+            <pubDate>{{ talk.time | format_date }}</pubDate>
             <link>{{ talk.url }}</link>
             <description>
                 <![CDATA[{{ talk.html }}]]>
