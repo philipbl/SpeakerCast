@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from flask import Flask, request, json
+from flask import Flask, request, json, url_for
 from flask.ext.cors import CORS
 import database
 import rsser
@@ -25,6 +25,9 @@ logger.info("Starting server...")
 app = Flask(__name__)
 CORS(app)
 
+@app.route('/cover-image')
+def get_cover_image():
+    return url_for('static', filename='cover-image.jpg')
 
 @app.route('/speakers')
 def speakers():
@@ -35,7 +38,7 @@ def speakers():
 
 
 @app.route('/generate', methods=['POST', 'OPTIONS'])
-def generate():
+def generate_id():
     if request.method == 'OPTIONS':
         return ""
 
@@ -55,8 +58,14 @@ def generate():
     return id_
 
 
-@app.route('/feed/<id>')
-def feed(id):
+@app.route('/feeds')
+def get_feeds():
+    feeds = database.get_ids()
+    return json.dumps(feeds)
+
+
+@app.route('/feeds/<id>')
+def generate_feed(id):
     speakers = database.get_speakers(id)
 
     if speakers is None:
