@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from flask import Flask, request, json
+from flask import Flask, request, json, url_for
 from flask.ext.cors import CORS
 import database
 import rsser
@@ -25,6 +25,9 @@ logger.info("Starting server...")
 app = Flask(__name__)
 CORS(app)
 
+@app.route('/cover-image')
+def get_cover_image():
+    return url_for('static', filename='cover-image.jpg')
 
 @app.route('/speakers')
 def speakers():

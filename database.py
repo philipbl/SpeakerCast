@@ -158,21 +158,6 @@ def _valid_talk(talk):
     return True
 
 
-def _get_speaker_image(speaker):
-    speaker = speaker.lower()
-    speaker = speaker.replace('\xc2', '')
-    speaker = speaker.replace(' ', '-')
-    speaker = speaker.replace('.', '')
-
-    url = 'https://www.lds.org/bc/content/shared/content/images/leaders/{0}-large.jpg'.format(speaker)
-    # r = requests.get(url)
-    # if r.status_code == 200:
-    #     return url
-    # else:
-    #     return None
-    return url
-
-
 def _new_database_version():
     client = MongoClient(MONGO_URL)
     db = client.speakercastDB
@@ -220,7 +205,6 @@ def create_database(start=(1971, 4), end=(date.today().year, date.today().month)
             talks = (talk for talk in talks if talk['audio_url'] is not None)
             talks = (talk for talk in talks if talk['time'] is not None)
             talks = (talk for talk in talks if _valid_talk(talk))
-            talks = (dict(talk, image=_get_speaker_image(talk['speaker'])) for talk in talks)
 
             talks_db.insert_many(list(talks))
 
@@ -360,7 +344,7 @@ def clear_id_database():
     ids.remove({})
 
 
-def update_database(start=(1971, 4), end=(date.today().year, date.today().month),
+def update_database(start=(2014, 4), end=(date.today().year, date.today().month),
                     force=False, check_time=None):
     if _new_database_version() or force:
         logger.info("Updating database to new version")
