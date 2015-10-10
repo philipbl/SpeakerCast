@@ -9,7 +9,7 @@
         <itunes:author>{{ speakers | format_title }}</itunes:author>
         <itunes:summary>General Conference Talks Given by {{ speakers | format_title }}</itunes:summary>
         <description>General Conference Talks Given by {{ speakers | format_title }}</description>
-        <itunes:image href="http://speakercast.app.lundrigan.org/cover-image"/>
+        <itunes:image href="http://speakercast.app.lundrigan.org/static/cover-image.jpg"/>
         {% for talk in talks -%}
         <item>
             <title>{{ talk.title }}</title>

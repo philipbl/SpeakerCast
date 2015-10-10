@@ -25,9 +25,6 @@ logger.info("Starting server...")
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/cover-image')
-def get_cover_image():
-    return url_for('static', filename='cover-image.jpg')
 
 @app.route('/speakers')
 def speakers():
