@@ -344,7 +344,7 @@ def clear_id_database():
     ids.remove({})
 
 
-def update_database(start=(2014, 4), end=(date.today().year, date.today().month),
+def update_database(start=(1971, 4), end=(date.today().year, date.today().month),
                     force=False, check_time=None):
     if _new_database_version() or force:
         logger.info("Updating database to new version")
