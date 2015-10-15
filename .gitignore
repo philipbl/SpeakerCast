@@ -2,3 +2,4 @@
 db
 mongod.conf
 .python-version
+env

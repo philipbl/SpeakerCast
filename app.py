@@ -3,6 +3,7 @@
 
 from flask import Flask, request, json, url_for
 from flask.ext.cors import CORS
+from opbeat.contrib.flask import Opbeat
 import database
 import rsser
 import logging
@@ -23,6 +24,7 @@ threading.Thread(target=lambda: database.update_database(check_time=check_time))
 
 logger.info("Starting server...")
 app = Flask(__name__)
+opbeat = Opbeat(app)
 CORS(app)
 
 
