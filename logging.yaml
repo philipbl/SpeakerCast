@@ -1,0 +1,37 @@
+version: 1
+
+formatters:
+  simple:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+filters: []
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: simple
+    stream: ext://sys.stdout
+
+  file:
+    class: logging.handlers.RotatingFileHandler
+    formatter: simple
+    filename: speakercast.log
+    maxBytes: 10485760
+    backupCount: 3
+
+loggers:
+  speakercast:
+    level: INFO
+
+  app.cors:
+    level: WARNING
+
+  gospellibrary:
+    level: WARNING
+
+root:
+  level: DEBUG
+  handlers: [console, file]
+
+# disable_existing_loggers: true

@@ -11,7 +11,7 @@ import os
 import logging
 import threading
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("speakercast." + __name__)
 
 try:
     MONGO_URL = os.environ['MONGO_URL']

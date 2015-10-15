@@ -6,13 +6,13 @@ from flask.ext.cors import CORS
 import database
 import rsser
 import logging
+import logging.config
+import yaml
 import threading
 
-# Configuration
-logging.basicConfig(level=logging.INFO)
-logging.getLogger("gospellibrary").setLevel(logging.WARNING)
-logging.getLogger("requests").setLevel(logging.WARNING)
-logger = logging.getLogger(__name__)
+# Log configuration
+logging.config.dictConfig(yaml.load(open('logging.yaml')))
+logger = logging.getLogger("speakercast." + __name__)
 
 check_time = 60 * 60
 
