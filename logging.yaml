@@ -25,8 +25,9 @@ handlers:
 
   loggly:
     class: loggly.handlers.HTTPSHandler
-    formatter: jsonFormat
-    args: ('https://logs-01.loggly.com/inputs/ba0623e6-ee0a-4d7e-9c37-7671a10c2a09/tag/python','POST')
+    formatter: json
+    url: https://logs-01.loggly.com/inputs/ba0623e6-ee0a-4d7e-9c37-7671a10c2a09/tag/python
+    fqdn: POST
 
 loggers:
   speakercast:
