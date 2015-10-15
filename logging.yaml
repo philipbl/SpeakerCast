@@ -4,6 +4,9 @@ formatters:
   simple:
     format: '%(levelname)s:%(name)s - %(message)s'
 
+  json:
+    format: '{ "loggerName":"%(name)s", "asciTime":"%(asctime)s", "fileName":"%(filename)s", "logRecordCreationTime":"%(created)f", "functionName":"%(funcName)s", "levelNo":"%(levelno)s", "lineNo":"%(lineno)d", "time":"%(msecs)d", "levelName":"%(levelname)s", "message":"%(message)s"}'
+
 filters: []
 
 handlers:
@@ -20,6 +23,11 @@ handlers:
     maxBytes: 10485760
     backupCount: 3
 
+  loggly:
+    class: loggly.handlers.HTTPSHandler
+    formatter: jsonFormat
+    args: ('https://logs-01.loggly.com/inputs/ba0623e6-ee0a-4d7e-9c37-7671a10c2a09/tag/python','POST')
+
 loggers:
   speakercast:
     level: INFO
@@ -32,6 +40,6 @@ loggers:
 
 root:
   level: INFO
-  handlers: [console, file]
+  handlers: [console, file, loggly]
 
 # disable_existing_loggers: true
