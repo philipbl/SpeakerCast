@@ -15,6 +15,7 @@ logger = logging.getLogger("speakercast." + __name__)
 
 try:
     MONGO_URL = os.environ['MONGO_URL']
+    MONGO_NAME = MONGO_URL.split('/')[-1]
     logger.info("mongo URL: {}".format(MONGO_URL))
 except KeyError:
     logger.error("MONGO_URL environment variable must be defined.")
@@ -160,7 +161,7 @@ def _valid_talk(talk):
 
 def _new_database_version():
     client = MongoClient(MONGO_URL)
-    db = client.speakercastDB
+    db = client[MONGO_NAME]
     metadata = db.metadata
 
     new_version = Catalog().current_version()
@@ -190,7 +191,7 @@ def create_database(start=(1971, 4), end=(date.today().year, date.today().month)
     catalog = Catalog()
 
     client = MongoClient(MONGO_URL)
-    db = client.speakercastDB
+    db = client[MONGO_NAME]
     talks_db = db.conference_talks
     speakers_db = db.conference_speakers
 
@@ -240,7 +241,7 @@ def create_database(start=(1971, 4), end=(date.today().year, date.today().month)
 
 def get_talk(speaker):
     client = MongoClient(MONGO_URL)
-    db = client.speakercastDB
+    db = client[MONGO_NAME]
     speakers = db.conference_speakers
 
     speakers = speakers.find({"_id": speaker}, {"talks": 1})
@@ -259,7 +260,7 @@ def get_talks(speakers):
 
 def get_all_speaker_and_counts():
     client = MongoClient(MONGO_URL)
-    db = client.speakercastDB
+    db = client[MONGO_NAME]
     speakers = db.conference_speakers
 
     speakers = speakers.find({}, {"_id": 1, "total": 1})
@@ -275,7 +276,7 @@ def generate_id(speakers, id_generator=None):
         id_generator = lambda: random.randint(0, 16777215)
 
     client = MongoClient(MONGO_URL)
-    db = client.speakercastDB
+    db = client[MONGO_NAME]
     ids = db.ids
 
     speakers = sorted(speakers)
@@ -300,7 +301,7 @@ def generate_id(speakers, id_generator=None):
 
 def get_ids():
     client = MongoClient(MONGO_URL)
-    db = client.speakercastDB
+    db = client[MONGO_NAME]
     ids = db.ids
 
     all_ids = ids.find({})
@@ -310,7 +311,7 @@ def get_ids():
 
 def get_speakers(id_):
     client = MongoClient(MONGO_URL)
-    db = client.speakercastDB
+    db = client[MONGO_NAME]
     ids = db.ids
 
     result = ids.find_one({'_id': id_})
@@ -324,7 +325,7 @@ def get_speakers(id_):
 def clear_database():
     logger.info("Clearing database")
     client = MongoClient(MONGO_URL)
-    db = client.speakercastDB
+    db = client[MONGO_NAME]
     talks = db.conference_talks
     talks.remove({})
 
@@ -338,7 +339,7 @@ def clear_database():
 def clear_id_database():
     logger.warning("Clearing ID database")
     client = MongoClient(MONGO_URL)
-    db = client.speakercastDB
+    db = client[MONGO_NAME]
 
     ids = db.ids
     ids.remove({})
