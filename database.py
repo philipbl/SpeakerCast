@@ -4,46 +4,64 @@
 from gospellibrary import Catalog
 from datetime import date, datetime, timedelta
 from itertools import cycle
-from pymongo import MongoClient
+from tinydb import TinyDB, where
+from tinydb_serialization import Serializer, SerializationMiddleware
 import requests
 import random
 import os
 import logging
 import threading
+from collections import defaultdict
+
+TINYDB_PATH = './db.json'
 
 logger = logging.getLogger("speakercast." + __name__)
 
-try:
-    MONGO_URL = os.environ['MONGO_URL']
-    MONGO_NAME = MONGO_URL.split('/')[-1]
-    logger.info("mongo URL: {}".format(MONGO_URL))
-except KeyError:
-    logger.error("MONGO_URL environment variable must be defined.")
-    raise Exception("MONGO_URL environment variable must be defined.")
+class DateTimeSerializer(Serializer):
+    OBJ_CLASS = datetime
+
+    def encode(self, obj):
+        return obj.strftime('%Y-%m-%dT%H:%M:%S')
+
+    def decode(self, s):
+        return datetime.strptime(s, '%Y-%m-%dT%H:%M:%S')
+
+
+serialization = SerializationMiddleware()
+serialization.register_serializer(DateTimeSerializer(), 'TinyDate')
+
+
 
 def _get_month_year(start, end):
     start_year, start_month = start
     end_year, end_month = end
 
-    # TODO: Make this simpler
-    for year in range(start_year, end_year + 1):
-        if year == start_year:
-            if start_month <= 4:
-                yield 4, year
+    # Make sure we start on a boundary
+    if start_month <= 4:
+        start_month = 4
+    elif start_month <= 10:
+        start_month = 10
+    else:
+        start_month = 4
+        start_year += 1
 
-            if start_month <= 10:
-                yield 10, year
+    # Make sure we end on a boundary
+    if end_month < 4:
+        end_month = 10
+        end_year -= 1
+    elif end_month < 10:
+        end_month = 4
+    else:
+        end_month = 10
 
-        elif year == end_year:
-            if end_month >= 4:
-                yield 4, year
+    yield (start_month, start_year)
 
-            if end_month >= 10:
-                yield 10, year
+    while start_year != end_year or start_month != end_month:
+        start_month += 6
+        start_year = start_year + start_month // 12
+        start_month = start_month % 12
 
-        else:
-            yield 4, year
-            yield 10, year
+        yield (start_month, start_year)
 
 
 def _clean_speaker(speaker):
@@ -159,28 +177,43 @@ def _valid_talk(talk):
     return True
 
 
+def _get_database():
+    return TinyDB(TINYDB_PATH, storage=serialization)
+
+
+def _get_speaker_db():
+    return _get_database().table('conference_speakers')
+
+
+def _get_metadata_db():
+    return _get_database().table('metadata')
+
+
+def _get_id_db():
+    return _get_database().table('ids')
+
+
 def _new_database_version():
-    client = MongoClient(MONGO_URL)
-    db = client[MONGO_NAME]
-    metadata = db.metadata
+    metadata = _get_metadata_db()
 
     new_version = Catalog().current_version()
     logger.info("New version: {}".format(new_version))
-    try:
-        old_version = metadata.find({})[0]
-        logger.info("Current version: {}".format(old_version))
-    except IndexError:
+
+    old_version = metadata.search(where('version').exists())
+    if len(old_version) == 0:
         # This will happen the first time the value is put into
         # into the database
         logger.info("No current version. Updating database...")
-        metadata.insert({'db_version': new_version})
+        metadata.insert({'version': new_version})
         return True
 
-    if new_version != old_version['db_version']:
+    old_version = old_version[0]['version']
+    logger.info("Current version: {}".format(old_version))
+
+    if new_version != old_version:
         logger.info("Database is out of date. Updating database...")
-        old_version['db_version'] = new_version
-        metadata.update_one({'_id': old_version['_id']},
-                            {'$set': {'db_version': new_version}})
+
+        metadata.update({'version': new_version}, where('version').exists())
         return True
     else:
         return False
@@ -190,12 +223,10 @@ def create_database(start=(1971, 4), end=(date.today().year, date.today().month)
     logger.info("Creating database...")
     catalog = Catalog()
 
-    client = MongoClient(MONGO_URL)
-    db = client[MONGO_NAME]
-    talks_db = db.conference_talks
-    speakers_db = db.conference_speakers
+    speakers_db = _get_speaker_db()
 
-    # Create main database
+    # TODO: Clean up this logic
+    speakers = defaultdict(dict)
     for month, year in _get_month_year(start, end):
         item_uri = "/general-conference/{0}/{1:02}".format(year, month)
         logger.info("~~~> Getting {0}".format(item_uri))
@@ -207,48 +238,25 @@ def create_database(start=(1971, 4), end=(date.today().year, date.today().month)
             talks = (talk for talk in talks if talk['time'] is not None)
             talks = (talk for talk in talks if _valid_talk(talk))
 
-            talks_db.insert_many(list(talks))
+            for t in talks:
+                speaker = speakers[t['speaker']]
 
-    # Create database, grouped by speaker
-    speakers = talks_db.aggregate([
-        {
-            "$group":
-            {
-                "_id": "$speaker",
-                "talks":
-                    {
-                        "$push":
-                            {
-                                "speaker": "$speaker",
-                                "title": "$title",
-                                "session": "$session",
-                                "time": "$time",
-                                "url": "$url",
-                                "html": "$html",
-                                "preview": "$preview",
-                                "audio_url": "$audio_url",
-                                "audio_size": "$audio_size"
-                            }
-                    },
-                "total": {"$sum": 1}
-            }
-        }
-    ])
+                if 'talks' not in speaker:
+                    speaker['talks'] = []
 
-    speakers_db.insert(speakers)
-    logger.info("Done creating database...")
+                speaker['talks'].append(t)
+
+    speakers_db.insert_multiple([{"speaker": s, "talks": speakers[s]['talks']} for s in speakers])
 
 
 def get_talk(speaker):
-    client = MongoClient(MONGO_URL)
-    db = client[MONGO_NAME]
-    speakers = db.conference_speakers
+    speakers = _get_speaker_db()
 
-    speakers = speakers.find({"_id": speaker}, {"talks": 1})
-    speakers = (speaker['talks'] for speaker in speakers)
-    speaker = (talk for speaker in speakers for talk in speaker)
+    speaker = speakers.search(where('speaker') == speaker)
+    assert len(speaker) == 1
 
-    return list(speaker)
+    talks = speaker[0]['talks']
+    return talks
 
 
 def get_talks(speakers):
@@ -259,12 +267,8 @@ def get_talks(speakers):
 
 
 def get_all_speaker_and_counts():
-    client = MongoClient(MONGO_URL)
-    db = client[MONGO_NAME]
-    speakers = db.conference_speakers
-
-    speakers = speakers.find({}, {"_id": 1, "total": 1})
-    speakers = [(speaker['total'], speaker['_id']) for speaker in speakers]
+    speakers = _get_speaker_db()
+    speakers = [(len(speaker['talks']), speaker['speaker']) for speaker in speakers.all()]
     speakers = sorted(speakers, reverse=True)
 
     return speakers
@@ -275,74 +279,54 @@ def generate_id(speakers, id_generator=None):
         logger.debug("Using default ID generator")
         id_generator = lambda: random.randint(0, 16777215)
 
-    client = MongoClient(MONGO_URL)
-    db = client[MONGO_NAME]
-    ids = db.ids
+    ids = _get_id_db()
 
     speakers = sorted(speakers)
-    id_ = ids.find_one({"speakers": speakers}, {"_id": 1})
+    id_ = ids.search(where('speakers') == speakers)
 
-    if id_ is not None:
+    if len(id_) != 0:
         logger.debug("There is already an ID for these speakers: {}".format(id_))
-        return id_["_id"]
+        return id_[0]["id"]
     else:
         logger.debug("Creating a new ID for speakers")
         id_ = format(id_generator(), 'x')
 
         # Make sure I'm not duplicating a key
-        while ids.find_one({"_id": id_}) is not None:
+        while len(ids.search(where('id') == id_)) > 0:
             logger.debug("ID {} is already in use, creating another one".format(id_))
             id_ = format(id_generator(), 'x')
 
         logger.debug("Done -- returning new ID {}".format(id_))
-        ids.insert_one({'_id': id_, "speakers": speakers})
+        ids.insert({'id': id_, "speakers": speakers})
         return id_
 
 
 def get_ids():
-    client = MongoClient(MONGO_URL)
-    db = client[MONGO_NAME]
-    ids = db.ids
-
-    all_ids = ids.find({})
-
-    return {x['_id']: x['speakers'] for x in all_ids}
+    ids = _get_id_db()
+    return [x['id'] for x in ids.all()]
 
 
 def get_speakers(id_):
-    client = MongoClient(MONGO_URL)
-    db = client[MONGO_NAME]
-    ids = db.ids
+    ids = _get_id_db()
+    result = ids.search(where('id') == id_)
 
-    result = ids.find_one({'_id': id_})
-
-    if result is not None:
-        return result['speakers']
+    if len(result) > 0:
+        assert len(result) == 1
+        return result[0]['speakers']
     else:
         return None
 
 
 def clear_database():
     logger.info("Clearing database")
-    client = MongoClient(MONGO_URL)
-    db = client[MONGO_NAME]
-    talks = db.conference_talks
-    talks.remove({})
-
-    speakers = db.conference_speakers
-    speakers.remove({})
-
-    metadata = db.metadata
-    metadata.remove({})
+    db = TinyDB(TINYDB_PATH, storage=serialization)
+    db.purge_tables()
 
 
 def clear_id_database():
     logger.warning("Clearing ID database")
-    client = MongoClient(MONGO_URL)
-    db = client[MONGO_NAME]
-
-    ids = db.ids
-    ids.remove({})
+    ids = _get_id_db()
+    lds.purge()
 
 
 def update_database(start=(1971, 4), end=(date.today().year, date.today().month),

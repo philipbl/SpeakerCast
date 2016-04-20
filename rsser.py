@@ -15,7 +15,7 @@ def format_title(speakers):
         return ", ".join(speakers[:-1]) + ", and " + speakers[-1]
 
 env = Environment(loader=FileSystemLoader('templates'))
-env.filters['format_date'] = lambda dt: formatdate(time.mktime(dt.timetuple()))
+env.filters['format_date'] = lambda dt: formatdate(time.mktime(dt.timetuple()))[:-5] + "MST"
 env.filters['format_title'] = format_title
 feed_template = env.get_template('template.rss')
 

@@ -25,12 +25,18 @@ Options:
     get             Downloads the feed for the specified URL.
 """
 
-
+import logging
+import logging.config
+import yaml
 import docopt
 import database
 from jinja2 import Environment, FileSystemLoader, Template
 from datetime import datetime
 import rsser
+
+
+logging.config.dictConfig(yaml.load(open('logging.yaml')))
+logger = logging.getLogger("speakercast." + __name__)
 
 
 def generate(speakers):
@@ -70,7 +76,7 @@ def list_speakers():
 
 
 def update_database(force):
-    database.update_database(force)
+    database.update_database(force=force)
 
 
 if __name__ == '__main__':
