@@ -40,39 +40,33 @@ def generate_id():
         return ""
 
     data = json.loads(request.data)
-    speakers = data.get('speakers')
+    speaker = data.get('speaker')
 
-    if speakers is None:
-        logger.error("No \"speakers\" field in request data!")
-        return json.dumps({"error": "No \"speakers\" field in request data!"})
+    if speaker is None:
+        logger.error("No \"speaker\" field in request data!")
+        return json.dumps({"error": "No \"speaker\" field in request data!"})
 
-    if len(speakers) == 0:
-        logger.warning("Speaker list was empty. Ignoring request.")
-        return json.dumps({"error": "Speaker list was empty. Ignoring request."})
+    if speaker == "":
+        logger.warning("Speaker name was empty. Ignoring request.")
+        return json.dumps({"error": "Speaker name was empty. Ignoring request."})
 
-    id_ = database.generate_id(speakers)
-    logger.info("Generated id ({}) for {}".format(id_, speakers))
+    id_ = database.generate_id(speaker)
+    logger.info("Generated id ({}) for {}".format(id_, speaker))
     return id_
-
-
-@app.route('/feeds')
-def get_feeds():
-    feeds = database.get_ids()
-    return json.dumps(feeds)
 
 
 @app.route('/feeds/<id>')
 def generate_feed(id):
-    speakers = database.get_speakers(id)
+    speaker = database.get_speaker(id)
 
-    if speakers is None:
+    if speaker is None:
         # TODO: Send some error
-        logger.error("No speakers match {}!".format(id))
-        return json.dumps({"error": "No speakers match {}!".format(id)})
+        logger.error("No speaker match {}!".format(id))
+        return json.dumps({"error": "No speaker match {}!".format(id)})
 
-    talks = database.get_talks(speakers)
-    logger.info("Creating RSS feed for {}: {}".format(id, speakers))
-    return rsser.create_rss_feed(talks=talks, speakers=list(speakers))
+    talks = database.get_talks(speaker)
+    logger.info("Creating RSS feed for {}: {}".format(id, speaker))
+    return rsser.create_rss_feed(talks=talks, speaker=speaker)
 
 
 if __name__ == "__main__":

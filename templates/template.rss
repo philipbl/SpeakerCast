@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
     <channel>
-        <title>General Conference Talks Given by {{ speakers | format_title }}</title>
+        <title>General Conference Talks Given by {{ speaker }}</title>
         <link>http://www.lds.org/general-conference</link>
         <lastBuildDate>{{ now | format_date }}</lastBuildDate>
         <language>en-US</language>
         <generator>Speakercast (Philip Lundrigan)</generator>
-        <itunes:author>{{ speakers | format_title }}</itunes:author>
-        <itunes:summary>General Conference Talks Given by {{ speakers | format_title }}</itunes:summary>
-        <description>General Conference Talks Given by {{ speakers | format_title }}</description>
+        <itunes:author>{{ speaker }}</itunes:author>
+        <itunes:summary>General Conference Talks Given by {{ speaker }}</itunes:summary>
+        <description>General Conference Talks Given by {{ speaker }}</description>
         <itunes:image href="http://speakercast.app.lundrigan.org/static/cover-image.jpg"/>
         {% for talk in talks -%}
         <item>
@@ -17,7 +17,7 @@
             <pubDate>{{ talk.time | format_date }}</pubDate>
             <link>{{ talk.url }}</link>
             <description>
-                <![CDATA[{{ talk.html }}]]>
+                <![CDATA[{{ talk.preview }}]]>
             </description>
             <itunes:author>{{ talk.speaker }}</itunes:author>
             <itunes:summary>{{ talk.preview }}</itunes:summary>
