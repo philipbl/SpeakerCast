@@ -1,0 +1,4 @@
+feedgen==0.5.1
+https://github.com/CrossWaterBridge/python-gospel-library/archive/master.zip
+pytz==2017.2
+requests==2.13.0

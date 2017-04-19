@@ -1,35 +1,29 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from gospellibrary import Catalog
-from datetime import date, datetime, timedelta
-from itertools import cycle
-from tinydb import TinyDB, where
-from tinydb_serialization import Serializer, SerializationMiddleware
-import requests
-import random
-import os
-import logging
-import threading
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor, wait
+from datetime import date, datetime, timedelta
+import itertools
+import logging
+import json
+import os
+import queue
+import sqlite3
 
-TINYDB_PATH = './db.json'
-
-logger = logging.getLogger("speakercast." + __name__)
-
-class DateTimeSerializer(Serializer):
-    OBJ_CLASS = datetime
-
-    def encode(self, obj):
-        return obj.strftime('%Y-%m-%dT%H:%M:%S')
-
-    def decode(self, s):
-        return datetime.strptime(s, '%Y-%m-%dT%H:%M:%S')
+from feedgen.feed import FeedGenerator
+from gospellibrary.catalogs import CatalogDB, current_catalog_version
+from gospellibrary.item_packages import ItemPackage
+from PIL import Image, ImageFont, ImageDraw
+import pytz
+import requests
 
 
-serialization = SerializationMiddleware()
-serialization.register_serializer(DateTimeSerializer(), 'TinyDate')
-
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s:%(threadName)s:%(levelname)s:'
+                           '%(name)s:%(message)s',
+                    handlers=[logging.StreamHandler()])
+LOGGER = logging.getLogger("speakercast." + __name__)
 
 
 def _get_month_year(start, end):
@@ -122,34 +116,50 @@ def _get_time(year, month, session):
                 "tuesday morning session": adjust_time(-2, 10),
                 "tuesday afternoon session": adjust_time(-2, 14)}[session.lower()]
 
+        time = time.replace(tzinfo=pytz.timezone('US/Mountain'))
         return time
     except:
         return None
 
 
+def _get_preview(talk, package):
+    with sqlite3.connect(os.path.join(package.path(), 'package.sqlite')) as db:
+        c = db.cursor()
+        try:
+            c.execute('''SELECT preview FROM nav_item WHERE uri=?''', [talk['uri']])
+            return c.fetchone()[0]
+        finally:
+            c.close()
+
+
+def _get_session(talk, package):
+    with sqlite3.connect(os.path.join(package.path(), 'package.sqlite')) as db:
+        c = db.cursor()
+        try:
+            c.execute('''SELECT nav_section.title FROM nav_section INNER JOIN nav_item ON nav_section._id=nav_item.nav_section_id WHERE nav_item.uri=?''', [talk['uri']])
+            return c.fetchone()[0]
+        finally:
+            c.close()
+
+
 def _get_talk_info(talk, package, year, month):
-    nav_item = package.nav_items(talk.id)[0]
-    nav_section = package.nav_section(nav_item.nav_section_id)[0]
-
     # Get talk information
-    title = talk.primary_title_component
-    speaker = _clean_speaker(talk.secondary_title_component)
-    talk_url = talk.web_url
-    talk_html = package.html(uri=talk.uri)
-    preview = nav_item.preview
-
+    title = talk['primary_title_component']
+    speaker = _clean_speaker(talk['secondary_title_component'])
+    talk_url = talk['web_url']
+    preview = _get_preview(talk, package)
 
     # Get time information
     date = (year, month)
-    session = _clean_session(nav_section.title)
+    session = _clean_session(_get_session(talk, package))
     time = _get_time(date[0], date[1], session)
 
     # Get audio information if available
     try:
-        audio = package.related_audio_items(talk.id)[0]
-        audio_url = audio.media_url
-        audio_size = audio.file_size
-    except:
+        audio = package.related_audio_items(talk['id'])[0]
+        audio_url = audio['media_url']
+        audio_size = audio['file_size']
+    except IndexError:
         audio_url = None
         audio_size = None
 
@@ -157,8 +167,8 @@ def _get_talk_info(talk, package, year, month):
             'speaker': speaker.replace('\xc2', ''),
             'session': session,
             'time': time,
+            'uri': talk['uri'],
             'url': talk_url,
-            'html': talk_html,
             'preview': preview,
             'audio_url': audio_url,
             'audio_size': audio_size}
@@ -177,169 +187,149 @@ def _valid_talk(talk):
     return True
 
 
-def _get_database():
-    return TinyDB(TINYDB_PATH, storage=serialization)
-
-
-def _get_speaker_db():
-    return _get_database().table('conference_speakers')
-
-
-def _get_metadata_db():
-    return _get_database().table('metadata')
-
-
-def _get_id_db():
-    return _get_database().table('ids')
-
-
-def _new_database_version():
-    metadata = _get_metadata_db()
-
-    new_version = Catalog().current_version()
-    logger.info("New version: {}".format(new_version))
-
-    old_version = metadata.search(where('version').exists())
-    if len(old_version) == 0:
-        # This will happen the first time the value is put into
-        # into the database
-        logger.info("No current version. Updating database...")
-        metadata.insert({'version': new_version})
-        return True
-
-    old_version = old_version[0]['version']
-    logger.info("Current version: {}".format(old_version))
-
-    if new_version != old_version:
-        logger.info("Database is out of date. Updating database...")
-
-        metadata.update({'version': new_version}, where('version').exists())
-        return True
-    else:
-        return False
-
-
-def create_database(start=(1971, 4), end=(date.today().year, date.today().month)):
-    logger.info("Creating database...")
-    catalog = Catalog()
-
-    speakers_db = _get_speaker_db()
-
-    # TODO: Clean up this logic
-    speakers = defaultdict(dict)
-    for month, year in _get_month_year(start, end):
-        item_uri = "/general-conference/{0}/{1:02}".format(year, month)
-        logger.info("~~~> Getting {0}".format(item_uri))
-
+def _get_talks(catalog, month, year):
+        item_uri = f"/general-conference/{year}/{month:02}"
+        LOGGER.info(f"~~~> Getting {item_uri}")
         item = catalog.item(uri=item_uri, lang='eng')
-        with item.package() as package:
-            talks = (_get_talk_info(subitem, package, year, month) for subitem in package.subitems())
-            talks = (talk for talk in talks if talk['audio_url'] is not None)
-            talks = (talk for talk in talks if talk['time'] is not None)
-            talks = (talk for talk in talks if _valid_talk(talk))
+        package = ItemPackage(item_external_id=item['external_id'], item_version=item['version'])
 
-            for t in talks:
-                speaker = speakers[t['speaker']]
+        talks = (_get_talk_info(subitem, package, year, month) for subitem in package.subitems())
+        talks = (talk for talk in talks if talk['audio_url'] is not None)
+        talks = (talk for talk in talks if talk['time'] is not None)
+        talks = (talk for talk in talks if _valid_talk(talk))
 
-                if 'talks' not in speaker:
-                    speaker['talks'] = []
-
-                speaker['talks'].append(t)
-
-    speakers_db.insert_multiple([{"speaker": s, "talks": speakers[s]['talks']} for s in speakers])
+        return list(talks)
 
 
-def get_talk(speaker):
-    speakers = _get_speaker_db()
-
-    speaker = speakers.search(where('speaker') == speaker)
-    assert len(speaker) == 1
-
-    talks = speaker[0]['talks']
-    return talks
-
-
-def get_talks(speakers):
-    all_talks = [get_talk(speaker) for speaker in speakers]
-    talks = [talk for talks in all_talks for talk in talks]
-
-    return talks
-
-
-def get_all_speaker_and_counts():
-    speakers = _get_speaker_db()
-    speakers = [(len(speaker['talks']), speaker['speaker']) for speaker in speakers.all()]
-    speakers = sorted(speakers, reverse=True)
-
-    return speakers
-
-
-def generate_id(speakers, id_generator=None):
-    if id_generator is None:
-        logger.debug("Using default ID generator")
-        id_generator = lambda: random.randint(0, 16777215)
-
-    ids = _get_id_db()
-
-    speakers = sorted(speakers)
-    id_ = ids.search(where('speakers') == speakers)
-
-    if len(id_) != 0:
-        logger.debug("There is already an ID for these speakers: {}".format(id_))
-        return id_[0]["id"]
+def _feed_version(version=None):
+    if version is None:
+        try:
+            with open('data.json') as f:
+                return json.load(f)['version']
+        except Exception:
+            return -1
     else:
-        logger.debug("Creating a new ID for speakers")
-        id_ = format(id_generator(), 'x')
-
-        # Make sure I'm not duplicating a key
-        while len(ids.search(where('id') == id_)) > 0:
-            logger.debug("ID {} is already in use, creating another one".format(id_))
-            id_ = format(id_generator(), 'x')
-
-        logger.debug("Done -- returning new ID {}".format(id_))
-        ids.insert({'id': id_, "speakers": speakers})
-        return id_
+        with open('data.json', 'w') as f:
+            json.dump({'version': version}, f)
 
 
-def get_ids():
-    ids = _get_id_db()
-    return [x['id'] for x in ids.all()]
+def _create_feed(speaker, talks, file_name):
+    LOGGER.info("Creating feed for %s", speaker)
+    now = datetime.now()
+    now = now.replace(tzinfo=pytz.timezone('US/Mountain'))
+
+    fg = FeedGenerator()
+    fg.load_extension('podcast')
+    fg.language('en')
+    fg.title(f'Talks By {speaker}')
+    fg.link(href='http://speakercast.net/')
+    fg.description(f'General Conference talks by {speaker}.')
+    fg.author({'name':'Philip Lundrigan', 'email':'philiplundrigan@gmail.com'})
+    fg.generator('Speakercast')
+    fg.pubDate(now)
+    fg.podcast.itunes_category('Religion & Spirituality', 'Christianity')
+
+    for talk in talks:
+        fe = fg.add_entry()
+        fe.id('http://lernfunk.de/media/654321/1/file.mp3')
+        fe.title(talk['title'])
+        fe.description(talk['preview'])
+        fe.enclosure(talk['audio_url'], str(talk['audio_size']), 'audio/mpeg')
+        fe.id(talk['uri'])
+        fe.link(href=talk['url'])
+        fe.published(talk['time'])
+
+    fg.rss_file(file_name, pretty=True)
 
 
-def get_speakers(id_):
-    ids = _get_id_db()
-    result = ids.search(where('id') == id_)
+def _create_cover(speaker, file_name):
+    LOGGER.info("Creating cover for %s", speaker)
+    text = f'Talks By\n{speaker}'
+    spacing = 80
 
-    if len(result) > 0:
-        assert len(result) == 1
-        return result[0]['speakers']
-    else:
-        return None
+    img = Image.open(os.path.join("assets", "cover.jpg"))
+    img = img.convert('RGBA')
+
+    layer = Image.new('RGBA', img.size, (0,0,0,0))
+
+    draw = ImageDraw.Draw(layer)
+    font = ImageFont.truetype(os.path.join("assets", "Montserrat-Regular.ttf"), 160)
+
+    # Keep adding newlines until text fits
+    size = draw.multiline_textsize(text, font=font, spacing=spacing)
+    while size[0] > img.size[0]:
+        text = '\n'.join(text.rsplit(' ', 1))
+        size = draw.multiline_textsize(text, font=font, spacing=spacing)
+
+    # Center text
+    x, y = (img.size[0] - size[0]) / 2, (img.size[1] - size[1]) / 2
+
+    # Draw box under text
+    draw.rectangle(((0, y), (img.size[0] + 25, y + size[1])), fill=(255, 255, 255, 200))
+
+    # Draw
+    draw.multiline_text((x, y),
+                        text=text,
+                        fill=(0, 0, 0),
+                        font=font,
+                        spacing=spacing,
+                        align="center")
+
+    test = Image.composite(layer, img, layer)
+    test.save(file_name)
 
 
-def clear_database():
-    logger.info("Clearing database")
-    db = TinyDB(TINYDB_PATH, storage=serialization)
-    db.purge_tables()
+def create_feed_and_cover(speaker, talks, feed_folder, cover_folder):
+    _create_feed(speaker,
+                 sorted(talks, key=lambda x: x['time']),
+                 os.path.join(feed_folder, f'{speaker}.rss'))
+
+    # Only generate a cover if one has not been created
+    cover_name = os.path.join(cover_folder, f'{speaker}.jpg')
+    if not os.path.isfile(cover_name):
+        _create_cover(speaker, cover_name)
 
 
-def clear_id_database():
-    logger.warning("Clearing ID database")
-    ids = _get_id_db()
-    lds.purge()
+def generate_feeds(start=(1971, 4), end=None):
+    if end is None:
+        end = (date.today().year, date.today().month)
+
+    if current_catalog_version() == _feed_version():
+        LOGGER.info("Feeds are already up to date")
+        return
+
+    catalog = CatalogDB()
+
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        gen = executor.map(lambda x: _get_talks(catalog, x[0], x[1]),
+                           _get_month_year(start, end))
+
+        talks = list(itertools.chain(*gen))
+
+    # Combine all data together into one dict
+    LOGGER.info("Processing data")
+    speakers = defaultdict(list)
+    for talk in talks:
+        speakers[talk['speaker']].append(talk)
+
+    # Make sure the necessary folder exist
+    feed_folder = 'feeds'
+    cover_folder = 'covers'
+    if not os.path.exists(feed_folder):
+        os.makedirs(feed_folder)
+
+    if not os.path.exists(cover_folder):
+        os.makedirs(cover_folder)
+
+    # Start a bunch of process workers
+    # (this work is CPU bound so processes are needed)
+    with ProcessPoolExecutor(max_workers=8) as executor:
+        fs = [executor.submit(create_feed_and_cover, speaker, talks, feed_folder, cover_folder)
+              for speaker, talks in speakers.items()]
+        wait(fs)
+
+    _feed_version(current_catalog_version())
 
 
-def update_database(start=(1971, 4), end=(date.today().year, date.today().month),
-                    force=False, check_time=None):
-    if _new_database_version() or force:
-        logger.info("Updating database to new version")
-        clear_database()
-        create_database(start, end)
-        _new_database_version()
-    else:
-        logger.info("Database is already up to date")
-
-    if check_time is not None:
-        threading.Timer(check_time, lambda: update_database(check_time=check_time)).start()
-
-
+if __name__ == '__main__':
+    generate_feeds()
