@@ -6,99 +6,42 @@ var twelve_apostles_names = ["Russell M. Nelson", "Dallin H. Oaks", "M. Russell 
 // var server_url = "http://127.0.0.1:5000";
 var server_url = "http://speakercast.app.lundrigan.org";
 
-speakercastApp.controller('SpeakerController', function($scope, $http) {
-    $scope.speakers = speakers;
+speakercastApp.controller('SpeakerController', ['$scope', '$http', 'orderByFilter', function($scope, $http, orderBy) {
     $scope.first_presidency = [];
     $scope.twelve_apostles = [];
+    var data;
 
-    angular.forEach($scope.speakers, function(speaker) {
-      var first_presidency_index = first_presidency_names.indexOf(speaker.name);
-      var twelve_apostles_index = twelve_apostles_names.indexOf(speaker.name);
+    $http.get('assets/data.json').then(function(response) {
+      data = response.data;
+      $scope.first_presidency = [];
+      $scope.twelve_apostles = [];
 
-      if (first_presidency_index >= 0) {
-        speaker.index = first_presidency_index;
-        $scope.first_presidency.push(speaker);
-      }
-      else if (twelve_apostles_index>= 0) {
-        speaker.index = twelve_apostles_index;
-        $scope.twelve_apostles.push(speaker);
-      }
-    });
+      angular.forEach(data, function(speaker) {
+        var first_presidency_index = first_presidency_names.indexOf(speaker.name);
+        var twelve_apostles_index = twelve_apostles_names.indexOf(speaker.name);
 
-    // $http.get(server_url + '/speakers').then(function(response) {
-    //   $scope.speakers = response.data;
-    //   $scope.first_presidency = [];
-    //   $scope.twelve_apostles = [];
-
-    //   angular.forEach($scope.speakers, function(speaker) {
-    //     var first_presidency_index = first_presidency_names.indexOf(speaker.name);
-    //     var twelve_apostles_index = twelve_apostles_names.indexOf(speaker.name);
-
-    //     if (first_presidency_index >= 0) {
-    //       speaker.index = first_presidency_index;
-    //       $scope.first_presidency.push(speaker);
-    //     }
-    //     else if (twelve_apostles_index>= 0) {
-    //       speaker.index = twelve_apostles_index;
-    //       $scope.twelve_apostles.push(speaker);
-    //     }
-    //   });
-    // });
-
-    $scope.anySelected = false;
-
-    $scope.smallScreen = false;
-
-    $scope.$on('windowResize', function(event, currentBreakpoint, previousBreakpoint) {
-      $scope.smallScreen = currentBreakpoint == "extra small";
-      $scope.$apply();
-    });
-});
-
-speakercastApp.directive('bsBreakpoint', function($window, $rootScope, $timeout) {
-    return {
-        controller: function() {
-            var getBreakpoint = function() {
-                var windowWidth = $window.innerWidth;
-
-                if(windowWidth < 768) {
-                    return 'extra small';
-                } else if (windowWidth >= 768 && windowWidth < 992) {
-                    return 'small';
-                } else if (windowWidth >= 992 && windowWidth < 1200) {
-                    return 'medium';
-                } else if (windowWidth >= 1200) {
-                    return 'large';
-                }
-            };
-
-            var currentBreakpoint = getBreakpoint();
-            var previousBreakpoint = null;
-
-            // Broadcast inital value, so other directives can get themselves setup
-            $timeout(function() {
-                $rootScope.$broadcast('windowResize', currentBreakpoint, previousBreakpoint);
-            });
-
-            angular.element($window).bind('resize', function() {
-                var newBreakpoint = getBreakpoint();
-
-                if (newBreakpoint != currentBreakpoint) {
-                    previousBreakpoint = currentBreakpoint;
-                    currentBreakpoint = newBreakpoint;
-                }
-
-                $rootScope.$broadcast('windowResize', currentBreakpoint, previousBreakpoint);
-            });
+        if (first_presidency_index >= 0) {
+          speaker.index = first_presidency_index;
+          $scope.first_presidency.push(speaker);
         }
-    };
-});
+        else if (twelve_apostles_index>= 0) {
+          speaker.index = twelve_apostles_index;
+          $scope.twelve_apostles.push(speaker);
+        }
+      });
 
-speakercastApp.directive('myRepeatDirective', function() {
-  return function(scope, element, attrs) {
-    if (scope.$last) {
-      // console.log("before: " + $(document).height());
-      // setTimeout(set_affix, 0);
+      $scope.propertyName = 'count';
+      $scope.speakers = orderBy(data, $scope.propertyName, true);
+
+    });
+
+    $scope.sortBy = function(propertyName, reverse) {
+      $scope.propertyName = propertyName;
+      $scope.speakers = orderBy(data, $scope.propertyName, reverse);
+    };
+
+    $scope.getLastName = function(user) {
+      var name =  user.name.split(' ');
+      return name[name.length - 1];
     }
-  };
-});
+}]);
