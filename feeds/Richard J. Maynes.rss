@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Richard J. Maynes</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Richard J. Maynes.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:46 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:46 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>A Celestial Connection to Your Teenage Years</title>
+      <link>http://www.lds.org/general-conference/1997/10/a-celestial-connection-to-your-teenage-years?lang=eng</link>
+      <description>If you want to become the person the Lord wants you to be, you had better work on it today, because it is a true principle that we become what we do.</description>
+      <guid isPermaLink="false">/general-conference/1997/10/a-celestial-connection-to-your-teenage-years</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1997-general-conference/1997-10-2060-elder-richard-j-maynes-64k-eng.mp3" length="3759060" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 1997 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Keeping Our Covenants</title>
+      <link>http://www.lds.org/general-conference/2004/10/keeping-our-covenants?lang=eng</link>
+      <description>The most important thing we can do in this life is to keep the promises or covenants we have made with the Lord.</description>
+      <guid isPermaLink="false">/general-conference/2004/10/keeping-our-covenants</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2004-general-conference/2004-10-5030-elder-richard-j-maynes-64k-eng.mp3" length="6323064" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Oct 2004 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Establishing a Christ-Centered Home</title>
+      <link>http://www.lds.org/general-conference/2011/04/establishing-a-christ-centered-home?lang=eng</link>
+      <description>We understand and believe in the eternal nature of the family. This understanding and belief should inspire us to do everything in our power to establish a Christ-centered home.</description>
+      <guid isPermaLink="false">/general-conference/2011/04/establishing-a-christ-centered-home</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2011-general-conference/2011-04-2060-elder-richard-j-maynes-64k-eng.mp3" length="5263253" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 2011 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Strength to Endure</title>
+      <link>http://www.lds.org/general-conference/2013/10/the-strength-to-endure?lang=eng</link>
+      <description>Our ability to endure to the end in righteousness will be in direct proportion to the strength of our testimony and the depth of our conversion.</description>
+      <guid isPermaLink="false">/general-conference/2013/10/the-strength-to-endure</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2013-general-conference/2013-10-4040-elder-richard-j-maynes-64k-eng.mp3" length="6295079" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Oct 2013 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Joy of Living a Christ-Centered Life</title>
+      <link>http://www.lds.org/general-conference/2015/10/the-joy-of-living-a-christ-centered-life?lang=eng</link>
+      <description>Elder Maynes explains how living a Christ-centered life will help us have peace, happiness, and joy even when we face adversity.</description>
+      <guid isPermaLink="false">/general-conference/2015/10/the-joy-of-living-a-christ-centered-life</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2015-general-conference/2015-10-1030-elder-richard-j-maynes-64k-eng.mp3" length="5627291" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Oct 2015 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

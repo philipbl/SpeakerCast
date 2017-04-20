@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Claudio R. M. Costa</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Claudio R. M. Costa.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:42 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:42 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Priceless Principles for Success</title>
+      <link>http://www.lds.org/general-conference/1994/10/priceless-principles-for-success?lang=eng</link>
+      <description>Dear brothers and sisters, I am grateful to my Heavenly Father for having sent me to this earth to loving parents who, from my boyhood, taught me the priceless principles of righteousness, honesty, faithfulness, and how to work.</description>
+      <guid isPermaLink="false">/general-conference/1994/10/priceless-principles-for-success</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1994-general-conference/1994-10-2040-elder-claudio-r-m-costa-64k-eng.mp3" length="3648248" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 1994 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Fun and Happiness</title>
+      <link>http://www.lds.org/general-conference/2002/10/fun-and-happiness?lang=eng</link>
+      <description>We can feel happiness every day in our lives through little things we do, and we are fully happy as we keep the commandments of a loving God.</description>
+      <guid isPermaLink="false">/general-conference/2002/10/fun-and-happiness</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2002-general-conference/2002-10-5040-elder-claudio-r-m-costa-64k-eng.mp3" length="5469630" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Oct 2002 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Don’t Leave for Tomorrow What You Can Do Today</title>
+      <link>http://www.lds.org/general-conference/2007/10/don-t-leave-for-tomorrow-what-you-can-do-today?lang=eng</link>
+      <description>Now is the time to perform our God-given duties concerning the family.</description>
+      <guid isPermaLink="false">/general-conference/2007/10/don-t-leave-for-tomorrow-what-you-can-do-today</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2007-general-conference/2007-10-4030-elder-claudio-r-m-costa-64k-eng.mp3" length="4483711" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Oct 2007 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Priesthood Responsibilities</title>
+      <link>http://www.lds.org/general-conference/2009/04/priesthood-responsibilities?lang=eng</link>
+      <description>As priesthood holders, we can be a powerful influence in the lives of others.</description>
+      <guid isPermaLink="false">/general-conference/2009/04/priesthood-responsibilities</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2009-general-conference/2009-04-3030-elder-claudio-r-m-costa-64k-eng.mp3" length="5355289" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Apr 2009 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Obedience to the Prophets</title>
+      <link>http://www.lds.org/general-conference/2010/10/obedience-to-the-prophets?lang=eng</link>
+      <description>What a great blessing it is to have prophets in our day!</description>
+      <guid isPermaLink="false">/general-conference/2010/10/obedience-to-the-prophets</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2010-general-conference/2010-10-1040-elder-claudio-r-m-costa-64k-eng.mp3" length="5341820" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 2010 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>That They Do Always Remember Him</title>
+      <link>http://www.lds.org/general-conference/2015/10/that-they-do-always-remember-him?lang=eng</link>
+      <description>Elder Costa teaches how pondering the life and Atonement of Christ can make the sacrament more meaningful and invite the companionship of the Spirit.</description>
+      <guid isPermaLink="false">/general-conference/2015/10/that-they-do-always-remember-him</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2015-general-conference/2015-10-4070-elder-claudio-r-m-costa-64k-eng.mp3" length="5143628" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Oct 2015 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

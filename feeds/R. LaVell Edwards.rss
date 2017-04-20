@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By R. LaVell Edwards</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by R. LaVell Edwards.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:31 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:31 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Prepare for a Mission</title>
+      <link>http://www.lds.org/general-conference/1984/10/prepare-for-a-mission?lang=eng</link>
+      <description>My dear brethren, I am both honored and humbled about this assignment to speak with you tonight. I have often been asked, “How do you stand the pressure of coaching and remain so calm?” I can assure you, brethren, I feel real pressure standing before</description>
+      <guid isPermaLink="false">/general-conference/1984/10/prepare-for-a-mission</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1984-general-conference/1984-10-3040-r-lavell-edwards-64k-eng.mp3" length="6399069" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 1984 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

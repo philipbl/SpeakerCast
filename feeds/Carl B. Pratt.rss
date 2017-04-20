@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Carl B. Pratt</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Carl B. Pratt.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:45 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:45 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Care for New Converts</title>
+      <link>http://www.lds.org/general-conference/1997/10/care-for-new-converts?lang=eng</link>
+      <description>In building the kingdom of God, every positive act, every friendly greeting, every warm smile, every thoughtful, kind note contributes to the strength of the whole.</description>
+      <guid isPermaLink="false">/general-conference/1997/10/care-for-new-converts</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1997-general-conference/1997-10-1040-elder-carl-b-pratt-64k-eng.mp3" length="3985453" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 1997 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Blessings of a Proper Fast</title>
+      <link>http://www.lds.org/general-conference/2004/10/the-blessings-of-a-proper-fast?lang=eng</link>
+      <description>I fear … that too many of us are either not fasting on fast day or we are doing so in a lackadaisical manner.</description>
+      <guid isPermaLink="false">/general-conference/2004/10/the-blessings-of-a-proper-fast</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2004-general-conference/2004-10-3020-elder-carl-b-pratt-64k-eng.mp3" length="4799848" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 2004 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Lord’s Richest Blessings</title>
+      <link>http://www.lds.org/general-conference/2011/04/the-lords-richest-blessings?lang=eng</link>
+      <description>As we pay our tithing faithfully, the Lord will open the windows of heaven and pour out upon us His richest blessings.</description>
+      <guid isPermaLink="false">/general-conference/2011/04/the-lords-richest-blessings</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2011-general-conference/2011-04-5030-elder-carl-b-pratt-64k-eng.mp3" length="5079127" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Apr 2011 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

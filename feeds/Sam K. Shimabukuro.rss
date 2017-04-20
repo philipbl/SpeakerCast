@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Sam K. Shimabukuro</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Sam K. Shimabukuro.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:40 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:40 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>What Doest Ye for Christ?</title>
+      <link>http://www.lds.org/general-conference/1992/04/what-doest-ye-for-christ?lang=eng</link>
+      <description>My dear brothers and sisters, I am pleased to convey to all of you love and warm greetings from the wonderful Saints and missionaries of Japan and Korea. They join the hundreds of thousands of Saints and missionaries throughout the world in doing the</description>
+      <guid isPermaLink="false">/general-conference/1992/04/what-doest-ye-for-christ</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1992-general-conference/1992-04-5070-elder-sam-k-shimabukuro-64k-eng.mp3" length="4417962" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Apr 1992 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

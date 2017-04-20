@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Rosemary M. Wixom</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Rosemary M. Wixom.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:00 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:00 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Stay on the Path</title>
+      <link>http://www.lds.org/general-conference/2010/10/stay-on-the-path?lang=eng</link>
+      <description>As we hold on to our children and follow the Savior’s lead, we will all return to our heavenly home and be safe in our Heavenly Father’s arms.</description>
+      <guid isPermaLink="false">/general-conference/2010/10/stay-on-the-path</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2010-general-conference/2010-10-1030-rosemary-m-wixom-64k-eng.mp3" length="4744767" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 2010 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Words We Speak</title>
+      <link>http://www.lds.org/general-conference/2013/04/the-words-we-speak?lang=eng</link>
+      <description>How we speak to our children and the words we use can encourage and uplift them and strengthen their faith.</description>
+      <guid isPermaLink="false">/general-conference/2013/04/the-words-we-speak</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2013-general-conference/2013-04-4030-rosemary-m-wixom-64k-eng.mp3" length="4979014" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Apr 2013 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Keeping Covenants Protects Us, Prepares Us, and Empowers Us</title>
+      <link>http://www.lds.org/general-conference/2014/04/keeping-covenants-protects-us-prepares-us-and-empowers-us?lang=eng</link>
+      <description>Rosemary M. Wixom encourages girls and women of all ages to make and keep sacred covenants in order to return to Heavenly Father's presence.
+		</description>
+      <guid isPermaLink="false">/general-conference/2014/04/keeping-covenants-protects-us-prepares-us-and-empowers-us</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/march-2014-general-womens-meeting/2014-03-0010-rosemary-m-wixom-64k-eng.mp3" length="5400540" type="audio/mpeg"/>
+      <pubDate>Sat, 29 Mar 2014 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Returning to Faith</title>
+      <link>http://www.lds.org/general-conference/2015/04/returning-to-faith?lang=eng</link>
+      <description>Rosemary M. Wixom shares the story of a woman who returned from doubt to faith and of the family members and friends who lovingly supported her.</description>
+      <guid isPermaLink="false">/general-conference/2015/04/returning-to-faith</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2015-general-conference/2015-04-4020-rosemary-m-wixom-64k-eng.mp3" length="4894626" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Apr 2015 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Discovering the Divinity Within</title>
+      <link>http://www.lds.org/general-conference/2015/10/discovering-the-divinity-within?lang=eng</link>
+      <description>Sister Wixom teaches that we each came to earth with a divine nature. Understanding and developing our divine nature helps us know why we are here on earth; it also helps us know that Heavenly Father loves us. The divine nature within each of us moti</description>
+      <guid isPermaLink="false">/general-conference/2015/10/discovering-the-divinity-within</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2015-general-conference/2015-09-0010-rosemary-m-wixom-64k-eng.mp3" length="5408824" type="audio/mpeg"/>
+      <pubDate>Sat, 26 Sep 2015 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

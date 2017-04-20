@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By James O. Mason</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by James O. Mason.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:23 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:23 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>A New Health Missionary Program</title>
+      <link>http://www.lds.org/general-conference/1971/10/a-new-health-missionary-program?lang=eng</link>
+      <description>This is an awesome responsibility, my dear brethren, and with fear and trembling I stand before you, praying that I may be blessed with a portion of that Spirit which has inspired those who have preceded me.</description>
+      <guid isPermaLink="false">/general-conference/1971/10/a-new-health-missionary-program</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1971-general-conference/1971-10-5050-dr-james-o-mason-64k-eng.mp3" length="5869190" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 1971 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Kingdom Progresses in Africa</title>
+      <link>http://www.lds.org/general-conference/1994/10/the-kingdom-progresses-in-africa?lang=eng</link>
+      <description>We heard the music and stirring words of “Onward Christian Soldiers” as we entered the house used as the chapel of the Lagos Nigeria Fourth Branch. The singers—eighteen elders, two sisters, and one missionary couple—were preparing for their zone conf</description>
+      <guid isPermaLink="false">/general-conference/1994/10/the-kingdom-progresses-in-africa</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1994-general-conference/1994-10-2060-elder-james-o-mason-64k-eng.mp3" length="3758817" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 1994 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

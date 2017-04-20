@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Eduardo Gavarret</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Eduardo Gavarret.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:58 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:58 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Returning Home</title>
+      <link>http://www.lds.org/general-conference/2008/10/returning-home?lang=eng</link>
+      <description>What a tremendous impact we can make in the lives of so many … when we accept the Savior’s invitation to feed His sheep.</description>
+      <guid isPermaLink="false">/general-conference/2008/10/returning-home</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2008-general-conference/2008-10-5040-elder-eduardo-gavarret-64k-eng.mp3" length="5569470" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Oct 2008 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Yes, Lord, I Will Follow Thee</title>
+      <link>http://www.lds.org/general-conference/2014/10/yes-lord-i-will-follow-thee?lang=eng</link>
+      <guid isPermaLink="false">/general-conference/2014/10/yes-lord-i-will-follow-thee</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2014-general-conference/2014-10-2060-elder-eduardo-gavarret-64k-eng.mp3" length="5279383" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 2014 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

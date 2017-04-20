@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Stephen A. West</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Stephen A. West.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:48 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:48 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>“Out of Small Things”</title>
+      <link>http://www.lds.org/general-conference/1999/04/out-of-small-things?lang=eng</link>
+      <description>May we take courage, faith, and comfort from the small, quiet, and gentle acts of caring, loving, humble, and dedicated followers of Christ.</description>
+      <guid isPermaLink="false">/general-conference/1999/04/out-of-small-things</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1999-general-conference/1999-04-2060-elder-stephen-a-west-64k-eng.mp3" length="4207735" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Apr 1999 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

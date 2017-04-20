@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Sheldon F. Child</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Sheldon F. Child.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:44 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:44 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>As Good As Our Bond</title>
+      <link>http://www.lds.org/general-conference/1997/04/as-good-as-our-bond?lang=eng</link>
+      <description>For members of The Church of Jesus Christ of Latter-day Saints, honesty is the only policy.</description>
+      <guid isPermaLink="false">/general-conference/1997/04/as-good-as-our-bond</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1997-general-conference/1997-04-2060-elder-sheldon-f-child-64k-eng.mp3" length="4559478" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 1997 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>A Sure Foundation</title>
+      <link>http://www.lds.org/general-conference/2003/10/a-sure-foundation?lang=eng</link>
+      <description>Our testimonies … must be built on a sure foundation, deeply rooted in the gospel of Jesus Christ.</description>
+      <guid isPermaLink="false">/general-conference/2003/10/a-sure-foundation</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2003-general-conference/2003-10-1020-elder-sheldon-f-child-64k-eng.mp3" length="5352143" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 2003 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Best Investment</title>
+      <link>http://www.lds.org/general-conference/2008/04/the-best-investment?lang=eng</link>
+      <description>If you always pay an honest tithing, the Lord will bless you. It will be the best investment you will ever make.</description>
+      <guid isPermaLink="false">/general-conference/2008/04/the-best-investment</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2008-general-conference/2008-04-4030-elder-sheldon-f-child-64k-eng.mp3" length="3985248" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Apr 2008 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

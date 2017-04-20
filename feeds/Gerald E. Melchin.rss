@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Gerald E. Melchin</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Gerald E. Melchin.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:35 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:35 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>“What Went Ye Out … to See?”</title>
+      <link>http://www.lds.org/general-conference/1988/10/what-went-ye-out-to-see?lang=eng</link>
+      <description>When you receive a call from the Office of the First Presidency or one of the counselors in the First Presidency, your whole life rolls over. I can’t think of words to express the thoughts that have been in my mind and in my heart since I visited wit</description>
+      <guid isPermaLink="false">/general-conference/1988/10/what-went-ye-out-to-see</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1988-general-conference/1988-10-3060-elder-gerald-e-melchin-64k-eng.mp3" length="1773836" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 1988 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Decisions</title>
+      <link>http://www.lds.org/general-conference/1994/04/decisions?lang=eng</link>
+      <description>I’m grateful to be here with you in general conference today, and I’d like to add my appreciation and support to these Brethren who have just been called, to Bishop Hales and the others.</description>
+      <guid isPermaLink="false">/general-conference/1994/04/decisions</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1994-general-conference/1994-04-5030-elder-gerald-e-melchin-64k-eng.mp3" length="5830053" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Apr 1994 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

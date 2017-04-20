@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Craig A. Cardon</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Craig A. Cardon.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:55 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:55 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Moving Closer to Him</title>
+      <link>http://www.lds.org/general-conference/2006/10/moving-closer-to-him?lang=eng</link>
+      <description>The priesthood, through the workings of the Spirit, moves individuals closer to God through ordination, ordinances, and refinement of individual natures.</description>
+      <guid isPermaLink="false">/general-conference/2006/10/moving-closer-to-him</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2006-general-conference/2006-10-5040-elder-craig-a-cardon-64k-eng.mp3" length="4519197" type="audio/mpeg"/>
+      <pubDate>Sun, 01 Oct 2006 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Savior Wants to Forgive</title>
+      <link>http://www.lds.org/general-conference/2013/04/the-savior-wants-to-forgive?lang=eng</link>
+      <description>The Lord loves us and wants us to understand His willingness to forgive.</description>
+      <guid isPermaLink="false">/general-conference/2013/04/the-savior-wants-to-forgive</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2013-general-conference/2013-04-1050-elder-craig-a-cardon-64k-eng.mp3" length="5369344" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Apr 2013 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

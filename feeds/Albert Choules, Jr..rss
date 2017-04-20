@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Albert Choules, Jr.</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Albert Choules, Jr..</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:35 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:35 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Choose the Church</title>
+      <link>http://www.lds.org/general-conference/1988/10/choose-the-church?lang=eng</link>
+      <description>I remember sitting in this hall years ago and listening to Elder Hartman Rector, Jr., give his first talk in a general conference. His first words were, “This is a traumatic experience for a convert.” Elder Rector, this is not an insignificant experi</description>
+      <guid isPermaLink="false">/general-conference/1988/10/choose-the-church</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1988-general-conference/1988-10-3040-elder-albert-choules-jr-64k-eng.mp3" length="1643931" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 1988 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>A Child’s Love Matured</title>
+      <link>http://www.lds.org/general-conference/1994/04/a-childs-love-matured?lang=eng</link>
+      <description>The thoughts I would leave with you today center around three statements of the Savior when He was upon the earth. When asked to define “the first commandment of all,” He answered, “Thou shalt love the Lord thy God with all thy heart, and with all th</description>
+      <guid isPermaLink="false">/general-conference/1994/04/a-childs-love-matured</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1994-general-conference/1994-04-1040-elder-albert-choules-jr-64k-eng.mp3" length="5634974" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 1994 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By H. Verlan Andersen</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by H. Verlan Andersen.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:33 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:33 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Missionary Work Is the Lifeblood of the Church</title>
+      <link>http://www.lds.org/general-conference/1986/10/missionary-work-is-the-lifeblood-of-the-church?lang=eng</link>
+      <description>My dear brothers and sisters, knowing as I do that this is the Lord’s church, and sensing somewhat the magnitude of the responsibility which comes with my calling and assignment as a General Authority, I have prayed most earnestly for that divine hel</description>
+      <guid isPermaLink="false">/general-conference/1986/10/missionary-work-is-the-lifeblood-of-the-church</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1986-general-conference/1986-10-2030-elder-h-verlan-andersen-64k-eng.mp3" length="3684645" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 1986 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Bring Up Your Children in Light and Truth”</title>
+      <link>http://www.lds.org/general-conference/1991/10/bring-up-your-children-in-light-and-truth?lang=eng</link>
+      <description>This conference brings to an end one of the most rewarding and enjoyable experiences my sweet companion and I have ever shared together and for which I desire to express my most profound gratitude. Most of our time was spent among the wonderful peopl</description>
+      <guid isPermaLink="false">/general-conference/1991/10/bring-up-your-children-in-light-and-truth</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1991-general-conference/1991-10-5050-elder-h-verlan-andersen-64k-eng.mp3" length="4938508" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Oct 1991 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

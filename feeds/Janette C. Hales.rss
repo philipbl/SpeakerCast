@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Janette C. Hales</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Janette C. Hales.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:39 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:39 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>A Pattern of Righteousness</title>
+      <link>http://www.lds.org/general-conference/1991/04/a-pattern-of-righteousness?lang=eng</link>
+      <description>Many years ago while my children were very young, the nighttime bottles and the daytime diapers seemed as endless as the frozen ground outside our military apartment. When I feel sorry for myself, it helps me to do something for someone else. That wi</description>
+      <guid isPermaLink="false">/general-conference/1991/04/a-pattern-of-righteousness</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1991-general-conference/1991-04-5040-janette-c-hales-64k-eng.mp3" length="5151658" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Apr 1991 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>You Are Not Alone</title>
+      <link>http://www.lds.org/general-conference/1992/04/you-are-not-alone?lang=eng</link>
+      <description>How I love Ardeth Kapp and Jayne Malan and the recently released board members. And what a wonderful feeling came over me when President Monson called to tell me that my counselors had been called. He said, “You shouldn’t be alone.” And then he quick</description>
+      <guid isPermaLink="false">/general-conference/1992/04/you-are-not-alone</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1992-general-conference/1992-04-5040-janette-c-hales-64k-eng.mp3" length="2716478" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Apr 1992 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Growing Up Spiritually</title>
+      <link>http://www.lds.org/general-conference/1994/04/growing-up-spiritually?lang=eng</link>
+      <description>A few weeks ago, I flew to New York City to meet a new granddaughter. As my daughter and her husband met me at the door with their little three-day-old infant, there was an obvious radiance in that apartment. As they placed Hannah, who will be named </description>
+      <guid isPermaLink="false">/general-conference/1994/04/growing-up-spiritually</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/1994-general-young-women-meeting/1994-03-0030-janette-c-hales-64k-eng.mp3" length="8149166" type="audio/mpeg"/>
+      <pubDate>Sat, 26 Mar 1994 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Ye Shall Feast upon This Fruit”</title>
+      <link>http://www.lds.org/general-conference/1995/04/ye-shall-feast-upon-this-fruit?lang=eng</link>
+      <description>Not long after I was called to be the general Young Women president, I received a letter from a young woman from Nairobi, Kenya, in East Africa. Sylvia, who was fifteen at the time, told me her father had been killed in a road accident. She said:</description>
+      <guid isPermaLink="false">/general-conference/1995/04/ye-shall-feast-upon-this-fruit</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/1995-general-young-women-meeting/1995-03-0030-janette-c-hales-64k-eng.mp3" length="5389165" type="audio/mpeg"/>
+      <pubDate>Sat, 25 Mar 1995 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

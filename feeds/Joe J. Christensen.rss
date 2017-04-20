@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Joe J. Christensen</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Joe J. Christensen.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:35 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:35 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Good Memories Are Real Blessings</title>
+      <link>http://www.lds.org/general-conference/1989/10/good-memories-are-real-blessings?lang=eng</link>
+      <description>Brethren, it’s a marvelous privilege to be with you this evening. I’ve appreciated so much the messages that we have heard.</description>
+      <guid isPermaLink="false">/general-conference/1989/10/good-memories-are-real-blessings</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1989-general-conference/1989-10-3040-elder-joe-j-christensen-64k-eng.mp3" length="5261109" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 1989 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Rearing Children in a Polluted Environment</title>
+      <link>http://www.lds.org/general-conference/1993/10/rearing-children-in-a-polluted-environment?lang=eng</link>
+      <description>Not long ago, I had an impromptu conversation with a group of young parents who exhibited a great deal of anxiety about rearing their children in our morally polluted environment. They asked for assistance in helping their children find their way in </description>
+      <guid isPermaLink="false">/general-conference/1993/10/rearing-children-in-a-polluted-environment</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1993-general-conference/1993-10-1040-elder-joe-j-christensen-64k-eng.mp3" length="6108092" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 1993 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Marriage and the Great Plan of Happiness</title>
+      <link>http://www.lds.org/general-conference/1995/04/marriage-and-the-great-plan-of-happiness?lang=eng</link>
+      <description>Barbara and I have been blessed with six children. Some years ago, when we had taken all of them to visit with their grandparents, my father said, “Joe, I think you and Barbara have started something you can’t stop.”</description>
+      <guid isPermaLink="false">/general-conference/1995/04/marriage-and-the-great-plan-of-happiness</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1995-general-conference/1995-04-4030-elder-joe-j-christensen-64k-eng.mp3" length="5637971" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Apr 1995 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Savior Is Counting on You</title>
+      <link>http://www.lds.org/general-conference/1996/10/the-savior-is-counting-on-you?lang=eng</link>
+      <description>A few years ago following general conference, our four-year-old grandson Andrew asked his mother, “Mommy, is Jesus counting on me?” His mother answered, “Oh yes, Andrew, Jesus  counting on you. He wants you to obey Mom and Dad, to do what is right, a</description>
+      <guid isPermaLink="false">/general-conference/1996/10/the-savior-is-counting-on-you</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1996-general-conference/1996-10-3020-elder-joe-j-christensen-64k-eng.mp3" length="5240017" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Oct 1996 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Greed, Selfishness, and Overindulgence</title>
+      <link>http://www.lds.org/general-conference/1999/04/greed-selfishness-and-overindulgence?lang=eng</link>
+      <description>I am confident that we will literally be called upon to make an accounting before God concerning how we have used [our resources] to bless lives and build the kingdom.</description>
+      <guid isPermaLink="false">/general-conference/1999/04/greed-selfishness-and-overindulgence</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1999-general-conference/1999-04-1030-elder-joe-j-christensen-64k-eng.mp3" length="6786075" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Apr 1999 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

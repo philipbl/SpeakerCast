@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Randall K. Bennett</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Randall K. Bennett.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:03 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:03 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Choose Eternal Life</title>
+      <link>http://www.lds.org/general-conference/2011/10/choose-eternal-life?lang=eng</link>
+      <description>Your eternal destiny will not be the result of chance but of choice. It is never too late to begin to choose eternal life!</description>
+      <guid isPermaLink="false">/general-conference/2011/10/choose-eternal-life</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2011-general-conference/2011-10-5050-elder-randall-k-bennett-64k-eng.mp3" length="4870020" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Oct 2011 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Your Next Step</title>
+      <link>http://www.lds.org/general-conference/2015/10/your-next-step?lang=eng</link>
+      <description>Randall K. Bennett describes principles that will help us take our next steps back to the loving embrace of our Heavenly Father and our Savior.</description>
+      <guid isPermaLink="false">/general-conference/2015/10/your-next-step</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2015-general-conference/2015-10-3020-elder-randall-k-bennett-64k-eng.mp3" length="4713392" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Oct 2015 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

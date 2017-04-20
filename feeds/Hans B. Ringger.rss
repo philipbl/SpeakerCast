@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Hans B. Ringger</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Hans B. Ringger.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:33 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:33 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Answers Will Come</title>
+      <link>http://www.lds.org/general-conference/1985/04/the-answers-will-come?lang=eng</link>
+      <description>Elder Packer taught us two days ago, that in the early years of the Church, the Saints would sometimes get a letter from “Box B.” A letter from Box B meant you were getting a calling without being interviewed first. Presidents of the Church called me</description>
+      <guid isPermaLink="false">/general-conference/1985/04/the-answers-will-come</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1985-general-conference/1985-04-5060-elder-hans-b-ringger-64k-eng.mp3" length="2808861" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Apr 1985 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Choose You This Day”</title>
+      <link>http://www.lds.org/general-conference/1990/04/choose-you-this-day?lang=eng</link>
+      <description>After the resurrection of Christ, the Twelve Apostles preached the gospel in the city of Jerusalem. Their message touched the hearts of many people, and, upon testifying of the truthfulness of the Resurrection, they were asked, “Men and brethren, wha</description>
+      <guid isPermaLink="false">/general-conference/1990/04/choose-you-this-day</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1990-general-conference/1990-04-2050-elder-hans-b-ringger-64k-eng.mp3" length="5697510" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 1990 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“What Shall We Do?”</title>
+      <link>http://www.lds.org/general-conference/1994/04/what-shall-we-do?lang=eng</link>
+      <description>A few years ago the world was at a political turning point. People believed that nations would achieve a long-awaited peace. Many overlooked, however, that we live in societies and cultures in which norms and values are changing and where secular ref</description>
+      <guid isPermaLink="false">/general-conference/1994/04/what-shall-we-do</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1994-general-conference/1994-04-5060-elder-hans-b-ringger-64k-eng.mp3" length="5394135" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Apr 1994 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Lord, to Whom Shall We Go?”</title>
+      <link>http://www.lds.org/general-conference/1995/10/lord-to-whom-shall-we-go?lang=eng</link>
+      <description>Crowds pushed toward Christ along the shores of the Sea of Galilee, eager to hear his message as he began his mission to mankind. Many disciples followed him during these days. However, some of them were offended by Christ’s teachings and turned away</description>
+      <guid isPermaLink="false">/general-conference/1995/10/lord-to-whom-shall-we-go</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1995-general-conference/1995-10-5050-elder-hans-b-ringger-64k-eng.mp3" length="4262253" type="audio/mpeg"/>
+      <pubDate>Sun, 01 Oct 1995 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

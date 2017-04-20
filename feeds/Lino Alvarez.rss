@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Lino Alvarez</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Lino Alvarez.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:40 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:40 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>“Honour Thy Father and Thy Mother”</title>
+      <link>http://www.lds.org/general-conference/1992/10/honour-thy-father-and-thy-mother?lang=eng</link>
+      <description>My dear brothers and sisters, I feel very humble as I stand at the same pulpit where so many men of God come to teach us the eternal truths of the everlasting gospel.</description>
+      <guid isPermaLink="false">/general-conference/1992/10/honour-thy-father-and-thy-mother</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1992-general-conference/1992-10-2030-elder-lino-alvarez-64k-eng.mp3" length="4406253" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Oct 1992 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

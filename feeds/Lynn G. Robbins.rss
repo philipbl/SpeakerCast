@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Lynn G. Robbins</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Lynn G. Robbins.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:47 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:47 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Agency and Anger</title>
+      <link>http://www.lds.org/general-conference/1998/04/agency-and-anger?lang=eng</link>
+      <description>A cunning part of [Satan’s] strategy is to dissociate anger from agency, making us believe that we are victims of an emotion that we cannot control.</description>
+      <guid isPermaLink="false">/general-conference/1998/04/agency-and-anger</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1998-general-conference/1998-04-5040-elder-lynn-g-robbins-64k-eng.mp3" length="3646931" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Apr 1998 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Tithing—a Commandment Even for the Destitute</title>
+      <link>http://www.lds.org/general-conference/2005/04/tithing-a-commandment-even-for-the-destitute?lang=eng</link>
+      <description>Genuine sacrifice has been a hallmark of the faithful from the beginning.</description>
+      <guid isPermaLink="false">/general-conference/2005/04/tithing-a-commandment-even-for-the-destitute</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2005-general-conference/2005-04-2070-elder-lynn-g-robbins-64k-eng.mp3" length="4577437" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 2005 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>What Manner of Men and Women Ought Ye to Be?</title>
+      <link>http://www.lds.org/general-conference/2011/04/what-manner-of-men-and-women-ought-ye-to-be?lang=eng</link>
+      <description>May your efforts to develop Christlike attributes be successful so that His image may be engraven in your countenance and His attributes manifest in your behavior.</description>
+      <guid isPermaLink="false">/general-conference/2011/04/what-manner-of-men-and-women-ought-ye-to-be</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2011-general-conference/2011-04-5040-elder-lynn-g-robbins-64k-eng.mp3" length="4837777" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Apr 2011 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Which Way Do You Face?</title>
+      <link>http://www.lds.org/general-conference/2014/10/which-way-do-you-face?lang=eng</link>
+      <description>Elder Lynn G. Robbins of the Seventy teaches us to show courage by putting God first, regardless of peer pressure or difficult circumstances.</description>
+      <guid isPermaLink="false">/general-conference/2014/10/which-way-do-you-face</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2014-general-conference/2014-10-1030-elder-lynn-g-robbins-64k-eng.mp3" length="5278702" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 2014 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Righteous Judge</title>
+      <link>http://www.lds.org/general-conference/2016/10/the-righteous-judge?lang=eng</link>
+      <description>Elder Robbins shares the importance of judging in righteousness and of teaching and correcting others with love, as the Savior would.</description>
+      <guid isPermaLink="false">/general-conference/2016/10/the-righteous-judge</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2016-general-conference/2016-10-4070-lynn-g-robbins-64k-eng.mp3" length="4947733" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Oct 2016 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

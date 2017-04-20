@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Matthew S. Holland</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Matthew S. Holland.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:30 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:30 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Muddy Feet and White Shirts</title>
+      <link>http://www.lds.org/general-conference/1983/04/muddy-feet-and-white-shirts?lang=eng</link>
+      <description>When I first found out that I was going to be speaking to you tonight, I was sitting on the edge of my parents’ bed, visiting with them after I had arrived home late that night. My parents’ bed now tilts downward at a 45-degree angle, and my mom stil</description>
+      <guid isPermaLink="false">/general-conference/1983/04/muddy-feet-and-white-shirts</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1983-general-conference/1983-04-3030-matthew-s-holland-64k-eng.mp3" length="3611879" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 1983 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

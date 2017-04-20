@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Robert K. Dellenbach</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Robert K. Dellenbach.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:37 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:37 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Hour of Conversion</title>
+      <link>http://www.lds.org/general-conference/1990/10/hour-of-conversion?lang=eng</link>
+      <description>May I tell you of the hour of my true conversion to the Lord Jesus Christ and his restored gospel. Perhaps my experience will strengthen those who desire a closer relationship with our Father in Heaven and a more profound testimony of the truthfulnes</description>
+      <guid isPermaLink="false">/general-conference/1990/10/hour-of-conversion</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1990-general-conference/1990-10-2030-elder-robert-k-dellenbach-64k-eng.mp3" length="4512416" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 1990 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Translation Miracle of the Book of Mormon</title>
+      <link>http://www.lds.org/general-conference/1995/04/the-translation-miracle-of-the-book-of-mormon?lang=eng</link>
+      <description>My dear brothers and sisters, do we realize the profound miracle that is the translation of the Book of Mormon? A miracle is “an extraordinary event manifesting divine intervention in human affairs” ( s.v. “miracle”). Consistent with that definition,</description>
+      <guid isPermaLink="false">/general-conference/1995/04/the-translation-miracle-of-the-book-of-mormon</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1995-general-conference/1995-04-1030-elder-robert-k-dellenbach-64k-eng.mp3" length="4546291" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Apr 1995 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Sacrifice Brings Forth the Blessings of Heaven</title>
+      <link>http://www.lds.org/general-conference/2002/10/sacrifice-brings-forth-the-blessings-of-heaven?lang=eng</link>
+      <description>If we are caring, if we are charitable, if we are obedient to God and follow His prophets, our sacrifices will bring forth the blessings of heaven.</description>
+      <guid isPermaLink="false">/general-conference/2002/10/sacrifice-brings-forth-the-blessings-of-heaven</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2002-general-conference/2002-10-2050-elder-robert-k-dellenbach-64k-eng.mp3" length="5573284" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Oct 2002 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Ann M. Dibb</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Ann M. Dibb.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:59 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:59 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Hold On</title>
+      <link>http://www.lds.org/general-conference/2009/10/hold-on?lang=eng</link>
+      <description>Heavenly Father has not left us alone during our mortal probation. He has already given us all the “safety equipment” we will need to successfully return to Him.</description>
+      <guid isPermaLink="false">/general-conference/2009/10/hold-on</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2009-general-conference/2009-10-4040-ann-m-dibb-64k-eng.mp3" length="5251584" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Oct 2009 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Be of a Good Courage</title>
+      <link>http://www.lds.org/general-conference/2010/04/be-of-a-good-courage?lang=eng</link>
+      <description>[The] guides from the book of Joshua will combine to provide the most powerful source of courage and strength there is: faith in our Heavenly Father and in His Son, Jesus Christ.</description>
+      <guid isPermaLink="false">/general-conference/2010/04/be-of-a-good-courage</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/2010-general-young-women-meeting/2010-03-0010-ann-m-dibb-64k-eng.mp3" length="6452276" type="audio/mpeg"/>
+      <pubDate>Sat, 27 Mar 2010 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>I Believe in Being Honest and True</title>
+      <link>http://www.lds.org/general-conference/2011/04/i-believe-in-being-honest-and-true?lang=eng</link>
+      <description>Being true to our beliefs—even when doing so isn’t popular, easy, or fun—keeps us safely on the path that leads to eternal life with our Heavenly Father.</description>
+      <guid isPermaLink="false">/general-conference/2011/04/i-believe-in-being-honest-and-true</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/2011-general-young-women-meeting/2011-03-0010-ann-m-dibb-64k-eng.mp3" length="6535038" type="audio/mpeg"/>
+      <pubDate>Sat, 26 Mar 2011 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Arise and Shine Forth</title>
+      <link>http://www.lds.org/general-conference/2012/04/arise-and-shine-forth?lang=eng</link>
+      <description>One of the greatest ways we can arise and shine forth is to confidently obey the commandments of God.</description>
+      <guid isPermaLink="false">/general-conference/2012/04/arise-and-shine-forth</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/2012-general-young-women-meeting/2012-03-0010-ann-m-dibb-64k-eng.mp3" length="5799400" type="audio/mpeg"/>
+      <pubDate>Sat, 24 Mar 2012 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>I Know It. I Live It. I Love It.</title>
+      <link>http://www.lds.org/general-conference/2012/10/i-know-it-i-live-it-i-love-it?lang=eng</link>
+      <description>We are followers of our Savior, Jesus Christ. Such conversion and confidence is the result of diligent and deliberate effort. It is individual. It is the process of a lifetime.</description>
+      <guid isPermaLink="false">/general-conference/2012/10/i-know-it-i-live-it-i-love-it</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2012-general-conference/2012-10-1030-ann-m-dibb-64k-eng.mp3" length="5382132" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 2012 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Your Holy Places</title>
+      <link>http://www.lds.org/general-conference/2013/04/your-holy-places?lang=eng</link>
+      <description>Whether [your holy places] are geographic or moments in time, they are equally sacred and have incredible strengthening power.</description>
+      <guid isPermaLink="false">/general-conference/2013/04/your-holy-places</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/2013-general-young-women-meeting/2013-03-0010-ann-m-dibb-64k-eng.mp3" length="11593492" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Mar 2013 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

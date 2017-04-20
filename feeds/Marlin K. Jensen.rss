@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Marlin K. Jensen</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Marlin K. Jensen.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:35 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:35 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>“An Eye Single to the Glory of God”</title>
+      <link>http://www.lds.org/general-conference/1989/10/an-eye-single-to-the-glory-of-god?lang=eng</link>
+      <description>Brothers and sisters, I am grateful for the opportunity to greet all of you and to tell you how thankful I am to have been called as a member of the First Quorum of the Seventy. My wife, Kathy, says she always knew I would receive a life sentence of </description>
+      <guid isPermaLink="false">/general-conference/1989/10/an-eye-single-to-the-glory-of-god</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1989-general-conference/1989-10-2050-elder-marlin-k-jensen-64k-eng.mp3" length="4825344" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 1989 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Power of a Good Life</title>
+      <link>http://www.lds.org/general-conference/1994/04/the-power-of-a-good-life?lang=eng</link>
+      <description>Brethren, I am grateful to be a part of this vast assembly of priesthood bearers. I am also especially mindful of a wonderful little band of missionaries with whom my wife and I are currently blessed to labor in the New York Rochester Mission. Speaki</description>
+      <guid isPermaLink="false">/general-conference/1994/04/the-power-of-a-good-life</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1994-general-conference/1994-04-3040-elder-marlin-k-jensen-64k-eng.mp3" length="5194418" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 1994 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Friendship: A Gospel Principle</title>
+      <link>http://www.lds.org/general-conference/1999/04/friendship-a-gospel-principle?lang=eng</link>
+      <description>If we truly want to be tools in the hands of our Heavenly Father in bringing to pass His eternal purposes, we need only to be a friend.</description>
+      <guid isPermaLink="false">/general-conference/1999/04/friendship-a-gospel-principle</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1999-general-conference/1999-04-4030-elder-marlin-k-jensen-64k-eng.mp3" length="5437014" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Apr 1999 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“To Walk Humbly with Thy God”</title>
+      <link>http://www.lds.org/general-conference/2001/04/to-walk-humbly-with-thy-god?lang=eng</link>
+      <description>True humility will inevitably lead us to say to God, “Thy will be done.”</description>
+      <guid isPermaLink="false">/general-conference/2001/04/to-walk-humbly-with-thy-god</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2001-general-conference/2001-04-1030-elder-marlin-k-jensen-64k-eng.mp3" length="5846316" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 2001 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Remember and Perish Not</title>
+      <link>http://www.lds.org/general-conference/2007/04/remember-and-perish-not?lang=eng</link>
+      <description>Remembering in the way God intends is a fundamental and saving principle of the gospel.</description>
+      <guid isPermaLink="false">/general-conference/2007/04/remember-and-perish-not</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2007-general-conference/2007-04-2050-elder-marlin-k-jensen-64k-eng.mp3" length="4975493" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 2007 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

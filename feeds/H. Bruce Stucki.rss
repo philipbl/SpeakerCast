@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By H. Bruce Stucki</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by H. Bruce Stucki.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:48 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:48 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Faith of a Sparrow: Faith and Trust in the Lord Jesus Christ</title>
+      <link>http://www.lds.org/general-conference/1999/10/the-faith-of-a-sparrow-faith-and-trust-in-the-lord-jesus-christ?lang=eng</link>
+      <description>When He reveals to us, speaking through our living prophet today, that we need to do more, … then we need to step forward and say, “Here am I; send me”!</description>
+      <guid isPermaLink="false">/general-conference/1999/10/the-faith-of-a-sparrow-faith-and-trust-in-the-lord-jesus-christ</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1999-general-conference/1999-10-3030-elder-h-bruce-stucki-64k-eng.mp3" length="3813337" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 1999 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Prayer, Faith, and Family: Stepping-Stones to Eternal Happiness</title>
+      <link>http://www.lds.org/general-conference/2006/04/prayer-faith-and-family-stepping-stones-to-eternal-happiness?lang=eng</link>
+      <description>Heavenly Father will hear our humble prayer and will give us the comfort and guidance we seek.</description>
+      <guid isPermaLink="false">/general-conference/2006/04/prayer-faith-and-family-stepping-stones-to-eternal-happiness</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2006-general-conference/2006-04-5050-elder-h-bruce-stucki-64k-eng.mp3" length="6491875" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Apr 2006 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

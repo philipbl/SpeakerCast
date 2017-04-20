@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Mary N. Cook</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Mary N. Cook.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:56 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:56 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Strengthen Home and Family</title>
+      <link>http://www.lds.org/general-conference/2007/10/strengthen-home-and-family?lang=eng</link>
+      <description>The Lord is depending on you to assist in the exaltation of your eternal family.</description>
+      <guid isPermaLink="false">/general-conference/2007/10/strengthen-home-and-family</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2007-general-conference/2007-10-1040-mary-n-cook-64k-eng.mp3" length="3917314" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 2007 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Anchors of Testimony</title>
+      <link>http://www.lds.org/general-conference/2008/04/anchors-of-testimony?lang=eng</link>
+      <description>Strengthen your faith by following this pattern of prayer, study, and obedience to the commandments.</description>
+      <guid isPermaLink="false">/general-conference/2008/04/anchors-of-testimony</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/2008-general-young-women-meeting/2008-03-0040-mary-n-cook-64k-eng.mp3" length="5255189" type="audio/mpeg"/>
+      <pubDate>Sat, 29 Mar 2008 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Never, Never, Never Give Up!</title>
+      <link>http://www.lds.org/general-conference/2010/04/never-never-never-give-up?lang=eng</link>
+      <description>What does the Lord want you to do? He wants you to be a valiant and virtuous daughter of God, dedicated to living each day so that you can be worthy to receive the blessings of the temple.</description>
+      <guid isPermaLink="false">/general-conference/2010/04/never-never-never-give-up</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/2010-general-young-women-meeting/2010-03-0020-mary-n-cook-64k-eng.mp3" length="5642001" type="audio/mpeg"/>
+      <pubDate>Sat, 27 Mar 2010 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Be an Example of the Believers</title>
+      <link>http://www.lds.org/general-conference/2010/10/be-an-example-of-the-believers?lang=eng</link>
+      <description>I would like to invite you to “be … an example of the believers … in faith [and] in purity.”</description>
+      <guid isPermaLink="false">/general-conference/2010/10/be-an-example-of-the-believers</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2010-general-conference/2010-10-4040-mary-n-cook-64k-eng.mp3" length="5159373" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Oct 2010 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Remember This: Kindness Begins with Me”</title>
+      <link>http://www.lds.org/general-conference/2011/04/remember-this-kindness-begins-with-me?lang=eng</link>
+      <description>Benevolence can bring joy and unity to your home, your class, your ward, and your school.</description>
+      <guid isPermaLink="false">/general-conference/2011/04/remember-this-kindness-begins-with-me</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/2011-general-young-women-meeting/2011-03-0020-mary-n-cook-64k-eng.mp3" length="5524874" type="audio/mpeg"/>
+      <pubDate>Sat, 26 Mar 2011 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Seek Learning: You Have a Work to Do</title>
+      <link>http://www.lds.org/general-conference/2012/04/seek-learning-you-have-a-work-to-do?lang=eng</link>
+      <description>Bless your children and your future home by learning as much as you can now.</description>
+      <guid isPermaLink="false">/general-conference/2012/04/seek-learning-you-have-a-work-to-do</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/2012-general-young-women-meeting/2012-03-0020-mary-n-cook-64k-eng.mp3" length="5484831" type="audio/mpeg"/>
+      <pubDate>Sat, 24 Mar 2012 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>When You Save a Girl, You Save Generations</title>
+      <link>http://www.lds.org/general-conference/2013/04/when-you-save-a-girl-you-save-generations?lang=eng</link>
+      <description>Your virtuous lives will bless your ancestors, your families now, and family members yet to come.</description>
+      <guid isPermaLink="false">/general-conference/2013/04/when-you-save-a-girl-you-save-generations</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/2013-general-young-women-meeting/2013-03-0020-mary-n-cook-64k-eng.mp3" length="11625078" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Mar 2013 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

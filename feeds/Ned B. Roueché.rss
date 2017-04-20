@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Ned B. Roueché</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Ned B. Roueché.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:48 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:48 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Fellowshipping</title>
+      <link>http://www.lds.org/general-conference/1999/04/fellowshipping?lang=eng</link>
+      <description>I know what it means to have a friend, a responsibility, and to be nurtured by the good word of God.</description>
+      <guid isPermaLink="false">/general-conference/1999/04/fellowshipping</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1999-general-conference/1999-04-3030-elder-ned-b-roueche-64k-eng.mp3" length="3634707" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Apr 1999 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Feed My Sheep”</title>
+      <link>http://www.lds.org/general-conference/2004/10/feed-my-sheep?lang=eng</link>
+      <description>We all have a great responsibility … that includes searching out those that are not with us and extending to them our love and fellowship.</description>
+      <guid isPermaLink="false">/general-conference/2004/10/feed-my-sheep</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2004-general-conference/2004-10-2040-elder-ned-b-roueche-64k-eng.mp3" length="4869169" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 2004 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

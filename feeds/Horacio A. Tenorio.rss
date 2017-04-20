@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Horacio A. Tenorio</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Horacio A. Tenorio.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:37 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:37 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Teachings of a Loving Father</title>
+      <link>http://www.lds.org/general-conference/1990/04/teachings-of-a-loving-father?lang=eng</link>
+      <description>Our Heavenly Father loves us dearly and watches over us in all our needs and cares, following us through life step by step.</description>
+      <guid isPermaLink="false">/general-conference/1990/04/teachings-of-a-loving-father</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1990-general-conference/1990-04-5050-elder-horacio-a-tenorio-64k-eng.mp3" length="19529313" type="audio/mpeg"/>
+      <pubDate>Sun, 01 Apr 1990 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Let Us Build Fortresses</title>
+      <link>http://www.lds.org/general-conference/1994/10/let-us-build-fortresses?lang=eng</link>
+      <description>In our world of escalating crisis, where the fraternal wars, corruption, secret combinations, and immorality are reminiscent of the wickedness described in the Book of Mormon, Satan has intensified his efforts to destroy the family by corrupting the </description>
+      <guid isPermaLink="false">/general-conference/1994/10/let-us-build-fortresses</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1994-general-conference/1994-10-2020-elder-horacio-a-tenorio-64k-eng.mp3" length="5045398" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 1994 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

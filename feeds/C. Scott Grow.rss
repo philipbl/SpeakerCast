@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By C. Scott Grow</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by C. Scott Grow.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:54 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:54 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Book of Mormon, the Instrument to Gather Scattered Israel</title>
+      <link>http://www.lds.org/general-conference/2005/10/the-book-of-mormon-the-instrument-to-gather-scattered-israel?lang=eng</link>
+      <description>Jesus Christ gave us the Book of Mormon as the instrument to gather scattered Israel.</description>
+      <guid isPermaLink="false">/general-conference/2005/10/the-book-of-mormon-the-instrument-to-gather-scattered-israel</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2005-general-conference/2005-10-2050-elder-c-scott-grow-64k-eng.mp3" length="4417996" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 2005 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Miracle of the Atonement</title>
+      <link>http://www.lds.org/general-conference/2011/04/the-miracle-of-the-atonement?lang=eng</link>
+      <description>There is no sin or transgression, pain or sorrow, which is outside of the healing power of His Atonement.</description>
+      <guid isPermaLink="false">/general-conference/2011/04/the-miracle-of-the-atonement</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2011-general-conference/2011-04-5060-elder-c-scott-grow-64k-eng.mp3" length="4983310" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Apr 2011 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>And This Is Life Eternal</title>
+      <link>http://www.lds.org/general-conference/2017/04/and-this-is-life-eternal?lang=eng</link>
+      <description>Elder Grow teaches that we can come to know God through prayer, scripture study, and obedience to His will.</description>
+      <guid isPermaLink="false">/general-conference/2017/04/and-this-is-life-eternal</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2017-general-conference/2017-04-5050-c-scott-grow-64k-eng.mp3" length="5651564" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Apr 2017 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

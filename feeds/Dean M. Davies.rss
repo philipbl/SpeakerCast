@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Dean M. Davies</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Dean M. Davies.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:03 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:03 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>A Sure Foundation</title>
+      <link>http://www.lds.org/general-conference/2013/04/a-sure-foundation?lang=eng</link>
+      <description>Let us accept the Savior’s invitation to come unto Him. Let us build our lives upon a safe and a sure foundation.</description>
+      <guid isPermaLink="false">/general-conference/2013/04/a-sure-foundation</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2013-general-conference/2013-04-1030-bishop-dean-m-davies-64k-eng.mp3" length="5183291" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Apr 2013 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Law of the Fast: A Personal Responsibility to Care for the Poor and Needy</title>
+      <link>http://www.lds.org/general-conference/2014/10/the-law-of-the-fast-a-personal-responsibility-to-care-for-the-poor-and-needy?lang=eng</link>
+      <description>Bishop Dean M. Davies counsels all members to follow the Savior by caring for the poor and needy through the law of the fast.</description>
+      <guid isPermaLink="false">/general-conference/2014/10/the-law-of-the-fast-a-personal-responsibility-to-care-for-the-poor-and-needy</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2014-general-conference/2014-10-3030-bishop-dean-m-davies-64k-eng.mp3" length="5559714" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 2014 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Blessings of Worship</title>
+      <link>http://www.lds.org/general-conference/2016/10/the-blessings-of-worship?lang=eng</link>
+      <description>Bishop Davies teaches us what true worship of Heavenly Father and Jesus Christ is and how we can have the blessings that accompany it.</description>
+      <guid isPermaLink="false">/general-conference/2016/10/the-blessings-of-worship</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2016-general-conference/2016-10-4060-dean-m-davies-64k-eng.mp3" length="5553844" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Oct 2016 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By James M. Dunn</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by James M. Dunn.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:30 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:30 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Blessings of Missionary Service</title>
+      <link>http://www.lds.org/general-conference/1983/10/the-blessings-of-missionary-service?lang=eng</link>
+      <description>My dear brethren, to repeat an expression that’s popular among missionaries these days, this is an “awesome” experience. I pray that the calming influence of the Spirit will be with me, that I might express my thoughts to you.</description>
+      <guid isPermaLink="false">/general-conference/1983/10/the-blessings-of-missionary-service</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1983-general-conference/1983-10-3020-james-m-dunn-64k-eng.mp3" length="5574556" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 1983 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Words to Live By</title>
+      <link>http://www.lds.org/general-conference/2003/04/words-to-live-by?lang=eng</link>
+      <description>Successfully working our way through life, while keeping our eye on life’s true purposes, blesses us both here and hereafter.</description>
+      <guid isPermaLink="false">/general-conference/2003/04/words-to-live-by</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2003-general-conference/2003-04-2070-elder-james-m-dunn-64k-eng.mp3" length="3585670" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 2003 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

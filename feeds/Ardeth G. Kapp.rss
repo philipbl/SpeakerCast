@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Ardeth G. Kapp</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Ardeth G. Kapp.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:32 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:32 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Young Women Striving Together</title>
+      <link>http://www.lds.org/general-conference/1984/10/young-women-striving-together?lang=eng</link>
+      <description>To young women in all parts of the world, I care about you, every one of you, wherever you are. I believe in you, and I love you.</description>
+      <guid isPermaLink="false">/general-conference/1984/10/young-women-striving-together</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1984-general-womens-meeting/1984-09-0030-ardeth-g-kapp-64k-eng.mp3" length="6233456" type="audio/mpeg"/>
+      <pubDate>Sat, 29 Sep 1984 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Holy Scriptures: Letters from Home</title>
+      <link>http://www.lds.org/general-conference/1985/10/the-holy-scriptures-letters-from-home?lang=eng</link>
+      <description>How I wish I could sit on the edge of your bed with you young women, look into your eyes, and help you understand the greatness of your spirit. We’d talk about the desire to be popular and the influence of friends and the importance of families and g</description>
+      <guid isPermaLink="false">/general-conference/1985/10/the-holy-scriptures-letters-from-home</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/1985-general-womens-meeting/1985-09-0030-ardeth-g-kapp-64k-eng.mp3" length="11573167" type="audio/mpeg"/>
+      <pubDate>Sat, 28 Sep 1985 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>A Time for Hope</title>
+      <link>http://www.lds.org/general-conference/1986/10/a-time-for-hope?lang=eng</link>
+      <description>I wish I could sit with each one of you in the swing on my back porch this time of year, just as the sun is going down. It is so much fun to listen to the crickets. Those who have trained themselves to listen well can distinguish between a cricket’s </description>
+      <guid isPermaLink="false">/general-conference/1986/10/a-time-for-hope</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1986-general-womens-meeting/1986-09-0020-ardeth-g-kapp-64k-eng.mp3" length="5551881" type="audio/mpeg"/>
+      <pubDate>Sat, 27 Sep 1986 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Stand for Truth and Righteousness</title>
+      <link>http://www.lds.org/general-conference/1988/10/stand-for-truth-and-righteousness?lang=eng</link>
+      <description>In the summertime, in the fall, the winter, and the spring, I think about young women. In the daytime and much of the nighttime, you are on my mind. I pray for help for those of you who are experiencing difficulty, and I pray for protection for those</description>
+      <guid isPermaLink="false">/general-conference/1988/10/stand-for-truth-and-righteousness</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1988-general-womens-meeting/1988-09-0030-ardeth-g-kapp-64k-eng.mp3" length="6229806" type="audio/mpeg"/>
+      <pubDate>Sat, 24 Sep 1988 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Crickets” Can Be Destroyed through Spirituality</title>
+      <link>http://www.lds.org/general-conference/1990/10/crickets-can-be-destroyed-through-spirituality?lang=eng</link>
+      <description>My dear young women friends, tonight I want to be sensitive to your feelings. I pray that you will open your hearts and that the Spirit will teach you as I speak to you about some things that are very important, that need to be talked about at this t</description>
+      <guid isPermaLink="false">/general-conference/1990/10/crickets-can-be-destroyed-through-spirituality</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1990-general-womens-meeting/1990-09-0030-ardeth-g-kapp-64k-eng.mp3" length="6427843" type="audio/mpeg"/>
+      <pubDate>Sat, 29 Sep 1990 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>A Mighty Force for Righteousness</title>
+      <link>http://www.lds.org/general-conference/1992/04/a-mighty-force-for-righteousness?lang=eng</link>
+      <description>My dear brothers and sisters, today my heart is filled with joy because of the deep love and respect I feel for the newly called Young Women Presidency. I also feel heartfelt gratitude for my counselors and the Young Women board members I have served</description>
+      <guid isPermaLink="false">/general-conference/1992/04/a-mighty-force-for-righteousness</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1992-general-conference/1992-04-5030-president-ardeth-g-kapp-64k-eng.mp3" length="2504724" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Apr 1992 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

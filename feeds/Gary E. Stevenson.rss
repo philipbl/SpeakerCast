@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Gary E. Stevenson</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Gary E. Stevenson.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:59 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:59 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Sacred Homes, Sacred Temples</title>
+      <link>http://www.lds.org/general-conference/2009/04/sacred-homes-sacred-temples?lang=eng</link>
+      <description>Understanding the eternal nature of the temple will draw you to your family; understanding the eternal nature of the family will draw you to the temple.</description>
+      <guid isPermaLink="false">/general-conference/2009/04/sacred-homes-sacred-temples</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2009-general-conference/2009-04-5030-elder-gary-e-stevenson-64k-eng.mp3" length="5203200" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Apr 2009 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Be Valiant in Courage, Strength, and Activity</title>
+      <link>http://www.lds.org/general-conference/2012/10/be-valiant-in-courage-strength-and-activity?lang=eng</link>
+      <description>Qualify yourselves as did the 2,000 stripling soldiers by being valiant in courage as worthy priesthood holders.</description>
+      <guid isPermaLink="false">/general-conference/2012/10/be-valiant-in-courage-strength-and-activity</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2012-general-conference/2012-10-3020-bishop-gary-e-stevenson-64k-eng.mp3" length="5060573" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 2012 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Your Four Minutes</title>
+      <link>http://www.lds.org/general-conference/2014/04/your-four-minutes?lang=eng</link>
+      <description>Gary E. Stevenson uses examples of Olympic athletes to illustrate how we should conduct our relatively short but all-important mortal lives.
+		</description>
+      <guid isPermaLink="false">/general-conference/2014/04/your-four-minutes</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2014-general-conference/2014-04-4040-bishop-gary-e-stevenson-64k-eng.mp3" length="5440007" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Apr 2014 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Plain and Precious Truths</title>
+      <link>http://www.lds.org/general-conference/2015/10/plain-and-precious-truths?lang=eng</link>
+      <description>Elder Gary E. Stevenson describes his call to the Quorum of the Twelve Apostles and bears his testimony of the plain and precious truths of the gospel.</description>
+      <guid isPermaLink="false">/general-conference/2015/10/plain-and-precious-truths</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2015-general-conference/2015-10-4030-elder-gary-e-stevenson-64k-eng.mp3" length="3423831" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Oct 2015 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Where Are the Keys and Authority of the Priesthood?</title>
+      <link>http://www.lds.org/general-conference/2016/04/where-are-the-keys-and-authority-of-the-priesthood?lang=eng</link>
+      <guid isPermaLink="false">/general-conference/2016/04/where-are-the-keys-and-authority-of-the-priesthood</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2016-general-conference/2016-04-1040-gary-e-stevenson-64k-eng.mp3" length="6788888" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 2016 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Look to the Book, Look to the Lord</title>
+      <link>http://www.lds.org/general-conference/2016/10/look-to-the-book-look-to-the-lord?lang=eng</link>
+      <description>Elder Stevenson explains how the Book of Mormon is the keystone of our religion and how members can gain a testimony of it by reading it.</description>
+      <guid isPermaLink="false">/general-conference/2016/10/look-to-the-book-look-to-the-lord</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2016-general-conference/2016-10-2030-gary-e-stevenson-64k-eng.mp3" length="7264647" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 2016 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>How Does the Holy Ghost Help You?</title>
+      <link>http://www.lds.org/general-conference/2017/04/how-does-the-holy-ghost-help-you?lang=eng</link>
+      <description>Elder Stevenson teaches that the Holy Ghost—a personage of spirit and member of the Godhead—warns, comforts, and testifies.</description>
+      <guid isPermaLink="false">/general-conference/2017/04/how-does-the-holy-ghost-help-you</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2017-general-conference/2017-04-5040-gary-e-stevenson-64k-eng.mp3" length="7392275" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Apr 2017 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

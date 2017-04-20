@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Larry Y. Wilson</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Larry Y. Wilson.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:03 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:03 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Only upon the Principles of Righteousness</title>
+      <link>http://www.lds.org/general-conference/2012/04/only-upon-the-principles-of-righteousness?lang=eng</link>
+      <description>Wise parents prepare their children to get along without them. They provide opportunities for growth as children acquire the spiritual maturity to exercise their agency properly.</description>
+      <guid isPermaLink="false">/general-conference/2012/04/only-upon-the-principles-of-righteousness</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2012-general-conference/2012-04-5040-elder-larry-y-wilson-64k-eng.mp3" length="4914826" type="audio/mpeg"/>
+      <pubDate>Sun, 01 Apr 2012 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

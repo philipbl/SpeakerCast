@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Dale E. Miller</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Dale E. Miller.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:46 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:46 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Kingdom’s Perfecting Pathway</title>
+      <link>http://www.lds.org/general-conference/1998/04/the-kingdoms-perfecting-pathway?lang=eng</link>
+      <description>As we invest our time, talents, and means to build Zion, our hearts are purified, our wisdom increases, celestial habits begin to form.</description>
+      <guid isPermaLink="false">/general-conference/1998/04/the-kingdoms-perfecting-pathway</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1998-general-conference/1998-04-2070-elder-dale-e-miller-64k-eng.mp3" length="3887011" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Apr 1998 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Bringing Peace and Healing to Your Soul</title>
+      <link>http://www.lds.org/general-conference/2004/10/bringing-peace-and-healing-to-your-soul?lang=eng</link>
+      <description>As conversion matures and is sustained through the workings of the Holy Ghost, peace and healing come to the soul.</description>
+      <guid isPermaLink="false">/general-conference/2004/10/bringing-peace-and-healing-to-your-soul</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2004-general-conference/2004-10-1040-elder-dale-e-miller-64k-eng.mp3" length="6040900" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 2004 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

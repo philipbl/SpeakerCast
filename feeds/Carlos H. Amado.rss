@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Carlos H. Amado</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Carlos H. Amado.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:35 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:35 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Overcoming Adversity</title>
+      <link>http://www.lds.org/general-conference/1989/10/overcoming-adversity?lang=eng</link>
+      <description>The day I arrived in Mexico City as a General Authority with my family, I received a telephone call from a former missionary companion who wanted to talk to me that night. His oldest son, who was just starting his first semester of college, had died </description>
+      <guid isPermaLink="false">/general-conference/1989/10/overcoming-adversity</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1989-general-conference/1989-10-2060-elder-carlos-h-amado-64k-eng.mp3" length="4796784" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 1989 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>An Eternal Vision</title>
+      <link>http://www.lds.org/general-conference/1993/10/an-eternal-vision?lang=eng</link>
+      <description>
+         and  are common words in the restored church. Someone said, “The one who doesn’t live to serve doesn’t serve to live”—wise words which are applied to each priesthood holder. Another word to describe the priesthood is  literally, every man w</description>
+      <guid isPermaLink="false">/general-conference/1993/10/an-eternal-vision</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1993-general-conference/1993-10-3040-elder-carlos-h-amado-64k-eng.mp3" length="5628021" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 1993 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Some Basic Teachings from the History of Joseph Smith</title>
+      <link>http://www.lds.org/general-conference/2002/04/some-basic-teachings-from-the-history-of-joseph-smith?lang=eng</link>
+      <description>Conversion is a personal and spiritual process. Every individual must examine these principles for himself.</description>
+      <guid isPermaLink="false">/general-conference/2002/04/some-basic-teachings-from-the-history-of-joseph-smith</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2002-general-conference/2002-04-5030-elder-carlos-h-amado-64k-eng.mp3" length="4537216" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Apr 2002 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Service, a Divine Quality</title>
+      <link>http://www.lds.org/general-conference/2008/04/service-a-divine-quality?lang=eng</link>
+      <description>Those who serve will strive to ennoble, build, and lift their fellowmen.</description>
+      <guid isPermaLink="false">/general-conference/2008/04/service-a-divine-quality</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2008-general-conference/2008-04-2060-elder-carlos-h-amado-64k-eng.mp3" length="4722304" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 2008 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Christ the Redeemer</title>
+      <link>http://www.lds.org/general-conference/2014/04/christ-the-redeemer?lang=eng</link>
+      <description>Carlos H. Amado testifies that all who have lived or will live on earth are blessed by the Atonement of Jesus Christ. </description>
+      <guid isPermaLink="false">/general-conference/2014/04/christ-the-redeemer</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2014-general-conference/2014-04-1040-elder-carlos-h-amado-64k-eng.mp3" length="5069288" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 2014 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By W. Craig Zwick</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by W. Craig Zwick.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:43 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:43 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Encircled in the Savior’s Love</title>
+      <link>http://www.lds.org/general-conference/1995/10/encircled-in-the-saviors-love?lang=eng</link>
+      <description>My heart trembles with deep humility as I occupy this sacred spot for the first time. I know, with full assurance, that President Hinckley’s voice and thoughts represent the Savior’s desires for each of us.</description>
+      <guid isPermaLink="false">/general-conference/1995/10/encircled-in-the-saviors-love</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1995-general-conference/1995-10-1050-elder-w-craig-zwick-64k-eng.mp3" length="3503237" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 1995 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Lord Thy God Will Hold Thy Hand</title>
+      <link>http://www.lds.org/general-conference/2003/10/the-lord-thy-god-will-hold-thy-hand?lang=eng</link>
+      <description>If we will … walk hand in hand with Him in His paths, we will go forward with faith and never feel alone.</description>
+      <guid isPermaLink="false">/general-conference/2003/10/the-lord-thy-god-will-hold-thy-hand</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2003-general-conference/2003-10-2050-elder-w-craig-zwick-64k-eng.mp3" length="6026736" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 2003 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>We Will Not Yield, We Cannot Yield</title>
+      <link>http://www.lds.org/general-conference/2008/04/we-will-not-yield-we-cannot-yield?lang=eng</link>
+      <description>Live by your standards. Stand up for what you believe in.</description>
+      <guid isPermaLink="false">/general-conference/2008/04/we-will-not-yield-we-cannot-yield</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2008-general-conference/2008-04-5030-elder-w-craig-zwick-64k-eng.mp3" length="4393559" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Apr 2008 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>What Are You Thinking?</title>
+      <link>http://www.lds.org/general-conference/2014/04/what-are-you-thinking?lang=eng</link>
+      <description>W. Craig Zwick encourages empathy for others and teaches that we must strive to understand what others are thinking.
+		</description>
+      <guid isPermaLink="false">/general-conference/2014/04/what-are-you-thinking</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2014-general-conference/2014-04-2080-elder-w-craig-zwick-64k-eng.mp3" length="5200988" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 2014 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

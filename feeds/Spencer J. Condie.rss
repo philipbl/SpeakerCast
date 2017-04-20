@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Spencer J. Condie</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Spencer J. Condie.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:36 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:36 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Some Scriptural Lessons on Leadership</title>
+      <link>http://www.lds.org/general-conference/1990/04/some-scriptural-lessons-on-leadership?lang=eng</link>
+      <description>I wish to extend a warm welcome to the new members of the Church who “are no more strangers and foreigners, but fellowcitizens with the saints, and of the household of God.” (.)</description>
+      <guid isPermaLink="false">/general-conference/1990/04/some-scriptural-lessons-on-leadership</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1990-general-conference/1990-04-2060-elder-spencer-j-condie-64k-eng.mp3" length="4473460" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 1990 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>A Mighty Change of Heart</title>
+      <link>http://www.lds.org/general-conference/1993/10/a-mighty-change-of-heart?lang=eng</link>
+      <description>A few years ago, as Sister Condie and I exited the Tabernacle, a lovely sister approached us and said with a very cheerful voice, “Good morning, President Hinckley.” I replied, “I’m sorry to disappoint you, my dear, but I’m Elder Condie of the Sevent</description>
+      <guid isPermaLink="false">/general-conference/1993/10/a-mighty-change-of-heart</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1993-general-conference/1993-10-1060-elder-spencer-j-condie-64k-eng.mp3" length="5954765" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 1993 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Becoming a Great Benefit to Our Fellow Beings</title>
+      <link>http://www.lds.org/general-conference/2002/04/becoming-a-great-benefit-to-our-fellow-beings?lang=eng</link>
+      <description>I pray that you wonderful young men will not only be worthy to receive ministering angels, but that you … will become a ministering angel in the lives of others.</description>
+      <guid isPermaLink="false">/general-conference/2002/04/becoming-a-great-benefit-to-our-fellow-beings</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2002-general-conference/2002-04-3030-elder-spencer-j-condie-64k-eng.mp3" length="4939900" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Apr 2002 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Claim the Exceeding Great and Precious Promises</title>
+      <link>http://www.lds.org/general-conference/2007/10/claim-the-exceeding-great-and-precious-promises?lang=eng</link>
+      <description>The Lord makes generous promises, and He certifies that He will not vary from these promises.</description>
+      <guid isPermaLink="false">/general-conference/2007/10/claim-the-exceeding-great-and-precious-promises</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2007-general-conference/2007-10-1060-elder-spencer-j-condie-64k-eng.mp3" length="3903727" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 2007 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Marcos A. Aidukaitis</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Marcos A. Aidukaitis.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:57 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:57 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Because My Father Read the Book of Mormon</title>
+      <link>http://www.lds.org/general-conference/2008/10/because-my-father-read-the-book-of-mormon?lang=eng</link>
+      <description>I invite all who hear me today to read the Book of Mormon and to apply the promise it contains. Those who do will know that the book is true.</description>
+      <guid isPermaLink="false">/general-conference/2008/10/because-my-father-read-the-book-of-mormon</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2008-general-conference/2008-10-1050-elder-marcos-a-aidukaitis-64k-eng.mp3" length="4871372" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 2008 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>If Ye Lack Wisdom</title>
+      <link>http://www.lds.org/general-conference/2014/04/if-ye-lack-wisdom?lang=eng</link>
+      <description>Marcos A. Aidukaitis gives guidance for recognizing truth—observing its fruits, experimenting on the word of God, and seeking personal revelation.
+		</description>
+      <guid isPermaLink="false">/general-conference/2014/04/if-ye-lack-wisdom</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2014-general-conference/2014-04-5060-elder-marcos-a-aidukaitis-64k-eng.mp3" length="4938481" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Apr 2014 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

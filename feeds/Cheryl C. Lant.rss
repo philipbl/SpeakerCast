@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Cheryl C. Lant</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Cheryl C. Lant.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:54 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:54 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>My Soul Delighteth in the Scriptures</title>
+      <link>http://www.lds.org/general-conference/2005/10/my-soul-delighteth-in-the-scriptures?lang=eng</link>
+      <description>There is absolutely nothing more important we can do for our families than to strengthen them in the scriptures.</description>
+      <guid isPermaLink="false">/general-conference/2005/10/my-soul-delighteth-in-the-scriptures</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2005-general-conference/2005-10-4040-cheryl-c-lant-64k-eng.mp3" length="4348867" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Oct 2005 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Righteous Traditions</title>
+      <link>http://www.lds.org/general-conference/2008/04/righteous-traditions?lang=eng</link>
+      <description>Are the traditions that we are creating in our families going to make it easier for our children to follow the living prophets?</description>
+      <guid isPermaLink="false">/general-conference/2008/04/righteous-traditions</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2008-general-conference/2008-04-1040-cheryl-c-lant-64k-eng.mp3" length="4284253" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 2008 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>That Our Children Might See the Face of the Savior</title>
+      <link>http://www.lds.org/general-conference/2010/04/that-our-children-might-see-the-face-of-the-savior?lang=eng</link>
+      <description>It is our sacred responsibility as parents and leaders of this rising generation of children to bring them to the Savior.</description>
+      <guid isPermaLink="false">/general-conference/2010/04/that-our-children-might-see-the-face-of-the-savior</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2010-general-conference/2010-04-4040-cheryl-c-lant-64k-eng.mp3" length="5373374" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Apr 2010 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

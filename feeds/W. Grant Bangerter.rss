@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By W. Grant Bangerter</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by W. Grant Bangerter.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:25 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:25 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Power of the Priesthood</title>
+      <link>http://www.lds.org/general-conference/1975/10/the-power-of-the-priesthood?lang=eng</link>
+      <description>My dear brethren, I believe that what I have to say is a companion to what Bishop Brown has already spoken tonight. And I trust that the Spirit of the Lord will bless its delivery.</description>
+      <guid isPermaLink="false">/general-conference/1975/10/the-power-of-the-priesthood</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1975-general-conference/1975-10-5020-elder-william-grant-bangerter-64k-eng.mp3" length="7258923" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 1975 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Voice of the Lord Is unto All People</title>
+      <link>http://www.lds.org/general-conference/1979/10/the-voice-of-the-lord-is-unto-all-people?lang=eng</link>
+      <description>President Kimball has already suggested that what we say may be supportive of the things he has already declared. “God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets,</description>
+      <guid isPermaLink="false">/general-conference/1979/10/the-voice-of-the-lord-is-unto-all-people</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1979-general-conference/1979-10-1030-elder-w-grant-bangerter-64k-eng.mp3" length="5416971" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 1979 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Teaching by the Spirit</title>
+      <link>http://www.lds.org/general-conference/1980/04/teaching-by-the-spirit?lang=eng</link>
+      <description>Central to the calling to administer the gospel to all people, living and dead, is the power of the Holy Ghost. My experience tells me that many who labor in the callings of the priesthood lack insight into this great agency and are unable to be as e</description>
+      <guid isPermaLink="false">/general-conference/1980/04/teaching-by-the-spirit</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1980-general-conference/1980-04-3060-elder-w-grant-bangerter-64k-eng.mp3" length="5406932" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 1980 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>What Temples Are For</title>
+      <link>http://www.lds.org/general-conference/1982/04/what-temples-are-for?lang=eng</link>
+      <description>Others today here have spoken about the temple, but last November, at the dedication of the Jordan River Temple, we held three services a day for five days, and we didn’t say it all. This is a good time to talk about temples, and I would like to expl</description>
+      <guid isPermaLink="false">/general-conference/1982/04/what-temples-are-for</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1982-general-conference/1982-04-5060-elder-w-grant-bangerter-64k-eng.mp3" length="5491356" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Apr 1982 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

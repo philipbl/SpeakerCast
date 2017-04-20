@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Jorge F. Zeballos</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Jorge F. Zeballos.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:59 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:59 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Attempting the Impossible</title>
+      <link>http://www.lds.org/general-conference/2009/10/attempting-the-impossible?lang=eng</link>
+      <description>Eternal life is to live with our Father and with our families forevermore. Should not this promise be the greatest incentive to do the best within our reach?</description>
+      <guid isPermaLink="false">/general-conference/2009/10/attempting-the-impossible</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2009-general-conference/2009-10-2040-elder-jorge-f-zeballos-64k-eng.mp3" length="4228075" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Oct 2009 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>If You Will Be Responsible</title>
+      <link>http://www.lds.org/general-conference/2015/04/if-you-will-be-responsible?lang=eng</link>
+      <description>Elder JorgeF. Zeballos shares four key principles to help us be responsible to our Father in Heaven and become like Him.</description>
+      <guid isPermaLink="false">/general-conference/2015/04/if-you-will-be-responsible</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2015-general-conference/2015-04-5050-elder-jorge-f-zeballos-64k-eng.mp3" length="5098699" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Apr 2015 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

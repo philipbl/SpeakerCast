@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Craig C. Christensen</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Craig C. Christensen.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:52 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:52 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Seek, and Ye Shall Find</title>
+      <link>http://www.lds.org/general-conference/2003/04/seek-and-ye-shall-find?lang=eng</link>
+      <description>As we engage our faith and commit our energy to draw closer to Jesus Christ, we begin to understand more fully who He really is.</description>
+      <guid isPermaLink="false">/general-conference/2003/04/seek-and-ye-shall-find</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2003-general-conference/2003-04-2060-elder-craig-c-christensen-64k-eng.mp3" length="3432238" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 2003 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>A Book with a Promise</title>
+      <link>http://www.lds.org/general-conference/2008/04/a-book-with-a-promise?lang=eng</link>
+      <description>I pray that we will continue to use the Book of Mormon: Another Testament of Jesus Christ to share the gospel message with family and friends.</description>
+      <guid isPermaLink="false">/general-conference/2008/04/a-book-with-a-promise</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2008-general-conference/2008-04-5070-elder-craig-c-christensen-64k-eng.mp3" length="4077417" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Apr 2008 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>An Unspeakable Gift from God</title>
+      <link>http://www.lds.org/general-conference/2012/10/an-unspeakable-gift-from-god?lang=eng</link>
+      <description>The Holy Ghost works in perfect unity with Heavenly Father and Jesus Christ, fulfilling many important roles and distinct responsibilities.</description>
+      <guid isPermaLink="false">/general-conference/2012/10/an-unspeakable-gift-from-god</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2012-general-conference/2012-10-1040-elder-craig-c-christensen-64k-eng.mp3" length="5259688" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 2012 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>I Know These Things of Myself</title>
+      <link>http://www.lds.org/general-conference/2014/10/i-know-these-things-of-myself?lang=eng</link>
+      <description>Elder Craig C. Christensen encourages priesthood holders to develop their own testimony of the gospel of Jesus Christ and of the Restoration.</description>
+      <guid isPermaLink="false">/general-conference/2014/10/i-know-these-things-of-myself</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2014-general-conference/2014-10-3020-elder-craig-c-christensen-64k-eng.mp3" length="5728516" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 2014 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“A Choice Seer Will I Raise Up”</title>
+      <link>http://www.lds.org/general-conference/2016/10/a-choice-seer-will-i-raise-up?lang=eng</link>
+      <description>Elder Christensen reminds us that through Joseph Smith’s foretold mission as Prophet of the Restoration, we enjoy the fruits and blessings of the Restoration.</description>
+      <guid isPermaLink="false">/general-conference/2016/10/a-choice-seer-will-i-raise-up</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2016-general-conference/2016-10-1040-craig-c-christensen-64k-eng.mp3" length="5772945" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 2016 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

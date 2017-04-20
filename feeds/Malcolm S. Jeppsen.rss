@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Malcolm S. Jeppsen</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Malcolm S. Jeppsen.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:36 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:36 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Who Is a True Friend?</title>
+      <link>http://www.lds.org/general-conference/1990/04/who-is-a-true-friend?lang=eng</link>
+      <description>A year ago when I was called as a Seventy, a nonmember patient of mine asked me an interesting question. She wanted to know if a Seventy was higher or lower in the Mormon church than a bishop. When I asked her why she would ask such a question, she r</description>
+      <guid isPermaLink="false">/general-conference/1990/04/who-is-a-true-friend</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1990-general-conference/1990-04-3050-elder-malcolm-s-jeppsen-64k-eng.mp3" length="5323453" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 1990 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>A Divine Prescription for Spiritual Healing</title>
+      <link>http://www.lds.org/general-conference/1994/04/a-divine-prescription-for-spiritual-healing?lang=eng</link>
+      <description>Following Elder Scott’s masterful address on healing, I would like to leave a few observations by someone whose entire professional life was that of a healer. As a practicing physician for over forty years, I’ve had occasion to see many patients who </description>
+      <guid isPermaLink="false">/general-conference/1994/04/a-divine-prescription-for-spiritual-healing</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1994-general-conference/1994-04-1060-elder-malcolm-s-jeppsen-64k-eng.mp3" length="6313633" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 1994 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

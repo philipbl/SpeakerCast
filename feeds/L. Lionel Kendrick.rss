@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By L. Lionel Kendrick</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by L. Lionel Kendrick.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:35 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:35 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Christlike Communications</title>
+      <link>http://www.lds.org/general-conference/1988/10/christlike-communications?lang=eng</link>
+      <description>Heavenly Father has given us a priceless gift in our capacity to communicate with each other. Our communications are at the core of our relationships with others. If we are to return home safely to Heavenly Father, we must develop righteous relations</description>
+      <guid isPermaLink="false">/general-conference/1988/10/christlike-communications</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1988-general-conference/1988-10-2040-elder-l-lionel-kendrick-64k-eng.mp3" length="4354965" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 1988 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Search the Scriptures</title>
+      <link>http://www.lds.org/general-conference/1993/04/search-the-scriptures?lang=eng</link>
+      <description>When we left our heavenly home to take this trip through mortality, we received instructions and divine directions that would assist us in returning home safely to our Heavenly Father. These directions were clearly communicated to prepare us for our </description>
+      <guid isPermaLink="false">/general-conference/1993/04/search-the-scriptures</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1993-general-conference/1993-04-1050-elder-l-lionel-kendrick-64k-eng.mp3" length="5710235" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Apr 1993 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Enhancing Our Temple Experience</title>
+      <link>http://www.lds.org/general-conference/2001/04/enhancing-our-temple-experience?lang=eng</link>
+      <description>There is a difference in just attending the temple and having a rich spiritual experience.</description>
+      <guid isPermaLink="false">/general-conference/2001/04/enhancing-our-temple-experience</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2001-general-conference/2001-04-5040-elder-l-lionel-kendrick-64k-eng.mp3" length="5131571" type="audio/mpeg"/>
+      <pubDate>Sun, 01 Apr 2001 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

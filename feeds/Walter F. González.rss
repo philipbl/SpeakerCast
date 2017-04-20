@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Walter F. González</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Walter F. González.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:50 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:50 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Writing Gospel Principles in Our Hearts</title>
+      <link>http://www.lds.org/general-conference/2001/10/writing-gospel-principles-in-our-hearts?lang=eng</link>
+      <description>Knowledge alone is not enough. We must take time to apply the principles in our lives.</description>
+      <guid isPermaLink="false">/general-conference/2001/10/writing-gospel-principles-in-our-hearts</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2001-general-conference/2001-10-2060-elder-walter-f-gonzalez-64k-eng.mp3" length="3787543" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 2001 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Today Is the Time</title>
+      <link>http://www.lds.org/general-conference/2007/10/today-is-the-time?lang=eng</link>
+      <description>What are we doing today to engraven in our souls the gospel principles that will uphold us in times of adversity?</description>
+      <guid isPermaLink="false">/general-conference/2007/10/today-is-the-time</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2007-general-conference/2007-10-3040-elder-walter-f-gonzalez-64k-eng.mp3" length="4587244" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 2007 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Becoming More Powerful Priesthood Holders</title>
+      <link>http://www.lds.org/general-conference/2009/10/becoming-more-powerful-priesthood-holders?lang=eng</link>
+      <description>We can become more powerful in blessing the lives of our Heavenly Father’s sons and daughters, more powerful in serving others.</description>
+      <guid isPermaLink="false">/general-conference/2009/10/becoming-more-powerful-priesthood-holders</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2009-general-conference/2009-10-3020-elder-walter-f-gonzalez-64k-eng.mp3" length="5484160" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Oct 2009 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Followers of Christ</title>
+      <link>http://www.lds.org/general-conference/2011/04/followers-of-christ?lang=eng</link>
+      <description>Followers of Christ pattern their lives after the Savior to walk in the light.</description>
+      <guid isPermaLink="false">/general-conference/2011/04/followers-of-christ</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2011-general-conference/2011-04-1040-elder-walter-f-gonzalez-64k-eng.mp3" length="5030194" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 2011 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Learning with Our Hearts</title>
+      <link>http://www.lds.org/general-conference/2012/10/learning-with-our-hearts?lang=eng</link>
+      <description>One way to come unto Christ is by seeking to learn essential truths with our hearts.</description>
+      <guid isPermaLink="false">/general-conference/2012/10/learning-with-our-hearts</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2012-general-conference/2012-10-4040-elder-walter-f-gonzalez-64k-eng.mp3" length="5013997" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Oct 2012 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

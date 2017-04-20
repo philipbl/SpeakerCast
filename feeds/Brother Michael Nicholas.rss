@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Brother Michael Nicholas</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Brother Michael Nicholas.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:30 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:30 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>How We Promote Activation</title>
+      <link>http://www.lds.org/general-conference/1982/10/how-we-promote-activation?lang=eng</link>
+      <description>When the bishop came to my house, speaking in general conference was the furthest thing from my mind. When the bishop said that he was going to speak for twelve minutes, I remarked that that would be scary. Then he asked if six minutes sounded better</description>
+      <guid isPermaLink="false">/general-conference/1982/10/how-we-promote-activation</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1982-general-conference/1982-10-3020-michael-nicholas-64k-eng.mp3" length="2679950" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 1982 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

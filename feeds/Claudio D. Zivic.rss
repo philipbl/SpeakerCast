@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Claudio D. Zivic</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Claudio D. Zivic.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:57 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:57 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>After All We Can Do</title>
+      <link>http://www.lds.org/general-conference/2007/10/after-all-we-can-do?lang=eng</link>
+      <description>We, as members of the Church of Jesus Christ, have chosen not to be ordinary men and women.</description>
+      <guid isPermaLink="false">/general-conference/2007/10/after-all-we-can-do</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2007-general-conference/2007-10-5050-elder-claudio-d-zivic-64k-eng.mp3" length="3885678" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Oct 2007 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Let’s Not Take the Wrong Way</title>
+      <link>http://www.lds.org/general-conference/2014/04/lets-not-take-the-wrong-way?lang=eng</link>
+      <description>Claudio D. Zivic counsels us to stay on the gospel path by keeping the commandments and to repent when we need to get back on the right path.
+		</description>
+      <guid isPermaLink="false">/general-conference/2014/04/lets-not-take-the-wrong-way</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2014-general-conference/2014-04-2070-elder-claudio-d-zivic-64k-eng.mp3" length="4476970" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 2014 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

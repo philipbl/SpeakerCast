@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Kathleen H. Hughes</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Kathleen H. Hughes.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:52 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:52 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Blessing Our Families through Our Covenants</title>
+      <link>http://www.lds.org/general-conference/2002/10/blessing-our-families-through-our-covenants?lang=eng</link>
+      <description>If we keep our covenants, the promises we receive in return are great.</description>
+      <guid isPermaLink="false">/general-conference/2002/10/blessing-our-families-through-our-covenants</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/2002-general-relief-society-meeting/2002-09-0020-kathleen-h-hughes-64k-eng.mp3" length="9626279" type="audio/mpeg"/>
+      <pubDate>Sat, 28 Sep 2002 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Blessed by Living Water</title>
+      <link>http://www.lds.org/general-conference/2003/04/blessed-by-living-water?lang=eng</link>
+      <description>Living water heals. It nourishes and sustains. It brings peace and joy.</description>
+      <guid isPermaLink="false">/general-conference/2003/04/blessed-by-living-water</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2003-general-conference/2003-04-1040-kathleen-h-hughes-64k-eng.mp3" length="5074346" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 2003 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>In Covenant with Him</title>
+      <link>http://www.lds.org/general-conference/2003/10/in-covenant-with-him?lang=eng</link>
+      <description>Our sisterhood includes all ages and backgrounds; we are connected by the covenants we have made.</description>
+      <guid isPermaLink="false">/general-conference/2003/10/in-covenant-with-him</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/2003-general-relief-society-meeting/2003-09-0020-kathleen-h-hughes-64k-eng.mp3" length="4799843" type="audio/mpeg"/>
+      <pubDate>Sat, 27 Sep 2003 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Out of Small Things</title>
+      <link>http://www.lds.org/general-conference/2004/10/out-of-small-things?lang=eng</link>
+      <description>We must not become weary of doing good, and we must not become impatient; the changes we seek will come about “in their time.”</description>
+      <guid isPermaLink="false">/general-conference/2004/10/out-of-small-things</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/2004-general-relief-society-meeting/2004-09-0020-kathleen-h-hughes-64k-eng.mp3" length="4952692" type="audio/mpeg"/>
+      <pubDate>Sat, 25 Sep 2004 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>What Greater Goodness Can We Know: Christlike Friends</title>
+      <link>http://www.lds.org/general-conference/2005/04/what-greater-goodness-can-we-know-christlike-friends?lang=eng</link>
+      <description>God knows the needs of His children, and He often works through us, prompting us to help one another.</description>
+      <guid isPermaLink="false">/general-conference/2005/04/what-greater-goodness-can-we-know-christlike-friends</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2005-general-conference/2005-04-4040-kathleen-h-hughes-64k-eng.mp3" length="5419713" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Apr 2005 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>That We May All Sit Down in Heaven Together</title>
+      <link>http://www.lds.org/general-conference/2005/10/that-we-may-all-sit-down-in-heaven-together?lang=eng</link>
+      <description>When we become instruments in the hands of God, we are used by Him to do His work.</description>
+      <guid isPermaLink="false">/general-conference/2005/10/that-we-may-all-sit-down-in-heaven-together</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/2005-general-relief-society-meeting/2005-09-0020-kathleen-h-hughes-64k-eng.mp3" length="9706327" type="audio/mpeg"/>
+      <pubDate>Sat, 24 Sep 2005 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Remembering the Lord’s Love</title>
+      <link>http://www.lds.org/general-conference/2006/10/remembering-the-lords-love?lang=eng</link>
+      <description>We must seek to know and feel the Lord’s love in our lives.</description>
+      <guid isPermaLink="false">/general-conference/2006/10/remembering-the-lords-love</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/2006-general-relief-society-meeting/2006-09-0030-kathleen-h-hughes-64k-eng.mp3" length="10077047" type="audio/mpeg"/>
+      <pubDate>Sat, 23 Sep 2006 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

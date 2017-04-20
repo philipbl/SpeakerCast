@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Rex C. Reeve</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Rex C. Reeve.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:27 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:27 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Response to the Call</title>
+      <link>http://www.lds.org/general-conference/1978/04/response-to-the-call?lang=eng</link>
+      <description>My heart is filled to overflowing. My spirit is subdued. My soul is filled with gratitude. Years ago when I was sustained as a young bishop, an impression came strongly to me that the opportunity to serve came from nothing that I had done, but that I</description>
+      <guid isPermaLink="false">/general-conference/1978/04/response-to-the-call</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1978-general-conference/1978-04-5070-elder-rex-c-reeve-64k-eng.mp3" length="1466433" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Apr 1978 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Look to God</title>
+      <link>http://www.lds.org/general-conference/1982/10/look-to-god?lang=eng</link>
+      <description>As fearful as the daily news headlines are and even though there are violence and ominous uncertainty continually on almost every hand, there is no problem, national or personal, which could not be solved, and solved easily, if men and nations would </description>
+      <guid isPermaLink="false">/general-conference/1982/10/look-to-god</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1982-general-conference/1982-10-2050-elder-rex-c-reeve-sr-64k-eng.mp3" length="5173040" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 1982 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Joseph Smith, the Chosen Instrument</title>
+      <link>http://www.lds.org/general-conference/1985/10/joseph-smith-the-chosen-instrument?lang=eng</link>
+      <description>I am humbled and privileged to have participated with you in this great conference, whether you have been viewing it by satellite or at home, or whether you will yet see it on video. I am thrilled and touched by the calls which have been announced he</description>
+      <guid isPermaLink="false">/general-conference/1985/10/joseph-smith-the-chosen-instrument</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1985-general-conference/1985-10-5050-elder-rex-c-reeve-64k-eng.mp3" length="6086668" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Oct 1985 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Lawrence E. Corbridge</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Lawrence E. Corbridge.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:58 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:58 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Way</title>
+      <link>http://www.lds.org/general-conference/2008/10/the-way?lang=eng</link>
+      <description>There is only one way to happiness and fulfillment. Jesus Christ is the Way.</description>
+      <guid isPermaLink="false">/general-conference/2008/10/the-way</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2008-general-conference/2008-10-2050-elder-lawrence-e-corbridge-64k-eng.mp3" length="5696092" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 2008 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Prophet Joseph Smith</title>
+      <link>http://www.lds.org/general-conference/2014/04/the-prophet-joseph-smith?lang=eng</link>
+      <description>Lawrence E. Corbridge testifies of the important doctrine restored by the Prophet Joseph Smith.
+		</description>
+      <guid isPermaLink="false">/general-conference/2014/04/the-prophet-joseph-smith</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2014-general-conference/2014-04-5040-elder-lawrence-e-corbridge-64k-eng.mp3" length="5191804" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Apr 2014 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

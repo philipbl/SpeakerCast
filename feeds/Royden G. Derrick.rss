@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Royden G. Derrick</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Royden G. Derrick.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:27 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:27 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Beatitudes and Our Perfection</title>
+      <link>http://www.lds.org/general-conference/1977/04/the-beatitudes-and-our-perfection?lang=eng</link>
+      <description>On a beautiful, clear day, early in the spring of 1820, a fourteen-year-old boy knelt in a grove of trees and poured out his thoughts and feelings to God. What followed made his experience the most important event that had transpired in nearly 1,800 </description>
+      <guid isPermaLink="false">/general-conference/1977/04/the-beatitudes-and-our-perfection</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1977-general-conference/1977-04-4030-elder-royden-g-derrick-64k-eng.mp3" length="6727829" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Apr 1977 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Heritage of Royal Families</title>
+      <link>http://www.lds.org/general-conference/1979/04/the-heritage-of-royal-families?lang=eng</link>
+      <description>Those who believe in the Bible should not find it difficult to accept the experience related by the Prophet Joseph Smith concerning the visit of an ancient American prophet, Moroni. It happened on the evening of 21 September 1823, in Manchester, New </description>
+      <guid isPermaLink="false">/general-conference/1979/04/the-heritage-of-royal-families</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1979-general-conference/1979-04-2060-elder-royden-g-derrick-64k-eng.mp3" length="13132581" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 1979 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Moral Values and Rewards</title>
+      <link>http://www.lds.org/general-conference/1981/04/moral-values-and-rewards?lang=eng</link>
+      <description>The history of the people of ancient America, recorded in the Book of Mormon, teaches that civilizations are built on moral foundations; that when people are morally strong, they do well; that when they are morally weak, they suffer. It teaches us th</description>
+      <guid isPermaLink="false">/general-conference/1981/04/moral-values-and-rewards</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1981-general-conference/1981-04-5020-elder-royden-g-derrick-64k-eng.mp3" length="6939263" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Apr 1981 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Valiance in the Drama of Life</title>
+      <link>http://www.lds.org/general-conference/1983/04/valiance-in-the-drama-of-life?lang=eng</link>
+      <description>William Shakespeare was insightful when he wrote: “All the world’s a stage, and all the men and women merely players.” ( act 2, sc. 7, line 139.) Let me set the stage for a drama that is not fiction, but is reality. The drama is founded upon certain </description>
+      <guid isPermaLink="false">/general-conference/1983/04/valiance-in-the-drama-of-life</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1983-general-conference/1983-04-2040-elder-royden-g-derrick-64k-eng.mp3" length="6469728" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 1983 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“By Their Fruits Ye Shall Know Them”</title>
+      <link>http://www.lds.org/general-conference/1984/10/by-their-fruits-ye-shall-know-them?lang=eng</link>
+      <description>Our revered leader of years past, President David O. McKay, often said, “The mission of the Gospel of Jesus Christ [is] to make evil-minded men good and to make good men better.” ( Oct. 1961, p. 469.)</description>
+      <guid isPermaLink="false">/general-conference/1984/10/by-their-fruits-ye-shall-know-them</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1984-general-conference/1984-10-4030-elder-royden-g-derrick-64k-eng.mp3" length="7417492" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Oct 1984 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Way to Perfection</title>
+      <link>http://www.lds.org/general-conference/1989/04/the-way-to-perfection?lang=eng</link>
+      <description>In October of 1833, the Prophet Joseph Smith received a revelation in which the Lord said, “I will raise up unto myself a pure people, that will serve me in righteousness.” (.) The Lord was speaking of our pioneer forefathers, and also of the Saints </description>
+      <guid isPermaLink="false">/general-conference/1989/04/the-way-to-perfection</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1989-general-conference/1989-04-5040-elder-royden-g-derrick-64k-eng.mp3" length="6329298" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Apr 1989 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

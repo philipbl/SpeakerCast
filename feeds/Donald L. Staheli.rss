@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Donald L. Staheli</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Donald L. Staheli.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:47 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:47 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Obedience—Life’s Great Challenge</title>
+      <link>http://www.lds.org/general-conference/1998/04/obedience-lifes-great-challenge?lang=eng</link>
+      <description>The Lord recognizes that many of us tend to stray from His counsel when all is going well with us, yet when trouble comes we seek after Him and His blessings.</description>
+      <guid isPermaLink="false">/general-conference/1998/04/obedience-lifes-great-challenge</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1998-general-conference/1998-04-5050-elder-donald-l-staheli-64k-eng.mp3" length="3880159" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Apr 1998 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Securing Our Testimonies</title>
+      <link>http://www.lds.org/general-conference/2004/10/securing-our-testimonies?lang=eng</link>
+      <description>Frequently reading, pondering, and applying the lessons of the scriptures, combined with prayer, become an irreplaceable part of gaining and sustaining a strong, vibrant testimony.</description>
+      <guid isPermaLink="false">/general-conference/2004/10/securing-our-testimonies</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2004-general-conference/2004-10-2070-elder-donald-l-staheli-64k-eng.mp3" length="5087399" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 2004 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

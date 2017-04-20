@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Shayne M. Bowen</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Shayne M. Bowen.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:55 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:55 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Atonement Can Clean, Reclaim, and Sanctify Our Lives</title>
+      <link>http://www.lds.org/general-conference/2006/10/the-atonement-can-clean-reclaim-and-sanctify-our-lives?lang=eng</link>
+      <description>The Atonement of Jesus Christ is available to each of us. His Atonement is infinite.</description>
+      <guid isPermaLink="false">/general-conference/2006/10/the-atonement-can-clean-reclaim-and-sanctify-our-lives</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2006-general-conference/2006-10-2050-elder-shayne-m-bowen-64k-eng.mp3" length="3928856" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 2006 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Because I Live, Ye Shall Live Also”</title>
+      <link>http://www.lds.org/general-conference/2012/10/because-i-live-ye-shall-live-also?lang=eng</link>
+      <description>Because of Him, even our Savior, Jesus Christ, those feelings of sorrow, loneliness, and despair will one day be swallowed up in a fulness of joy.</description>
+      <guid isPermaLink="false">/general-conference/2012/10/because-i-live-ye-shall-live-also</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2012-general-conference/2012-10-1050-elder-shayne-m-bowen-64k-eng.mp3" length="5457188" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 2012 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

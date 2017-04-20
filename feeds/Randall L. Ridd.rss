@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Randall L. Ridd</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Randall L. Ridd.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:04 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:04 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Choice Generation</title>
+      <link>http://www.lds.org/general-conference/2014/04/the-choice-generation?lang=eng</link>
+      <description>Randall L. Ridd offers four principles to help young men educate their desires and use  technology wisely.
+		</description>
+      <guid isPermaLink="false">/general-conference/2014/04/the-choice-generation</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2014-general-conference/2014-04-3030-randall-l-ridd-64k-eng.mp3" length="5491936" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 2014 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

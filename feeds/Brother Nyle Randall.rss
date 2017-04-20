@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Brother Nyle Randall</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Brother Nyle Randall.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:30 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:30 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Being Strengthened through Service</title>
+      <link>http://www.lds.org/general-conference/1981/10/being-strengthened-through-service?lang=eng</link>
+      <description>Just five years ago last month, our family got involved in a situation that was quite unexpected at the time, but that has changed our entire family. We took a foster child into our home.</description>
+      <guid isPermaLink="false">/general-conference/1981/10/being-strengthened-through-service</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1981-general-conference/1981-10-6040-nyle-randall-64k-eng.mp3" length="4249751" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Oct 1981 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

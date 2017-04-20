@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Larry M. Gibson</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Larry M. Gibson.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:02 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:02 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Sacred Keys of the Aaronic Priesthood</title>
+      <link>http://www.lds.org/general-conference/2011/04/sacred-keys-of-the-aaronic-priesthood?lang=eng</link>
+      <description>The Lord wants every Aaronic Priesthood holder to invite all to come unto Christ—beginning with his own family.</description>
+      <guid isPermaLink="false">/general-conference/2011/04/sacred-keys-of-the-aaronic-priesthood</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2011-general-conference/2011-04-3030-larry-m-gibson-64k-eng.mp3" length="5819024" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 2011 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Fatherhood—Our Eternal Destiny</title>
+      <link>http://www.lds.org/general-conference/2015/04/fatherhood-our-eternal-destiny?lang=eng</link>
+      <description>Brother Larry M. Gibson teaches men of the Church about the central importance of their role as fathers, both now and in eternity.</description>
+      <guid isPermaLink="false">/general-conference/2015/04/fatherhood-our-eternal-destiny</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2015-general-conference/2015-04-3030-larry-m-gibson-64k-eng.mp3" length="5029452" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Apr 2015 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

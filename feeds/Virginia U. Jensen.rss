@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Virginia U. Jensen</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Virginia U. Jensen.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:46 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:46 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Creating Places of Security</title>
+      <link>http://www.lds.org/general-conference/1997/10/creating-places-of-security?lang=eng</link>
+      <description>A righteous woman’s strength and influence are great. Her opportunities to create safe havens for struggling souls are abundant.</description>
+      <guid isPermaLink="false">/general-conference/1997/10/creating-places-of-security</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/1997-general-relief-society-meeting/1997-09-0020-virginia-u-jensen-64k-eng.mp3" length="6189373" type="audio/mpeg"/>
+      <pubDate>Sat, 27 Sep 1997 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Come to Relief Society</title>
+      <link>http://www.lds.org/general-conference/1998/10/come-to-relief-society?lang=eng</link>
+      <description>It matters not where you come from, what your weaknesses are, what you look like—you belong here! The Lord loves you—each of you, collectively and individually.</description>
+      <guid isPermaLink="false">/general-conference/1998/10/come-to-relief-society</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/1998-general-relief-society-meeting/1998-09-0020-virginia-u-jensen-64k-eng.mp3" length="5945806" type="audio/mpeg"/>
+      <pubDate>Sat, 26 Sep 1998 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Come, Listen to a Prophet’s Voice”</title>
+      <link>http://www.lds.org/general-conference/1998/10/come-listen-to-a-prophets-voice?lang=eng</link>
+      <description>If we listen to the voice of the Lord through His living prophet and follow his counsel, we will never go astray.</description>
+      <guid isPermaLink="false">/general-conference/1998/10/come-listen-to-a-prophets-voice</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1998-general-conference/1998-10-1040-virginia-u-jensen-64k-eng.mp3" length="5912932" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Oct 1998 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Home, Family, and Personal Enrichment</title>
+      <link>http://www.lds.org/general-conference/1999/10/home-family-and-personal-enrichment?lang=eng</link>
+      <description>We are eager for each sister to strengthen herself spiritually and to acquire skills that will be crucial in meeting the challenges that are ahead.</description>
+      <guid isPermaLink="false">/general-conference/1999/10/home-family-and-personal-enrichment</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/1999-general-relief-society-meeting/1999-09-0020-virginia-u-jensen-64k-eng.mp3" length="6434599" type="audio/mpeg"/>
+      <pubDate>Sat, 25 Sep 1999 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Ripples</title>
+      <link>http://www.lds.org/general-conference/2000/10/ripples?lang=eng</link>
+      <description>The actions of righteous women ripple on and on through time and space and even generations.</description>
+      <guid isPermaLink="false">/general-conference/2000/10/ripples</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/2000-general-relief-society-meeting/2000-09-0020-virginia-u-jensen-64k-eng.mp3" length="6485982" type="audio/mpeg"/>
+      <pubDate>Sat, 23 Sep 2000 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Lead, Kindly Light”</title>
+      <link>http://www.lds.org/general-conference/2000/10/lead-kindly-light?lang=eng</link>
+      <description>The light of Jesus Christ is stronger than any darkness we face in this life, if we have faith in Him, seek after Him, and obey Him.</description>
+      <guid isPermaLink="false">/general-conference/2000/10/lead-kindly-light</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2000-general-conference/2000-10-4030-virginia-u-jensen-64k-eng.mp3" length="4459976" type="audio/mpeg"/>
+      <pubDate>Sun, 01 Oct 2000 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Stand Firm</title>
+      <link>http://www.lds.org/general-conference/2001/10/stand-firm?lang=eng</link>
+      <description>Let us never forget that we are building a foundation for and with our family upon the rock of our Redeemer.</description>
+      <guid isPermaLink="false">/general-conference/2001/10/stand-firm</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/2001-general-relief-society-meeting/2001-09-0020-virginia-u-jensen-64k-eng.mp3" length="6216320" type="audio/mpeg"/>
+      <pubDate>Sat, 29 Sep 2001 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

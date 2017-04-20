@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Bruce D. Porter</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Bruce D. Porter.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:44 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:44 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Redeemer of Israel</title>
+      <link>http://www.lds.org/general-conference/1995/10/redeemer-of-israel?lang=eng</link>
+      <description>The parable of the prodigal son is a parable of us all. It reminds us that we are, in some measure, prodigal sons and daughters of our Father in Heaven. For, as the Apostle Paul wrote, “all have sinned, and come short of the glory of God” ().</description>
+      <guid isPermaLink="false">/general-conference/1995/10/redeemer-of-israel</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1995-general-conference/1995-10-1060-elder-bruce-d-porter-64k-eng.mp3" length="3299717" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 1995 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Building the Kingdom</title>
+      <link>http://www.lds.org/general-conference/2001/04/building-the-kingdom?lang=eng</link>
+      <description>From its earliest days, the Lord’s Church has been built up by ordinary people who magnified their callings in humility and devotion.</description>
+      <guid isPermaLink="false">/general-conference/2001/04/building-the-kingdom</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2001-general-conference/2001-04-5050-elder-bruce-d-porter-64k-eng.mp3" length="5231278" type="audio/mpeg"/>
+      <pubDate>Sun, 01 Apr 2001 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>A Broken Heart and a Contrite Spirit</title>
+      <link>http://www.lds.org/general-conference/2007/10/a-broken-heart-and-a-contrite-spirit?lang=eng</link>
+      <description>Those who have a broken heart and a contrite spirit are willing to do anything and everything that God asks of them.</description>
+      <guid isPermaLink="false">/general-conference/2007/10/a-broken-heart-and-a-contrite-spirit</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2007-general-conference/2007-10-2030-elder-bruce-d-porter-64k-eng.mp3" length="4174360" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 2007 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Beautiful Mornings</title>
+      <link>http://www.lds.org/general-conference/2013/04/beautiful-mornings?lang=eng</link>
+      <description>We need not fear the future, nor falter in hope and good cheer, because God is with us.</description>
+      <guid isPermaLink="false">/general-conference/2013/04/beautiful-mornings</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2013-general-conference/2013-04-5060-elder-bruce-d-porter-64k-eng.mp3" length="5005908" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Apr 2013 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

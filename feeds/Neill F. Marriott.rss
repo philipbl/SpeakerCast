@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Neill F. Marriott</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Neill F. Marriott.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:05 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:05 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Sharing Your Light</title>
+      <link>http://www.lds.org/general-conference/2014/10/sharing-your-light?lang=eng</link>
+      <guid isPermaLink="false">/general-conference/2014/10/sharing-your-light</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-session/september-2014-general-womens-session/2014-09-0040-neill-f-marriott-64k-eng.mp3" length="5916842" type="audio/mpeg"/>
+      <pubDate>Sat, 27 Sep 2014 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Yielding Our Hearts to God</title>
+      <link>http://www.lds.org/general-conference/2015/10/yielding-our-hearts-to-god?lang=eng</link>
+      <description>Sister Marriott teaches that we can make the Lord's way our way when we are humble and open to His Spirit.</description>
+      <guid isPermaLink="false">/general-conference/2015/10/yielding-our-hearts-to-god</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2015-general-conference/2015-10-1040-neill-f-marriott-64k-eng.mp3" length="4620113" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Oct 2015 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>What Shall We Do?</title>
+      <link>http://www.lds.org/general-conference/2016/04/what-shall-we-do?lang=eng</link>
+      <guid isPermaLink="false">/general-conference/2016/04/what-shall-we-do</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2016-general-conference/2016-03-0030-neill-f-marriott-64k-eng.mp3" length="5761952" type="audio/mpeg"/>
+      <pubDate>Sat, 26 Mar 2016 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Derek A. Cuthbert</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Derek A. Cuthbert.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:27 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:27 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>What Would the Savior Have Me Do?</title>
+      <link>http://www.lds.org/general-conference/1978/04/what-would-the-savior-have-me-do?lang=eng</link>
+      <description>My beloved brothers and sisters, my heart is very full at this time, as I’m sure you will realize—full of love and gratitude. At this time I would thank you from the bottom of my heart for the sustaining power of your love and faith and prayers as ev</description>
+      <guid isPermaLink="false">/general-conference/1978/04/what-would-the-savior-have-me-do</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1978-general-conference/1978-04-5050-elder-derek-a-cuthbert-64k-eng.mp3" length="2550490" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Apr 1978 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Our Thirtieth Anniversary as Latter-day Saints</title>
+      <link>http://www.lds.org/general-conference/1980/10/our-thirtieth-anniversary-as-latter-day-saints?lang=eng</link>
+      <description>My wife and I have just celebrated a remarkable thirtieth anniversary. Thirty years ago, young missionaries of The Church of Jesus Christ of Latter-day Saints knocked on our door in Nottingham, England.</description>
+      <guid isPermaLink="false">/general-conference/1980/10/our-thirtieth-anniversary-as-latter-day-saints</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1980-general-conference/1980-10-2040-elder-derek-a-cuthbert-64k-eng.mp3" length="5628436" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 1980 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Meaning of Maturity</title>
+      <link>http://www.lds.org/general-conference/1982/10/the-meaning-of-maturity?lang=eng</link>
+      <description>“In Gibeon the Lord appeared to Solomon in a dream by night: and God said, Ask what I shall give thee.” (.) Before King Solomon replied, he reflected on what was his greatest need. Was it power and influence? Was it wealth and riches? Was it fame and</description>
+      <guid isPermaLink="false">/general-conference/1982/10/the-meaning-of-maturity</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1982-general-conference/1982-10-4030-elder-derek-a-cuthbert-64k-eng.mp3" length="5894456" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Oct 1982 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>What’s the Difference?</title>
+      <link>http://www.lds.org/general-conference/1985/10/whats-the-difference?lang=eng</link>
+      <description>Over nineteen hundred years ago, the Apostle Paul, in writing to the Saints at Ephesus, declared: “One Lord, one faith, one baptism.” (.) How far we have drifted over the intervening years, for there are now more than a thousand different churches cl</description>
+      <guid isPermaLink="false">/general-conference/1985/10/whats-the-difference</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1985-general-conference/1985-10-2030-elder-derek-a-cuthbert-64k-eng.mp3" length="5990599" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Oct 1985 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Spirituality of Service</title>
+      <link>http://www.lds.org/general-conference/1990/04/the-spirituality-of-service?lang=eng</link>
+      <description>President Benson, who speaks for the Lord to all the world, has challenged us to “live by the Spirit and teach by the Spirit.” How many times have we heard him say, “It’s the Spirit that counts in this work”? Yes, the Lord’s work is spiritual work. I</description>
+      <guid isPermaLink="false">/general-conference/1990/04/the-spirituality-of-service</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1990-general-conference/1990-04-1040-elder-derek-a-cuthbert-64k-eng.mp3" length="4597207" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 1990 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

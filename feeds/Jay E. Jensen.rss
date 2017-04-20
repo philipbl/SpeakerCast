@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Jay E. Jensen</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Jay E. Jensen.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:40 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:40 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>“Remember Also the Promises”</title>
+      <link>http://www.lds.org/general-conference/1992/10/remember-also-the-promises?lang=eng</link>
+      <description>I am so thankful for my wife and children. To enjoy their love, confidence, and support is one of the greatest blessings of my life. I express my heartfelt gratitude to parents who loved and lived the gospel and also to my brothers and sisters from w</description>
+      <guid isPermaLink="false">/general-conference/1992/10/remember-also-the-promises</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1992-general-conference/1992-10-5050-elder-jay-e-jensen-64k-eng.mp3" length="4393301" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Oct 1992 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Keep an Eternal Perspective</title>
+      <link>http://www.lds.org/general-conference/2000/04/keep-an-eternal-perspective?lang=eng</link>
+      <description>If we can help people first understand the plan, they will find a deeper and more permanent motivation to keep the commandments.</description>
+      <guid isPermaLink="false">/general-conference/2000/04/keep-an-eternal-perspective</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2000-general-conference/2000-04-2060-elder-jay-e-jensen-64k-eng.mp3" length="3779241" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Apr 2000 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Nourishing Power of Hymns</title>
+      <link>http://www.lds.org/general-conference/2007/04/the-nourishing-power-of-hymns?lang=eng</link>
+      <description>Hymns play an essential role in spirituality, revelation, and conversion.</description>
+      <guid isPermaLink="false">/general-conference/2007/04/the-nourishing-power-of-hymns</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2007-general-conference/2007-04-1050-elder-jay-e-jensen-64k-eng.mp3" length="3958485" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 2007 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Arms of Safety</title>
+      <link>http://www.lds.org/general-conference/2008/10/arms-of-safety?lang=eng</link>
+      <description>By coming humbly and fully repentant to sacrament meeting and worthily partaking of the sacrament, we may feel those arms [of safety] again and again.</description>
+      <guid isPermaLink="false">/general-conference/2008/10/arms-of-safety</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2008-general-conference/2008-10-3020-elder-jay-e-jensen-64k-eng.mp3" length="5137688" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 2008 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Holy Ghost and Revelation</title>
+      <link>http://www.lds.org/general-conference/2010/10/the-holy-ghost-and-revelation?lang=eng</link>
+      <description>The Holy Ghost is the third member of the Godhead, and with the Father and the Son, He knows all things.</description>
+      <guid isPermaLink="false">/general-conference/2010/10/the-holy-ghost-and-revelation</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2010-general-conference/2010-10-4030-elder-jay-e-jensen-64k-eng.mp3" length="4690600" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Oct 2010 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

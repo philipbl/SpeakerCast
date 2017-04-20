@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By David E. Sorensen</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by David E. Sorensen.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:41 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:41 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Prayer</title>
+      <link>http://www.lds.org/general-conference/1993/04/prayer?lang=eng</link>
+      <description>When our oldest children were still small, we lived on a busy street here in Salt Lake City. My wife, Verla, and I were concerned about the danger that street presented to our children. We used every opportunity to reinforce the importance of staying</description>
+      <guid isPermaLink="false">/general-conference/1993/04/prayer</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1993-general-conference/1993-04-2070-elder-david-e-sorensen-64k-eng.mp3" length="4846941" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Apr 1993 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Small Temples—Large Blessings</title>
+      <link>http://www.lds.org/general-conference/1998/10/small-temples-large-blessings?lang=eng</link>
+      <description>The simple presence of a temple should serve as a reminder of covenants we have made, the need for integrity, and the fact that God is never far away.</description>
+      <guid isPermaLink="false">/general-conference/1998/10/small-temples-large-blessings</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1998-general-conference/1998-10-4030-elder-david-e-sorensen-64k-eng.mp3" length="5344400" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Oct 1998 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>You Can’t Pet a Rattlesnake</title>
+      <link>http://www.lds.org/general-conference/2001/04/you-can-t-pet-a-rattlesnake?lang=eng</link>
+      <description>Pornography, though billed by Satan as entertainment, is a deeply poisonous, deceptive snake that lies coiled up in magazines, the Internet, and the television.</description>
+      <guid isPermaLink="false">/general-conference/2001/04/you-can-t-pet-a-rattlesnake</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2001-general-conference/2001-04-3020-elder-david-e-sorensen-64k-eng.mp3" length="4871676" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 2001 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Forgiveness Will Change Bitterness to Love</title>
+      <link>http://www.lds.org/general-conference/2003/04/forgiveness-will-change-bitterness-to-love?lang=eng</link>
+      <description>Forgiveness means that problems of the past no longer dictate our destinies, and we can focus on the future with God’s love in our hearts.</description>
+      <guid isPermaLink="false">/general-conference/2003/04/forgiveness-will-change-bitterness-to-love</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2003-general-conference/2003-04-1030-elder-david-e-sorensen-64k-eng.mp3" length="5649824" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 2003 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Faith Is the Answer</title>
+      <link>http://www.lds.org/general-conference/2005/04/faith-is-the-answer?lang=eng</link>
+      <description>Remember that faith and obedience are still the answers—even when things go wrong, perhaps especially when things go wrong.</description>
+      <guid isPermaLink="false">/general-conference/2005/04/faith-is-the-answer</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2005-general-conference/2005-04-4030-elder-david-e-sorensen-64k-eng.mp3" length="5469148" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Apr 2005 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Alexander B. Morrison</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Alexander B. Morrison.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:34 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:34 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Dawning of a New Day in Africa</title>
+      <link>http://www.lds.org/general-conference/1987/10/the-dawning-of-a-new-day-in-africa?lang=eng</link>
+      <description>The prophets proclaim and the scriptures sweetly certify that all men and women, if they are to achieve true happiness, must “come unto Christ, and be perfected in him” (). Indeed, that is the very purpose of The Church of Jesus Christ of Latter-day </description>
+      <guid isPermaLink="false">/general-conference/1987/10/the-dawning-of-a-new-day-in-africa</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1987-general-conference/1987-10-2040-elder-alexander-b-morrison-64k-eng.mp3" length="4247460" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Oct 1987 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Nourish the Flock of Christ</title>
+      <link>http://www.lds.org/general-conference/1992/04/nourish-the-flock-of-christ?lang=eng</link>
+      <description>One of the abiding tragedies of Nephite society was its failure to maintain spiritual strength through constant spiritual nourishment. As strength waned, the effects of spiritual malnutrition were quick to be felt. In the book of Mosiah we read that </description>
+      <guid isPermaLink="false">/general-conference/1992/04/nourish-the-flock-of-christ</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1992-general-conference/1992-04-1050-elder-alexander-b-morrison-64k-eng.mp3" length="5089752" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Apr 1992 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“For This Cause Came I into the World”</title>
+      <link>http://www.lds.org/general-conference/1999/10/for-this-cause-came-i-into-the-world?lang=eng</link>
+      <description>The symbol of Jesus and His place in our hearts must be a life given fully to His service, to loving and caring.</description>
+      <guid isPermaLink="false">/general-conference/1999/10/for-this-cause-came-i-into-the-world</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1999-general-conference/1999-10-2030-elder-alexander-b-morrison-64k-eng.mp3" length="5816063" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 1999 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Come and See”</title>
+      <link>http://www.lds.org/general-conference/2000/10/come-and-see?lang=eng</link>
+      <description>Come seeking to know Him, and I promise you will find Him and see Him in His true character as the risen, redeeming Savior of the world.</description>
+      <guid isPermaLink="false">/general-conference/2000/10/come-and-see</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2000-general-conference/2000-10-1040-elder-alexander-b-morrison-64k-eng.mp3" length="2190930" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 2000 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>
