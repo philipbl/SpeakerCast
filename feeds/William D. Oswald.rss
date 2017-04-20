@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By William D. Oswald</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by William D. Oswald.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:58 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:58 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Gospel Teaching—Our Most Important Calling</title>
+      <link>http://www.lds.org/general-conference/2008/10/gospel-teaching-our-most-important-calling?lang=eng</link>
+      <description>When we learn a few fundamental principles about teaching and are shown how to teach, all of us can do it.</description>
+      <guid isPermaLink="false">/general-conference/2008/10/gospel-teaching-our-most-important-calling</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2008-general-conference/2008-10-5030-william-d-oswald-64k-eng.mp3" length="5315056" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Oct 2008 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

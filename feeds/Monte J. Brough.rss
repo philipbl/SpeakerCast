@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Monte J. Brough</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Monte J. Brough.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:35 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:35 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>A Willing Heart</title>
+      <link>http://www.lds.org/general-conference/1988/10/a-willing-heart?lang=eng</link>
+      <description>I can tell you now, after about a hundred minutes of experience, that these big red chairs are not really as comfortable as they look.</description>
+      <guid isPermaLink="false">/general-conference/1988/10/a-willing-heart</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1988-general-conference/1988-10-3030-elder-monte-j-brough-64k-eng.mp3" length="1731344" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 1988 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Modern Mighty of Israel</title>
+      <link>http://www.lds.org/general-conference/1993/10/the-modern-mighty-of-israel?lang=eng</link>
+      <description>As a young man in one of my first Primary classes, I was fortunate enough to have a leader introduce me to the Old Testament story “David’s” mighty men. This is a detailed account of the actions of the finest soldiers under David’s command. At one ti</description>
+      <guid isPermaLink="false">/general-conference/1993/10/the-modern-mighty-of-israel</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1993-general-conference/1993-10-4030-elder-monte-j-brough-64k-eng.mp3" length="5967196" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Oct 1993 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Search for Identity</title>
+      <link>http://www.lds.org/general-conference/1995/04/search-for-identity?lang=eng</link>
+      <description>Have you ever had the experience, as you left your home for a youth activity, to hear your mother say, “Now, Son, remember who you are”? Did you wonder each time, Why does she always say that? And, by the way, who am I?</description>
+      <guid isPermaLink="false">/general-conference/1995/04/search-for-identity</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1995-general-conference/1995-04-3020-elder-monte-j-brough-64k-eng.mp3" length="5763204" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Apr 1995 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>A Holy Calling</title>
+      <link>http://www.lds.org/general-conference/1997/04/a-holy-calling?lang=eng</link>
+      <description>Every member must come to know the sacred nature of his or her own service in the Church.</description>
+      <guid isPermaLink="false">/general-conference/1997/04/a-holy-calling</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1997-general-conference/1997-04-2050-elder-monte-j-brough-64k-eng.mp3" length="5132625" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 1997 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Young Men—Holders of Keys</title>
+      <link>http://www.lds.org/general-conference/2003/10/young-men-holders-of-keys?lang=eng</link>
+      <description>We need young men to stand up in their calling, knowing of their ordained right to act in the office to which they are appointed.</description>
+      <guid isPermaLink="false">/general-conference/2003/10/young-men-holders-of-keys</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2003-general-conference/2003-10-3020-elder-monte-j-brough-64k-eng.mp3" length="4322104" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 2003 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

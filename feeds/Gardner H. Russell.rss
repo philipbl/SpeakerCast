@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Gardner H. Russell</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Gardner H. Russell.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:34 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:34 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Touching the Hearts of Less-Active Members</title>
+      <link>http://www.lds.org/general-conference/1986/10/touching-the-hearts-of-less-active-members?lang=eng</link>
+      <description>I think it’s wonderful to have a calm exterior; I didn’t know my heart could beat quite this hard. I am thrilled to be a member of the Mexico/Central America Area Presidency. You’ve heard from all three of us today: Elder Gene R. Cook in the prayer, </description>
+      <guid isPermaLink="false">/general-conference/1986/10/touching-the-hearts-of-less-active-members</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1986-general-conference/1986-10-2050-elder-gardner-h-russell-64k-eng.mp3" length="3760935" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 1986 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Call—An Eternal Miracle</title>
+      <link>http://www.lds.org/general-conference/1991/10/the-call-an-eternal-miracle?lang=eng</link>
+      <description>The other day, as I watched the videotape  my eyes moistened in instant tenderness as each new missionary opened and read aloud with his family the official call to a full-time mission, signed by the President of the Church. I recalled my own mission</description>
+      <guid isPermaLink="false">/general-conference/1991/10/the-call-an-eternal-miracle</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1991-general-conference/1991-10-5060-elder-gardner-h-russell-64k-eng.mp3" length="4372641" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Oct 1991 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

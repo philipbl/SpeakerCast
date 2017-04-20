@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Jack H Goaslind, Jr.</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Jack H Goaslind, Jr..</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:30 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:30 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Our Responsibility to Take the Gospel to the Ends of the Earth</title>
+      <link>http://www.lds.org/general-conference/1983/10/our-responsibility-to-take-the-gospel-to-the-ends-of-the-earth?lang=eng</link>
+      <description>A few years ago, there was a popular series of firesides called the “Last Lecture” series. Well-known LDS scholars were asked to choose a topic which to them was so important that it could be the subject of the last discourse they were ever permitted</description>
+      <guid isPermaLink="false">/general-conference/1983/10/our-responsibility-to-take-the-gospel-to-the-ends-of-the-earth</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1983-general-conference/1983-10-3010-elder-jack-h-goaslind-jr-64k-eng.mp3" length="6420042" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 1983 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

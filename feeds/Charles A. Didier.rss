@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Charles A. Didier</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Charles A. Didier.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:25 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:25 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>My Gratitude</title>
+      <link>http://www.lds.org/general-conference/1975/10/my-gratitude?lang=eng</link>
+      <description>My dear brothers and sisters, I suppose that everybody knows, even if it is not yet Church doctrine, that French is the language of heaven. Yes. And if you didn’t know it, I think there is still time to repent before the next conference.</description>
+      <guid isPermaLink="false">/general-conference/1975/10/my-gratitude</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1975-general-conference/1975-10-4040-elder-charles-a-didier-64k-eng.mp3" length="3705841" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 1975 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Value of People</title>
+      <link>http://www.lds.org/general-conference/1976/04/the-value-of-people?lang=eng</link>
+      <description>My dear brothers and sisters, as we shared yesterday the great “spirit of 76 North Main,” of the Relief Society, I would like to share with you the “spirit of ’76” of the Europe West Area, and bring to you the message of love, of testimony, from the </description>
+      <guid isPermaLink="false">/general-conference/1976/04/the-value-of-people</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1976-general-conference/1976-04-6060-elder-charles-a-didier-64k-eng.mp3" length="12435862" type="audio/mpeg"/>
+      <pubDate>Tue, 06 Apr 1976 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Letter to a Returned Missionary</title>
+      <link>http://www.lds.org/general-conference/1977/10/letter-to-a-returned-missionary?lang=eng</link>
+      <description>My dear brothers and sisters, I would like to dedicate the following words to a certain category of men and women in the Church. We do not talk too much about them, maybe because they don’t say too much, maybe because there is a bridge too far. You c</description>
+      <guid isPermaLink="false">/general-conference/1977/10/letter-to-a-returned-missionary</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1977-general-conference/1977-10-5030-elder-charles-a-didier-64k-eng.mp3" length="6917677" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Oct 1977 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

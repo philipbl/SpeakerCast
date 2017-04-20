@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Tad R. Callister</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Tad R. Callister.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:59 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:59 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Joseph Smith—Prophet of the Restoration</title>
+      <link>http://www.lds.org/general-conference/2009/10/joseph-smith-prophet-of-the-restoration?lang=eng</link>
+      <description>Through Joseph Smith have been restored all the powers, keys, teachings, and ordinances necessary for salvation and exaltation.</description>
+      <guid isPermaLink="false">/general-conference/2009/10/joseph-smith-prophet-of-the-restoration</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2009-general-conference/2009-10-2050-elder-tad-r-callister-64k-eng.mp3" length="4731771" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Oct 2009 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Book of Mormon—a Book from God</title>
+      <link>http://www.lds.org/general-conference/2011/10/the-book-of-mormon-a-book-from-god?lang=eng</link>
+      <description>Together with the Bible, the Book of Mormon is an indispensable witness of the doctrines of Christ and His divinity.</description>
+      <guid isPermaLink="false">/general-conference/2011/10/the-book-of-mormon-a-book-from-god</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2011-general-conference/2011-10-4030-elder-tad-r-callister-64k-eng.mp3" length="4907343" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Oct 2011 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Power of the Priesthood in the Boy</title>
+      <link>http://www.lds.org/general-conference/2013/04/the-power-of-the-priesthood-in-the-boy?lang=eng</link>
+      <description>The priesthood in the boy is just as powerful as the priesthood in the man when exercised in righteousness.</description>
+      <guid isPermaLink="false">/general-conference/2013/04/the-power-of-the-priesthood-in-the-boy</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2013-general-conference/2013-04-3020-elder-tad-r-callister-64k-eng.mp3" length="5189601" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Apr 2013 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Parents: The Prime Gospel Teachers of Their Children</title>
+      <link>http://www.lds.org/general-conference/2014/10/parents-the-prime-gospel-teachers-of-their-children?lang=eng</link>
+      <description>Brother Tad R. Callister teaches parents how to become their children's first and most important teachers of the gospel by both example and precept.</description>
+      <guid isPermaLink="false">/general-conference/2014/10/parents-the-prime-gospel-teachers-of-their-children</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2014-general-conference/2014-10-2040-tad-r-callister-64k-eng.mp3" length="4647976" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 2014 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

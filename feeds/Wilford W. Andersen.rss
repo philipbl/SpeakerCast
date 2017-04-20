@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Wilford W. Andersen</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Wilford W. Andersen.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:00 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:00 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Rock of Our Redeemer</title>
+      <link>http://www.lds.org/general-conference/2010/04/the-rock-of-our-redeemer?lang=eng</link>
+      <description>I testify that those who keep His commandments will grow in faith and hope. They will be given strength to overcome all of life’s trials.</description>
+      <guid isPermaLink="false">/general-conference/2010/04/the-rock-of-our-redeemer</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2010-general-conference/2010-04-1050-elder-wilford-w-andersen-64k-eng.mp3" length="5300615" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Apr 2010 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Music of the Gospel</title>
+      <link>http://www.lds.org/general-conference/2015/04/the-music-of-the-gospel?lang=eng</link>
+      <description>Elder Wilford W. Andersen of the Seventy teaches how we can teach and enjoy the harmonious music of the gospel in our homes, with our children.</description>
+      <guid isPermaLink="false">/general-conference/2015/04/the-music-of-the-gospel</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2015-general-conference/2015-04-2060-elder-wilford-w-andersen-64k-eng.mp3" length="5013044" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Apr 2015 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

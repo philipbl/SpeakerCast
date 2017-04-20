@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Gérald Caussé</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Gérald Caussé.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:58 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:58 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Even a Child Can Understand</title>
+      <link>http://www.lds.org/general-conference/2008/10/even-a-child-can-understand?lang=eng</link>
+      <description>God … has ensured that the truths regarding God are understandable to all His children, whatever their level of education or intellectual faculty.</description>
+      <guid isPermaLink="false">/general-conference/2008/10/even-a-child-can-understand</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2008-general-conference/2008-10-2040-elder-gerald-causse-64k-eng.mp3" length="5616771" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 2008 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Ye Are No More Strangers</title>
+      <link>http://www.lds.org/general-conference/2013/10/ye-are-no-more-strangers?lang=eng</link>
+      <description>In this Church there are no strangers and no outcasts. There are only brothers and sisters.</description>
+      <guid isPermaLink="false">/general-conference/2013/10/ye-are-no-more-strangers</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2013-general-conference/2013-10-3020-bishop-gerald-causse-64k-eng.mp3" length="5856642" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Oct 2013 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Is It Still Wonderful to You?</title>
+      <link>http://www.lds.org/general-conference/2015/04/is-it-still-wonderful-to-you?lang=eng</link>
+      <description>Bishop Gérald Caussé invites us to always remember the wonders of the gospel of Jesus Christ.</description>
+      <guid isPermaLink="false">/general-conference/2015/04/is-it-still-wonderful-to-you</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2015-general-conference/2015-04-4040-bishop-gerald-causse-64k-eng.mp3" length="4911211" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Apr 2015 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Prepare the Way</title>
+      <link>http://www.lds.org/general-conference/2017/04/prepare-the-way?lang=eng</link>
+      <description>Bishop Causée urges Aaronic and Melchizedek Priesthood holders to work together in leading, in serving others, and in accomplishing the work of salvation.</description>
+      <guid isPermaLink="false">/general-conference/2017/04/prepare-the-way</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2017-general-conference/2017-04-3030-gerald-causse-64k-eng.mp3" length="5869302" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Apr 2017 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

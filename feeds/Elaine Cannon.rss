@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Elaine Cannon</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Elaine Cannon.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:30 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:30 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Reach for Joy</title>
+      <link>http://www.lds.org/general-conference/1982/04/reach-for-joy?lang=eng</link>
+      <description>Part of our precious legacy—to be remembered and renewed—is that though deepening trials throng our way, we know that our afflictions can be consecrated to our good.</description>
+      <guid isPermaLink="false">/general-conference/1982/04/reach-for-joy</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1982-general-womens-meeting/1982-03-7020-elaine-a-cannon-64k-eng.mp3" length="11557204" type="audio/mpeg"/>
+      <pubDate>Sat, 27 Mar 1982 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Agency and Accountability</title>
+      <link>http://www.lds.org/general-conference/1983/10/agency-and-accountability?lang=eng</link>
+      <description>A good man had been given the assignment in his ward of arranging the Boy Scout banquet. He had worked hard, made his choices, and carried them through. The tables were set, the food was in the pot, and the hour was drawing nigh.</description>
+      <guid isPermaLink="false">/general-conference/1983/10/agency-and-accountability</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1983-general-womens-meeting/1983-09-0030-elaine-a-cannon-64k-eng.mp3" length="4775416" type="audio/mpeg"/>
+      <pubDate>Sat, 24 Sep 1983 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

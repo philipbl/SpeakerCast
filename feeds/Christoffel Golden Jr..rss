@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Christoffel Golden Jr.</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Christoffel Golden Jr..</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:50 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:50 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Our Father’s Plan</title>
+      <link>http://www.lds.org/general-conference/2001/10/our-fathers-plan?lang=eng</link>
+      <description>[Our Heavenly] Father’s desire is to provide all of us with the opportunity to receive a fulness of joy, even the fulness that He possesses.</description>
+      <guid isPermaLink="false">/general-conference/2001/10/our-fathers-plan</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2001-general-conference/2001-10-2050-elder-christoffel-golden-jr-64k-eng.mp3" length="3845544" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 2001 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Small and Simple Things</title>
+      <link>http://www.lds.org/general-conference/2007/10/small-and-simple-things?lang=eng</link>
+      <description>May we discover anew the divine power of daily prayer, the convincing influence of the Book of Mormon, and true devotion when partaking of the sacrament.</description>
+      <guid isPermaLink="false">/general-conference/2007/10/small-and-simple-things</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2007-general-conference/2007-10-4050-elder-christoffel-golden-jr-64k-eng.mp3" length="3884427" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Oct 2007 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Father and the Son</title>
+      <link>http://www.lds.org/general-conference/2013/04/the-father-and-the-son?lang=eng</link>
+      <description>At the heart of the gospel of Jesus Christ and its power to save is a correct understanding of the Father and the Son.</description>
+      <guid isPermaLink="false">/general-conference/2013/04/the-father-and-the-son</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2013-general-conference/2013-04-5030-elder-christoffel-golden-jr-64k-eng.mp3" length="5328917" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Apr 2013 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

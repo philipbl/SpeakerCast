@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Paul E. Koelliker</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Paul E. Koelliker.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:54 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:54 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Gospel Covenants Bring Promised Blessings</title>
+      <link>http://www.lds.org/general-conference/2005/10/gospel-covenants-bring-promised-blessings?lang=eng</link>
+      <description>By keeping the covenants of the gospel, all of the momentary trials of life can be transcended.</description>
+      <guid isPermaLink="false">/general-conference/2005/10/gospel-covenants-bring-promised-blessings</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2005-general-conference/2005-10-5040-elder-paul-e-koelliker-64k-eng.mp3" length="3942103" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Oct 2005 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>He Truly Loves Us</title>
+      <link>http://www.lds.org/general-conference/2012/04/he-truly-loves-us?lang=eng</link>
+      <description>Because of the heaven-designed pattern of the family, we more fully understand how our Heavenly Father truly loves each of us equally and fully.</description>
+      <guid isPermaLink="false">/general-conference/2012/04/he-truly-loves-us</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2012-general-conference/2012-04-1050-elder-paul-e-koelliker-64k-eng.mp3" length="5484510" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 2012 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

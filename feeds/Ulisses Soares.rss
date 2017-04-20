@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Ulisses Soares</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Ulisses Soares.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:54 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:54 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>“Feed My Sheep”</title>
+      <link>http://www.lds.org/general-conference/2005/10/feed-my-sheep?lang=eng</link>
+      <description>People are most receptive to our influence when they feel that we truly love them, and not only because we have a calling to fulfill.</description>
+      <guid isPermaLink="false">/general-conference/2005/10/feed-my-sheep</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2005-general-conference/2005-10-5060-elder-ulisses-soares-64k-eng.mp3" length="3746453" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Oct 2005 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Abide in the Lord’s Territory!</title>
+      <link>http://www.lds.org/general-conference/2012/04/abide-in-the-lords-territory?lang=eng</link>
+      <description>Our daily question must be, “Do my actions place me in the Lord’s or in the enemy’s territory?”</description>
+      <guid isPermaLink="false">/general-conference/2012/04/abide-in-the-lords-territory</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2012-general-conference/2012-04-2070-elder-ulisses-soares-64k-eng.mp3" length="4335273" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 2012 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Be Meek and Lowly of Heart</title>
+      <link>http://www.lds.org/general-conference/2013/10/be-meek-and-lowly-of-heart?lang=eng</link>
+      <description>Being meek does not mean weakness, but it does mean behaving with goodness and kindness.</description>
+      <guid isPermaLink="false">/general-conference/2013/10/be-meek-and-lowly-of-heart</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2013-general-conference/2013-10-1030-elder-ulisses-soares-64k-eng.mp3" length="5460899" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Oct 2013 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Yes, We Can and Will Win!</title>
+      <link>http://www.lds.org/general-conference/2015/04/yes-we-can-and-will-win?lang=eng</link>
+      <description>Elder Ulisses Soares testifies that if we will stay true to our testimony of Jesus Christ and His gospel, we will win our battles against evil.</description>
+      <guid isPermaLink="false">/general-conference/2015/04/yes-we-can-and-will-win</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2015-general-conference/2015-04-3020-elder-ulisses-soares-64k-eng.mp3" length="5751024" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Apr 2015 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Confide in God Unwaveringly</title>
+      <link>http://www.lds.org/general-conference/2017/04/confide-in-god-unwaveringly?lang=eng</link>
+      <description>Elder Soares teaches that we must be steadfast and not waver in our faith.</description>
+      <guid isPermaLink="false">/general-conference/2017/04/confide-in-god-unwaveringly</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2017-general-conference/2017-04-1050-ulisses-soares-64k-eng.mp3" length="5292173" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Apr 2017 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

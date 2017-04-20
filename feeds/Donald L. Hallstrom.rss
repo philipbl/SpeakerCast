@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Donald L. Hallstrom</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Donald L. Hallstrom.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:49 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:49 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Cultivate Righteous Traditions</title>
+      <link>http://www.lds.org/general-conference/2000/10/cultivate-righteous-traditions?lang=eng</link>
+      <description>Uplifting traditions … that promote love for Deity and unity in families and among people are especially important.</description>
+      <guid isPermaLink="false">/general-conference/2000/10/cultivate-righteous-traditions</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2000-general-conference/2000-10-2040-elder-donald-l-hallstrom-64k-eng.mp3" length="3767844" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 2000 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Do It Now</title>
+      <link>http://www.lds.org/general-conference/2007/10/do-it-now?lang=eng</link>
+      <description>Now is the time to reconcile with God through the merciful process of change afforded us by the Redeemer.</description>
+      <guid isPermaLink="false">/general-conference/2007/10/do-it-now</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2007-general-conference/2007-10-3020-elder-donald-l-hallstrom-64k-eng.mp3" length="4494249" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 2007 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Turn to the Lord</title>
+      <link>http://www.lds.org/general-conference/2010/04/turn-to-the-lord?lang=eng</link>
+      <description>Never let an earthly circumstance disable you spiritually.</description>
+      <guid isPermaLink="false">/general-conference/2010/04/turn-to-the-lord</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2010-general-conference/2010-04-4030-elder-donald-l-hallstrom-64k-eng.mp3" length="5214417" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Apr 2010 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Converted to His Gospel through His Church</title>
+      <link>http://www.lds.org/general-conference/2012/04/converted-to-his-gospel-through-his-church?lang=eng</link>
+      <description>The purpose of the Church is to help us live the gospel.</description>
+      <guid isPermaLink="false">/general-conference/2012/04/converted-to-his-gospel-through-his-church</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2012-general-conference/2012-04-1040-elder-donald-l-hallstrom-64k-eng.mp3" length="5532736" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 2012 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>What Manner of Men?</title>
+      <link>http://www.lds.org/general-conference/2014/04/what-manner-of-men?lang=eng</link>
+      <description>Donald L. Hallstrom urges priesthood holders to be willing to change in order to become more like the Savior Jesus Christ.
+		</description>
+      <guid isPermaLink="false">/general-conference/2014/04/what-manner-of-men</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2014-general-conference/2014-04-3020-elder-donald-l-hallstrom-64k-eng.mp3" length="5760472" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 2014 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>I Am a Child of God</title>
+      <link>http://www.lds.org/general-conference/2016/04/i-am-a-child-of-god?lang=eng</link>
+      <guid isPermaLink="false">/general-conference/2016/04/i-am-a-child-of-god</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2016-general-conference/2016-04-1030-donald-l-hallstrom-64k-eng.mp3" length="5572243" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 2016 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

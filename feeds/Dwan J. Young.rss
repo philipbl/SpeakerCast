@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Dwan J. Young</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Dwan J. Young.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:30 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:30 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>An Invitation to Grow</title>
+      <link>http://www.lds.org/general-conference/1982/04/an-invitation-to-grow?lang=eng</link>
+      <description>The following addresses were delivered at the General Women’s Meeting held Saturday evening, March 27, in the Tabernacle, Salt Lake City. Latter-day Saint women twelve and older gathered to view the locally televised broadcast; the program was also v</description>
+      <guid isPermaLink="false">/general-conference/1982/04/an-invitation-to-grow</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1982-general-womens-meeting/1982-03-7010-dwan-j-young-64k-eng.mp3" length="8579220" type="audio/mpeg"/>
+      <pubDate>Sat, 27 Mar 1982 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Prepare to Teach His Children</title>
+      <link>http://www.lds.org/general-conference/1983/10/prepare-to-teach-his-children?lang=eng</link>
+      <description>Tonight I want to tell you about a girl who was a pianist of some promise. When she was quite small, her mother sat with her on the piano bench each day, taught her the notes, and encouraged her to practice while she learned those first pieces.</description>
+      <guid isPermaLink="false">/general-conference/1983/10/prepare-to-teach-his-children</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1983-general-womens-meeting/1983-09-0020-dwan-j-young-64k-eng.mp3" length="4574329" type="audio/mpeg"/>
+      <pubDate>Sat, 24 Sep 1983 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Keeping the Covenants We Make at Baptism</title>
+      <link>http://www.lds.org/general-conference/1984/10/keeping-the-covenants-we-make-at-baptism?lang=eng</link>
+      <description>In July my husband and I went to Philmont, the Scout training center in New Mexico. Gathered there were 150 priesthood leaders and their families in that beautiful camp where the plain meets the soaring, pine-covered mountains.</description>
+      <guid isPermaLink="false">/general-conference/1984/10/keeping-the-covenants-we-make-at-baptism</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1984-general-womens-meeting/1984-09-0020-dwan-j-young-64k-eng.mp3" length="6610733" type="audio/mpeg"/>
+      <pubDate>Sat, 29 Sep 1984 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Draw Near to Him in Prayer</title>
+      <link>http://www.lds.org/general-conference/1985/10/draw-near-to-him-in-prayer?lang=eng</link>
+      <description>Thank you, girls, for that beautiful song. The words you have just sung remind me of a prayer—and singing hymns is one way for us to pray, one way for us to draw near to our Heavenly Father.</description>
+      <guid isPermaLink="false">/general-conference/1985/10/draw-near-to-him-in-prayer</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/1985-general-womens-meeting/1985-09-0020-dwan-j-young-64k-eng.mp3" length="10109997" type="audio/mpeg"/>
+      <pubDate>Sat, 28 Sep 1985 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Light of Hope</title>
+      <link>http://www.lds.org/general-conference/1986/10/the-light-of-hope?lang=eng</link>
+      <description>The scriptures tell us to abound in hope. Like an early morning sunrise or a happy child’s face, we all want our lives to be touched with light—because darkness has no power against the light.</description>
+      <guid isPermaLink="false">/general-conference/1986/10/the-light-of-hope</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1986-general-womens-meeting/1986-09-0010-dwan-j-young-64k-eng.mp3" length="5645974" type="audio/mpeg"/>
+      <pubDate>Sat, 27 Sep 1986 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Teach Children the Gospel</title>
+      <link>http://www.lds.org/general-conference/1988/04/teach-children-the-gospel?lang=eng</link>
+      <description>Holly loved the towering pine tree in front of her home. Its branches shaded her favorite place to play.</description>
+      <guid isPermaLink="false">/general-conference/1988/04/teach-children-the-gospel</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1988-general-conference/1988-04-5050-dwan-j-young-64k-eng.mp3" length="4204632" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Apr 1988 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

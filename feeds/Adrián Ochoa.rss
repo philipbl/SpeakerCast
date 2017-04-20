@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Adrián Ochoa</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Adrián Ochoa.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:03 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:03 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Aaronic Priesthood: Arise and Use the Power of God</title>
+      <link>http://www.lds.org/general-conference/2012/04/aaronic-priesthood-arise-and-use-the-power-of-god?lang=eng</link>
+      <description>The priesthood needs to be exercised to accomplish any good. You are called to “arise and shine forth,” not to hide your light in darkness.</description>
+      <guid isPermaLink="false">/general-conference/2012/04/aaronic-priesthood-arise-and-use-the-power-of-god</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2012-general-conference/2012-04-3030-adrian-ochoa-64k-eng.mp3" length="5619060" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 2012 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Look Up</title>
+      <link>http://www.lds.org/general-conference/2013/10/look-up?lang=eng</link>
+      <description>Today is the time to look to the Source of truth and ensure that our testimonies are strong.</description>
+      <guid isPermaLink="false">/general-conference/2013/10/look-up</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2013-general-conference/2013-10-5050-elder-adrian-ochoa-64k-eng.mp3" length="5028613" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Oct 2013 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

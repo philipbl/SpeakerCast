@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By David L. Beck</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by David L. Beck.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:00 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:00 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Magnificent Aaronic Priesthood</title>
+      <link>http://www.lds.org/general-conference/2010/04/the-magnificent-aaronic-priesthood?lang=eng</link>
+      <description>There is an urgency for you to fulfill your duty to God. I am confident that you will.</description>
+      <guid isPermaLink="false">/general-conference/2010/04/the-magnificent-aaronic-priesthood</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2010-general-conference/2010-04-3030-david-l-beck-64k-eng.mp3" length="5435212" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Apr 2010 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Your Sacred Duty to Minister</title>
+      <link>http://www.lds.org/general-conference/2013/04/your-sacred-duty-to-minister?lang=eng</link>
+      <description>You received the power, the authority, and the sacred duty to minister the moment you were ordained to the priesthood.</description>
+      <guid isPermaLink="false">/general-conference/2013/04/your-sacred-duty-to-minister</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2013-general-conference/2013-04-3030-david-l-beck-64k-eng.mp3" length="4989384" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Apr 2013 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

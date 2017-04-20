@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Lloyd P. George</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Lloyd P. George.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:35 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:35 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>We Have a Work to Do</title>
+      <link>http://www.lds.org/general-conference/1988/10/we-have-a-work-to-do?lang=eng</link>
+      <description>On a number of occasions, President Harold B. Lee stated that there is no need for a new organization to take care of the needs of the Saints. All we need to do is to have the priesthood of the Lord go to work.</description>
+      <guid isPermaLink="false">/general-conference/1988/10/we-have-a-work-to-do</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1988-general-conference/1988-10-3050-elder-lloyd-p-george-64k-eng.mp3" length="2096957" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 1988 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Gratitude</title>
+      <link>http://www.lds.org/general-conference/1994/04/gratitude?lang=eng</link>
+      <description>The Psalmist asked the question: “When I consider thy heavens, the work of thy fingers, the moon and the stars, which thou hast ordained;</description>
+      <guid isPermaLink="false">/general-conference/1994/04/gratitude</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1994-general-conference/1994-04-2050-elder-lloyd-p-george-64k-eng.mp3" length="5720902" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 1994 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

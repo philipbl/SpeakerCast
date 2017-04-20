@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By James B. Martino</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by James B. Martino.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:00 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:00 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>All Things Work Together for Good</title>
+      <link>http://www.lds.org/general-conference/2010/04/all-things-work-together-for-good?lang=eng</link>
+      <description>We may never know in this life why we face what we do, but we can feel confident that we can grow from the experience.</description>
+      <guid isPermaLink="false">/general-conference/2010/04/all-things-work-together-for-good</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2010-general-conference/2010-04-5040-elder-james-b-martino-64k-eng.mp3" length="4960854" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Apr 2010 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Turn to Him and Answers Will Come</title>
+      <link>http://www.lds.org/general-conference/2015/10/turn-to-him-and-answers-will-come?lang=eng</link>
+      <description>Elder Martino teaches how obedience, scripture study, prayer, and fasting help us to feel the Spirit and find answers to our questions.</description>
+      <guid isPermaLink="false">/general-conference/2015/10/turn-to-him-and-answers-will-come</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2015-general-conference/2015-10-2070-elder-james-b-martino-64k-eng.mp3" length="5005859" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Oct 2015 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

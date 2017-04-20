@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Joanne B. Doxey</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Joanne B. Doxey.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:34 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:34 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Strengthening the Family</title>
+      <link>http://www.lds.org/general-conference/1987/10/strengthening-the-family?lang=eng</link>
+      <description>Near the shores of Galilee, as the resurrected Christ dined with his disciples on a fresh catch of fish, he asked of Simon Peter: “Simon, son of Jonas, lovest thou me more than these? He saith unto him, Yea, Lord; thou knowest that I love thee. He sa</description>
+      <guid isPermaLink="false">/general-conference/1987/10/strengthening-the-family</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1987-general-womens-meeting/1987-09-0010-joanne-b-doxey-64k-eng.mp3" length="6334131" type="audio/mpeg"/>
+      <pubDate>Sat, 26 Sep 1987 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Remember Him”</title>
+      <link>http://www.lds.org/general-conference/1989/10/remember-him?lang=eng</link>
+      <description>My beloved sisters—you who belong to the worldwide sisterhood of the Church and you who are yet to become members, you who are women and you girls who are yet to become women, you who are now mothers and you who are yet to become mothers—despite our </description>
+      <guid isPermaLink="false">/general-conference/1989/10/remember-him</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1989-general-womens-meeting/1989-09-0020-joanne-b-doxey-64k-eng.mp3" length="6873290" type="audio/mpeg"/>
+      <pubDate>Sat, 23 Sep 1989 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

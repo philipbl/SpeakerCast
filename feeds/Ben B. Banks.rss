@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Ben B. Banks</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Ben B. Banks.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:35 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:35 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Value of Preparation</title>
+      <link>http://www.lds.org/general-conference/1989/10/the-value-of-preparation?lang=eng</link>
+      <description>I would like to address my remarks this evening to you young men of the Aaronic and Melchizedek priesthoods who are planning on or contemplating serving a mission, and to those young men of the Aaronic or Melchizedek priesthoods who perhaps might be </description>
+      <guid isPermaLink="false">/general-conference/1989/10/the-value-of-preparation</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1989-general-conference/1989-10-3030-elder-benjamin-b-banks-64k-eng.mp3" length="5439278" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 1989 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Take Time for Your Children</title>
+      <link>http://www.lds.org/general-conference/1993/10/take-time-for-your-children?lang=eng</link>
+      <description>Speaking to the inhabitants of Zion, the Lord said, “They shall … teach their children to pray, and to walk uprightly before the Lord” ().</description>
+      <guid isPermaLink="false">/general-conference/1993/10/take-time-for-your-children</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1993-general-conference/1993-10-2040-elder-ben-b-banks-64k-eng.mp3" length="5597864" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 1993 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Feed My Sheep”</title>
+      <link>http://www.lds.org/general-conference/1999/10/feed-my-sheep?lang=eng</link>
+      <description>I believe that every active member of the Church knows a lost sheep who needs the attention and love of a caring shepherd.</description>
+      <guid isPermaLink="false">/general-conference/1999/10/feed-my-sheep</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1999-general-conference/1999-10-1030-elder-ben-b-banks-64k-eng.mp3" length="5441669" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 1999 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>This Road We Call Life</title>
+      <link>http://www.lds.org/general-conference/2002/04/this-road-we-call-life?lang=eng</link>
+      <description>As you stay on the right path, the reward at the end of life’s journey is well worth the moments of adversity you experience along the way.</description>
+      <guid isPermaLink="false">/general-conference/2002/04/this-road-we-call-life</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2002-general-conference/2002-04-3020-elder-ben-b-banks-64k-eng.mp3" length="5168878" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Apr 2002 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

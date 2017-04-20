@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By George P. Lee</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by George P. Lee.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:25 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:25 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>My Heritage Is Choice</title>
+      <link>http://www.lds.org/general-conference/1975/10/my-heritage-is-choice?lang=eng</link>
+      <description>Brothers and sisters, I finally realized how General Custer must have felt. …</description>
+      <guid isPermaLink="false">/general-conference/1975/10/my-heritage-is-choice</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1975-general-conference/1975-10-7020-elder-george-p-lee-64k-eng.mp3" length="4383942" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Oct 1975 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“But They Were in One”</title>
+      <link>http://www.lds.org/general-conference/1976/04/but-they-were-in-one?lang=eng</link>
+      <description>My dear brothers and sisters, I am happy, thrilled, and delighted to be with you once again. I am greatly strengthened again, my brothers and sisters, by the energetic, vibrant, and humble spirit of President Kimball and all those who have spoken. Pr</description>
+      <guid isPermaLink="false">/general-conference/1976/04/but-they-were-in-one</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1976-general-conference/1976-04-7030-elder-george-p-lee-64k-eng.mp3" length="11908515" type="audio/mpeg"/>
+      <pubDate>Tue, 06 Apr 1976 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Staying Unspotted from the World</title>
+      <link>http://www.lds.org/general-conference/1978/04/staying-unspotted-from-the-world?lang=eng</link>
+      <description>My beloved brothers and sisters, I should like to address my remarks to the young people of the Church, the youth of the Church. I love the young people of the Church. I sincerely believe that the young people of today are some of the choicest young </description>
+      <guid isPermaLink="false">/general-conference/1978/04/staying-unspotted-from-the-world</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1978-general-conference/1978-04-2070-elder-george-p-lee-64k-eng.mp3" length="5962892" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Apr 1978 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Acquaint Thyself with Him, and Be at Peace”</title>
+      <link>http://www.lds.org/general-conference/1980/10/acquaint-thyself-with-him-and-be-at-peace?lang=eng</link>
+      <description>Charles Dickens once wrote: “It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, … it was the season of Light, it was the season of Darkness, … we had everything before us, we had nothing befo</description>
+      <guid isPermaLink="false">/general-conference/1980/10/acquaint-thyself-with-him-and-be-at-peace</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1980-general-conference/1980-10-5020-elder-george-p-lee-64k-eng.mp3" length="11551044" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Oct 1980 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Behold My Beloved Son, in Whom I Am Well Pleased”</title>
+      <link>http://www.lds.org/general-conference/1982/10/behold-my-beloved-son-in-whom-i-am-well-pleased?lang=eng</link>
+      <description>In our world of skepticism, confusion and wickedness, to know the truth, to have a deep, humble, and solemn conviction that Jesus is the Christ, the Son of the living God, is a very precious thing. I have received the witness of the divinity of my Sa</description>
+      <guid isPermaLink="false">/general-conference/1982/10/behold-my-beloved-son-in-whom-i-am-well-pleased</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1982-general-conference/1982-10-5050-elder-george-p-lee-64k-eng.mp3" length="13279395" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Oct 1982 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Can There Any Good Thing Come Out of Nazareth?</title>
+      <link>http://www.lds.org/general-conference/1985/10/can-there-any-good-thing-come-out-of-nazareth?lang=eng</link>
+      <description>The true gospel of the Son of God has always been opposed by those who are caught within the throes of sin. For many, there is simply too much light, too much truth, and too much intelligence. Others who resist the gospel have found its principles to</description>
+      <guid isPermaLink="false">/general-conference/1985/10/can-there-any-good-thing-come-out-of-nazareth</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1985-general-conference/1985-10-2020-elder-george-p-lee-64k-eng.mp3" length="7680381" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Oct 1985 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

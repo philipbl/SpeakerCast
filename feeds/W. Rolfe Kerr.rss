@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By W. Rolfe Kerr</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by W. Rolfe Kerr.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:53 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:53 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Words of Christ—Our Spiritual Liahona</title>
+      <link>http://www.lds.org/general-conference/2004/04/the-words-of-christ-our-spiritual-liahona?lang=eng</link>
+      <description>Let us in faith take the words of Christ into our minds and into our hearts.</description>
+      <guid isPermaLink="false">/general-conference/2004/04/the-words-of-christ-our-spiritual-liahona</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2004-general-conference/2004-04-2070-elder-w-rolfe-kerr-64k-eng.mp3" length="4891163" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Apr 2004 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

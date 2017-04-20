@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Robert R. Steuer</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Robert R. Steuer.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:51 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:51 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Being Teachable</title>
+      <link>http://www.lds.org/general-conference/2002/04/being-teachable?lang=eng</link>
+      <description>By being teachable, we activate the full force and blessings of the Atonement in our lives.</description>
+      <guid isPermaLink="false">/general-conference/2002/04/being-teachable</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2002-general-conference/2002-04-2070-elder-robert-r-steuer-64k-eng.mp3" length="3967896" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Apr 2002 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Power of Light and Truth</title>
+      <link>http://www.lds.org/general-conference/2008/04/the-power-of-light-and-truth?lang=eng</link>
+      <description>For us to prosper in these times, spiritual light must burn within us.</description>
+      <guid isPermaLink="false">/general-conference/2008/04/the-power-of-light-and-truth</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2008-general-conference/2008-04-5040-elder-robert-r-steuer-64k-eng.mp3" length="3889852" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Apr 2008 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

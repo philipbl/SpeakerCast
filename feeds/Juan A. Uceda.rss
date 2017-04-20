@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Juan A. Uceda</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Juan A. Uceda.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:01 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:01 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>He Teaches Us to Put Off the Natural Man</title>
+      <link>http://www.lds.org/general-conference/2010/10/he-teaches-us-to-put-off-the-natural-man?lang=eng</link>
+      <description>I bear witness of the reality and power of the Savior’s Atonement to cleanse, purify, and make us and our homes holy.</description>
+      <guid isPermaLink="false">/general-conference/2010/10/he-teaches-us-to-put-off-the-natural-man</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2010-general-conference/2010-10-3030-elder-juan-a-uceda-64k-eng.mp3" length="5194753" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 2010 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Lord Jesus Christ Teaches Us to Pray</title>
+      <link>http://www.lds.org/general-conference/2016/10/the-lord-jesus-christ-teaches-us-to-pray?lang=eng</link>
+      <description>Elder Uceda encourages members to pray from the heart, to pray before making important decisions, noting that prayer is a sacred moment.</description>
+      <guid isPermaLink="false">/general-conference/2016/10/the-lord-jesus-christ-teaches-us-to-pray</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2016-general-conference/2016-10-1050-juan-a-uceda-64k-eng.mp3" length="4861542" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 2016 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

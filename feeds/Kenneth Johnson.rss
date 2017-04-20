@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Kenneth Johnson</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Kenneth Johnson.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:36 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:36 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Motorcycle Ride</title>
+      <link>http://www.lds.org/general-conference/1990/04/the-motorcycle-ride?lang=eng</link>
+      <description>I know that this life is the time for men to prepare to meet God. I just didn’t plan to be this close so early.</description>
+      <guid isPermaLink="false">/general-conference/1990/04/the-motorcycle-ride</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1990-general-conference/1990-04-3030-elder-kenneth-johnson-64k-eng.mp3" length="2645630" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 1990 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>We All Have a Father in Whom We Can Trust</title>
+      <link>http://www.lds.org/general-conference/1994/04/we-all-have-a-father-in-whom-we-can-trust?lang=eng</link>
+      <description>At the time of my birth, the clouds of war had overshadowed Europe and were sweeping across the English Channel to the British coastline. My father, like thousands of other men of his generation, was required to report for active military service. My</description>
+      <guid isPermaLink="false">/general-conference/1994/04/we-all-have-a-father-in-whom-we-can-trust</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1994-general-conference/1994-04-2060-elder-kenneth-johnson-64k-eng.mp3" length="5427350" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 1994 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Yielding to the Enticings of the Holy Spirit</title>
+      <link>http://www.lds.org/general-conference/2002/10/yielding-to-the-enticings-of-the-holy-spirit?lang=eng</link>
+      <description>Stirrings within us originate from a divine source and, when followed, will help to keep us on course, thus protecting us from harmful influences and dangerous detours.</description>
+      <guid isPermaLink="false">/general-conference/2002/10/yielding-to-the-enticings-of-the-holy-spirit</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2002-general-conference/2002-10-5030-elder-kenneth-johnson-64k-eng.mp3" length="6016191" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Oct 2002 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Restoring Faith in the Family</title>
+      <link>http://www.lds.org/general-conference/2008/04/restoring-faith-in-the-family?lang=eng</link>
+      <description>Stable families provide the fabric that holds society together, benefiting all mankind.</description>
+      <guid isPermaLink="false">/general-conference/2008/04/restoring-faith-in-the-family</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2008-general-conference/2008-04-1050-elder-kenneth-johnson-64k-eng.mp3" length="4342036" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 2008 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

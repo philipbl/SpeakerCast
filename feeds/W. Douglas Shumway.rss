@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By W. Douglas Shumway</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by W. Douglas Shumway.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:53 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:53 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Marriage and Family: Our Sacred Responsibility</title>
+      <link>http://www.lds.org/general-conference/2004/04/marriage-and-family-our-sacred-responsibility?lang=eng</link>
+      <description>In a society where marriage is often shunned, parenthood avoided, and families degraded, we have the responsibility to honor our marriages, nurture our children, and fortify our families.</description>
+      <guid isPermaLink="false">/general-conference/2004/04/marriage-and-family-our-sacred-responsibility</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2004-general-conference/2004-04-5040-elder-w-douglas-shumway-64k-eng.mp3" length="4418398" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Apr 2004 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

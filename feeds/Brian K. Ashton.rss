@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Brian K. Ashton</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Brian K. Ashton.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:07 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:07 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Doctrine of Christ</title>
+      <link>http://www.lds.org/general-conference/2016/10/the-doctrine-of-christ?lang=eng</link>
+      <description>Brother Ashton teaches that the doctrine of Christ includes faith, repentance, baptism, the sacrament, the gift of the Holy Ghost, and enduring to the end.</description>
+      <guid isPermaLink="false">/general-conference/2016/10/the-doctrine-of-christ</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2016-general-conference/2016-10-5020-brian-k-ashton-64k-eng.mp3" length="5395897" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Oct 2016 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

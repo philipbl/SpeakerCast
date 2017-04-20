@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Linda S. Reeves</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Linda S. Reeves.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:04 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:04 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Claim the Blessings of Your Covenants</title>
+      <link>http://www.lds.org/general-conference/2013/10/claim-the-blessings-of-your-covenants?lang=eng</link>
+      <description>As we renew and honor our covenants, our burdens can be lightened and we can continually become purified and strengthened.</description>
+      <guid isPermaLink="false">/general-conference/2013/10/claim-the-blessings-of-your-covenants</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/2013-general-relief-society-meeting/2013-09-0030-linda-s-reeves-64k-eng.mp3" length="5843157" type="audio/mpeg"/>
+      <pubDate>Sat, 28 Sep 2013 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Protection from Pornography—a Christ-Focused Home</title>
+      <link>http://www.lds.org/general-conference/2014/04/protection-from-pornography-a-christ-focused-home?lang=eng</link>
+      <description>Linda S. Reeves warns families of the dangers of pornography and explains that the best filter is a strong testimony. </description>
+      <guid isPermaLink="false">/general-conference/2014/04/protection-from-pornography-a-christ-focused-home</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2014-general-conference/2014-04-1050-linda-s-reeves-64k-eng.mp3" length="5916191" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 2014 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Worthy of Our Promised Blessings</title>
+      <link>http://www.lds.org/general-conference/2015/10/worthy-of-our-promised-blessings?lang=eng</link>
+      <description>Linda S. Reeves encourages sisters to remember the blessings that Heavenly Father has promised them for living the gospel.</description>
+      <guid isPermaLink="false">/general-conference/2015/10/worthy-of-our-promised-blessings</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2015-general-conference/2015-09-0030-linda-s-reeves-64k-eng.mp3" length="5491521" type="audio/mpeg"/>
+      <pubDate>Sat, 26 Sep 2015 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Great Plan of Redemption</title>
+      <link>http://www.lds.org/general-conference/2016/10/the-great-plan-of-redemption?lang=eng</link>
+      <description>Sister Reeves shares stories of individuals who feel the peace, joy, and blessings of sincerely repenting and parking of the Savior’s Atonement.</description>
+      <guid isPermaLink="false">/general-conference/2016/10/the-great-plan-of-redemption</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2016-general-conference/2016-10-4040-linda-s-reeves-64k-eng.mp3" length="5384952" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Oct 2016 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By William R. Walker</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by William R. Walker.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:52 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:52 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>I’ll Go Where You Want Me to Go</title>
+      <link>http://www.lds.org/general-conference/2002/04/i-ll-go-where-you-want-me-to-go?lang=eng</link>
+      <description>I love Him. I want to do all that I can to serve as He would have me serve.</description>
+      <guid isPermaLink="false">/general-conference/2002/04/i-ll-go-where-you-want-me-to-go</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2002-general-conference/2002-04-5070-elder-william-r-walker-64k-eng.mp3" length="1043832" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Apr 2002 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Three Presiding High Priests</title>
+      <link>http://www.lds.org/general-conference/2008/04/three-presiding-high-priests?lang=eng</link>
+      <description>Wisdom and strength will come to us as we look to the First Presidency as our ideal and our pattern of leadership.</description>
+      <guid isPermaLink="false">/general-conference/2008/04/three-presiding-high-priests</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2008-general-conference/2008-04-2070-elder-william-r-walker-64k-eng.mp3" length="4471126" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 2008 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Live True to the Faith</title>
+      <link>http://www.lds.org/general-conference/2014/04/live-true-to-the-faith?lang=eng</link>
+      <description>William R. Walker encourages Latter-day Saints to live true to the faith, honoring the legacy of their faithful ancestors.
+		</description>
+      <guid isPermaLink="false">/general-conference/2014/04/live-true-to-the-faith</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2014-general-conference/2014-04-5020-elder-william-r-walker-64k-eng.mp3" length="5370472" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Apr 2014 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

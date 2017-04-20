@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Carole M. Stephens</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Carole M. Stephens.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:04 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:04 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>We Have Great Reason to Rejoice</title>
+      <link>http://www.lds.org/general-conference/2013/10/we-have-great-reason-to-rejoice?lang=eng</link>
+      <description>When you love, watch over, and serve others in small and simple ways, you are actively participating in the work of salvation.</description>
+      <guid isPermaLink="false">/general-conference/2013/10/we-have-great-reason-to-rejoice</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/2013-general-relief-society-meeting/2013-09-0020-carole-m-stephens-64k-eng.mp3" length="6198461" type="audio/mpeg"/>
+      <pubDate>Sat, 28 Sep 2013 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Do We Know What We Have?</title>
+      <link>http://www.lds.org/general-conference/2013/10/do-we-know-what-we-have?lang=eng</link>
+      <description>Priesthood ordinances and covenants provide access to the fulness of the blessings promised to us by God, which are made possible by the Savior’s Atonement.</description>
+      <guid isPermaLink="false">/general-conference/2013/10/do-we-know-what-we-have</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2013-general-conference/2013-10-1040-carole-m-stephens-64k-eng.mp3" length="5615521" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Oct 2013 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Family Is of God</title>
+      <link>http://www.lds.org/general-conference/2015/04/the-family-is-of-god?lang=eng</link>
+      <description>Carole M. Stephens uses the words of a Primary song to teach about the role of the family—our earthly family and our heavenly family—in God's plan.</description>
+      <guid isPermaLink="false">/general-conference/2015/04/the-family-is-of-god</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2015-general-conference/2015-03-0020-carole-m-stephens-64k-eng.mp3" length="5053195" type="audio/mpeg"/>
+      <pubDate>Sat, 28 Mar 2015 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“If Ye Love Me, Keep My Commandments”</title>
+      <link>http://www.lds.org/general-conference/2015/10/if-ye-love-me-keep-my-commandments?lang=eng</link>
+      <description>Carole M. Stephens teaches that by trusting and following the counsel of our Heavenly Father, Jesus Christ, the Holy Ghost, and the living prophets, we can return safely and joyfully to our heavenly home.</description>
+      <guid isPermaLink="false">/general-conference/2015/10/if-ye-love-me-keep-my-commandments</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2015-general-conference/2015-10-5040-carole-m-stephens-64k-eng.mp3" length="5342047" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Oct 2015 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Master Healer</title>
+      <link>http://www.lds.org/general-conference/2016/10/the-master-healer?lang=eng</link>
+      <description>Sister Stephens testifies of the Savior’s power to heal us from our sins, from the unrighteous actions of others, and from difficulties of mortality. </description>
+      <guid isPermaLink="false">/general-conference/2016/10/the-master-healer</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2016-general-conference/2016-09-0020-carole-m-stephens-64k-eng.mp3" length="6294963" type="audio/mpeg"/>
+      <pubDate>Sat, 24 Sep 2016 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

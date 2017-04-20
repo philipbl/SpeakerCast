@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Joseph Fielding Smith</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Joseph Fielding Smith.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:20 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:20 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Out of the Darkness</title>
+      <link>http://www.lds.org/general-conference/1971/04/out-of-the-darkness?lang=eng</link>
+      <description>Address delivered at general conference Saturday morning, April 3, 1971</description>
+      <guid isPermaLink="false">/general-conference/1971/04/out-of-the-darkness</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1971-general-conference/1971-04-1010-president-joseph-fielding-smith-64k-eng.mp3" length="6696686" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Apr 1971 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Our Responsibilities As Priesthood Holders</title>
+      <link>http://www.lds.org/general-conference/1971/04/our-responsibilities-as-priesthood-holders?lang=eng</link>
+      <description>My dear brethren of the priesthood:</description>
+      <guid isPermaLink="false">/general-conference/1971/04/our-responsibilities-as-priesthood-holders</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1971-general-conference/1971-04-3010-president-joseph-fielding-smith-64k-eng.mp3" length="6433186" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Apr 1971 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>A Witness and a Blessing</title>
+      <link>http://www.lds.org/general-conference/1971/04/a-witness-and-a-blessing?lang=eng</link>
+      <description>My dear brethren and sisters:</description>
+      <guid isPermaLink="false">/general-conference/1971/04/a-witness-and-a-blessing</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1971-general-conference/1971-04-7070-president-joseph-fielding-smith-64k-eng.mp3" length="3890304" type="audio/mpeg"/>
+      <pubDate>Tue, 06 Apr 1971 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“I Know That My Redeemer Liveth”</title>
+      <link>http://www.lds.org/general-conference/1971/10/i-know-that-my-redeemer-liveth?lang=eng</link>
+      <description>My dear brethren and sisters. I bid you welcome to another general conference of The Church of Jesus Christ of Latter-day Saints, and rejoice in the privilege that is mine to stand before you and bear testimony to the truth and divinity of this great</description>
+      <guid isPermaLink="false">/general-conference/1971/10/i-know-that-my-redeemer-liveth</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1971-general-conference/1971-10-1010-president-joseph-fielding-smith-64k-eng.mp3" length="7616535" type="audio/mpeg"/>
+      <pubDate>Fri, 01 Oct 1971 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Blessings of the Priesthood</title>
+      <link>http://www.lds.org/general-conference/1971/10/blessings-of-the-priesthood?lang=eng</link>
+      <description>My dear brethren of the priesthood: I am grateful to be with you in this priesthood meeting and desire to say a few words about using the priesthood to benefit mankind.</description>
+      <guid isPermaLink="false">/general-conference/1971/10/blessings-of-the-priesthood</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1971-general-conference/1971-10-5010-president-joseph-fielding-smith-64k-eng.mp3" length="5313159" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 1971 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Let the Spirit of Oneness Prevail</title>
+      <link>http://www.lds.org/general-conference/1971/10/let-the-spirit-of-oneness-prevail?lang=eng</link>
+      <description>My dear brothers and sisters. As we come now to the closing moments of another great general conference of the Church, my heart is full of gratitude for the generous outpouring of the Spirit of the Lord which we have enjoyed.</description>
+      <guid isPermaLink="false">/general-conference/1971/10/let-the-spirit-of-oneness-prevail</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1971-general-conference/1971-10-7060-president-joseph-fielding-smith-64k-eng.mp3" length="3439454" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Oct 1971 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Counsel to the Saints and to the World</title>
+      <link>http://www.lds.org/general-conference/1972/04/counsel-to-the-saints-and-to-the-world?lang=eng</link>
+      <description>Address delivered at the Thursday morning session of general conference, April 6, 1972</description>
+      <guid isPermaLink="false">/general-conference/1972/04/counsel-to-the-saints-and-to-the-world</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1972-general-conference/1972-04-1040-president-joseph-fielding-smith-64k-eng.mp3" length="7370695" type="audio/mpeg"/>
+      <pubDate>Thu, 30 Mar 1972 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Eternal Keys and the Right to Preside</title>
+      <link>http://www.lds.org/general-conference/1972/04/eternal-keys-and-the-right-to-preside?lang=eng</link>
+      <description>My dear brethren of the priesthood: I greet you in love and in fellowship and in thanksgiving for the many blessings which the Lord has showered upon us.</description>
+      <guid isPermaLink="false">/general-conference/1972/04/eternal-keys-and-the-right-to-preside</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1972-general-conference/1972-04-5010-president-joseph-fielding-smith-64k-eng.mp3" length="5506820" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Apr 1972 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>A Prophet’s Blessing</title>
+      <link>http://www.lds.org/general-conference/1972/04/a-prophets-blessing?lang=eng</link>
+      <description>My dear brethren and sisters: I feel that the Lord has been with us in all the sessions of this conference; that we have been fed the bread of life; and that we are better prepared now to be the kind of people the Lord would have us be.</description>
+      <guid isPermaLink="false">/general-conference/1972/04/a-prophets-blessing</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1972-general-conference/1972-04-7070-president-joseph-fielding-smith-64k-eng.mp3" length="2600547" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Apr 1972 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

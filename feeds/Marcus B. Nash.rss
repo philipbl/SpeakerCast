@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Marcus B. Nash</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Marcus B. Nash.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:55 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:55 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Great Plan of Happiness</title>
+      <link>http://www.lds.org/general-conference/2006/10/the-great-plan-of-happiness?lang=eng</link>
+      <description>Just like a fish needs water, you need the gospel and the companionship of the Holy Ghost to be truly, deeply happy.</description>
+      <guid isPermaLink="false">/general-conference/2006/10/the-great-plan-of-happiness</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2006-general-conference/2006-10-3030-elder-marcus-b-nash-64k-eng.mp3" length="4445529" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 2006 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>By Faith All Things Are Fulfilled</title>
+      <link>http://www.lds.org/general-conference/2012/10/by-faith-all-things-are-fulfilled?lang=eng</link>
+      <description>Faith will help us to safely climb the gospel path, overcome every challenge of mortality, and return to the majestic presence of our Heavenly Father.</description>
+      <guid isPermaLink="false">/general-conference/2012/10/by-faith-all-things-are-fulfilled</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2012-general-conference/2012-10-5040-elder-marcus-b-nash-64k-eng.mp3" length="5240687" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Oct 2012 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

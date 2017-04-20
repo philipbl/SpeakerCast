@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Richard L. Evans</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Richard L. Evans.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:21 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:21 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Where Are You Really Going?</title>
+      <link>http://www.lds.org/general-conference/1971/04/where-are-you-really-going?lang=eng</link>
+      <description>My beloved brethren and sisters—everywhere:</description>
+      <guid isPermaLink="false">/general-conference/1971/04/where-are-you-really-going</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1971-general-conference/1971-04-4050-elder-richard-l-evans-64k-eng.mp3" length="7498912" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Apr 1971 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Should the Commandments Be Rewritten?</title>
+      <link>http://www.lds.org/general-conference/1971/10/should-the-commandments-be-rewritten?lang=eng</link>
+      <description>Perhaps I could begin with an interesting question posed recently and an equally interesting answer. The question was, “Don’t you think the commandments should be The answer was, “No, they should be ”</description>
+      <guid isPermaLink="false">/general-conference/1971/10/should-the-commandments-be-rewritten</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1971-general-conference/1971-10-2010-elder-richard-l-evans-64k-eng.mp3" length="15750185" type="audio/mpeg"/>
+      <pubDate>Fri, 01 Oct 1971 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

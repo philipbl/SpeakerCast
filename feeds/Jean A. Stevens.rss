@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Jean A. Stevens</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Jean A. Stevens.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:01 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:01 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Become as a Little Child</title>
+      <link>http://www.lds.org/general-conference/2011/04/become-as-a-little-child?lang=eng</link>
+      <description>If we have a heart to learn and a willingness to follow the example of children, their divine attributes can hold a key to unlocking our own spiritual growth.</description>
+      <guid isPermaLink="false">/general-conference/2011/04/become-as-a-little-child</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2011-general-conference/2011-04-1030-jean-a-stevens-64k-eng.mp3" length="5116852" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 2011 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Fear Not; I Am with Thee”</title>
+      <link>http://www.lds.org/general-conference/2014/04/fear-not-i-am-with-thee?lang=eng</link>
+      <description>Jean A. Stevens teaches how greater faith and trust in the Lord can help us find peace and overcome challenges.
+		</description>
+      <guid isPermaLink="false">/general-conference/2014/04/fear-not-i-am-with-thee</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2014-general-conference/2014-04-4030-jean-a-stevens-64k-eng.mp3" length="5373743" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Apr 2014 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Covenant Daughters of God</title>
+      <link>http://www.lds.org/general-conference/2014/10/covenant-daughters-of-god?lang=eng</link>
+      <guid isPermaLink="false">/general-conference/2014/10/covenant-daughters-of-god</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-session/september-2014-general-womens-session/2014-09-0020-jean-a-stevens-64k-eng.mp3" length="6314640" type="audio/mpeg"/>
+      <pubDate>Sat, 27 Sep 2014 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Harold B. Lee</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Harold B. Lee.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:21 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:21 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Today’s Young People</title>
+      <link>http://www.lds.org/general-conference/1971/04/todays-young-people?lang=eng</link>
+      <description>Thank you, President Tanner. I would have you remember a remark of Brother Marvin J. Ashton in his very excellent address today when he said no home is a failure until it gives up on that son, or that daughter, or that husband, or that wife. It must </description>
+      <guid isPermaLink="false">/general-conference/1971/04/todays-young-people</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1971-general-conference/1971-04-3070-president-harold-b-lee-64k-eng.mp3" length="3299225" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Apr 1971 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Iron Rod</title>
+      <link>http://www.lds.org/general-conference/1971/04/the-iron-rod?lang=eng</link>
+      <description>Address delivered at general conference Sunday afternoon, April 4, 1971</description>
+      <guid isPermaLink="false">/general-conference/1971/04/the-iron-rod</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1971-general-conference/1971-04-5010-president-harold-b-lee-64k-eng.mp3" length="10628108" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Apr 1971 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Watch, That Ye May Be Ready”</title>
+      <link>http://www.lds.org/general-conference/1971/10/watch-that-ye-may-be-ready?lang=eng</link>
+      <description>My beloved brothers and sisters, and to those of our friends who are listening over the air, I pray for the guidance of the Spirit during these few moments that I shall stand before you.</description>
+      <guid isPermaLink="false">/general-conference/1971/10/watch-that-ye-may-be-ready</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1971-general-conference/1971-10-3010-president-harold-b-lee-64k-eng.mp3" length="10476695" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 1971 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Responsibilities of the Priesthood</title>
+      <link>http://www.lds.org/general-conference/1971/10/responsibilities-of-the-priesthood?lang=eng</link>
+      <description>During the last week, we have spent an afternoon and all day with our Regional Representatives of the Twelve, directing their attention to a theme, “The Church has need of every member that all may be edified together.” We developed some statistics t</description>
+      <guid isPermaLink="false">/general-conference/1971/10/responsibilities-of-the-priesthood</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1971-general-conference/1971-10-5080-president-harold-b-lee-64k-eng.mp3" length="4492153" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 1971 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Strength of the Priesthood</title>
+      <link>http://www.lds.org/general-conference/1972/04/the-strength-of-the-priesthood?lang=eng</link>
+      <description>I feel impressed by something that has been said to repeat an experience. There are a number who are listening in tonight, and one particularly who will remember this very vividly—an incident that took place a number of years ago in Japan. I want you</description>
+      <guid isPermaLink="false">/general-conference/1972/04/the-strength-of-the-priesthood</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1972-general-conference/1972-04-5070-president-harold-b-lee-64k-eng.mp3" length="6967694" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Apr 1972 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>A Time of Decision</title>
+      <link>http://www.lds.org/general-conference/1972/04/a-time-of-decision?lang=eng</link>
+      <description>Address delivered Sunday morning, April 9, 1972</description>
+      <guid isPermaLink="false">/general-conference/1972/04/a-time-of-decision</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1972-general-conference/1972-04-6010-president-harold-b-lee-64k-eng.mp3" length="9351786" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Apr 1972 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“May the Kingdom of God Go Forth”</title>
+      <link>http://www.lds.org/general-conference/1972/10/may-the-kingdom-of-god-go-forth?lang=eng</link>
+      <description>Address delivered at the solemn assembly session of general conference,Friday morning, October 6, 1972</description>
+      <guid isPermaLink="false">/general-conference/1972/10/may-the-kingdom-of-god-go-forth</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1972-general-conference/1972-10-1020-president-harold-b-lee-64k-eng.mp3" length="7928697" type="audio/mpeg"/>
+      <pubDate>Fri, 29 Sep 1972 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Teach the Gospel of Salvation</title>
+      <link>http://www.lds.org/general-conference/1972/10/teach-the-gospel-of-salvation?lang=eng</link>
+      <description>My beloved brothers and sisters and friends who may be listening in over the radio or television:</description>
+      <guid isPermaLink="false">/general-conference/1972/10/teach-the-gospel-of-salvation</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1972-general-conference/1972-10-3010-president-harold-b-lee-64k-eng.mp3" length="11180170" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 1972 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Admonitions for the Priesthood of God</title>
+      <link>http://www.lds.org/general-conference/1972/10/admonitions-for-the-priesthood-of-god?lang=eng</link>
+      <description>I have some thoughts—notes that I thought I might be prompted to use tonight. So, if the Lord is willing, I should like to talk to you now for a few minutes in this great conference.</description>
+      <guid isPermaLink="false">/general-conference/1972/10/admonitions-for-the-priesthood-of-god</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1972-general-conference/1972-10-5050-president-harold-b-lee-64k-eng.mp3" length="15968945" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 1972 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>A Blessing for the Saints</title>
+      <link>http://www.lds.org/general-conference/1972/10/a-blessing-for-the-saints?lang=eng</link>
+      <description>I wanted you to feel the spirit of these splendid new men, whom the Lord has brought to his service by the gift of prophecy. To that I bear humble witness. My brethren, I am sure, understand that, and they know the way by which these brethren have be</description>
+      <guid isPermaLink="false">/general-conference/1972/10/a-blessing-for-the-saints</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1972-general-conference/1972-10-7080-president-harold-b-lee-64k-eng.mp3" length="6276042" type="audio/mpeg"/>
+      <pubDate>Sun, 01 Oct 1972 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Strengthen the Stakes of Zion</title>
+      <link>http://www.lds.org/general-conference/1973/04/strengthen-the-stakes-of-zion?lang=eng</link>
+      <description>Address delivered Friday morning, April 6, 1973</description>
+      <guid isPermaLink="false">/general-conference/1973/04/strengthen-the-stakes-of-zion</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1973-general-conference/1973-04-1010-president-harold-b-lee-64k-eng.mp3" length="12108163" type="audio/mpeg"/>
+      <pubDate>Fri, 30 Mar 1973 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Follow the Leadership of the Church</title>
+      <link>http://www.lds.org/general-conference/1973/04/follow-the-leadership-of-the-church?lang=eng</link>
+      <description>We have here Captain Larry J. Chesley, Major Jay C. Hess, and Lieutenant Commander David J. Rollins. Will you stand up, please? Captain Chesley, United States Air Force, was a prisoner of war for seven years. He comes from the Burley Stake, Star Ward</description>
+      <guid isPermaLink="false">/general-conference/1973/04/follow-the-leadership-of-the-church</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1973-general-conference/1973-04-5060-president-harold-b-lee-64k-eng.mp3" length="11964392" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 1973 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Stand Ye in Holy Places”</title>
+      <link>http://www.lds.org/general-conference/1973/04/stand-ye-in-holy-places?lang=eng</link>
+      <description>We are grateful to all who have contributed to the success and inspiration of this conference, especially to our General Authorities who have delivered such timely, inspired messages. Sitting where we do as the First Presidency, we have been aware th</description>
+      <guid isPermaLink="false">/general-conference/1973/04/stand-ye-in-holy-places</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1973-general-conference/1973-04-7060-president-harold-b-lee-64k-eng.mp3" length="11933033" type="audio/mpeg"/>
+      <pubDate>Sun, 01 Apr 1973 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Understanding Who We Are Brings Self-Respect</title>
+      <link>http://www.lds.org/general-conference/1973/10/understanding-who-we-are-brings-self-respect?lang=eng</link>
+      <description>Address delivered at the Friday morning session, October 5, 1973</description>
+      <guid isPermaLink="false">/general-conference/1973/10/understanding-who-we-are-brings-self-respect</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1973-general-conference/1973-10-1010-president-harold-b-lee-64k-eng.mp3" length="12838464" type="audio/mpeg"/>
+      <pubDate>Fri, 05 Oct 1973 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>President Harold B. Lee’s General Priesthood Address</title>
+      <link>http://www.lds.org/general-conference/1973/10/president-harold-b-lees-general-priesthood-address?lang=eng</link>
+      <description>My brethren of the priesthood: We have met here tonight in a great assembly. You didn’t come here to be entertained. You came here, presumably, because you wanted to be instructed, and you wanted some guidelines. You have received from those who have</description>
+      <guid isPermaLink="false">/general-conference/1973/10/president-harold-b-lees-general-priesthood-address</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1973-general-conference/1973-10-5050-president-harold-b-lee-64k-eng.mp3" length="16067053" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 1973 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Closing Remarks</title>
+      <link>http://www.lds.org/general-conference/1973/10/closing-remarks?lang=eng</link>
+      <description>If the Lord will give me utterance, there are a few things I should like to say to you. We have members of the Church in all parts of the world. One of the anxious centers right today is over in Israel, where a war is raging. As yet we don’t know ver</description>
+      <guid isPermaLink="false">/general-conference/1973/10/closing-remarks</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1973-general-conference/1973-10-7060-president-harold-b-lee-64k-eng.mp3" length="11707229" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Oct 1973 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

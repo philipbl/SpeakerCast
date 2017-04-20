@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Steven E. Snow</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Steven E. Snow.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:50 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:50 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Gratitude</title>
+      <link>http://www.lds.org/general-conference/2001/10/gratitude?lang=eng</link>
+      <description>Gratitude may be increased by constantly reflecting on our blessings and giving thanks for them in our daily prayers.</description>
+      <guid isPermaLink="false">/general-conference/2001/10/gratitude</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2001-general-conference/2001-10-3030-elder-steven-e-snow-64k-eng.mp3" length="3445887" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 2001 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Service</title>
+      <link>http://www.lds.org/general-conference/2007/10/service?lang=eng</link>
+      <description>Look for ways to bless the lives of others through seemingly simple acts of service.</description>
+      <guid isPermaLink="false">/general-conference/2007/10/service</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2007-general-conference/2007-10-5070-elder-steven-e-snow-64k-eng.mp3" length="4374004" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Oct 2007 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Get On with Our Lives</title>
+      <link>http://www.lds.org/general-conference/2009/04/get-on-with-our-lives?lang=eng</link>
+      <description>By listening to the prophets, keeping an eternal perspective, having faith, and being of good cheer, we can face life’s unexpected challenges.</description>
+      <guid isPermaLink="false">/general-conference/2009/04/get-on-with-our-lives</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2009-general-conference/2009-04-4030-elder-steven-e-snow-64k-eng.mp3" length="5117021" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Apr 2009 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Hope</title>
+      <link>http://www.lds.org/general-conference/2011/04/hope?lang=eng</link>
+      <description>Our hope in the Atonement empowers us with eternal perspective.</description>
+      <guid isPermaLink="false">/general-conference/2011/04/hope</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2011-general-conference/2011-04-3020-elder-steven-e-snow-64k-eng.mp3" length="5530221" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 2011 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Be Thou Humble</title>
+      <link>http://www.lds.org/general-conference/2016/04/be-thou-humble?lang=eng</link>
+      <guid isPermaLink="false">/general-conference/2016/04/be-thou-humble</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2016-general-conference/2016-04-1060-steven-e-snow-64k-eng.mp3" length="5248854" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 2016 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By C. Frederick Pingel</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by C. Frederick Pingel.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:30 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:30 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Activating Young Men of the Aaronic Priesthood</title>
+      <link>http://www.lds.org/general-conference/1982/10/activating-young-men-of-the-aaronic-priesthood?lang=eng</link>
+      <description>Brethren, I am indeed grateful for the opportunity to be with you this evening. I want to thank Heavenly Father for this opportunity and experience. My prayer is that my words and thoughts will be useful and helpful in building up and strengthening y</description>
+      <guid isPermaLink="false">/general-conference/1982/10/activating-young-men-of-the-aaronic-priesthood</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1982-general-conference/1982-10-3010-bishop-frederick-pingel-64k-eng.mp3" length="6839116" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 1982 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

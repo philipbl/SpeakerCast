@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Fono Lavatai</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Fono Lavatai.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:45 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:45 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>A Righteous Choice</title>
+      <link>http://www.lds.org/general-conference/1997/04/a-righteous-choice?lang=eng</link>
+      <description>It is a privilege for me to speak to you today. When I was asked to do this, I asked myself, “Why me?” I felt kind of scared. Then in my seminary class a girl gave a thought for opening devotional. She asked, “Do you find difficulties in opportunitie</description>
+      <guid isPermaLink="false">/general-conference/1997/04/a-righteous-choice</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/1997-general-young-women-meeting/1997-03-0040-fono-lavatai-64k-eng.mp3" length="1540261" type="audio/mpeg"/>
+      <pubDate>Sat, 29 Mar 1997 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

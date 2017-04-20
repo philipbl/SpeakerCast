@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Robert F. Orton</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Robert F. Orton.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:51 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:51 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>“The First and Great Commandment”</title>
+      <link>http://www.lds.org/general-conference/2001/10/the-first-and-great-commandment?lang=eng</link>
+      <description>Given the purpose of our existence, if we do not love God and neighbor, whatever else we do will be of little eternal consequence.</description>
+      <guid isPermaLink="false">/general-conference/2001/10/the-first-and-great-commandment</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2001-general-conference/2001-10-5030-elder-robert-f-orton-64k-eng.mp3" length="5339019" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Oct 2001 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Sharon G. Larsen</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Sharon G. Larsen.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:47 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:47 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Young Women—Titles of Liberty</title>
+      <link>http://www.lds.org/general-conference/1998/04/young-women-titles-of-liberty?lang=eng</link>
+      <description>You don’t have to be Captain Moroni to make a difference. Our Father in Heaven needs you to be who you are, in your family. He planned it that way.</description>
+      <guid isPermaLink="false">/general-conference/1998/04/young-women-titles-of-liberty</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/1998-general-young-women-meeting/1998-03-0030-sharon-g-larsen-64k-eng.mp3" length="7423188" type="audio/mpeg"/>
+      <pubDate>Sat, 28 Mar 1998 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Your Light in the Wilderness</title>
+      <link>http://www.lds.org/general-conference/1999/04/your-light-in-the-wilderness?lang=eng</link>
+      <description>Keep your eyes riveted on your goal … and walk in the straight and narrow path of the Son—the Son of God.</description>
+      <guid isPermaLink="false">/general-conference/1999/04/your-light-in-the-wilderness</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/1999-general-young-women-meeting/1999-03-0010-sharon-g-larsen-64k-eng.mp3" length="6955107" type="audio/mpeg"/>
+      <pubDate>Sat, 27 Mar 1999 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Agency—A Blessing and a Burden</title>
+      <link>http://www.lds.org/general-conference/1999/10/agency-a-blessing-and-a-burden?lang=eng</link>
+      <description>Agency is the power to think, choose, and act for ourselves. It comes with endless opportunities, accompanied by responsibility and consequences.</description>
+      <guid isPermaLink="false">/general-conference/1999/10/agency-a-blessing-and-a-burden</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1999-general-conference/1999-10-1040-sharon-g-larsen-64k-eng.mp3" length="4754804" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 1999 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Standing with God</title>
+      <link>http://www.lds.org/general-conference/2000/04/standing-with-god?lang=eng</link>
+      <description>What does it mean to stand as a witness of God? It means we will not bow down or give in or be persuaded to do anything contrary to God’s will.</description>
+      <guid isPermaLink="false">/general-conference/2000/04/standing-with-god</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/2000-general-young-women-meeting/2000-03-0010-sharon-g-larsen-64k-eng.mp3" length="5197735" type="audio/mpeg"/>
+      <pubDate>Sat, 25 Mar 2000 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Your Celestial Guide</title>
+      <link>http://www.lds.org/general-conference/2001/04/your-celestial-guide?lang=eng</link>
+      <description>When you pray often and seek to know the Lord’s will like Nephi did, the Lord will show you the way.</description>
+      <guid isPermaLink="false">/general-conference/2001/04/your-celestial-guide</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/2001-general-young-women-meeting/2001-03-0010-sharon-g-larsen-64k-eng.mp3" length="5394547" type="audio/mpeg"/>
+      <pubDate>Sat, 24 Mar 2001 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Fear Not: For They That Be with Us Are More”</title>
+      <link>http://www.lds.org/general-conference/2001/10/fear-not-for-they-that-be-with-us-are-more?lang=eng</link>
+      <description>We are not alone in this sacred trust of parenting, loving, and leading. There is no greater joy. It is worth every sacrifice.</description>
+      <guid isPermaLink="false">/general-conference/2001/10/fear-not-for-they-that-be-with-us-are-more</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2001-general-conference/2001-10-4040-sharon-g-larsen-64k-eng.mp3" length="4546663" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Oct 2001 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Standing in Holy Places</title>
+      <link>http://www.lds.org/general-conference/2002/04/standing-in-holy-places?lang=eng</link>
+      <description>Standing in holy places is all about being in good company, whether you are alone or with others.</description>
+      <guid isPermaLink="false">/general-conference/2002/04/standing-in-holy-places</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/2002-general-young-women-meeting/2002-03-0010-sharon-g-larsen-64k-eng.mp3" length="5269866" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Mar 2002 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

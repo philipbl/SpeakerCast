@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Earl M. Monson</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Earl M. Monson.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:48 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:48 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Establishing the Church</title>
+      <link>http://www.lds.org/general-conference/1998/10/establishing-the-church?lang=eng</link>
+      <description>Establishing His Church is a unique assignment. We must take the gospel of Jesus Christ to all people in their own language without defiling the purity of the message.</description>
+      <guid isPermaLink="false">/general-conference/1998/10/establishing-the-church</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1998-general-conference/1998-10-5040-elder-earl-m-monson-64k-eng.mp3" length="3545530" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Oct 1998 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

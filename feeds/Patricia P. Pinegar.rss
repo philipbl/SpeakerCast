@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Patricia P. Pinegar</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Patricia P. Pinegar.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:42 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:42 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Increase in Faith</title>
+      <link>http://www.lds.org/general-conference/1994/04/increase-in-faith?lang=eng</link>
+      <description>Three of my granddaughters are young women. They think it’s amazing that I can actually remember when I was their age. I really do remember many things—some hard things and some really good things. I especially remember a time when I was very happy. </description>
+      <guid isPermaLink="false">/general-conference/1994/04/increase-in-faith</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/1994-general-young-women-meeting/1994-03-0020-patricia-p-pinegar-64k-eng.mp3" length="5195921" type="audio/mpeg"/>
+      <pubDate>Sat, 26 Mar 1994 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Teach the Children</title>
+      <link>http://www.lds.org/general-conference/1994/10/teach-the-children?lang=eng</link>
+      <description>President Hunter, President Hinckley, President Monson, thank you for this opportunity to share my testimony and my feelings of joy, gratitude, and responsibility for being called to serve the Primary children of the Church.</description>
+      <guid isPermaLink="false">/general-conference/1994/10/teach-the-children</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1994-general-conference/1994-10-5030-patricia-p-pinegar-64k-eng.mp3" length="5115054" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Oct 1994 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Caring for the Souls of Children</title>
+      <link>http://www.lds.org/general-conference/1997/04/caring-for-the-souls-of-children?lang=eng</link>
+      <description>Tell your children that you love them and that you are so happy to have them in your family. Prepare yourselves spiritually to receive the guidance through the Holy Ghost.</description>
+      <guid isPermaLink="false">/general-conference/1997/04/caring-for-the-souls-of-children</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1997-general-conference/1997-04-1050-patricia-p-pinegar-64k-eng.mp3" length="4969570" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 1997 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Peace, Hope, and Direction</title>
+      <link>http://www.lds.org/general-conference/1999/10/peace-hope-and-direction?lang=eng</link>
+      <description>Let us rejoice in the blessings of peace, hope, and direction, blessings that so many of our Father’s children do not enjoy.</description>
+      <guid isPermaLink="false">/general-conference/1999/10/peace-hope-and-direction</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1999-general-conference/1999-10-4040-patricia-p-pinegar-64k-eng.mp3" length="5392662" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Oct 1999 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

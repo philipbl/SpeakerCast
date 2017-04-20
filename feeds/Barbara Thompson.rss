@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Barbara Thompson</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Barbara Thompson.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:57 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:57 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>I Will Strengthen Thee; I Will Help Thee</title>
+      <link>http://www.lds.org/general-conference/2007/10/i-will-strengthen-thee-i-will-help-thee?lang=eng</link>
+      <description>The greatest help we will have in strengthening families is to know and follow the doctrines of Christ.</description>
+      <guid isPermaLink="false">/general-conference/2007/10/i-will-strengthen-thee-i-will-help-thee</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/2007-general-relief-society-meeting/2007-09-0030-barbara-thompson-64k-eng.mp3" length="10012263" type="audio/mpeg"/>
+      <pubDate>Sat, 29 Sep 2007 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Now Let Us Rejoice</title>
+      <link>http://www.lds.org/general-conference/2008/10/now-let-us-rejoice?lang=eng</link>
+      <description>Participation in Relief Society is part of our glorious heritage and blessing as women in the Lord’s Church.</description>
+      <guid isPermaLink="false">/general-conference/2008/10/now-let-us-rejoice</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/2008-general-relief-society-meeting/2008-09-0030-barbara-thompson-64k-eng.mp3" length="5241168" type="audio/mpeg"/>
+      <pubDate>Sat, 27 Sep 2008 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>His Arm Is Sufficient</title>
+      <link>http://www.lds.org/general-conference/2009/04/his-arm-is-sufficient?lang=eng</link>
+      <description>We seek to increase in faith and personal righteousness, strengthen our families and homes, and serve the Lord and His children.</description>
+      <guid isPermaLink="false">/general-conference/2009/04/his-arm-is-sufficient</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2009-general-conference/2009-04-4040-barbara-thompson-64k-eng.mp3" length="4471510" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Apr 2009 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Mind the Gap</title>
+      <link>http://www.lds.org/general-conference/2009/10/mind-the-gap?lang=eng</link>
+      <description>Gaps can be reminders of ways in which we can improve or, if ignored, can be stumbling blocks in our lives.</description>
+      <guid isPermaLink="false">/general-conference/2009/10/mind-the-gap</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/2009-general-relief-society-meeting/2009-09-0030-barbara-thompson-64k-eng.mp3" length="6225603" type="audio/mpeg"/>
+      <pubDate>Sat, 26 Sep 2009 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>And of Some Have Compassion, Making a Difference</title>
+      <link>http://www.lds.org/general-conference/2010/10/and-of-some-have-compassion-making-a-difference?lang=eng</link>
+      <description>The beauty of visiting teaching is seeing lives changed, tears wiped away, testimonies growing, people loved, families strengthened.</description>
+      <guid isPermaLink="false">/general-conference/2010/10/and-of-some-have-compassion-making-a-difference</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/2010-general-relief-society-meeting/2010-09-0030-barbara-thompson-64k-eng.mp3" length="6245214" type="audio/mpeg"/>
+      <pubDate>Sat, 25 Sep 2010 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Cleave unto the Covenants</title>
+      <link>http://www.lds.org/general-conference/2011/10/cleave-unto-the-covenants?lang=eng</link>
+      <description>As we have faith in Christ and cleave unto our covenants, we will receive the joy spoken of in the holy scriptures and promised by our latter-day prophets.</description>
+      <guid isPermaLink="false">/general-conference/2011/10/cleave-unto-the-covenants</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/2011-general-relief-society-meeting/2011-09-0030-barbara-thompson-64k-eng.mp3" length="5939401" type="audio/mpeg"/>
+      <pubDate>Sat, 24 Sep 2011 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Personal Revelation and Testimony</title>
+      <link>http://www.lds.org/general-conference/2011/10/personal-revelation-and-testimony?lang=eng</link>
+      <description>If we diligently keep the commandments and ask in faith, answers will come in the Lord’s own way and in His time.</description>
+      <guid isPermaLink="false">/general-conference/2011/10/personal-revelation-and-testimony</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2011-general-conference/2011-10-1020-barbara-thompson-64k-eng.mp3" length="4750156" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 2011 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

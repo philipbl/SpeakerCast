@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By L. Aldin Porter</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by L. Aldin Porter.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:34 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:34 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Follow the Brethren</title>
+      <link>http://www.lds.org/general-conference/1987/10/follow-the-brethren?lang=eng</link>
+      <description>Shortly after this call came to me, I was traveling by plane from Baton Rouge, Louisiana, to Salt Lake City. A young businessman stepped to my seat in the plane and introduced himself as a Latter-day Saint. He asked if I was traveling to attend meeti</description>
+      <guid isPermaLink="false">/general-conference/1987/10/follow-the-brethren</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1987-general-conference/1987-10-5020-elder-l-aldin-porter-64k-eng.mp3" length="3912887" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Oct 1987 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“A Disciple of Jesus Christ”</title>
+      <link>http://www.lds.org/general-conference/1992/04/a-disciple-of-jesus-christ?lang=eng</link>
+      <description>Elder L. Tom Perry made reference this afternoon to additional millions and millions of people who now may hear the glorious message of the restored gospel. The Lord has, in the recent past, opened the doors of nations long denied the blessings of go</description>
+      <guid isPermaLink="false">/general-conference/1992/04/a-disciple-of-jesus-christ</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1992-general-conference/1992-04-3040-elder-l-aldin-porter-64k-eng.mp3" length="5703763" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Apr 1992 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Revelations of Heaven</title>
+      <link>http://www.lds.org/general-conference/1994/10/the-revelations-of-heaven?lang=eng</link>
+      <description>A few years ago I was in a Salt Lake hospital emergency room with my sons and a neighbor boy—the result of a backyard touch football game.</description>
+      <guid isPermaLink="false">/general-conference/1994/10/the-revelations-of-heaven</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1994-general-conference/1994-10-4030-elder-l-aldin-porter-64k-eng.mp3" length="6201238" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Oct 1994 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Spirit of Prophecy</title>
+      <link>http://www.lds.org/general-conference/1996/10/the-spirit-of-prophecy?lang=eng</link>
+      <description>One hundred seventy-six years ago, an event occurred which lies at the very foundation of the Restoration of the gospel in these latter days. It is, in my judgment, the most significant event that has occurred in this world since the Son of God walke</description>
+      <guid isPermaLink="false">/general-conference/1996/10/the-spirit-of-prophecy</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1996-general-conference/1996-10-1030-elder-l-aldin-porter-64k-eng.mp3" length="5762177" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Oct 1996 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Our Destiny</title>
+      <link>http://www.lds.org/general-conference/1999/10/our-destiny?lang=eng</link>
+      <description>The center of the plan is the Lord Jesus Christ. Reject or ignore Him, and the great plan of happiness cannot function in your behalf.</description>
+      <guid isPermaLink="false">/general-conference/1999/10/our-destiny</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1999-general-conference/1999-10-4030-elder-l-aldin-porter-64k-eng.mp3" length="5218598" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Oct 1999 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“To Bear Testimony of Mine Only Begotten”</title>
+      <link>http://www.lds.org/general-conference/2001/04/to-bear-testimony-of-mine-only-begotten?lang=eng</link>
+      <description>A spiritual witness of the Nephite scripture will always bring the certainty of the Savior’s existence.</description>
+      <guid isPermaLink="false">/general-conference/2001/04/to-bear-testimony-of-mine-only-begotten</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2001-general-conference/2001-04-2070-elder-l-aldin-porter-64k-eng.mp3" length="5941865" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 2001 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

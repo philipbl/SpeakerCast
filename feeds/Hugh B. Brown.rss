@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Hugh B. Brown</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Hugh B. Brown.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:24 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:24 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>This Same Jesus</title>
+      <link>http://www.lds.org/general-conference/1971/10/this-same-jesus?lang=eng</link>
+      <description>One of the compensations for going away from home is coming home again, where we receive such a warm welcome. We left here on the 22nd of September for a quick trip to the Holy Land, and with respect to that I would like to speak for just a moment. I</description>
+      <guid isPermaLink="false">/general-conference/1971/10/this-same-jesus</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1971-general-conference/1971-10-7050-elder-hugh-b-brown-64k-eng.mp3" length="5681417" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Oct 1971 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>A Missionary and His Message</title>
+      <link>http://www.lds.org/general-conference/1972/04/a-missionary-and-his-message?lang=eng</link>
+      <description>May I express my appreciation to the First Presidency for permitting me to say a word here this afternoon, and it will be just a word.</description>
+      <guid isPermaLink="false">/general-conference/1972/04/a-missionary-and-his-message</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1972-general-conference/1972-04-4080-elder-hugh-b-brown-64k-eng.mp3" length="2961062" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Apr 1972 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

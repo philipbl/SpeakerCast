@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Robert S. Wood</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Robert S. Wood.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:49 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:49 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>“The Tongue of Angels”</title>
+      <link>http://www.lds.org/general-conference/1999/10/the-tongue-of-angels?lang=eng</link>
+      <description>What we say and how we present ourselves not only betray our inner person but also mold that person, those around us, and finally our whole society.</description>
+      <guid isPermaLink="false">/general-conference/1999/10/the-tongue-of-angels</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1999-general-conference/1999-10-5040-elder-robert-s-wood-64k-eng.mp3" length="4213999" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Oct 1999 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Instruments of the Lord’s Peace</title>
+      <link>http://www.lds.org/general-conference/2006/04/instruments-of-the-lords-peace?lang=eng</link>
+      <description>Have we who have taken upon us the name of Christ slipped unknowingly into patterns of slander, evil speaking, and bitter stereotyping?</description>
+      <guid isPermaLink="false">/general-conference/2006/04/instruments-of-the-lords-peace</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2006-general-conference/2006-04-5040-elder-robert-s-wood-64k-eng.mp3" length="6272457" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Apr 2006 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

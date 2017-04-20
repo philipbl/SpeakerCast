@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Cecil O. Samuelson Jr.</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Cecil O. Samuelson Jr..</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:53 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:53 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Perilous Times</title>
+      <link>http://www.lds.org/general-conference/2004/10/perilous-times?lang=eng</link>
+      <description>How grateful I am, in these perilous times, for the protection and guidance given to us by the sacred assurance that Jesus Christ lives today.</description>
+      <guid isPermaLink="false">/general-conference/2004/10/perilous-times</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2004-general-conference/2004-10-3030-elder-cecil-o-samuelson-jr-64k-eng.mp3" length="4250203" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Oct 2004 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Testimony</title>
+      <link>http://www.lds.org/general-conference/2011/04/testimony?lang=eng</link>
+      <description>The fundamentals of gaining and retaining a testimony of the gospel of Jesus Christ are straightforward, clear, and within the capacity of every person.</description>
+      <guid isPermaLink="false">/general-conference/2011/04/testimony</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2011-general-conference/2011-04-2070-elder-cecil-o-samuelson-jr-64k-eng.mp3" length="4231094" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 2011 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

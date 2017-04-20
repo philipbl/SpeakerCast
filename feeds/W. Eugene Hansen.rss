@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By W. Eugene Hansen</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by W. Eugene Hansen.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:35 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:35 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Love</title>
+      <link>http://www.lds.org/general-conference/1989/10/love?lang=eng</link>
+      <description>My beloved brothers and sisters, since this is my first opportunity to address you since the call to this new assignment, I want you to know how grateful I am for the privilege of serving the Lord and dedicating my life to the building of the kingdom</description>
+      <guid isPermaLink="false">/general-conference/1989/10/love</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1989-general-conference/1989-10-2030-elder-w-eugene-hansen-64k-eng.mp3" length="4693735" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 1989 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Search for Happiness</title>
+      <link>http://www.lds.org/general-conference/1993/10/the-search-for-happiness?lang=eng</link>
+      <description>From the beginning of recorded history, mankind has been constantly searching for happiness. I believe it’s fair to say that most of us are influenced greatly in our daily lives by what we perceive will result in happiness or joy for ourselves, as we</description>
+      <guid isPermaLink="false">/general-conference/1993/10/the-search-for-happiness</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1993-general-conference/1993-10-5040-elder-w-eugene-hansen-64k-eng.mp3" length="6121202" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Oct 1993 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Spiritual Shepherds</title>
+      <link>http://www.lds.org/general-conference/1996/04/spiritual-shepherds?lang=eng</link>
+      <description>My beloved brethren, I feel the awesome responsibility of this evening as I respond to the assignment of the First Presidency to speak to the priesthood of the Church.</description>
+      <guid isPermaLink="false">/general-conference/1996/04/spiritual-shepherds</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1996-general-conference/1996-04-3020-elder-w-eugene-hansen-64k-eng.mp3" length="5027180" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Apr 1996 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Children and the Family</title>
+      <link>http://www.lds.org/general-conference/1998/04/children-and-the-family?lang=eng</link>
+      <description>Strong family relationships don’t just happen. It takes time. It takes commitment, it takes prayer, and it takes work.</description>
+      <guid isPermaLink="false">/general-conference/1998/04/children-and-the-family</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1998-general-conference/1998-04-4030-elder-w-eugene-hansen-64k-eng.mp3" length="5395736" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Apr 1998 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Francis M. Gibbons</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Francis M. Gibbons.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:33 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:33 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Sixteen Years as a Witness</title>
+      <link>http://www.lds.org/general-conference/1986/04/sixteen-years-as-a-witness?lang=eng</link>
+      <description>My beloved brethren and sisters, the essence of life is change. It was just sixteen years ago this day that I sat in the audience as a bishop and sustained President Joseph Fielding Smith as the President of the Church along with his Counselors, Pres</description>
+      <guid isPermaLink="false">/general-conference/1986/04/sixteen-years-as-a-witness</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1986-general-conference/1986-04-5050-elder-francis-m-gibbons-64k-eng.mp3" length="4007023" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Apr 1986 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Savior and Joseph Smith—Alike Yet Unlike</title>
+      <link>http://www.lds.org/general-conference/1991/04/the-savior-and-joseph-smith-alike-yet-unlike?lang=eng</link>
+      <description>A hundred and forty-seven years ago next June, the Prophet Joseph Smith was murdered in the Carthage Jail by a volley of shots fired by a mob with blackened faces. With him in the cell was a disciple, John Taylor, who shared the terror of this assaul</description>
+      <guid isPermaLink="false">/general-conference/1991/04/the-savior-and-joseph-smith-alike-yet-unlike</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1991-general-conference/1991-04-2060-elder-francis-m-gibbons-64k-eng.mp3" length="5633579" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Apr 1991 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Dual Aspects of Prayer</title>
+      <link>http://www.lds.org/general-conference/1991/10/the-dual-aspects-of-prayer?lang=eng</link>
+      <description>As one door closes and another opens in my life, I am grateful, my brothers and sisters, to be with you here this afternoon in this historic building from whose pulpit all of the prophets of the restored Church save Joseph Smith only have spoken and </description>
+      <guid isPermaLink="false">/general-conference/1991/10/the-dual-aspects-of-prayer</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1991-general-conference/1991-10-5040-elder-francis-m-gibbons-64k-eng.mp3" length="4666129" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Oct 1991 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

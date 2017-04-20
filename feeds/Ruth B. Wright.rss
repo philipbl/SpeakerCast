@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Ruth B. Wright</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Ruth B. Wright.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:38 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:38 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Draw Strength from the Book of Mormon</title>
+      <link>http://www.lds.org/general-conference/1990/10/draw-strength-from-the-book-of-mormon?lang=eng</link>
+      <description>On the walls of our Primary office hang pictures, drawn by children from around the world, which illustrate some of the great events from the Book of Mormon. As I look at them, I feel the spirit of noble prophets and leaders who made choices to be ob</description>
+      <guid isPermaLink="false">/general-conference/1990/10/draw-strength-from-the-book-of-mormon</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1990-general-conference/1990-10-5040-ruth-b-wright-64k-eng.mp3" length="4371344" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Oct 1990 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Be Thou an Example</title>
+      <link>http://www.lds.org/general-conference/1991/10/be-thou-an-example?lang=eng</link>
+      <description>The best conversations happen around our kitchen table. Many times we have laughed; cried; shared feelings, hopes, and dreams; sorted out differences; solved the problems of the world; and recognized our strengths and weaknesses into the wee hours of</description>
+      <guid isPermaLink="false">/general-conference/1991/10/be-thou-an-example</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1991-general-womens-meeting/1991-09-0020-ruth-b-wright-64k-eng.mp3" length="6443578" type="audio/mpeg"/>
+      <pubDate>Sat, 28 Sep 1991 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Teaching Children to Walk Uprightly before the Lord</title>
+      <link>http://www.lds.org/general-conference/1994/04/teaching-children-to-walk-uprightly-before-the-lord?lang=eng</link>
+      <description>Sister Wilson carefully studied each young child as she entered the Primary classroom.  she thought. She gathered them around her and began her lesson. “You are each very special! You have learned so many things. You have learned to sit reverently an</description>
+      <guid isPermaLink="false">/general-conference/1994/04/teaching-children-to-walk-uprightly-before-the-lord</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1994-general-conference/1994-04-5050-ruth-b-wright-64k-eng.mp3" length="5164016" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Apr 1994 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

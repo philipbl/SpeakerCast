@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Wm. Grant Bangerter</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Wm. Grant Bangerter.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:30 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:30 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Coming through the Mists</title>
+      <link>http://www.lds.org/general-conference/1984/04/coming-through-the-mists?lang=eng</link>
+      <description>President Kimball, I know that I echo the feelings of everyone here in telling you that we love you, as you have so often told us.</description>
+      <guid isPermaLink="false">/general-conference/1984/04/coming-through-the-mists</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1984-general-conference/1984-04-2060-elder-wm-grant-bangerter-64k-eng.mp3" length="5888478" type="audio/mpeg"/>
+      <pubDate>Sat, 31 Mar 1984 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Spirit of the Gathering</title>
+      <link>http://www.lds.org/general-conference/1985/04/the-spirit-of-the-gathering?lang=eng</link>
+      <description>The glory of Easter morning fills the souls of those who yearn for eternal life. A similar glory touched the majestic morning when the Father and the Son announced the dawning of the day of salvation in the last days.</description>
+      <guid isPermaLink="false">/general-conference/1985/04/the-spirit-of-the-gathering</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1985-general-conference/1985-04-4030-elder-wm-grant-bangerter-64k-eng.mp3" length="14942127" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Apr 1985 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>What It Means to Be a Saint</title>
+      <link>http://www.lds.org/general-conference/1987/04/what-it-means-to-be-a-saint?lang=eng</link>
+      <description>I would like to speak about what it means to be a saint. Some people call us Mormons. Some call us a sect or a cult. We call ourselves Saints. What do these designations signify?</description>
+      <guid isPermaLink="false">/general-conference/1987/04/what-it-means-to-be-a-saint</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1987-general-conference/1987-04-1030-elder-wm-grant-bangerter-64k-eng.mp3" length="6053438" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Apr 1987 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Quality of Eternal Life</title>
+      <link>http://www.lds.org/general-conference/1988/10/the-quality-of-eternal-life?lang=eng</link>
+      <description>Coming near the end of the conference, I feel advance approval for my remarks, since much of what I had planned to say has already been used by previous speakers.</description>
+      <guid isPermaLink="false">/general-conference/1988/10/the-quality-of-eternal-life</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1988-general-conference/1988-10-5040-elder-wm-grant-bangerter-64k-eng.mp3" length="6910429" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Oct 1988 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

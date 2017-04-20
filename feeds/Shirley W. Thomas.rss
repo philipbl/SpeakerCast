@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Shirley W. Thomas</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Shirley W. Thomas.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:29 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:29 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Welfare Principles in Relief Society</title>
+      <link>http://www.lds.org/general-conference/1980/04/welfare-principles-in-relief-society?lang=eng</link>
+      <description>In the early spring of 1842 the Female Relief Society of Nauvoo united the charitable efforts of women in a desire to support the priesthood in the cause of Zion. The Prophet Joseph Smith told the sisters “their offering [was] accepted of the Lord,” </description>
+      <guid isPermaLink="false">/general-conference/1980/04/welfare-principles-in-relief-society</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1980-general-conference/1980-04-6030-shirley-w-thomas-64k-eng.mp3" length="5306154" type="audio/mpeg"/>
+      <pubDate>Sun, 06 Apr 1980 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Doctrines of the Kingdom</title>
+      <link>http://www.lds.org/general-conference/1980/10/the-doctrines-of-the-kingdom?lang=eng</link>
+      <description>“Learn—then Teach.” The beautiful words of this song urge us to find faith in the law of the harvest, to remember that the growing seed becomes the promised grain.</description>
+      <guid isPermaLink="false">/general-conference/1980/10/the-doctrines-of-the-kingdom</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/1980-general-relief-society-meeting/1980-09-0050-shirley-w-thomas-64k-eng.mp3" length="3831507" type="audio/mpeg"/>
+      <pubDate>Sat, 27 Sep 1980 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>An Opportunity for Continual Learning</title>
+      <link>http://www.lds.org/general-conference/1981/10/an-opportunity-for-continual-learning?lang=eng</link>
+      <description>Young Steven entered the seventh grade in September. He wasn’t as tall as the other boys, and when his mother was turning up his new trousers he asked her to leave big hems, about five inches, “because,” he said, “I’m going to grow a lot this year.”</description>
+      <guid isPermaLink="false">/general-conference/1981/10/an-opportunity-for-continual-learning</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-relief-society-meeting/1981-general-relief-society-meeting/1981-09-0030-shirley-w-thomas-64k-eng.mp3" length="10163647" type="audio/mpeg"/>
+      <pubDate>Sat, 26 Sep 1981 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

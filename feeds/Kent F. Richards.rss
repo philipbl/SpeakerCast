@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Kent F. Richards</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Kent F. Richards.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:10:02 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:10:02 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Atonement Covers All Pain</title>
+      <link>http://www.lds.org/general-conference/2011/04/the-atonement-covers-all-pain?lang=eng</link>
+      <description>Our great personal challenge in mortality is to become “a saint through the atonement of Christ.”</description>
+      <guid isPermaLink="false">/general-conference/2011/04/the-atonement-covers-all-pain</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2011-general-conference/2011-04-1050-elder-kent-f-richards-64k-eng.mp3" length="4892922" type="audio/mpeg"/>
+      <pubDate>Sat, 02 Apr 2011 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Power of Godliness</title>
+      <link>http://www.lds.org/general-conference/2016/04/the-power-of-godliness?lang=eng</link>
+      <guid isPermaLink="false">/general-conference/2016/04/the-power-of-godliness</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-2016-general-conference/2016-04-5050-kent-f-richards-64k-eng.mp3" length="5056329" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Apr 2016 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

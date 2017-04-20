@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Don R. Clarke</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Don R. Clarke.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:56 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:56 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Becoming Instruments in the Hands of God</title>
+      <link>http://www.lds.org/general-conference/2006/10/becoming-instruments-in-the-hands-of-god?lang=eng</link>
+      <description>A person does not need to have a Church calling, an invitation to help someone, or even good health to become an instrument in God’s hands.</description>
+      <guid isPermaLink="false">/general-conference/2006/10/becoming-instruments-in-the-hands-of-god</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2006-general-conference/2006-10-5050-elder-don-r-clarke-64k-eng.mp3" length="4682745" type="audio/mpeg"/>
+      <pubDate>Sun, 01 Oct 2006 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Blessings of the Sacrament</title>
+      <link>http://www.lds.org/general-conference/2012/10/blessings-of-the-sacrament?lang=eng</link>
+      <description>We will be blessed as we feel gratitude for the Atonement of Jesus Christ, renew our baptismal covenants, feel forgiveness, and receive inspiration from the Holy Ghost.</description>
+      <guid isPermaLink="false">/general-conference/2012/10/blessings-of-the-sacrament</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2012-general-conference/2012-10-5060-elder-don-r-clarke-64k-eng.mp3" length="4720962" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Oct 2012 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

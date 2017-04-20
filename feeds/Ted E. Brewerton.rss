@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Ted E. Brewerton</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Ted E. Brewerton.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:30 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:30 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Profanity and Swearing</title>
+      <link>http://www.lds.org/general-conference/1983/04/profanity-and-swearing?lang=eng</link>
+      <description>Which of the Lord’s Ten Commandments is probably broken the most frequently? I believe it would be taking the name of God in vain. (See .)</description>
+      <guid isPermaLink="false">/general-conference/1983/04/profanity-and-swearing</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1983-general-conference/1983-04-5040-elder-ted-e-brewerton-64k-eng.mp3" length="5217879" type="audio/mpeg"/>
+      <pubDate>Sun, 03 Apr 1983 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>My Son and Yours—Each a Remarkable One</title>
+      <link>http://www.lds.org/general-conference/1986/10/my-son-and-yours-each-a-remarkable-one?lang=eng</link>
+      <description>My thoughts at this time will be in the form of a dialogue between me and my fourteen-year-old son, Michael, who resides with us in Argentina. I will talk about how important he is and how much the Lord and I love him. At the same time I address thes</description>
+      <guid isPermaLink="false">/general-conference/1986/10/my-son-and-yours-each-a-remarkable-one</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1986-general-conference/1986-10-2060-elder-ted-e-brewerton-64k-eng.mp3" length="5568050" type="audio/mpeg"/>
+      <pubDate>Sat, 04 Oct 1986 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Light</title>
+      <link>http://www.lds.org/general-conference/1991/10/light?lang=eng</link>
+      <description>My brethren and sisters, on this bright and beautiful day, I should like to address the subject of light. The dictionary defines light as something that makes vision possible or something that enlightens or informs.</description>
+      <guid isPermaLink="false">/general-conference/1991/10/light</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1991-general-conference/1991-10-1040-elder-ted-e-brewerton-64k-eng.mp3" length="5376561" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Oct 1991 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>The Book of Mormon: A Sacred Ancient Record</title>
+      <link>http://www.lds.org/general-conference/1995/10/the-book-of-mormon-a-sacred-ancient-record?lang=eng</link>
+      <description>Some people place faith in good luck symbols, even a rabbit’s foot, but remember, it didn’t do the rabbit any good.</description>
+      <guid isPermaLink="false">/general-conference/1995/10/the-book-of-mormon-a-sacred-ancient-record</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1995-general-conference/1995-10-2050-elder-ted-e-brewerton-64k-eng.mp3" length="4804861" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 1995 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

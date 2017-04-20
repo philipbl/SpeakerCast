@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Keith K. Hilbig</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Keith K. Hilbig.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:50 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:50 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Create or Continue Priesthood Links</title>
+      <link>http://www.lds.org/general-conference/2001/10/create-or-continue-priesthood-links?lang=eng</link>
+      <description>When we serve righteously … , we are strengthening our priesthood link and connecting it ever more securely to those who have preceded and who will follow us.</description>
+      <guid isPermaLink="false">/general-conference/2001/10/create-or-continue-priesthood-links</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2001-general-conference/2001-10-3040-elder-keith-k-hilbig-64k-eng.mp3" length="3743094" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 2001 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Quench Not the Spirit Which Quickens the Inner Man</title>
+      <link>http://www.lds.org/general-conference/2007/10/quench-not-the-spirit-which-quickens-the-inner-man?lang=eng</link>
+      <description>When we invite the Holy Ghost to fill our minds with light and knowledge, He “quickens” us, that is to say, enlightens and enlivens the inner man or woman.</description>
+      <guid isPermaLink="false">/general-conference/2007/10/quench-not-the-spirit-which-quickens-the-inner-man</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-2007-general-conference/2007-10-2060-elder-keith-k-hilbig-64k-eng.mp3" length="4443170" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Oct 2007 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

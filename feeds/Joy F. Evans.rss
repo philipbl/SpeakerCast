@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Joy F. Evans</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Joy F. Evans.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:34 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:34 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>Overcoming Challenges along Life’s Way</title>
+      <link>http://www.lds.org/general-conference/1987/10/overcoming-challenges-along-lifes-way?lang=eng</link>
+      <description>Do you ever wonder, as I do, what gave the pioneer women the courage to sing, “All is well!” in the face of their many challenges?</description>
+      <guid isPermaLink="false">/general-conference/1987/10/overcoming-challenges-along-lifes-way</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1987-general-womens-meeting/1987-09-0020-joy-f-evans-64k-eng.mp3" length="6970957" type="audio/mpeg"/>
+      <pubDate>Sat, 26 Sep 1987 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Lord, When Saw We Thee an Hungred?”</title>
+      <link>http://www.lds.org/general-conference/1989/04/lord-when-saw-we-thee-an-hungred?lang=eng</link>
+      <description>We read in the book of Matthew that when the Son of Man shall come in his glory, all the nations of the earth shall be gathered before him and he shall separate them one from another, as a shepherd divides the sheep from the goats. Those on his right</description>
+      <guid isPermaLink="false">/general-conference/1989/04/lord-when-saw-we-thee-an-hungred</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1989-general-conference/1989-04-5030-joy-f-evans-64k-eng.mp3" length="6139560" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Apr 1989 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Janette Hales Beckham</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Janette Hales Beckham.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:43 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:43 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Power of Goodness</title>
+      <link>http://www.lds.org/general-conference/1995/10/the-power-of-goodness?lang=eng</link>
+      <description>At one time a mother said, “I wish they would just lock all the youth in the temple until they turn twenty-one.” A father said, “I feel totally powerless in my own home. We are out of control.” What force or power could soften the human cry for great</description>
+      <guid isPermaLink="false">/general-conference/1995/10/the-power-of-goodness</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1995-general-conference/1995-10-1040-janette-hales-beckham-64k-eng.mp3" length="4973384" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 1995 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Sustaining the Living Prophets</title>
+      <link>http://www.lds.org/general-conference/1996/04/sustaining-the-living-prophets?lang=eng</link>
+      <description>There is always a feeling of excitement for me as I know young women are gathering for our annual Young Women meeting. Tonight my excitement feels more like a whisper—the witness of the Holy Ghost whispering to me that a prophet of God has a message </description>
+      <guid isPermaLink="false">/general-conference/1996/04/sustaining-the-living-prophets</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/1996-general-young-women-meeting/1996-03-0010-janette-hales-beckham-64k-eng.mp3" length="4150022" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Mar 1996 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Modern Pioneers</title>
+      <link>http://www.lds.org/general-conference/1997/04/modern-pioneers?lang=eng</link>
+      <description>We must have faith to walk away from those things that would tear us down or hold us back. … We must have faith in every footstep.</description>
+      <guid isPermaLink="false">/general-conference/1997/04/modern-pioneers</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-young-women-meeting/1997-general-young-women-meeting/1997-03-0060-janette-hales-beckham-64k-eng.mp3" length="6304062" type="audio/mpeg"/>
+      <pubDate>Sat, 29 Mar 1997 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Making Faith a Reality</title>
+      <link>http://www.lds.org/general-conference/1997/10/making-faith-a-reality?lang=eng</link>
+      <description>Fundamentals of daily living—scripture reading, prayer, family home evening, the conversation at dinner—these provide the experiences that make faith a reality.</description>
+      <guid isPermaLink="false">/general-conference/1997/10/making-faith-a-reality</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1997-general-conference/1997-10-5030-janette-hales-beckham-64k-eng.mp3" length="5712714" type="audio/mpeg"/>
+      <pubDate>Sun, 05 Oct 1997 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

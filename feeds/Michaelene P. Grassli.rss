@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Michaelene P. Grassli</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Michaelene P. Grassli.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:35 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:35 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>I Will Follow God’s Plan for Me</title>
+      <link>http://www.lds.org/general-conference/1988/10/i-will-follow-gods-plan-for-me?lang=eng</link>
+      <description>I have prepared my message especially for you ten- and eleven-year-old girls.</description>
+      <guid isPermaLink="false">/general-conference/1988/10/i-will-follow-gods-plan-for-me</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1988-general-womens-meeting/1988-09-0020-michaelene-p-grassli-64k-eng.mp3" length="6852931" type="audio/mpeg"/>
+      <pubDate>Sat, 24 Sep 1988 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Children at Peace</title>
+      <link>http://www.lds.org/general-conference/1988/10/children-at-peace?lang=eng</link>
+      <description>Thank you, President Hinckley. Elder Scott, you have touched our hearts, and with our hearts we sustain you.</description>
+      <guid isPermaLink="false">/general-conference/1988/10/children-at-peace</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1988-general-conference/1988-10-5030-michaelene-p-grassli-64k-eng.mp3" length="5250339" type="audio/mpeg"/>
+      <pubDate>Sun, 02 Oct 1988 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Follow Him</title>
+      <link>http://www.lds.org/general-conference/1989/10/follow-him?lang=eng</link>
+      <description>Have you Primary girls ever wondered what your life is going to be like as you grow up? What do you dream of? Ten-year-old Amy told me, “I dream about what I will be like, and where I will go, and what I will do.” Eleven-year-old Kristine said, “I wo</description>
+      <guid isPermaLink="false">/general-conference/1989/10/follow-him</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1989-general-womens-meeting/1989-09-0030-michaelene-p-grassli-64k-eng.mp3" length="7452240" type="audio/mpeg"/>
+      <pubDate>Sat, 23 Sep 1989 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“Behold Your Little Ones”</title>
+      <link>http://www.lds.org/general-conference/1992/10/behold-your-little-ones?lang=eng</link>
+      <description>A bishop told me about extending a call to a woman in his ward. Together they read from the Book of Mormon, 3 Nephi, chapter 17.</description>
+      <guid isPermaLink="false">/general-conference/1992/10/behold-your-little-ones</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-womens-meeting/1992-general-womens-meeting/1992-09-0030-michaelene-p-grassli-64k-eng.mp3" length="5744939" type="audio/mpeg"/>
+      <pubDate>Sat, 26 Sep 1992 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Helping Children Know Truth from Error</title>
+      <link>http://www.lds.org/general-conference/1994/10/helping-children-know-truth-from-error?lang=eng</link>
+      <description>It is a distinct privilege to participate in this historic meeting, adding my heart and hand and voice to sustain the Lord’s living prophet—and I do so with all my heart. I support also the action taken today sustaining Sister Patricia Pinegar as the</description>
+      <guid isPermaLink="false">/general-conference/1994/10/helping-children-know-truth-from-error</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1994-general-conference/1994-10-1040-michaelene-p-grassli-64k-eng.mp3" length="5357528" type="audio/mpeg"/>
+      <pubDate>Sat, 01 Oct 1994 10:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

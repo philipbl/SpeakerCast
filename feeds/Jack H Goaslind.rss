@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Jack H Goaslind</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Jack H Goaslind.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:38 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:38 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>“Yagottawanna”</title>
+      <link>http://www.lds.org/general-conference/1991/04/yagottawanna?lang=eng</link>
+      <description>I am deeply grateful for my calling to serve as Young Men General President. This assignment seemed overwhelming when I received it. It has become ever more challenging as I daily gain a greater appreciation of both the marvelous future you young men</description>
+      <guid isPermaLink="false">/general-conference/1991/04/yagottawanna</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1991-general-conference/1991-04-3040-elder-jack-h-goaslind-64k-eng.mp3" length="6520821" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Apr 1991 18:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Spiritual Mountaintops</title>
+      <link>http://www.lds.org/general-conference/1995/10/spiritual-mountaintops?lang=eng</link>
+      <description>Recently I had the opportunity to attend meetings at Jackson Lake in the majestic Teton Mountains of Wyoming in the western part of the United States. The rugged mountain peaks and the breathtakingly beautiful scenery and the cool, crisp autumn air c</description>
+      <guid isPermaLink="false">/general-conference/1995/10/spiritual-mountaintops</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1995-general-conference/1995-10-1030-elder-jack-h-goaslind-64k-eng.mp3" length="6310517" type="audio/mpeg"/>
+      <pubDate>Sat, 30 Sep 1995 10:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>“In His Strength I Can Do All Things”</title>
+      <link>http://www.lds.org/general-conference/1997/04/in-his-strength-i-can-do-all-things?lang=eng</link>
+      <description>Ordinary men, blessed with the privilege of holding the priesthood of God, may be called upon to do extraordinary tasks and accomplish mighty feats through faith in that sacred power!</description>
+      <guid isPermaLink="false">/general-conference/1997/04/in-his-strength-i-can-do-all-things</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1997-general-conference/1997-04-3020-elder-jack-h-goaslind-64k-eng.mp3" length="5334849" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Apr 1997 18:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

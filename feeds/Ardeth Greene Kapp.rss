@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Ardeth Greene Kapp</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Ardeth Greene Kapp.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:31 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:31 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>“Youth of the Noble Birthright”</title>
+      <link>http://www.lds.org/general-conference/1984/04/youth-of-the-noble-birthright?lang=eng</link>
+      <description>My brothers and sisters, my heart is full of joy today, and I commend the great and noble leadership of those in the past who have done so much to put the foundation in place for the youth of today. My heart resounds to the heritage left us by those </description>
+      <guid isPermaLink="false">/general-conference/1984/04/youth-of-the-noble-birthright</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1984-general-conference/1984-04-5050-ardeth-greene-kapp-64k-eng.mp3" length="2045463" type="audio/mpeg"/>
+      <pubDate>Sun, 01 Apr 1984 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>

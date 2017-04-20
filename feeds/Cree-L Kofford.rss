@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Talks By Cree-L Kofford</title>
+    <link>http://speakercast.net/</link>
+    <description>General Conference talks by Cree-L Kofford.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Speakercast</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 17:09:39 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 11:09:39 -0700</pubDate>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
+    </itunes:category>
+    <item>
+      <title>The Ultimate Inheritance—An Allegory</title>
+      <link>http://www.lds.org/general-conference/1991/10/the-ultimate-inheritance-an-allegory?lang=eng</link>
+      <description>Standing at this historic pulpit with memories of those men and women who have stood here before me filling my thoughts, I am reminded of the admonition given to Moses when he was told, “Put off thy shoes from off thy feet, for the place whereon thou</description>
+      <guid isPermaLink="false">/general-conference/1991/10/the-ultimate-inheritance-an-allegory</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/october-1991-general-conference/1991-10-2050-elder-cree-l-kofford-64k-eng.mp3" length="4853108" type="audio/mpeg"/>
+      <pubDate>Sat, 05 Oct 1991 14:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Your Name Is Safe in Our Home</title>
+      <link>http://www.lds.org/general-conference/1999/04/your-name-is-safe-in-our-home?lang=eng</link>
+      <description>There are those among us who would recoil in horror at the thought of stealing another person’s money or property but who don’t give a second thought to stealing another person’s good name or reputation.</description>
+      <guid isPermaLink="false">/general-conference/1999/04/your-name-is-safe-in-our-home</guid>
+      <enclosure url="http://media2.ldscdn.org/assets/general-conference/april-1999-general-conference/1999-04-5040-elder-cree-l-kofford-64k-eng.mp3" length="5026083" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Apr 1999 14:00:00 -0700</pubDate>
+    </item>
+  </channel>
+</rss>
