@@ -30,8 +30,8 @@ speakercastApp.controller('SpeakerController', ['$scope', '$http', 'orderByFilte
         }
       });
 
-      $scope.propertyName = 'count';
-      $scope.speakers = orderBy(data, $scope.propertyName, true);
+      $scope.propertyName = $scope.getLastName;
+      $scope.speakers = orderBy(data, $scope.propertyName, false);
 
     });
 
