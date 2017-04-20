@@ -14,7 +14,6 @@ import sqlite3
 from feedgen.feed import FeedGenerator
 from gospellibrary.catalogs import CatalogDB, current_catalog_version
 from gospellibrary.item_packages import ItemPackage
-import jinja2
 from PIL import Image, ImageFont, ImageDraw
 import pytz
 import requests
@@ -64,6 +63,7 @@ def _clean_speaker(speaker):
     speaker = speaker.replace('By ', '')
     speaker = speaker.replace('President ', '')
     speaker = speaker.replace('Elder ', '')
+    speaker = speaker.replace('Bishop ', '')
     speaker = speaker.replace('Presented by ', '')
     speaker = speaker.strip()
 
@@ -205,12 +205,12 @@ def _get_talks(catalog, month, year):
 def _feed_version(version=None):
     if version is None:
         try:
-            with open('data.json') as f:
+            with open('version.json') as f:
                 return json.load(f)['version']
         except Exception:
             return -1
     else:
-        with open('data.json', 'w') as f:
+        with open('version.json', 'w') as f:
             json.dump({'version': version}, f)
 
 
@@ -280,7 +280,7 @@ def _create_cover(speaker, file_name):
     test.save(file_name)
 
 
-def create_feed_and_cover(speaker, talks, feed_folder, cover_folder):
+def _create_feed_and_cover(speaker, talks, feed_folder, cover_folder):
     _create_feed(speaker,
                  sorted(talks, key=lambda x: x['time']),
                  os.path.join(feed_folder, f'{speaker}.rss'))
@@ -291,27 +291,23 @@ def create_feed_and_cover(speaker, talks, feed_folder, cover_folder):
         _create_cover(speaker, cover_name)
 
 
-def create_page(speakers):
-    env = jinja2.Environment(
-        loader=jinja2.FileSystemLoader('assets'),
-    )
-    template = env.get_template('template.html')
+def _create_template_data(speakers):
+    data = [{'name': speaker, 'count': len(talks)}
+            for speaker, talks in speakers.items()]
 
-    # speakers = {speaker: len(talks) for speaker, talks in speakers.items()}
-    data = template.render(speakers=speakers)
-
-    # Save to disk
-    with open('index.html', 'w') as f:
-        f.write(data)
+    with open('assets/data.json', 'w') as f:
+        json.dump(data, f)
 
 
 def generate_feeds(start=(1971, 4), end=None):
     if end is None:
         end = (date.today().year, date.today().month)
 
-    if current_catalog_version() == _feed_version():
-        LOGGER.info("Feeds are already up to date")
-        return
+    start = (2014, 4)
+
+    # if current_catalog_version() == _feed_version():
+    #     LOGGER.info("Feeds are already up to date")
+    #     return
 
     catalog = CatalogDB()
 
@@ -339,11 +335,11 @@ def generate_feeds(start=(1971, 4), end=None):
     # Start a bunch of process workers
     # (this work is CPU bound so processes are needed)
     with ProcessPoolExecutor(max_workers=8) as executor:
-        fs = [executor.submit(create_feed_and_cover, speaker, talks, feed_folder, cover_folder)
+        fs = [executor.submit(_create_feed_and_cover, speaker, talks, feed_folder, cover_folder)
               for speaker, talks in speakers.items()]
         wait(fs)
 
-    create_page(speakers)
+    _create_template_data(speakers)
 
     _feed_version(current_catalog_version())
 

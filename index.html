@@ -11,6 +11,7 @@
 
   <script src="assets/js/angular.min.js"></script>
 
+  <script src="app/controller.js"></script>
   <title>Speakercast</title>
 </head>
 <body ng-controller="SpeakerController" bs-breakpoint>
@@ -43,12 +44,12 @@
                   <div class="panel-body ng-cloak">
                     <div class="row first-presidency">
                       <div class="col-md-4 col-sm-6 checkbox" ng-repeat="speaker in first_presidency | orderBy:'index'">
-                        <a href="feeds/{{speaker.name}}.rss" class="speaker-link">{{speaker.name}} <span class="badge">{{speaker.talks}}</span></a>
+                        <a href="feeds/{{speaker.name}}.rss" class="speaker-link">{{speaker.name}} <span class="badge">{{speaker.count}}</span></a>
                       </div>
                     </div>
                     <div class="row twelve-apostles">
                       <div class="col-md-4 col-sm-6 checkbox" ng-repeat="speaker in twelve_apostles | orderBy:'index'" my-repeat-directive>
-                        <a href="feeds/{{speaker.name}}.rss" class="speaker-link">{{speaker.name}} <span class="badge">{{speaker.talks}}</span></a>
+                        <a href="feeds/{{speaker.name}}.rss" class="speaker-link">{{speaker.name}} <span class="badge">{{speaker.count}}</span></a>
                       </div>
                     </div>
                   </div>
@@ -71,8 +72,8 @@
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col-md-4 col-sm-6 checkbox" ng-repeat="speaker in speakers | filter:searchText">
-                        <a href="feeds/{{speaker.name}}.rss" class="speaker-link">{{speaker.name}} <span class="badge">{{speaker.talks}}</span></a>
+                      <div class="col-md-4 col-sm-6" ng-repeat="speaker in speakers | filter:searchText">
+                        <a href="feeds/{{speaker.name}}.rss" class="speaker-link">{{speaker.name}} <span class="badge">{{speaker.count}}</span></a>
                       </div>
                     </div>
                   </div>
@@ -95,74 +96,6 @@
       </div>
     </section>
   </div>
-
-  <script type="text/javascript">
-      var speakers = [
-        {name:"Cheryl A. Esplin", talks:1},
-        {name:"Neill F. Marriott", talks:1},
-        {name:"Linda K. Burton", talks:2},
-        {name:"Henry B. Eyring", talks:8},
-        {name:"Mary R. Durham", talks:1},
-        {name:"Donald L. Hallstrom", talks:1},
-        {name:"Gary E. Stevenson", talks:3},
-        {name:"Kevin R. Duncan", talks:1},
-        {name:"Steven E. Snow", talks:1},
-        {name:"Dale G. Renlund", talks:3},
-        {name:"Ronald A. Rasband", talks:3},
-        {name:"Neil L. Andersen", talks:3},
-        {name:"Mervyn B. Arnold", talks:1},
-        {name:"Jairo Mazzagardi", talks:1},
-        {name:"David A. Bednar", talks:3},
-        {name:"M. Russell Ballard", talks:3},
-        {name:"Russell M. Nelson", talks:3},
-        {name:"Stephen W. Owen", talks:1},
-        {name:"Dieter F. Uchtdorf", talks:7},
-        {name:"Thomas S. Monson", talks:6},
-        {name:"Bonnie L. Oscarson", talks:2},
-        {name:"Bishop W. Christopher Waddell", talks:1},
-        {name:"D. Todd Christofferson", talks:3},
-        {name:"Quentin L. Cook", talks:3},
-        {name:"Robert D. Hales", talks:3},
-        {name:"Gerrit W. Gong", talks:1},
-        {name:"Patrick Kearon", talks:1},
-        {name:"Dallin H. Oaks", talks:3},
-        {name:"Kent F. Richards", talks:1},
-        {name:"Paul V. Johnson", talks:1},
-        {name:"Jeffrey R. Holland", talks:3},
-        {name:"Jean B. Bingham", talks:1},
-        {name:"Carole M. Stephens", talks:1},
-        {name:"Carol F. McConkie", talks:2},
-        {name:"Craig C. Christensen", talks:1},
-        {name:"Juan A. Uceda", talks:1},
-        {name:"J. Devn Cornish", talks:1},
-        {name:"W. Mark Bassett", talks:1},
-        {name:"Kazuhiko Yamashita", talks:1},
-        {name:"LeGrand R. Curtis Jr.", talks:1},
-        {name:"Peter F. Meurs", talks:1},
-        {name:"Linda S. Reeves", talks:1},
-        {name:"Bishop Dean M. Davies", talks:1},
-        {name:"Lynn G. Robbins", talks:1},
-        {name:"Brian K. Ashton", talks:1},
-        {name:"Carl B. Cook", talks:1},
-        {name:"Evan A. Schmutz", talks:1},
-        {name:"K. Brett Nattress", talks:1},
-        {name:"Bonnie H. Cordon", talks:1},
-        {name:"M. Joseph Brough", talks:1},
-        {name:"Weatherford T. Clayton", talks:1},
-        {name:"Ulisses Soares", talks:1},
-        {name:"Mark A. Bragg", talks:1},
-        {name:"Gary B. Sabin", talks:1},
-        {name:"Valeri V. Cordón", talks:1},
-        {name:"Bishop Gérald Caussé", talks:1},
-        {name:"Joy D. Jones", talks:1},
-        {name:"Yoon Hwan Choi", talks:1},
-        {name:"L. Whitney Clayton", talks:1},
-        {name:"Joaquin E. Costa", talks:1},
-        {name:"S. Mark Palmer", talks:1},
-        {name:"C. Scott Grow", talks:1},
-        {name:"Benjamín De Hoyos", talks:1},
-    ];
-  </script>
   <script src="app/controller.js"></script>
   <script src="assets/js/jquery-2.1.4.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
