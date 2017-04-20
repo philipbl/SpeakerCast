@@ -1,0 +1,302 @@
+/* colors: http://www.colourlovers.com/palette/3840327/Shh_its_a_secret */
+
+// Extra small screen / phone
+// Note: Deprecated $screen-xs and $screen-phone as of v3.0.1
+$screen-xs:                  480px !default;
+$screen-xs-min:              $screen-xs !default;
+$screen-phone:               $screen-xs-min !default;
+
+// Small screen / tablet
+// Note: Deprecated $screen-sm and $screen-tablet as of v3.0.1
+$screen-sm:                  768px !default;
+$screen-sm-min:              $screen-sm !default;
+$screen-tablet:              $screen-sm-min !default;
+
+// Medium screen / desktop
+// Note: Deprecated $screen-md and $screen-desktop as of v3.0.1
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
+$screen-desktop:             $screen-md-min !default;
+
+// Large screen / wide desktop
+// Note: Deprecated $screen-lg and $screen-lg-desktop as of v3.0.1
+$screen-lg:                  1200px !default;
+$screen-lg-min:              $screen-lg !default;
+$screen-lg-desktop:          $screen-lg-min !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
+
+/*
+Preach my gospel:
+  blue: 0A588E;
+  orange: CA5617;
+  red: C92429;
+*/
+
+$teal: #008080;
+$blue: #0A588E;
+// $orange: #CA5617;
+$orange: #E8A32E;
+$red: #C92429;
+
+//////////////// Global stuff ////////////////
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/0DeoTBMnW4sOpD0Zb8OQSALUuEpTyoUstqEm5AMlJo4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/1EqTbJWOZQBfhZ0e3RL9uvesZW2xOQ-xsNqO47m55DA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/MZ1aViPqjfvZwVD_tzjjkwLUuEpTyoUstqEm5AMlJo4.ttf) format('truetype');
+}
+
+::selection {
+  background: rgba($blue, .4); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgba($blue, .4); /* Gecko Browsers */
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}
+
+.btn {
+  background: transparent;
+}
+
+body {
+    color: #666;
+    font-family: 'Lato', sans-serif;
+}
+
+//////////////// Intro Section ////////////////
+.intro-section {
+  padding: 20px 0;
+  // background: $teal;
+
+  color: white;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  text-align: center;
+
+  background: $teal url('../images/concrete_seamless_teal.png');
+
+  @media (min-width: $screen-xs-max) {
+    padding: 80px 0;
+  }
+
+  @media (min-width: $screen-sm-min) {
+  }
+
+  @media (min-width: $screen-md-min) {
+  }
+}
+
+.logo {
+  font-size: 50px;
+
+  @media (min-width: $screen-sm-min) {
+    font-size: 100px;
+  }
+
+  /*font-family: 'Pacifico', cursive;*/
+}
+
+.subtitle {
+  // font-size: 3vw;
+}
+
+//////////////// About section ////////////////
+.about-section {
+  padding: 30px 0;
+
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  text-align: center;
+}
+
+//////////////// Feed section ////////////////
+
+.feed-section {
+  background: white;
+
+  .container {
+    padding-bottom: 20px;
+  }
+}
+
+.speaker-link {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+@mixin panel($color) {
+  border-color: $color;
+
+  & > .panel-heading {
+    background-image: -webkit-linear-gradient(top,$color 0,$color 100%);
+    background-image: -o-linear-gradient(top,$color 0,$color 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from($color),to($color));
+    background-image: linear-gradient(to bottom,$color 0,$color 100%);
+
+    color: #fff;
+    background-color: $color;
+    border-color: $color;
+  }
+}
+
+.panel-orange {
+  @include panel($orange);
+}
+
+.panel-red {
+  @include panel($red);
+}
+
+.panel-blue {
+  @include panel($blue);
+}
+
+.box {
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.selected-panel.affix {
+  top: 10px;
+  width: 100%;
+  margin-bottom: 5px;
+  z-index: 10;
+
+  @media (max-width: $screen-xs-max) {
+    top: inherit;
+    bottom: 0;
+    padding-right: 30px;
+  }
+
+  @media (min-width: $screen-sm-min) {
+    width: 220px;
+  }
+
+  @media (min-width: $screen-md-min) {
+    width: 294px;
+  }
+}
+
+.selected-panel.affix-bottom {
+  position: absolute;
+  width: 100%;
+
+  @media (max-width: $screen-xs-max) {
+
+  }
+
+  @media (min-width: $screen-sm-min) {
+    width: 220px;
+  }
+
+  @media (min-width: $screen-md-min) {
+    width: 294px;
+  }
+}
+
+.sortable-container {
+  margin-top: 8px;
+}
+
+.sortable {
+  margin: 0 5px;
+}
+
+.selected-speakers {
+  margin: 0 0 10px 0;
+}
+
+.feed-link-close {
+  margin: 0 6px;
+}
+
+.wrap {
+   white-space: pre-wrap;      /* CSS3 */
+   white-space: -moz-pre-wrap; /* Firefox */
+   white-space: -pre-wrap;     /* Opera <7 */
+   white-space: -o-pre-wrap;   /* Opera 7 */
+   word-wrap: break-word;      /* IE */
+}
+
+.first-presidency {
+  margin-bottom: 25px;
+}
+
+.checkbox {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.checkbox + .checkbox {
+  margin-top: 0px;
+}
+
+.speaker-controls {
+  margin-bottom: 10px;
+}
+
+.speaker-search {
+  // margin-bottom: 10px;
+}
+
+section.triangle {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: '';
+    pointer-events: none;
+
+    bottom: -20px;
+    // z-index: 10;
+    background: inherit;
+
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+  }
+}
+
+
+//////////////// Footer section ////////////////
+
+.footer-section {
+  padding: 40px 0 10px 0;
+
+  color: white;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  text-align: center;
+
+  background: $teal url('../images/concrete_seamless_teal.png');
+
+  @media (min-width: $screen-xs-max) {
+    padding: 80px 0 40px 0;
+  }
+
+  @media (min-width: $screen-sm-min) {
+  }
+
+  @media (min-width: $screen-md-min) {
+  }
+
+}
