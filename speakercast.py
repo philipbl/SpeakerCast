@@ -205,12 +205,12 @@ def _get_talks(catalog, month, year):
 def _feed_version(version=None):
     if version is None:
         try:
-            with open('version.json') as f:
+            with open('assets/version.json') as f:
                 return json.load(f)['version']
         except Exception:
             return -1
     else:
-        with open('version.json', 'w') as f:
+        with open('assets/version.json', 'w') as f:
             json.dump({'version': version}, f)
 
 
@@ -248,7 +248,7 @@ def _create_cover(speaker, file_name):
     text = f'Talks By\n{speaker}'
     spacing = 80
 
-    img = Image.open(os.path.join("assets", "cover.jpg"))
+    img = Image.open(os.path.join("assets", "images", "cover.jpg"))
     img = img.convert('RGBA')
 
     layer = Image.new('RGBA', img.size, (0,0,0,0))
@@ -303,11 +303,9 @@ def generate_feeds(start=(1971, 4), end=None):
     if end is None:
         end = (date.today().year, date.today().month)
 
-    start = (2014, 4)
-
-    # if current_catalog_version() == _feed_version():
-    #     LOGGER.info("Feeds are already up to date")
-    #     return
+    if current_catalog_version() == _feed_version():
+        LOGGER.info("Feeds are already up to date")
+        return
 
     catalog = CatalogDB()
 
