@@ -14,6 +14,7 @@ import sqlite3
 from feedgen.feed import FeedGenerator
 from gospellibrary.catalogs import CatalogDB, current_catalog_version
 from gospellibrary.item_packages import ItemPackage
+import jinja2
 from PIL import Image, ImageFont, ImageDraw
 import pytz
 import requests
@@ -290,6 +291,20 @@ def create_feed_and_cover(speaker, talks, feed_folder, cover_folder):
         _create_cover(speaker, cover_name)
 
 
+def create_page(speakers):
+    env = jinja2.Environment(
+        loader=jinja2.FileSystemLoader('assets'),
+    )
+    template = env.get_template('template.html')
+
+    # speakers = {speaker: len(talks) for speaker, talks in speakers.items()}
+    data = template.render(speakers=speakers)
+
+    # Save to disk
+    with open('index.html', 'w') as f:
+        f.write(data)
+
+
 def generate_feeds(start=(1971, 4), end=None):
     if end is None:
         end = (date.today().year, date.today().month)
@@ -327,6 +342,8 @@ def generate_feeds(start=(1971, 4), end=None):
         fs = [executor.submit(create_feed_and_cover, speaker, talks, feed_folder, cover_folder)
               for speaker, talks in speakers.items()]
         wait(fs)
+
+    create_page(speakers)
 
     _feed_version(current_catalog_version())
 
